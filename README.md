@@ -1,4 +1,4 @@
-# MAPLE
+# Deciphering Microbe–Host Molecular Cascades via Knowledge-Guided Reinforcement Learning 
 
 MAPLE (Memory-Augmented Policy Learning for Evidence-aware reasoning) is a knowledge-guided reinforcement learning framework for interpretable microbe-host mechanism discovery on MiHIKG / MicrobeKG.
 
@@ -19,7 +19,7 @@ MAPLE is designed to move beyond shallow co-occurrence prediction by ranking can
 
 ![Overview of the MiHIKG knowledge graph](imgs/fig1.svg)
 
-Figure 1 summarizes the MiHIKG semantic infrastructure, including body-site microbial communities, disease associations, and the multi-scale ontology connecting microbes, metabolites, host genes, diseases, and environmental factors.
+Figure 1. Overview of the MiHIKG Knowledge Graph. (A) Anatomical distribution of the human microbiome and associated diseases. This panel illustrates representative bacterial communities colonizing key body sites (oral cavity, lungs, skin, and gut) and visualizes their associations with specific human pathologies, highlighting the systemic link between local microbial composition and host health. (B) The semantic architecture of MiHIKG. The schematic depicts the multi-scale ontology of the knowledge graph, displaying diverse biological entity categories including microbes, metabolites, host genes, and diseases, along with their interactions. This architecture explicitly models the heterogeneous information layers ranging from environmental factors to molecular mechanisms, thereby connecting the microbial and host systems.
 
 ### Topological and Functional Landscape
 
@@ -31,7 +31,7 @@ Figure 2 highlights the metabolite / chemical-centered topology of MiHIKG, showi
 
 ![Structural logic and translational application scenarios of MAPLE](imgs/fig3.png)
 
-Figure 3 illustrates the MAPLE workflow: strict negative candidate construction, prior-policy-memory hard negative scoring, A*Net evidence-aware path reasoning, reward feedback, and downstream translational use cases.
+Figure 3. Structural logic and translational application scenarios of the MAPLE framework. (A) Memory-augmented reinforcement learning framework for negative sampling and evidence-driven path reasoning in MAPLE. For a given positive triple, MAPLE first constructs a strict set of negative candidates. These candidates are ranked through a prior–policy–memory scoring process composed of the Frozen Relational Prior, Query-Conditioned Policy Head, and Relation-Conditioned Memory Module, thereby prioritizing biologically ambiguous hard negatives for path-evidence evaluation. A*Net then serves as an evidence-aware path reasoner. It initializes a source-conditioned evidence field, expands compact query-relevant subgraphs through priority-guided traversal, and propagates evidence along typed biomedical relations to evaluate whether each candidate is supported by coherent multi-hop paths. Reward signals generated from ranking-margin violations are further used to update the sampling policy through policy gradients and are written into episodic memory in a reward-guided manner, forming an optimization process of hard sample selection, pathevidence evaluation, and policy-memory updating. (B) Translational application scenarios of MAPLE. MAPLE can generate interpretable hypotheses from multilayered entities, including microbes, metabolites, immune factors, chemicals, phenotypes, and host molecular mechanisms. It supports systemic inter-organ axis analysis, pharmacomicrobiomics, exposome and lifestyle interface research, and the exploration of host genetics and molecular mechanisms.
 
 ## Repository Layout
 
