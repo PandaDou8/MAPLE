@@ -1,0 +1,77 @@
+pretrain_config: DistMult
+pretrain_gen_model: checkpoints/mic-distmult-0308.pth
+pretrain_astar: /dataStor/home/yqzhang/doupan/model/Anet-GAN-0424/MAPLE_main02/checkpoints/maple_checkpoint.pth
+train_switch: 1
+
+g_config: DistMult
+d_config: TransE
+test_batch_size: 10
+
+adv:
+  n_sample: 20
+  n_epoch: 5000
+  n_batch: 100
+  epoch_per_test: 100
+  temperature: 1.0
+
+DistMult:
+  dim: 100
+  lam: 0.05
+  n_sample: 20
+  sample_freq: 1
+  n_epoch: 1000
+  n_batch: 100
+  epoch_per_test: 1000
+  model_file: distmult.mdl
+
+log:
+  dump_config: false
+  to_file: false
+  dir: ./log
+  prefix:
+
+output_dir: outputs/quickstart_visualization/
+
+dataset:
+  class: MicrobeKGTransductive
+  path: /dataStor/home/yqzhang/data/mic_data_0523/
+
+task:
+  class: KnowledgeGraphCompletion
+  model:
+    class: AStarNet
+    base_layer:
+      class: NBFNetConv
+      input_dim: 32
+      output_dim: 32
+      query_input_dim: 32
+      message_func: distmult
+      aggregate_func: sum
+      layer_norm: yes
+      dependent: yes
+    num_layer: 6
+    indicator_func: ppr
+    short_cut: yes
+    node_ratio: 0.002
+    test_node_ratio: 0.2
+    break_tie: yes
+    edge_dropout: 0.3
+  criterion: ranking
+  margin: 3.0
+  num_negative: 131072
+  strict_negative: yes
+  adversarial_temperature: 0.5
+  sample_weight: no
+  full_batch_eval: yes
+
+optimizer:
+  class: Adam
+  lr: 5.0e-4
+
+engine:
+  gpus: [1]
+  batch_size: 1
+
+metric: mrr
+
+checkpoint: /dataStor/home/yqzhang/doupan/model/Anet-GAN-0424/MAPLE_main02/checkpoints/maple_checkpoint.pth

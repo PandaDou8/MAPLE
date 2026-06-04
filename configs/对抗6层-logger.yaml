@@ -1,0 +1,115 @@
+pretrain_config: DistMult
+pretrain_gen_model: /dataStor/home/yqzhang/model/gan/AAA_0523/pth/distmult-gan-100.pth
+
+
+g_config: DistMult
+d_config: DistMult
+test_batch_size: 10
+
+
+adv:
+  n_sample: 20
+  n_epoch: 5000
+  n_batch: 100
+  epoch_per_test: 100
+  temperature: 1.0
+
+DistMult:
+  dim: 100
+  lam: 0.05
+  n_sample: 20
+  requested_n_sample: 262144
+  gan_sample_cap: 65536
+  enable_policy_gradient: true
+  reward_ema_beta: 0.98
+  generator_temperature: 1.0
+  policy_lr: 1.0e-4
+  generator_grad_clip_norm: 5.0
+  generator_logit_clamp: 30.0
+  generator_scale_clamp: 12.0
+  generator_residual_score_clamp: 8.0
+  generator_scale_regularization: 1.0e-4
+  policy_hidden_dim: 64
+  policy_dropout: 0.05
+  memory_dim: 16
+  memory_momentum: 0.98
+  memory_topk: 256
+  memory_reward_clip: 5.0
+  adapter_scale_init: 1.0
+  memory_scale_init: 1.0
+  sample_freq: 1
+  n_epoch: 1000
+  n_batch: 100
+  epoch_per_test: 1000
+  model_file: distmult.mdl
+
+log:
+  dump_config: false
+  to_file: false
+  dir: ./log
+  prefix:
+
+#####################################################################################
+#####################################################################################
+#####################################################################################
+#####################################################################################
+
+output_dir: /dataStor/home/yqzhang/doupan/model/Anet-GAN-0424/MAPLE_main/outputs/
+
+dataset:
+  class: MicrobeKGTransductive
+  path: /dataStor/home/yqzhang/data/mic_data_0523/
+
+task:
+  class: KnowledgeGraphCompletion
+  model:
+    class: AStarNet
+    base_layer:
+      class: NBFNetConv
+      input_dim: 32
+      output_dim: 32
+      query_input_dim: 32
+      message_func: distmult
+      aggregate_func: sum
+      layer_norm: yes
+      dependent: yes
+    num_layer: 6
+    indicator_func: ppr
+    short_cut: yes
+    node_ratio: 0.0002
+    test_node_ratio: 0.0003 #0.0002
+    break_tie: yes
+    edge_dropout: 0.3
+  criterion: ranking
+  margin: 3.0
+  num_negative: 262144
+  strict_negative: yes
+  adversarial_temperature: 0.5
+  sample_weight: no
+  full_batch_eval: yes
+
+optimizer:
+  class: Adam
+  lr: 5.0e-4
+
+
+engine:
+  gpus: [0]
+  batch_size: 16 #32
+  log_interval: 10
+  trace_query_count: 32
+  trace_topk: 16
+  trace_every_n_epoch: 1
+  trace_seed: 1024
+  policy_metric_sample_size: 2048
+
+train:
+  num_epoch: 120
+  # add
+  # randomly draw a subset of the training set for each epoch.
+  # Otherwise, the whole training set is used for each epoch.
+  batch_per_epoch: 400
+
+fast_test: 5000
+
+metric: mrr

@@ -1,0 +1,118 @@
+pretrain_config: DistMult
+pretrain_gen_model: checkpoints/mic-distmult-0308.pth
+# pretrain_astar: /home/pdou/experiments/modeltest/0_path_model/AStarNet-master/experiments/KnowledgeGraphCompletion/WN18RR/AStarNet/2024-12-13-13-56-05/model_epoch_18.pth
+pretrain_astar: /home/pdou/experiments/modeltest/0_path_model/AStarNet-master/experiments/KnowledgeGraphCompletion/WN18RR/AStarNet/2024-12-19-13-33-55/model_pretrain_epoch_1.pth
+train_switch: 1 # 1 astar模型预训练  2 对抗训练
+
+
+g_config: DistMult
+d_config: TransE
+test_batch_size: 10
+
+
+adv:
+  n_sample: 20
+  n_epoch: 5000
+  n_batch: 100
+  epoch_per_test: 100
+  temperature: 1.0
+TransE:
+  dim: 50
+  margin: 3
+  p: 1
+  n_epoch: 1000
+  n_batch: 500
+  epoch_per_test: 250
+  model_file: mic-transe.pth
+TransD:
+  dim: 50
+  margin: 3
+  p: 1
+  n_epoch: 1000
+  n_batch: 100
+  epoch_per_test: 50
+  model_file: transd.mdl
+DistMult:
+  dim: 100
+  lam: 0.05
+  n_sample: 20
+  sample_freq: 1
+  n_epoch: 1000
+  n_batch: 100
+  epoch_per_test: 1000
+  model_file: distmult.mdl
+ComplEx:
+  dim: 25
+  lam: 1
+  n_sample: 20
+  sample_freq: 1
+  n_epoch: 1000
+  n_batch: 100
+  epoch_per_test: 1000
+  model_file: complex.mdl
+log:
+  dump_config: false
+  to_file: false
+  dir: ./log
+  prefix:
+
+#####################################################################################
+#####################################################################################
+#####################################################################################
+#####################################################################################
+
+output_dir: outputs/visualization/
+
+dataset:
+  class: MicrobeKGTransductive
+  path: data/external/mic_data_0523/
+
+task:
+  class: KnowledgeGraphCompletion
+  model:
+    class: AStarNet
+    base_layer:
+      class: NBFNetConv
+      input_dim: 32
+      output_dim: 32
+      query_input_dim: 32
+      message_func: distmult
+      aggregate_func: sum
+      layer_norm: yes
+      dependent: yes
+    num_layer: 6
+    indicator_func: ppr
+    short_cut: yes
+    node_ratio: 0.002
+    test_node_ratio: 0.2
+    break_tie: yes # yes
+    edge_dropout: 0.3
+  criterion: ranking
+  margin: 3.0
+  num_negative: 131072
+  strict_negative: yes
+  adversarial_temperature: 0.5
+  sample_weight: no
+  full_batch_eval: yes
+
+optimizer:
+  class: Adam
+  lr: 5.0e-4
+
+engine:
+  gpus: [2]
+  batch_size: 1
+  # add
+  # log every n gradient updates
+  # log_interval: 10
+
+# train:
+#   num_epoch: 30
+#   # add
+#   # randomly draw a subset of the training set for each epoch.
+#   # Otherwise, the whole training set is used for each epoch.
+#   batch_per_epoch: 800
+
+metric: mrr
+
+checkpoint: checkpoints/visualization_model.pth
