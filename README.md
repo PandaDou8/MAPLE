@@ -13,6 +13,7 @@ The manuscript **“Deciphering Microbe–Host Molecular Cascades via Knowledge-
 
 MAPLE is designed to move beyond shallow co-occurrence prediction by ranking candidate microbe-host associations and exposing multi-hop evidence paths that connect diseases, microbes, metabolites, host targets, and regulatory mechanisms.
 
+
 ## Figures
 
 ### MiHIKG Knowledge Graph
@@ -89,35 +90,10 @@ The repository vendors a local `reasoning/TorchDrug/` implementation, so run com
 
 ## Data and Checkpoints
 
-The quickstart config uses the local full MicrobeKG data path:
-
-```text
-/dataStor/home/yqzhang/data/mic_data_0523/
-```
-
-Expected files:
-
-```text
-train.txt
-valid.txt
-test.txt
-entities.dict
-relations.dict
-entity.txt
-relation.txt
-microbekg_transductive_cache.pt
-```
-
 The quickstart checkpoint is:
 
 ```text
 checkpoints/maple_checkpoint.pth
-```
-
-If you move the dataset or checkpoint, update:
-
-```text
-configs/quickstart_visualization.yaml
 ```
 
 ## Quickstart
@@ -136,22 +112,3 @@ python script/visualize_disease_microbes.py -c configs/quickstart_visualization.
 
 The script loads the MAPLE checkpoint, ranks candidate microbes for predefined disease heads, filters known training triples, and prints top novel predictions with interpretable path evidence.
 
-## Training
-
-Full adversarial training is expensive and is disabled in `run.sh` by default. To run it manually, first review GPU, output, dataset, checkpoint, and epoch settings in:
-
-```text
-configs/对抗6层-logger.yaml
-```
-
-Then run:
-
-```bash
-python script/train.py -c configs/对抗6层-logger.yaml
-```
-
-## Notes
-
-- `script/visualize_disease_microbes.py` currently uses a fixed CUDA device in the script and a fixed disease-head list for the example case.
-- `outputs/`, logs, temporary caches, and large local data files are ignored by Git.
-- Large checkpoints and the full MicrobeKG dataset should be distributed separately from source code when preparing a clean release.
