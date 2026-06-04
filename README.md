@@ -43,7 +43,7 @@ MAPLE_main02/
 ├── pretrain.py                   # DistMult generator pretraining entry
 ├── config.py                     # Legacy config loader used by training code
 ├── configs/
-│   ├── 对抗6层-logger.yaml        # Full adversarial MAPLE training config
+│   ├── train.yaml       # Full adversarial MAPLE training config
 │   ├── reasoning.yaml            # Reasoning / visualization config template
 │   └── quickstart_visualization.yaml
 ├── checkpoints/
