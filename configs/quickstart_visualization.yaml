@@ -1,6 +1,6 @@
 pretrain_config: DistMult
 pretrain_gen_model: checkpoints/mic-distmult-0308.pth
-pretrain_astar: /dataStor/home/yqzhang/doupan/model/Anet-GAN-0424/MAPLE_main02/checkpoints/maple_checkpoint.pth
+pretrain_astar: checkpoints/maple_checkpoint.pth
 train_switch: 1
 
 g_config: DistMult
@@ -34,7 +34,7 @@ output_dir: outputs/quickstart_visualization/
 
 dataset:
   class: MicrobeKGTransductive
-  path: /dataStor/home/yqzhang/data/mic_data_0523/
+  path: data/
 
 task:
   class: KnowledgeGraphCompletion
@@ -74,4 +74,4 @@ engine:
 
 metric: mrr
 
-checkpoint: /dataStor/home/yqzhang/doupan/model/Anet-GAN-0424/MAPLE_main02/checkpoints/maple_checkpoint.pth
+checkpoint: checkpoints/maple_checkpoint.pth

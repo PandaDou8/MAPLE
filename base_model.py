@@ -178,7 +178,6 @@ class BaseModel(object):
         return sample_srcs, sample_dsts
 
 
-
     def gen_step(self, src, rel, dst, n_sample=200000, temperature=1.0, train=True):
         self._ensure_optimizer()
         n, m = dst.size()
@@ -216,8 +215,8 @@ class BaseModel(object):
             "policy_update_enabled": float(self._policy_gradient_enabled()),
         }
         if train and self._policy_gradient_enabled() and rewards is not None:
-            ### ===== 0424 FIX: rewards 必须和选中的 log_prob 一一对齐，形状必须是 [batch, sample] =====
-            ### 如果上游误传成 [batch, 1, sample]，这里会发生广播并把不同 query 的梯度混在一起。
+            # Rewards must align one-to-one with selected log probabilities: [batch, sample].
+            # Reject [batch, 1, sample] inputs to avoid cross-query gradient broadcasting.
             if rewards.dim() != 2:
                 raise ValueError("Generator rewards must be 2D [batch, sample], but got shape %s" % (tuple(rewards.shape),))
             if rewards.shape != sample_idx.shape:
@@ -254,7 +253,7 @@ class BaseModel(object):
         yield None
 
     
-    ## 正常采样
+    # Standard sampling path.
     # def gen_step(self, src, rel, dst, n_sample=1, temperature=1.0, train=True):
     #     if not hasattr(self, 'opt'):
     #         self.opt = Adam(self.mdl.parameters(), weight_decay=self.weight_decay)
@@ -309,7 +308,7 @@ class BaseModel(object):
             dst_var = Variable(batch_t.unsqueeze(1).expand(batch_size, n_ent).cuda())
             # all_var = Variable(torch.arange(0, n_ent).unsqueeze(0).expand(batch_size, n_ent)
             #                    .type(torch.LongTensor).cuda(), volatile=True)
-            ### 改 ：volatile已弃用
+            # volatile is deprecated; no_grad handles inference safely.
             with torch.no_grad():
                 all_var = torch.arange(0, n_ent).unsqueeze(0).expand(batch_size, n_ent).type(torch.LongTensor).cuda()
 
@@ -328,7 +327,7 @@ class BaseModel(object):
                 #         tmp = src_scores[s]
                 #         src_scores += heads[(t, r)].cuda() * 1e30
                 #         src_scores[s] = tmp
-                # ## 改
+                # #
                 # if filt:
                 #     if tails[(s.item(), r.item())]._nnz() > 1:
                 #         tmp = dst_scores[t]

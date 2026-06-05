@@ -8,7 +8,6 @@ from rdkit.Chem import AllChem
 from ..core import Registry as R
 
 
-
 # orderd by perodic table
 atom_vocab = ["H", "B", "C", "N", "O", "F", "Mg", "Si", "P", "S", "Cl", "Cu", "Zn", "Se", "Br", "Sn", "I"]
 atom_vocab = {a: i for i, a in enumerate(atom_vocab)}

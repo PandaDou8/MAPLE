@@ -19,6 +19,32 @@ def _make_config_dict(obj):
 
 _config = None
 _argv_cwd = os.getcwd()
+PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
+
+
+def _resolve_repo_path(path):
+    if path is None:
+        return path
+    path = os.path.expanduser(path)
+    if os.path.isabs(path):
+        return path
+    return os.path.abspath(os.path.join(PROJECT_ROOT, path))
+
+
+def _resolve_known_paths(cfg):
+    for key in [
+        "output_dir",
+        "checkpoint",
+        "pretrain_astar",
+        "pretrain_gen_model",
+        "generator_resume_state",
+        "resume_state",
+    ]:
+        if key in cfg:
+            cfg[key] = _resolve_repo_path(cfg[key])
+    if "dataset" in cfg and "path" in cfg["dataset"]:
+        cfg["dataset"]["path"] = _resolve_repo_path(cfg["dataset"]["path"])
+    return cfg
 
 
 def _resolve_config_path(path):
@@ -45,8 +71,9 @@ def config():
         print('Reading config from ' + config_path)
         with open(config_path) as f:
             # _config = _make_config_dict(yaml.load(f))
-            # 改
-            _config = _make_config_dict(yaml.load(f, Loader=yaml.FullLoader))
+            
+            loaded_config = _resolve_known_paths(yaml.load(f, Loader=yaml.FullLoader))
+            _config = _make_config_dict(loaded_config)
         overwrite_config_with_args()
     return _config
 

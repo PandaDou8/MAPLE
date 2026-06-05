@@ -1,5 +1,6 @@
 pretrain_config: DistMult
-pretrain_gen_model: /dataStor/home/yqzhang/model/gan/AAA_0523/pth/distmult-gan-100.pth
+pretrain_gen_model: checkpoints/mic-distmult-0308.pth
+pretrain_astar: checkpoints/maple_checkpoint.pth
 
 
 g_config: DistMult
@@ -54,11 +55,11 @@ log:
 #####################################################################################
 #####################################################################################
 
-output_dir: /dataStor/home/yqzhang/doupan/model/Anet-GAN-0424/MAPLE_main/outputs/
+output_dir: outputs/train/
 
 dataset:
   class: MicrobeKGTransductive
-  path: /dataStor/home/yqzhang/data/mic_data_0523/
+  path: data/
 
 task:
   class: KnowledgeGraphCompletion

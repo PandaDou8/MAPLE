@@ -19,7 +19,7 @@ def select_gpu():
                 # mem_info = line.split('|')[2]
                 # used_mem_mb = int(mem_info.strip().split()[0][:-3])
                 # gpu_mem.append(used_mem_mb)
-            # 改 _加判断————原本读的行不对
+            # Guard against malformed GPU memory rows.
             if gpu_info_line % 3 == 2 and "MiB" in line:
                 mem_info = line.split('|')[2]
                 print("Debug mem_info content: ", mem_info)

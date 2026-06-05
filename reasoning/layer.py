@@ -10,7 +10,7 @@ from reasoning.TorchDrug.core import Registry as R
 
 
 @R.register("layer.NBFNetConv")
-# 一个通用的关系卷积层，用于处理图中的节点和关系
+# Generic relation-aware graph convolution layer.
 class GeneralizedRelationalConv(layers.MessagePassingBase, core.Configurable):
 
     eps = 1e-6
@@ -68,7 +68,7 @@ class GeneralizedRelationalConv(layers.MessagePassingBase, core.Configurable):
         else:
             raise ValueError("Unknown message function `%s`" % self.message_func)
 
-    # 处理图神经网络中的消息传递过程
+    # Run message passing for the graph neural network.
     def message(self, graph, input):
 
 

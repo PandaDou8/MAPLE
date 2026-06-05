@@ -12,7 +12,7 @@ import numpy as np
 
 # from reasoning.TorchDrug import core, tasks
 
-# sys.path.append：这行代码将脚本所在目录的父目录的父目录添加到系统路径中，以便能够导入reasoning模块。
+# Add the project root so local reasoning modules can be imported.
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from reasoning import dataset, layer, model, task, util
 from reasoning.TorchDrug import core
@@ -24,7 +24,7 @@ from memory_distmult import MemoryAugmentedDistMult
 
 
 def _set_single_gpu_from_cfg(cfg):
-    # 0424 FIX: 单卡训练统一从 YAML 的 engine.gpus[0] 读取，不再使用脚本里的硬编码 GPU
+    # Use the first GPU from the YAML config instead of a hard-coded device.
     if not torch.cuda.is_available():
         return
     if "engine" in cfg and "gpus" in cfg.engine and cfg.engine.gpus:
@@ -42,14 +42,14 @@ def _build_generator(dataset):
 
 
 def _resume_epoch_numbering_if_needed(cfg, solver):
-    # 0427 RESUME FIX: 续训时只恢复 epoch 编号，不改旧目录中的文件。
-    # 这样新的时间戳目录会从 resume_epoch + 1 开始保存 checkpoint，例如 38、39...
+    # Resume epoch numbering without modifying files in previous run directories.
+    # New timestamped runs continue checkpoint numbering from resume_epoch + 1.
     resume_epoch = int(cfg.get("resume_epoch", 0) if isinstance(cfg, dict) else getattr(cfg, "resume_epoch", 0) or 0)
     if resume_epoch > 0:
         solver.meter.epoch_id = resume_epoch
-        # 0427 RESUME FIX 2: Meter 不只依赖 epoch_id，还依赖 epoch2batch / time 的历史长度。
-        # 如果只改 epoch_id，epoch 结束时计算 ETA 会访问 self.time[self.start_epoch] 并越界。
-        # 这里用当前启动时刻补齐占位历史，既能继续编号，也不会污染本次 epoch 的均值统计切片。
+        # Meter also depends on epoch2batch / time history, not only epoch_id.
+        # Padding the history avoids ETA indexing errors at epoch end.
+        # Placeholder timestamps preserve numbering without polluting current metrics.
         meter = solver.meter
         history_len = resume_epoch + 1
         current_time = meter.time[-1]
@@ -59,7 +59,7 @@ def _resume_epoch_numbering_if_needed(cfg, solver):
 
 
 def _cleanup_runtime_memory():
-    # 0427 OOM FIX: 只做安全的显存/对象回收，不改变训练结果语义。
+    # Release runtime memory without changing training semantics.
     gc.collect()
     if torch.cuda.is_available():
         torch.cuda.empty_cache()
@@ -106,8 +106,8 @@ def _load_training_resume_state(path, solver):
     return state
 
 
-# train_and_validate函数用于训练和验证模型。
-# 它接受两个参数：cfg和solver。
+# Train and validate the reasoner.
+
 def train_and_validate(cfg, solver):
     if cfg.train.num_epoch == 0:
         return
@@ -135,31 +135,31 @@ def train_and_validate(cfg, solver):
     solver.load("model_epoch_%d.pth" % best_epoch)
     return solver
 
-### pre_train_and_validate函数用于预训练和验证模型。
-#### 还没改
+# Train MAPLE with the adversarial generator and validate each epoch.
+
 def gan_train_and_validate(cfg, solver,dataset):
 
     gen = _build_generator(dataset)
 
-    ### 加载预训练生成器
+    # Load or pretrain the generator.
     # gen_model_path = config().pretrain_dir + config().dataset["class"] + "/" + config().pretrain_config + ".mdl"
     gen_model_path = config().pretrain_gen_model
     generator_resume_state = getattr(cfg, "generator_resume_state", None)
     resume_state_path = getattr(cfg, "resume_state", None)
 
     if generator_resume_state:
-        logging.info("读取生成器完整续训状态，路径为：" + generator_resume_state)
+        logging.info("Load full generator resume state from: " + generator_resume_state)
         gen.load_training_state(generator_resume_state)
     elif(os.path.exists(gen_model_path)==False):
-        logging.warn("生成器预训练模型不存在，路径为："+gen_model_path)
-        logging.info("开始预训练生成器......")
+        logging.warning("Generator checkpoint not found: " + gen_model_path)
+        logging.info("Start generator pretraining...")
         pretrain.gen_pretrain()
     else:
-        logging.info("读取生成器初始化模型，路径为："+gen_model_path)
+        logging.info("Load generator initialization from: " + gen_model_path)
         gen.load(gen_model_path)
 
     if resume_state_path:
-        logging.info("读取训练续训状态，路径为：" + resume_state_path)
+        logging.info("Load training resume state from: " + resume_state_path)
         resume_state = _load_training_resume_state(resume_state_path, solver)
         best_result = float(resume_state.get("best_result", float("-inf")))
         best_epoch = int(resume_state.get("best_epoch", -1))
@@ -173,12 +173,12 @@ def gan_train_and_validate(cfg, solver,dataset):
     if cfg.train.num_epoch == 0:
         return
 
-    ### 设置测试epoch数
+    # Keep the original per-epoch validation cadence.
     if hasattr(cfg.train, "batch_per_epoch"):
         step = 3
     else:
         step = math.ceil(cfg.train.num_epoch / 10)
-    # logging.info("读取判别器："+config().pretrain_astar)
+    # logging.info("Load discriminator from: " + config().pretrain_astar)
     # solver.load(config().pretrain_astar)
     
     # print("#####################valid dis#####################")
@@ -191,10 +191,10 @@ def gan_train_and_validate(cfg, solver,dataset):
     
     
     # solver.evaluate("valid")
-    ### 训练num_epoch次，步长为step
+    # Train for the configured number of epochs.
     for i in range(0, cfg.train.num_epoch, 1):
         kwargs = cfg.train.copy()
-        ### 以step为模型训练周期
+        # Run one epoch per loop to keep checkpoints resumable.
         kwargs["num_epoch"] = min(1, cfg.train.num_epoch - i)
         solver.gan_train_astar(**kwargs,gen=gen,n_ent=dataset.num_entity,n_rel=dataset.num_relation)
         solver.save("model_pretrain_epoch_%d.pth" % solver.epoch)
@@ -229,13 +229,13 @@ def gan_train_and_validate(cfg, solver,dataset):
     return solver
 
 
-# test函数用于测试模型。
+# Evaluate on validation and test splits.
 def test(cfg, solver):
     solver.evaluate("valid")
     solver.evaluate("test")
 
 if __name__ == "__main__":
-    args, vars = util.parse_args() # 使用util.parse_args解析命令行参数
+    args, vars = util.parse_args() # Parse command-line arguments.
     cfg = util.load_config(args.config, context=vars)
     _set_single_gpu_from_cfg(cfg)
     working_dir = util.create_working_directory(cfg)
@@ -262,7 +262,7 @@ if __name__ == "__main__":
 
     print("==================")
     # print(dataset.triplets)
-    #### 这个模型没有加双向边
+    # This model does not add inverse edges at dataset construction time.
     # WN18RR(
     #     # entity: 40943
     #     # relation: 11
@@ -274,10 +274,10 @@ if __name__ == "__main__":
     _resume_epoch_numbering_if_needed(cfg, solver)
 
     if cfg.train.num_epoch > 0:
-        logging.info("对抗训练......")
+        logging.info("Run adversarial training...")
         gan_train_and_validate(cfg, solver, dataset)
     else:
-        logging.info("直接评估模型......")
+        logging.info("Run checkpoint evaluation...")
         solver.load(config().pretrain_astar)
 
     test(cfg, solver)

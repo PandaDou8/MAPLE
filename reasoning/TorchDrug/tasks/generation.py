@@ -876,7 +876,6 @@ class GCPNGeneration(tasks.Task, core.Configurable):
         self.bn_eval()
 
 
-
         stop_graph, stop_label1, stop_label2, stop_label3, stop_label4 = self.all_stop(graph)
         edge_graph, edge_label1, edge_label2, edge_label3, edge_label4 = self.all_edge(graph)        
 

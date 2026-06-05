@@ -58,7 +58,7 @@ class VirtualTensor(object):
     def device(self):
         return self.values.device
 
-    def __getitem__(self, indexes): # 允许通过索引访问张量的元素
+    def __getitem__(self, indexes): # Support indexed tensor reads.
         if not isinstance(indexes, tuple):
             indexes = (indexes,)
         keys = indexes[0]
@@ -74,7 +74,7 @@ class VirtualTensor(object):
             values[found] = self.values[indexes]
         return values
 
-    def __setitem__(self, keys, values): # 允许通过索引设置张量的元素
+    def __setitem__(self, keys, values): # Support indexed tensor writes.
         new_keys, inverse = torch.cat([self.keys, keys]).unique(return_inverse=True)
         new_values = torch.zeros(len(new_keys), *self.shape[1:], dtype=self.dtype, device=self.device)
         new_values[inverse[:len(self.keys)]] = self.values
@@ -86,7 +86,7 @@ class VirtualTensor(object):
         return self.shape[0]
 
 
-# 抽象基类，用于定义对张量的视图操作。检查视图是否连续，以及获取视图的维度信息。
+# Base class for tensor view operations.
 class View(object):
 
     @classmethod
@@ -136,9 +136,9 @@ class Range(View):
         return torch.as_tensor(index, device=self.device)
 
 
-# 用于重复张量的元素。
+# Repeat tensor elements.
 class Repeat(View):
-    # 接受一个输入张量和重复次数。
+    # Accept an input tensor and repeat counts.
     def __init__(self, input, repeats):
         super(Repeat, self).__init__()
         self.input = input

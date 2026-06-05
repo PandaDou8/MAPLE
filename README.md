@@ -1,102 +1,167 @@
-# Deciphering Microbe–Host Molecular Cascades via Knowledge-Guided Reinforcement Learning 
+Deciphering Microbe–Host Molecular Cascades via Knowledge-Guided Reinforcement Learning
+======================================================
 
-MAPLE (Memory-Augmented Policy Learning for Evidence-aware reasoning) is a knowledge-guided reinforcement learning framework for interpretable microbe-host mechanism discovery on MiHIKG / MicrobeKG.
+**MAPLE** is a memory-augmented, policy-guided reasoning framework for decoding interpretable **microbe–host molecular cascades** from the multi-scale knowledge graph **MiHIKG**. It couples high-fidelity biomedical knowledge infrastructure with an evidence-aware path reasoner, enabling systematic discovery of microbiome-mediated disease mechanisms.
 
-This repository contains the runnable MAPLE model code, curated configuration files, visualization scripts, mapping files, and example figures used to demonstrate disease-to-microbe reasoning.
+🌐 MiHIKG: Microbe–Human Interaction Knowledge Graph
+----------------------
 
-## Overview
+To support mechanistic microbiome research beyond isolated association mining, we built **MiHIKG (Microbe–Human Interaction Knowledge Graph)** as a unified semantic infrastructure.
 
-The manuscript **“Deciphering Microbe–Host Molecular Cascades via Knowledge-Guided Reinforcement Learning”** introduces two connected components:
+* **Large-scale integration**: MiHIKG integrates **57 biomedical databases**, covering **4.45M+ nodes** and **24.98M+ edges** across microbes, metabolites, chemicals, host genes, diseases, immune factors, pathways, phenotypes, and environmental exposures.
+* **High-fidelity standardization**:
+  * Microbial nodes are mapped to standardized TaxIDs to improve cross-database interoperability.
+  * Disease, phenotype, taxonomic, metabolite, and host molecular entities are harmonized into a computable graph schema.
+  * Directional relation names preserve biomedical semantics such as microbe-induced disease, metabolite-mediated signaling, and host regulatory events.
+* **Metabolite-centered topology**:
+  * MiHIKG reveals that metabolites and chemicals act as the major semantic bridge between microbial perturbations and host responses.
+  * This design supports long-range reasoning across microbial taxa, metabolic products, host genes, immune factors, and disease phenotypes.
 
-- **MiHIKG**: a large-scale, multi-source microbe-human interaction knowledge graph integrating microbes, metabolites, chemicals, host genes, immune factors, diseases, and other biomedical entities.
-- **MAPLE**: an interpretable reasoning engine that combines A*Net-style path reasoning with a memory-augmented policy sampler for biologically plausible hard negatives.
+![MiHIKG overview](./imgs/figure1_mihikg.png)
 
-MAPLE is designed to move beyond shallow co-occurrence prediction by ranking candidate microbe-host associations and exposing multi-hop evidence paths that connect diseases, microbes, metabolites, host targets, and regulatory mechanisms.
+🧠 MAPLE: Memory-Augmented Policy Learning Engine
+---------------
 
+**MAPLE** is designed for interpretable biomedical knowledge graph completion under sparse, noisy, and biologically heterogeneous evidence. It addresses two common problems in microbe-host KG reasoning: trivial negative samples and weak mechanistic interpretability.
 
-## Figures
+* **Evidence-aware path reasoning**: MAPLE uses an A*Net-style path reasoner to expand compact query-relevant subgraphs and evaluate candidate triples through coherent multi-hop biomedical paths.
+* **Policy-guided hard negative mining**:
+  * A **Frozen Relational Prior** provides global DistMult-style plausibility.
+  * A **Query-Conditioned Policy Head** adapts candidate selection to the current disease / microbe / metabolite query.
+  * A **Relation-Conditioned Memory Module** stores reward feedback for confusing relation-specific negatives.
+* **Reward-driven learning loop**: Ranking-margin violations generate reward signals that update the sampler, helping MAPLE focus on biologically plausible confounders rather than random false negatives.
+* **Interpretable output**: The visualization scripts rank candidate disease-microbe or disease-metabolite associations and print reasoning paths as testable mechanistic hypotheses.
 
-### MiHIKG Knowledge Graph
+![MAPLE framework](./imgs/figure2_maple.png)
 
-![Overview of the MiHIKG knowledge graph](imgs/fig1.svg)
+📈 Application Scenarios
+----------
 
-Overview of the MiHIKG Knowledge Graph. (A) Anatomical distribution of the human microbiome and associated diseases. This panel illustrates representative bacterial communities colonizing key body sites (oral cavity, lungs, skin, and gut) and visualizes their associations with specific human pathologies, highlighting the systemic link between local microbial composition and host health. (B) The semantic architecture of MiHIKG. The schematic depicts the multi-scale ontology of the knowledge graph, displaying diverse biological entity categories including microbes, metabolites, host genes, and diseases, along with their interactions. This architecture explicitly models the heterogeneous information layers ranging from environmental factors to molecular mechanisms, thereby connecting the microbial and host systems.
+MAPLE is built as a “digital scientist” for mechanism-oriented microbiome discovery.
 
-### MAPLE Framework
+* **Disease-associated microbe discovery**: prioritize candidate microbes for predefined disease entities while filtering known training triples.
+* **Metabolic cascade interpretation**: connect microbial taxa to disease phenotypes through metabolites, chemicals, host genes, immune factors, and pathways.
+* **Cardiovascular mechanism mining**: support CAD / AMI case studies by ranking metabolite-linked mechanisms such as PAG or butyrate-related networks.
+* **Sparse-evidence reasoning**: infer functionally convergent paths when direct microbe-disease evidence is incomplete.
+* **Translational hypothesis generation**: produce ranked candidates and multi-hop path evidence for downstream wet-lab or cohort validation.
 
-![Structural logic and translational application scenarios of MAPLE](imgs/fig3.png)
-
-Structural logic and translational application scenarios of the MAPLE framework. (A) Memory-augmented reinforcement learning framework for negative sampling and evidence-driven path reasoning in MAPLE. For a given positive triple, MAPLE first constructs a strict set of negative candidates. These candidates are ranked through a prior–policy–memory scoring process composed of the Frozen Relational Prior, Query-Conditioned Policy Head, and Relation-Conditioned Memory Module, thereby prioritizing biologically ambiguous hard negatives for path-evidence evaluation. A*Net then serves as an evidence-aware path reasoner. It initializes a source-conditioned evidence field, expands compact query-relevant subgraphs through priority-guided traversal, and propagates evidence along typed biomedical relations to evaluate whether each candidate is supported by coherent multi-hop paths. Reward signals generated from ranking-margin violations are further used to update the sampling policy through policy gradients and are written into episodic memory in a reward-guided manner, forming an optimization process of hard sample selection, pathevidence evaluation, and policy-memory updating. (B) Translational application scenarios of MAPLE. MAPLE can generate interpretable hypotheses from multilayered entities, including microbes, metabolites, immune factors, chemicals, phenotypes, and host molecular mechanisms. It supports systemic inter-organ axis analysis, pharmacomicrobiomics, exposome and lifestyle interface research, and the exploration of host genetics and molecular mechanisms.
-
-## Repository Layout
+📁 Repository Layout
+-------
 
 ```text
 MAPLE_main02/
-├── base_model.py                 # Shared embedding-model utilities
-├── memory_distmult.py            # MAPLE memory-augmented DistMult generator
-├── pretrain.py                   # DistMult generator pretraining entry
-├── config.py                     # Legacy config loader used by training code
+├── README.md                         # Project overview and usage guide
+├── run.sh                            # Quickstart: visualization only by default
+├── config.py                         # Legacy config helper used by generator modules
+├── pretrain.py                       # DistMult generator pretraining entry
+├── memory_distmult.py                # MAPLE memory-augmented DistMult generator
+├── base_model.py / distmult.py       # Generator model components
 ├── configs/
-│   ├── train.yaml       # Full adversarial MAPLE training config
-│   ├── reasoning.yaml            # Reasoning / visualization config template
-│   └── quickstart_visualization.yaml
-├── checkpoints/
-│   └── maple_checkpoint.pth      # Local MAPLE checkpoint used by quickstart
+│   ├── train.yaml                    # MAPLE adversarial training configuration
+│   └── quickstart_visualization.yaml # Disease-microbe visualization configuration
 ├── data/
-│   ├── mappings/                 # Small entity / relation mapping tables
-│   └── external/                 # Optional place for full MicrobeKG data
-├── imgs/                         # README figures
-├── reasoning/                    # A*Net / TorchDrug-based KGC engine
-├── script/
-│   ├── train.py                  # MAPLE training / evaluation entry
-│   ├── visualize_disease_microbes.py
-│   └── visualize_cad_metabolite.py
-└── run.sh                        # Quickstart script
+│   ├── train.txt / valid.txt / test.txt
+│   └── mappings/
+│       ├── entity.txt
+│       └── relation.txt
+├── checkpoints/
+│   └── maple_checkpoint.pth          # MAPLE checkpoint for visualization / evaluation
+├── imgs/
+│   ├── figure1_mihikg.png
+│   └── figure2_maple.png
+├── reasoning/                        # A*Net / TorchDrug-based KGC engine
+└── script/
+    ├── train.py                      # Training / evaluation entry
+    ├── visualize_disease_microbes.py # Disease-to-microbe ranking and path evidence
+    └── visualize_cad_metabolite.py   # CAD / AMI metabolite case visualization
 ```
 
-## Method Summary
+⚙️ Environment Setup
+-------
 
-MAPLE trains a path reasoner and a hard-negative sampler together:
+Create or activate a Python environment with PyTorch and graph-learning dependencies. Typical packages include:
 
-1. **Strict candidate generation** builds negative candidates under type and graph constraints.
-2. **Frozen relational prior** provides global DistMult-style plausibility scores.
-3. **Query-conditioned policy head** adapts negative sampling to the current query context.
-4. **Relation-conditioned memory module** stores reward-guided feedback for confusing relation-specific candidates.
-5. **A*Net evidence reasoning** expands compact query-relevant subgraphs and scores candidates through multi-hop biomedical paths.
-6. **Reward feedback** updates the sampler when hard negatives violate ranking margins, encouraging biologically meaningful discrimination.
+```bash
+pip install torch numpy pyyaml easydict jinja2 tqdm scikit-learn matplotlib
+```
 
-## Environment
+The project also requires CUDA-compatible graph extensions such as `torch-scatter` and `torch-sparse`. Install versions that match your local PyTorch / CUDA build.
 
-The code expects a Python environment with PyTorch and graph-learning dependencies available. Typical packages include:
+🧩 Data and Checkpoints
+-------
 
-- `torch`
-- `numpy`
-- `pyyaml`
-- `easydict`
-- `jinja2`
-- `tqdm`
-- `torch-scatter`
-- `torch-sparse`
-- `scikit-learn`
-- `matplotlib`
+The current configs expect all dataset files to live inside this repository:
 
-The repository vendors a local `reasoning/TorchDrug/` implementation, so run commands from the repository root.
+```text
+data/
+├── train.txt
+├── valid.txt
+├── test.txt
+└── mappings/
+    ├── entity.txt
+    └── relation.txt
+```
 
-## Data and Checkpoints
-
-The quickstart checkpoint is:
+The default checkpoint path is:
 
 ```text
 checkpoints/maple_checkpoint.pth
 ```
 
-## Quickstart
+All paths in `configs/*.yaml` are repository-relative and are resolved to absolute paths at runtime, so training and visualization continue to work after the scripts create timestamped output directories.
 
-Run the disease-to-microbe visualization example:
+🚀 Quick Start
+-------
+
+### 1. Run Disease-to-Microbe Visualization
 
 ```bash
 bash run.sh
 ```
 
-The script loads the MAPLE checkpoint, ranks candidate microbes for predefined disease heads, filters known training triples, and prints top novel predictions with interpretable path evidence.
+`run.sh` intentionally keeps training commented out and only runs the quickstart visualization:
 
+```bash
+python script/visualize_disease_microbes.py -c configs/quickstart_visualization.yaml
+```
+
+The script loads the MAPLE checkpoint, ranks candidate microbes for predefined disease heads, filters known training triples, and prints top novel associations with path evidence.
+
+### 2. Run MAPLE Training
+
+Full adversarial training is computationally expensive. Review GPU, batch size, output directory, and epoch settings before running:
+
+```bash
+python script/train.py -c configs/train.yaml
+```
+
+### 3. Run CAD / AMI Metabolite Visualization
+
+```bash
+python script/visualize_cad_metabolite.py -c configs/quickstart_visualization.yaml
+```
+
+🔧 Configuration Notes
+-------
+
+* `configs/train.yaml`: full MAPLE adversarial training configuration.
+* `configs/quickstart_visualization.yaml`: checkpoint-based visualization configuration.
+* `dataset.path`: defaults to `data/`.
+* `checkpoint`: defaults to `checkpoints/maple_checkpoint.pth`.
+* `engine.gpus`: controls the CUDA device; visualization scripts no longer hard-code GPU IDs.
+* `output_dir`: defaults to `outputs/...` and is ignored by Git.
+
+📄 Citation
+-----
+
+If you use MAPLE or MiHIKG in your research, please cite:
+
+```bibtex
+@article{li2026maple,
+  title={Deciphering Microbe-Host Molecular Cascades via Knowledge-Guided Reinforcement Learning},
+  author={Li, Shiliang and Dou, Pan and Yang, Xiaobo and Li, Wenweiran and Zhang, Yiqing and others},
+  year={2026}
+}
+```
+
+---

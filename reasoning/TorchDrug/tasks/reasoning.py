@@ -86,7 +86,7 @@ class KnowledgeGraphCompletion(tasks.Task, core.Configurable):
         """"""
         all_loss = torch.tensor(0, dtype=torch.float32, device=self.device)
         metric = {}
-        ### 从这里切入，融合对抗训练
+        # Entry point for adversarial training integration.
         if is_gan:
             pred = self.gan_predict(batch, all_loss, metric,point=point,gen=gen,src_smpl=src_smpl, dst_smpl = dst_smpl, rel_smpl = rel_smpl)
             pos_h_index, pos_t_index, pos_r_index = batch[0:3]
@@ -130,13 +130,13 @@ class KnowledgeGraphCompletion(tasks.Task, core.Configurable):
             name = tasks._get_criterion_name(criterion)
             metric[name] = loss
             all_loss += loss * weight
-        ### TODO reasoning.TorchDrug 多返回一个pred
+        # TODO: return pred from the reasoning task.
 
         # pred = F.softmax(pred, dim=-1)
         # return all_loss, metric, pred*(-1)
         return all_loss, metric, pred
 
-    ### TODO reasoning.TorchDrug 使用生成器生成的负样本训练
+    # TODO: train with generator-produced negative samples.
     def gan_predict(self, batch, all_loss=None, metric=None,point=0,gen=None,src_smpl=None, dst_smpl = None, rel_smpl = None):
 
         pos_h_index, pos_t_index, pos_r_index = batch[0],batch[1],batch[2]
@@ -169,7 +169,7 @@ class KnowledgeGraphCompletion(tasks.Task, core.Configurable):
         return pred
 
 
-    # ##### 负样本生成并保存
+    # # Generate and save negative samples.
     # def predict(self, batch, all_loss=None, metric=None,point=0):
     #     pos_h_index, pos_t_index, pos_r_index = batch.t()
     #     batch_size = len(batch)
@@ -198,7 +198,7 @@ class KnowledgeGraphCompletion(tasks.Task, core.Configurable):
     #     else:
     #         # train
             
-    #         ### >=5时应该改回来2000
+    #         # Restore to 2000 when the threshold is >= 5.
     #         if point < 0: 
     #             self.num_negative = 32
     #         else:
@@ -210,7 +210,7 @@ class KnowledgeGraphCompletion(tasks.Task, core.Configurable):
     #         else:
     #             neg_index = torch.randint(self.num_entity, (batch_size, self.num_negative), device=self.device)
                 
-    #         # neg_index就是候选样本
+    #         # neg_index stores candidate samples.
     #         gen_config = config()["DistMult"]
     #         # gen = DistMult(40943, 11, gen_config)
     #         gen = DistMult(14541, 237, gen_config)
@@ -267,7 +267,7 @@ class KnowledgeGraphCompletion(tasks.Task, core.Configurable):
 
     #     return pred
 
-    ##### 负样本生成并保存
+    # Generate and save negative samples.
     def predict(self, batch, all_loss=None, metric=None,point=0):
         pos_h_index, pos_t_index, pos_r_index = batch.t()
         batch_size = len(batch)
@@ -294,9 +294,9 @@ class KnowledgeGraphCompletion(tasks.Task, core.Configurable):
             # in case of GPU OOM
             pred = pred.cpu()
         else:
-            # 0430 CLEANUP: 普通训练分支只保留干净的 strict-negative / random-negative 逻辑。
-            # 这里不再每个 batch 重新实例化 / 加载旧 DistMult，也不再混入历史 hard-negative 筛样逻辑。
-            # 当前仓库的强化学习 / 对抗训练统一走 engine.gan_train_astar()，避免 baseline 被旧代码污染。
+            # Cleanup: keep only strict-negative / random-negative logic in standard training.
+            # Do not reload legacy DistMult or historical hard-negative filters per batch.
+            # Reinforcement / adversarial training now goes through engine.gan_train_astar().
             if self.strict_negative:
                 neg_index = self._strict_negative(pos_h_index, pos_t_index, pos_r_index)
             else:

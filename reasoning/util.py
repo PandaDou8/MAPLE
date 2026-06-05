@@ -20,6 +20,34 @@ import pprint
 
 
 logger = logging.getLogger(__file__)
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
+
+
+def resolve_repo_path(path):
+    if path is None:
+        return path
+    path = os.path.expanduser(path)
+    if os.path.isabs(path):
+        return path
+    return os.path.abspath(os.path.join(PROJECT_ROOT, path))
+
+
+def _resolve_known_paths(cfg):
+    if "output_dir" in cfg:
+        cfg.output_dir = resolve_repo_path(cfg.output_dir)
+    if "checkpoint" in cfg:
+        cfg.checkpoint = resolve_repo_path(cfg.checkpoint)
+    if "pretrain_astar" in cfg:
+        cfg.pretrain_astar = resolve_repo_path(cfg.pretrain_astar)
+    if "pretrain_gen_model" in cfg:
+        cfg.pretrain_gen_model = resolve_repo_path(cfg.pretrain_gen_model)
+    if "generator_resume_state" in cfg:
+        cfg.generator_resume_state = resolve_repo_path(cfg.generator_resume_state)
+    if "resume_state" in cfg:
+        cfg.resume_state = resolve_repo_path(cfg.resume_state)
+    if "dataset" in cfg and "path" in cfg.dataset:
+        cfg.dataset.path = resolve_repo_path(cfg.dataset.path)
+    return cfg
 
 
 def parse_args():
@@ -46,17 +74,18 @@ def load_config(cfg_file, context=None):
     instance = template.render(context or {})
     cfg = yaml.safe_load(instance)
     cfg = easydict.EasyDict(cfg)
+    _resolve_known_paths(cfg)
     return cfg
 
 
 def create_working_directory(cfg):
-    sync_file = os.path.join(os.path.expanduser(cfg.output_dir), ".working_dir_%s.tmp" % uuid.uuid4().hex)
+    sync_file = os.path.join(cfg.output_dir, ".working_dir_%s.tmp" % uuid.uuid4().hex)
     world_size = comm.get_world_size()
     if world_size > 1 and not dist.is_initialized():
         comm.init_process_group("nccl", init_method="env://")
 
     base_working_dir = os.path.join(
-        os.path.expanduser(cfg.output_dir),
+        cfg.output_dir,
         cfg.task["class"], cfg.dataset["class"], cfg.task.model["class"],
         time.strftime("%Y-%m-%d-%H-%M-%S")
     )
@@ -64,7 +93,7 @@ def create_working_directory(cfg):
 
     # synchronize working directory
     if comm.get_rank() == 0:
-        os.makedirs(os.path.expanduser(cfg.output_dir), exist_ok=True)
+        os.makedirs(cfg.output_dir, exist_ok=True)
         if os.path.exists(working_dir):
             working_dir = "%s-%s" % (base_working_dir, uuid.uuid4().hex[:8])
         with open(sync_file, "w") as fout:
@@ -102,7 +131,7 @@ def build_solver(cfg, dataset):
         logger.warning(dataset)
         logger.warning("#train: %d, #valid: %d, #test: %d" % (len(train_set), len(valid_set), len(test_set)))
 
-    ### 缩小测试集和验证集
+    # Optionally shrink valid / test sets for quick checks.
     if "fast_test" in cfg and cfg.fast_test is not None:
         if comm.get_rank() == 0:
             logger.warning("Quick test mode on. Only evaluate on %d samples for valid / test." % cfg.fast_test)
@@ -111,17 +140,16 @@ def build_solver(cfg, dataset):
         valid_set = torch_data.random_split(valid_set, [cfg.fast_test, len(valid_set) - cfg.fast_test], generator=g)[0]
         test_set = torch_data.random_split(test_set, [cfg.fast_test, len(test_set) - cfg.fast_test], generator=g)[0]
     cfg.task.model.base_layer.num_relation = int(dataset.num_relation)
-    ### 读取配置和优化器
+    # Build task and optimizer from config.
     task = core.Configurable.load_config_dict(cfg.task)
     cfg.optimizer.params = task.parameters()
     optimizer = core.Configurable.load_config_dict(cfg.optimizer)
-    ### 构建模型
+    # Build the training engine.
     solver = core.Engine(task, train_set, valid_set, test_set, optimizer, **cfg.engine)
-    ### 加载checkpoint
+    # Load checkpoint if configured.
     if "checkpoint" in cfg:
         if comm.get_rank() == 0:
             logger.warning("Load checkpoint from %s" % cfg.checkpoint)
-        checkpoint = os.path.expanduser(cfg.checkpoint)
         state = torch.load(cfg.checkpoint, map_location=solver.device)
         state["model"] = {k: v for k, v in state["model"].items() if isinstance(v, torch.Tensor)}
 
@@ -134,8 +162,8 @@ def build_solver(cfg, dataset):
 
         comm.synchronize()
 
-    # TODO 分布式训练的逻辑还没有搞清楚，comm是获得第一个设备上的吗？判断是不是第一个也是为了不重复操作是这样吗?
-    # 打印模型结构
+    # TODO: clarify distributed-training rank/device semantics.
+    # Log model structure.
     if comm.get_rank() == 0:
         logger.warning("Model Structure_bulit solver:")
         pprint.pprint(solver.model)

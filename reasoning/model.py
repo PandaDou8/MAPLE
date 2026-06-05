@@ -50,12 +50,12 @@ class NeuralBellmanFordNetwork(nn.Module, core.Configurable):
         self.query = nn.Embedding(base_layer.num_relation * 2, base_layer.input_dim)
         self.mlp = layers.MLP(feature_dim, [feature_dim] * (num_mlp_layer - 1) + [1])
 
-    # 基于 Bellman-Ford 算法的搜索过程，通过迭代地更新节点的隐藏状态来搜索图中的路径。
+    # Bellman-Ford-style search that iteratively updates node states.
     def search(self, graph, h_index, r_index, edge_grad=False, all_loss=None, metric=None):
         
         
         query = self.query(r_index)
-        # 使用了 indicator 方法来初始化搜索的边界
+        # Initialize the search boundary with the indicator function.
         boundary = self.indicator(graph, h_index, query)
         with graph.graph():
             graph.query = query
@@ -89,8 +89,8 @@ class NeuralBellmanFordNetwork(nn.Module, core.Configurable):
             "step_graphs": graphs,
         }
 
-    # 创建张量边界
-    # graph（图对象）、index（节点索引）和query（查询张量）
+    # Create the tensor boundary.
+    # Inputs: graph, node indices, and query embeddings.
     def indicator(self, graph, index, query):
         if isinstance(graph, data.PackedGraph):
             boundary = torch.zeros(graph.num_node, *query.shape[1:], device=self.device)
@@ -101,14 +101,14 @@ class NeuralBellmanFordNetwork(nn.Module, core.Configurable):
             boundary.scatter_(0, index.unsqueeze(0), query.unsqueeze(0))
         return boundary
 
-    # 计算节点和查询之间的得分，用于评估路径的可能性
+    # Score node-query pairs to evaluate path likelihood.
     def score(self, hidden, node_query):
         hidden = torch.cat([hidden, node_query], dim=-1)
         score = self.mlp(hidden).squeeze(-1)
         return score
 
-    # 处理边的dropout、负采样、以及调用 search 方法进行搜索
-    ###### todo 预测函数
+    # Apply edge dropout / negative sampling, then run search.
+    # Prediction forward pass.
     def forward(self, graph, h_index, t_index, r_index, all_loss=None, metric=None, point=None,gen=None):
 
         # with torch.no_grad():
@@ -124,11 +124,10 @@ class NeuralBellmanFordNetwork(nn.Module, core.Configurable):
         #             gen = DistMult(2948051, 157, gen_config)
         #             # gen = DistMult(14541, 237, gen_config)
             #             # gen.to(self.device)
-        #             ### 加载预训练生成器
+        #             # Load or pretrain the generator.
         #             # gen_model_path = config().pretrain_dir + config().dataset["class"] + "/" + config().pretrain_config + ".mdl"
         #             gen_model_path = config().pretrain_gen_model
         #             gen.load(gen_model_path)
-        #             draw_batch_size = 5  ## 可视化批次大小
         #             h_index_draw, t_index_draw, r_index_draw = self.negative_sample_to_tail(h_index, t_index, r_index)
 
         #             # file_name = '/public/home/yqzhang/modeltest/2_KG_model/Anet-GAN-0211/reasoning/img0212-translt/samples-fb.txt'
@@ -148,87 +147,57 @@ class NeuralBellmanFordNetwork(nn.Module, core.Configurable):
         #             embs = gen.mdl.ent_embed(t_index_draw[:draw_batch_size, :])
 
         #             embs_flat = embs.reshape(-1, 50)
-        #             tsne = TSNE(n_components=3, random_state=42)  # 修改为 3 维
-        #             result_3d = tsne.fit_transform(embs_flat.cpu().detach())  # 降维后的结果形状为 [165, 3]
 
-        #             # 计算每个批次的第一个样本的索引
-        #             samples_per_batch = 100001  # 副样本数量
         #             first_sample_indices = np.arange(0, draw_batch_size * samples_per_batch, samples_per_batch)  # [0, 33, 66, 99, 132]
 
-        #             # 为每个批次分配颜色
         #             colors = plt.cm.rainbow(np.linspace(0, 1, draw_batch_size))
 
-        #             # 可视化
         #             fig = plt.figure(figsize=(20, 16))
-        #             ax = fig.add_subplot(111, projection='3d')  # 创建一个三维坐标轴
 
-        #             # 绘制每个批次的第一个样本（正方形标记）
         #             for i, idx in enumerate(first_sample_indices):
         #                 ax.scatter(result_3d[idx, 0], result_3d[idx, 1], result_3d[idx, 2],
         #                         marker='s', c=colors[i], edgecolor=colors[i], s=100, alpha=0.5, zorder=5)
 
-        #             # 绘制其他样本（圆形标记）
         #             for i in range(draw_batch_size):
         #                 batch_indices = np.arange(i * samples_per_batch, (i + 1) * samples_per_batch)
-        #                 batch_indices = batch_indices[~np.isin(batch_indices, first_sample_indices)]  # 排除第一个样本
         #                 ax.scatter(result_3d[batch_indices, 0], result_3d[batch_indices, 1], result_3d[batch_indices, 2],
         #                         marker='o', c=colors[i], alpha=0.7)
 
-        #             # 计算每个批次第一个样本的重合点数量并标注
         #             for i, idx in enumerate(first_sample_indices):
         #                 batch_indices = np.arange(i * samples_per_batch, (i + 1) * samples_per_batch)
-        #                 batch_indices = batch_indices[~np.isin(batch_indices, first_sample_indices)]  # 排除第一个样本
         #                 overlap_count = np.sum(
-        #                     np.linalg.norm(result_3d[batch_indices] - result_3d[idx], axis=1) < 0.6)  # 计算距离小于阈值的点数
         #                 if overlap_count > 0:
         #                     ax.text(result_3d[idx, 0], result_3d[idx, 1], result_3d[idx, 2], f"{overlap_count}", fontsize=11,
         #                             color='white', ha='center', va='center', zorder=6)
 
-        #             # 添加图例和标签
         #             ax.legend()
         #             ax.set_xlabel('t-SNE Component 1')
         #             ax.set_ylabel('t-SNE Component 2')
-        #             ax.set_zlabel('t-SNE Component 3')  # 添加 z 轴标签
         #             ax.set_title('3D t-SNE Visualization with Different Markers and Colors')
         #             ax.grid(True)
 
-        #             # 定义保存路径和文件名，包含时间戳
-        #             save_path = f'/dataStor/home/yqzhang/model/gan/Anet-GAN-0227-mic/reasoning/嵌入后采样01/{point}_{timestamp}.png'
+        #             save_path = f'outputs/embedding_debug/{point}_{timestamp}.png'
 
-        #             # 保存图像到指定位置
-        #             plt.savefig(save_path, bbox_inches='tight')  # bbox_inches='tight' 用于确保图像的标题和标签都被包含在内
-        #             # 关闭图形，释放内存
         #             plt.close()
 
 
-
-        #             # # ent_re_embeddings = gen.mdl.ent_re_embed.weight.data.cpu().numpy()  # 实部
-        #             # # ent_im_embeddings = gen.mdl.ent_im_embed.weight.data.cpu().numpy()  # 虚部
         #             # # combined_embeddings = np.concatenate([ent_re_embeddings, ent_im_embeddings], axis=1)
         #             # # tsne = TSNE(n_components=2, random_state=42)
         #             # # result_2d = tsne.fit_transform(combined_embeddings)
 
-        #             # ##### Distmult可视化
         #             # embs = gen.mdl.ent_embed(t_index_draw[:draw_batch_size, :])
 
-        #             # ### 维度记得改
         #             # embs_flat = embs.reshape(-1, 32)
         #             # tsne = TSNE(n_components=2, random_state=42)
-        #             # result_2d = tsne.fit_transform(embs_flat.cpu().detach())  # 降维后的结果形状为 [165, 2]
 
-        #             # # 计算每个批次的第一个样本的索引
 
-        #             # samples_per_batch = 32+1 ### 副样本数量只改这个数量就行
         #             # first_sample_indices = np.arange(0, draw_batch_size * samples_per_batch,
         #             #                                  samples_per_batch)  # [0, 33, 66, 99, 132]
 
-        #             # # 为每个批次分配颜色
         #             # colors = plt.cm.rainbow(np.linspace(0, 1, draw_batch_size))
 
-        #             # # 可视化
         #             # plt.figure(figsize=(10, 8))
 
-        #             # # 绘制每个批次的第一个样本（正方形标记）
         #             # for i, idx in enumerate(first_sample_indices):
         #             #     plt.scatter(result_2d[idx, 0], result_2d[idx, 1],
         #             #                 marker='s', c=colors[i], edgecolor=colors[i], s=100, alpha=0.5,
@@ -237,41 +206,29 @@ class NeuralBellmanFordNetwork(nn.Module, core.Configurable):
         #             # #     plt.scatter(result_2d[idx, 0], result_2d[idx, 1],
         #             # #                 marker='s', c=colors[i], edgecolor=colors[i], s=100, alpha=0.5,
         #             # #                 label=f'Batch {i} - First Sample', zorder=5)
-        #             # # 绘制其他样本（圆形标记）
         #             # for i in range(draw_batch_size):
         #             #     batch_indices = np.arange(i * samples_per_batch, (i + 1) * samples_per_batch)
-        #             #     batch_indices = batch_indices[~np.isin(batch_indices, first_sample_indices)]  # 排除第一个样本
         #             #     plt.scatter(result_2d[batch_indices, 0], result_2d[batch_indices, 1],
         #             #                 marker='o', c=colors[i], alpha=0.7)
         #             # # for i in range(batch_size):
         #             # #     batch_indices = np.arange(i * samples_per_batch, (i + 1) * samples_per_batch)
-        #             # #     batch_indices = batch_indices[~np.isin(batch_indices, first_sample_indices)]  # 排除第一个样本
         #             # #     plt.scatter(result_2d[batch_indices, 0], result_2d[batch_indices, 1],
         #             # #                 marker='o', c=colors[i], alpha=0.7, label=f'Batch {i} - Other Samples')
 
-        #             # # 计算每个批次第一个样本的重合点数量并标注
         #             # # for i, idx in enumerate(first_sample_indices):
         #             # #     batch_indices = np.arange(i * samples_per_batch, (i + 1) * samples_per_batch)
-        #             # #     batch_indices = batch_indices[~np.isin(batch_indices, first_sample_indices)]  # 排除第一个样本
         #             # #     overlap_count = np.sum(
-        #             # #         np.linalg.norm(result_2d[batch_indices] - result_2d[idx], axis=1) < 0.6)  # 计算距离小于阈值的点数
         #             # #     if overlap_count > 0:
         #             # #         plt.text(result_2d[idx, 0], result_2d[idx, 1], f"{overlap_count}", fontsize=11,
         #             # #                  color='white', ha='center', va='center', zorder=6)
 
-        #             # # 添加图例和标签
         #             # plt.legend()
         #             # plt.xlabel('t-SNE Component 1')
         #             # plt.ylabel('t-SNE Component 2')
         #             # plt.title('t-SNE Visualization with Different Markers and Colors')
         #             # plt.grid(True)
-        #             # # # 定义保存路径和文件名，包含时间戳
-        #             # save_path = f'/dataStor/home/yqzhang/model/gan/Anet-GAN-0227-mic/reasoning/嵌入后采样01/{point}_{timestamp}.png'
-        #             # # save_path = f'/home/pdou/experiments/img/samples2d01_{timestamp}.png'
+        #             # save_path = f'outputs/embedding_debug/{point}_{timestamp}.png'
 
-        #             # # 保存图像到指定位置
-        #             # plt.savefig(save_path, bbox_inches='tight')  # bbox_inches='tight' 用于确保图像的标题和标签都被包含在内
-        #             # # 关闭图形，释放内存
         #             # plt.close()
         
         if all_loss is not None:
@@ -305,7 +262,6 @@ class NeuralBellmanFordNetwork(nn.Module, core.Configurable):
 
         return score
 
-    # 可视化搜索过程，包括路径、权重和步数
     def visualize(self, graph, h_index, t_index, r_index):
         assert h_index.ndim == 1
         graph = graph.undirected(add_inverse=True)
@@ -329,8 +285,6 @@ class NeuralBellmanFordNetwork(nn.Module, core.Configurable):
 
         return paths, weights, num_steps
 
-    # 束搜索（Beam Search）算法，用于找到图中从起点到终点的路径
-    # 根据长度和源索引计算路径、权重和步数
     def beam_search_length(self, graphs, h_index, t_index):
         inf = float("inf")
         input = torch.full((graphs[0].num_node, self.num_beam), -inf, device=self.device)
@@ -364,7 +318,6 @@ class NeuralBellmanFordNetwork(nn.Module, core.Configurable):
 
         return lengths, source_indexes
 
-    # 根据束搜索的结果，计算 top-k 的平均路径长度，并返回路径、权重和步数。
     def topk_average_length(self, graph, lengths, source_indexes, t_index):
         num_layer = len(self.layers)
         weights = []
@@ -399,7 +352,6 @@ class NeuralBellmanFordNetwork(nn.Module, core.Configurable):
 
         return paths, weights, num_steps
 
-    # 如果设置了 remove_one_hop，则移除图中的一跳边（即直接连接起点和终点的边）
     def remove_easy_edges(self, graph, h_index, t_index, r_index):
         if self.remove_one_hop:
             h_index_ext = torch.cat([h_index, t_index], dim=-1)
@@ -413,7 +365,7 @@ class NeuralBellmanFordNetwork(nn.Module, core.Configurable):
         edge_mask = ~functional.as_mask(edge_index, graph.num_edge)
         return graph.edge_mask(edge_mask)
 
-    # 负采样，将头实体和尾实体互换，将关系索引加上 num_relation
+    # Swap head/tail and offset relation IDs for inverse negatives.
     def negative_sample_to_tail(self, h_index, t_index, r_index):
         is_t_neg = (h_index == h_index[:, [0]]).all(dim=-1, keepdim=True)
         new_h_index = torch.where(is_t_neg, h_index, t_index)
@@ -489,12 +441,6 @@ class AStarNetwork(NeuralBellmanFordNetwork, core.Configurable):
         edge_index = torch.cat(edge_indexes)
 
         
-        #         # 关键修改：过滤反向边，只保留正向边
-        # # 假设 graph.edge_list 中第三列是关系ID（格式：[源节点, 目标节点, 关系ID]）
-        # # 正向边关系ID < self.num_relation，反向边 >= self.num_relation
-        # edge_relations = graph.edge_list[edge_index, 2]  # 获取选中边的关系ID
-        # forward_mask = edge_relations < self.num_relation  # 正向边掩码
-        # edge_index = edge_index[forward_mask]  # 只保留正向边的索引
 
         
         return edge_index
@@ -583,8 +529,8 @@ class AStarNetwork(NeuralBellmanFordNetwork, core.Configurable):
         score = self.mlp(x).squeeze(-1)
         return score
 
-    ### TODO 调用AStar前向传播，AStar会调用父类的前向传播计算得分
-    ### 这个函数就是reasoning调用的predict函数
+    # TODO: call AStar forward; it delegates scoring to the parent class.
+    # This is the predict function used by the reasoning task.
     def forward(self, graph, h_index, t_index, r_index, all_loss=None, metric=None, point=None,gen=None):
 
         # print("=================")

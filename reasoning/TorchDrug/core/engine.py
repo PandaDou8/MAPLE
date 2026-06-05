@@ -507,7 +507,7 @@ class Engine(core.Configurable):
                     start_id = batch_id + 1
                     gradient_interval = min(batch_per_epoch - start_id, self.gradient_interval)
                     
-                # #  释放显存
+                # Release GPU memory.
                 # torch.cuda.empty_cache()
                 
             if self.scheduler:
@@ -592,11 +592,11 @@ class Engine(core.Configurable):
                     batch = utils.cuda(batch, device=self.device)
                 # print("batch[0]")
                 # print(batch[0])
-                ### 生成器选择负样本
+                # Let the generator select negative samples.
                 # print("===============")
                 # print(batch[5].shape)
                 # print(batch[5])
-                ### 这个num_negative是严格采样大小
+                # num_negative is the strict-negative candidate pool size.
                 num_negative = int(task_for_negative.num_negative)
                 neg_index = model._strict_negative(batch[0], batch[1], batch[2])
                 current_batch_size = batch[0].size(0)
@@ -610,7 +610,6 @@ class Engine(core.Configurable):
                 gen_step = gen.gen_step(h_index[:,1:], r_index[:,1:], t_index[:,1:], n_sample=requested_n_sample, temperature=generator_temperature)
 
 
-
                 neg_src_smpl, neg_dst_smpl = next(gen_step)
                 n_adv_smp = neg_src_smpl.size(1)
                 # print("myshape")
@@ -619,24 +618,15 @@ class Engine(core.Configurable):
 
                 # def sample_from_batch(data, num_samples):
                 #     """
-                #     从形状为 [batchsize, n] 的样本中，为每个 batch 选择 num_samples 个随机样本。
                     
-                #     参数：
-                #     - data: 输入数据，形状为 [batchsize, n] 的张量。
-                #     - num_samples: 每个 batch 需要采样的样本数量。
                     
-                #     返回：
-                #     - sampled_data: 采样后的数据，形状为 [batchsize, num_samples] 的张量。
                 #     """
                 #     batchsize, n = data.size()
                     
-                #     # 为每个 batch 生成随机索引
                 #     indices = torch.stack([torch.randperm(n)[:num_samples] for _ in range(batchsize)])
                     
-                #     # 将 indices 转换为与 data 相同的设备（CPU 或 GPU）
                 #     indices = indices.to(data.device)
                     
-                #     # 使用索引选择数据
                 #     sampled_data = torch.gather(data, 1, indices)
                     
                 #     return sampled_data
@@ -647,8 +637,8 @@ class Engine(core.Configurable):
                 ##############################
 
                 # rel_smpl = batch[5][:, :n_adv_smp]
-                ### 拼个正样本在第一个位置
-                #### 现在是1+32=33个样本进行训练，这对吗
+                # Prepend the positive sample to the candidate batch.
+                # Candidate batch contains one positive plus sampled negatives.
                 src_smpl = torch.cat((batch[0].unsqueeze(1), neg_src_smpl), dim=1)
                 dst_smpl = torch.cat((batch[1].unsqueeze(1), neg_dst_smpl), dim=1)
                 rel_smpl = r_index[:, :n_adv_smp + 1]
@@ -657,11 +647,11 @@ class Engine(core.Configurable):
 
                 ### TODO reasoning.reasoning.TorchDrug reasoning.forward
                 loss, metric, pred = model(batch, is_gan=True, gen=gen, point=epoch_id, src_smpl=src_smpl, dst_smpl = dst_smpl, rel_smpl = rel_smpl)
-                ### ===== 0424 FIX: ranking loss 下，generator reward 必须和 hinge objective 对齐 =====
-                ### ranking loss 优化的是 max(0, margin - s_pos + s_neg)，
-                ### 所以 generator 更合理的 reward 不是单独的 s_neg，而是每个负样本的 margin violation：
+                # Generator rewards must align with the ranking-loss hinge objective.
+                # Ranking loss optimizes max(0, margin - s_pos + s_neg).
+                # The generator reward should be each negative sample margin violation.
                 ### relu(s_neg - s_pos + margin)。
-                ### 这样生成器会优先提高“真正让判别器产生 ranking violation”的负样本采样概率。
+                # This prioritizes negatives that truly violate the discriminator margin.
                 task_for_reward = model.module if hasattr(model, "module") else model
                 if "ranking" in task_for_reward.criterion:
                     positive_scores = pred[:, :1].detach()
@@ -725,9 +715,9 @@ class Engine(core.Configurable):
                             )
                         )
 
-                ### ===== 0424 FIX: reward 必须保持为 [batch, sample] 二维，不能 unsqueeze(1) =====
-                ### 否则在生成器里会和 [batch, sample] 的 log_prob 广播成 [batch, batch, sample]，
-                ### 导致不同 query 的 reward 被错误地混到一起，REINFORCE 梯度会串样本。
+                # Keep rewards as [batch, sample]; do not unsqueeze them.
+                # Otherwise reward and log_prob broadcast to [batch, batch, sample].
+                # That would mix rewards across queries and corrupt REINFORCE gradients.
                 if enable_policy_gradient:
                     gen_step.send(advantages)
                     avg_reward = reward_ema_beta * avg_reward + (1 - reward_ema_beta) * batch_reward_mean
@@ -755,7 +745,7 @@ class Engine(core.Configurable):
                 if not loss.requires_grad:
                     raise RuntimeError("Loss doesn't require grad. Did you define any loss in the task?")
                 loss = loss / gradient_interval
-                ###～～～～～～～～～～～～～～～～ 1.13 epoch_d_loss放到了loss计算结束的后面
+                # Track discriminator loss after the loss computation.
                 epoch_d_loss += loss.item()
                 loss.backward()
                 discriminator_grad_norm = self._model_grad_norm(self.model.parameters())
@@ -898,7 +888,6 @@ class Engine(core.Configurable):
                     self._write_trace_epoch(epoch + 1, trace_rows)
 
 
-
     # def gan_train_astar(self, num_epoch=1, gen=None, batch_per_epoch=None, n_ent=0, n_rel=0):
     #     model = self.model
     #     model.split = "train"
@@ -925,7 +914,7 @@ class Engine(core.Configurable):
     #         else:
     #             return m
     #
-    #     #### 生成候选样本集合
+    #     # Build the candidate sample set.
     #     corrupter = BernCorrupterMulti(set_to_list(self.train_set), n_ent, n_rel, 2000)
     #     src, dst, rel = set_to_list(self.train_set, 0)
     #     best_perf = 0
@@ -957,15 +946,15 @@ class Engine(core.Configurable):
     #                 batch = utils.cuda(batch, device=self.device)
     #             # print("batch[0]")
     #             # print(batch[0])
-    #             ### 生成器选择负样本
+    #             # Let the generator select negatives.
     #             # print("===============")
     #             # print(batch[5].shape)
     #             # print(batch[5])
     #             gen_step = gen.gen_step(batch[3], batch[5], batch[4], n_sample=n_adv_smp, temperature=0.5)
     #             src_smpl, dst_smpl = next(gen_step)
     #             rel_smpl = batch[5][:, :n_adv_smp]
-    #             ### 拼个正样本在第一个位置
-    #             #### 现在是1+32=33个样本进行训练，这对吗
+    #             # Prepend the positive sample.
+    #             # Candidate batch contains one positive plus sampled negatives.
     #             src_smpl = torch.cat((batch[0].unsqueeze(1), src_smpl), dim=1)
     #             dst_smpl = torch.cat((batch[1].unsqueeze(1), dst_smpl), dim=1)
     #             rel_smpl = torch.cat((batch[2].unsqueeze(1), rel_smpl), dim=1)
@@ -977,16 +966,16 @@ class Engine(core.Configurable):
     #             ### TODO reasoning.reasoning.TorchDrug reasoning.forward
     #             loss, metric, pred = model(batch, is_gan=True, gen=gen, point=point)
     #             point = point + 1
-    #             ### 更新生成器梯度
+    #             # Update generator gradients.
     #             rewards = pred[:, 1:]
-    #             ###～～～～～～～～～～～～～～～～ 1.13 发现漏掉了epoch_reward
+    #             # Accumulate epoch rewards.
     #             epoch_reward += torch.sum(rewards)
     #             rewards = rewards - avg_reward
     #             gen_step.send(rewards.unsqueeze(1))
     #             if not loss.requires_grad:
     #                 raise RuntimeError("Loss doesn't require grad. Did you define any loss in the task?")
     #             loss = loss / gradient_interval
-    #             ###～～～～～～～～～～～～～～～～ 1.13 epoch_d_loss放到了loss计算结束的后面
+    #             # Track discriminator loss after loss computation.
     #             epoch_d_loss += torch.sum(loss)
     #             loss.backward()
     #             metrics.append(metric)
@@ -1049,13 +1038,13 @@ class Engine(core.Configurable):
             for key, value in metric.items():
                 metric_sum[key] = metric_sum.get(key, 0.0) + float(value.detach().item()) * weight
             metric_weight += weight
-            # 0427 OOM FIX: 评估阶段及时释放 batch 级中间张量，避免 valid 结束后残留缓存压缩下一轮训练可用显存。
+            # Release batch-level tensors during evaluation to avoid validation-time memory pressure.
             del batch, pred, target, metric
             gc.collect()
             if self.device.type == "cuda":
                 torch.cuda.empty_cache()
         
-        # 计算最终的 metric
+        # Compute final metrics.
         if metric_weight > 0:
             final_metrics = {key: value / metric_weight for key, value in metric_sum.items()}
         else:

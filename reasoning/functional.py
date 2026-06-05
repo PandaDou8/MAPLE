@@ -1,21 +1,21 @@
 import torch
 
-# 定义了三个函数，用于处理张量（Tensor）数据。这些函数主要用于排序、计数和获取Top-K元素
+# Tensor helpers for sorting, counting, and top-k selection.
 
-# 接受一个输入张量列表，并返回一个索引张量，该索引张量按照输入张量的顺序对输入张量进行排序
+# Return indices that lexicographically sort the input tensors.
 def multikey_argsort(inputs, descending=False, break_tie=False):
     if break_tie:
         order = torch.randperm(len(inputs[0]), device=inputs[0].device)
     else:
         order = torch.arange(len(inputs[0]), device=inputs[0].device)
     for key in inputs[::-1]:
-        # 改
+        
         # index = key[order].argsort(stable=True, descending=descending)
         index = key[order].argsort(descending=descending)
         order = order[index]
     return order
 
-# 计算输入张量中每个元素的计数，并返回一个计数张量
+# Count occurrences for each value in the input tensor.
 def bincount(input, minlength=0):
     if input.numel() == 0:
         return torch.zeros(minlength, dtype=torch.long, device=input.device)
@@ -30,7 +30,7 @@ def bincount(input, minlength=0):
 
     return input.bincount(minlength=minlength)
 
-# 从输入张量中获取多个Top-K元素，例如在推荐系统中非常有用
+# Retrieve multiple top-k elements from a tensor.
 def variadic_topks(input, size, ks, largest=True, break_tie=False):
     index2sample = torch.repeat_interleave(size)
     if largest:
