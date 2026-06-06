@@ -11,6 +11,11 @@ from reasoning.TorchDrug import core
 from reasoning.TorchDrug.utils import comm
 
 def load_vocab(dataset): # Load entity and relation vocabularies.
+    entity_vocab = getattr(dataset, "entity_vocab", None)
+    relation_vocab = getattr(dataset, "relation_vocab", None)
+    if entity_vocab is not None and relation_vocab is not None:
+        return list(entity_vocab), list(relation_vocab)
+
     path = dataset.path
     vocabs = []
     for object in ["entity", "relation"]: # Read entity and relation mapping files.
@@ -165,6 +170,46 @@ def read_train_data(file_path):
         return None
 
 
+def build_train_triple_set(dataset, file_path=None):
+    graph = getattr(dataset, "graph", None)
+    num_samples = getattr(dataset, "num_samples", None)
+    if graph is not None and num_samples:
+        num_train = int(num_samples[0])
+        print("Building training triple index from dataset cache/graph...")
+        train_triple_set = set()
+        for h_index, t_index, r_index in graph.edge_list[:num_train].cpu():
+            train_triple_set.add((int(h_index), int(r_index), int(t_index)))
+        print(f"Training triple index ready: {len(train_triple_set)} unique triples")
+        return train_triple_set
+
+    print("Building training triple index from train.txt...")
+    train_data = read_train_data(file_path) if file_path else None
+    train_triple_set = set()
+    entity_to_id = getattr(dataset, "inv_entity_vocab", None) or {}
+    relation_to_id = getattr(dataset, "inv_relation_vocab", None) or {}
+    if train_data and entity_to_id and relation_to_id:
+        for h_token, r_token, t_token in train_data:
+            if h_token in entity_to_id and r_token in relation_to_id and t_token in entity_to_id:
+                train_triple_set.add((entity_to_id[h_token], relation_to_id[r_token], entity_to_id[t_token]))
+    print(f"Training triple index ready: {len(train_triple_set)} unique triples")
+    return train_triple_set
+
+
+def get_relation_name(relation_vocab, relation_id):
+    num_relation = len(relation_vocab)
+    name = relation_vocab[relation_id % num_relation]
+    if relation_id >= num_relation:
+        name += "^(-1)"
+    return name
+
+
+def is_known_training_triple(train_triple_set, head_id, relation_id, tail_id, num_relation):
+    base_relation_id = relation_id % num_relation
+    if relation_id >= num_relation:
+        return (tail_id, base_relation_id, head_id) in train_triple_set
+    return (head_id, base_relation_id, tail_id) in train_triple_set
+
+
 if __name__ == "__main__":
     print("[MAPLE] Starting visualization workflow")
     
@@ -198,15 +243,7 @@ if __name__ == "__main__":
     # 2. Preload training triples for filtering.
     # ---------------------------------------------------------
     file_path = os.path.join(cfg.dataset.path, "train.txt")
-    train_data = read_train_data(file_path)
-
-    print("Building training triple index...")
-    train_triple_set = set()
-    if train_data:
-        for sample in train_data:
-            # Store triples as string tuples for exact lookup.
-            train_triple_set.add((sample[0], sample[1], sample[2]))
-    print(f"Training triple index ready: {len(train_triple_set)} unique triples")
+    train_triple_set = build_train_triple_set(dataset, file_path)
 
     # ---------------------------------------------------------
     # 3. Collect target entities by semantic type.
@@ -245,11 +282,17 @@ if __name__ == "__main__":
             if pairs_sorted:
                 for rank_idx, (tail_entity_idx, pred_value) in enumerate(pairs_sorted[:300]):
                     head_name = entity_vocab[h_entity]
-                    relation_name = relation_vocab[r_entity]
+                    relation_name = get_relation_name(relation_vocab, r_entity)
                     tail_name = entity_vocab[tail_entity_idx]
                     
                     # Skip known training triples to highlight novel predictions.
-                    if (head_name, relation_name, tail_name) not in train_triple_set:
+                    if not is_known_training_triple(
+                        train_triple_set,
+                        h_entity,
+                        r_entity,
+                        tail_entity_idx,
+                        len(relation_vocab),
+                    ):
                         print(f"RANK: {rank_idx + 1}")
                         print(f"Tail entity: {tail_name} (index: {tail_entity_idx})")
                         print(f"Query triple: ({head_name}, {relation_name}, {tail_name})")

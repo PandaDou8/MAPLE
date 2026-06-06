@@ -309,9 +309,10 @@ class MicrobeKGTransductive(KnowledgeGraphDataset):
     def _cache_is_fresh(self, cache_file, source_files):
         if not os.path.exists(cache_file):
             return False
+        if not all(os.path.exists(source_file) for source_file in source_files):
+            return True
         cache_mtime = os.path.getmtime(cache_file)
-        return all(os.path.exists(source_file) and os.path.getmtime(source_file) <= cache_mtime
-                   for source_file in source_files)
+        return all(os.path.getmtime(source_file) <= cache_mtime for source_file in source_files)
 
     def _load_cache(self, cache_file):
         state = torch.load(cache_file, map_location="cpu")
