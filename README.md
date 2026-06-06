@@ -24,6 +24,8 @@ To support mechanistic microbiome research beyond isolated association mining, w
 
 **MAPLE** is designed for interpretable biomedical knowledge graph completion under sparse, noisy, and biologically heterogeneous evidence. It addresses two common problems in microbe-host KG reasoning: trivial negative samples and weak mechanistic interpretability.
 
+The model code builds upon [A*Net](https://github.com/DeepGraphLearning/AStarNet) for neural path-based reasoning and [TorchDrug](https://github.com/DeepGraphLearning/torchdrug) for graph learning infrastructure.
+
 * **Evidence-aware path reasoning**: MAPLE uses an A*Net-style path reasoner to expand compact query-relevant subgraphs and evaluate candidate triples through coherent multi-hop biomedical paths.
 * **Policy-guided hard negative mining**:
   * A **Frozen Relational Prior** provides global DistMult-style plausibility.
