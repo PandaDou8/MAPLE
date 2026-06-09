@@ -1,4 +1,4 @@
-Deciphering Microbe–Host Molecular Cascades via Knowledge-Guided Reinforcement Learning
+Deciphering microbe–host molecular cascades via memory-augmented reinforcement learning on knowledge graphs
 ======================================================
 
 **MAPLE** is a memory-augmented, policy-guided reasoning framework for decoding interpretable **microbe–host molecular cascades** from the multi-scale knowledge graph **MiHIKG**. It couples high-fidelity biomedical knowledge infrastructure with an evidence-aware path reasoner, enabling systematic discovery of microbiome-mediated disease mechanisms.
@@ -160,7 +160,7 @@ If you use MAPLE or MiHIKG in your research, please cite:
 
 ```bibtex
 @article{li2026maple,
-  title={Deciphering Microbe-Host Molecular Cascades via Knowledge-Guided Reinforcement Learning},
+  title={Deciphering microbe–host molecular cascades via memory-augmented reinforcement learning on knowledge graphs},
   author={Li, Shiliang and Dou, Pan and Yang, Xiaobo and Li, Wenweiran and Zhang, Yiqing and others},
   year={2026}
 }
