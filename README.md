@@ -17,7 +17,7 @@ To support mechanistic microbiome research beyond isolated association mining, w
   * MiHIKG reveals that metabolites and chemicals act as the major semantic bridge between microbial perturbations and host responses.
   * This design supports long-range reasoning across microbial taxa, metabolic products, host genes, immune factors, and disease phenotypes.
 
-![MiHIKG overview](./imgs/figure1_mihikg.png)
+![MiHIKG overview](./imgs/figure1_mihikg_overview.png)
 
 🧠 MAPLE: Memory-Augmented Policy Learning Engine
 ---------------
@@ -69,7 +69,7 @@ MAPLE_main02/
 ├── checkpoints/
 │   └── maple_checkpoint.pth          # MAPLE checkpoint for visualization / evaluation
 ├── imgs/
-│   ├── figure1_mihikg.png
+│   ├── figure1_mihikg_overview.png
 │   └── figure2_maple.png
 ├── reasoning/                        # A*Net / TorchDrug-based KGC engine
 └── script/
