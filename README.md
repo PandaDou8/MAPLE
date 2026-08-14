@@ -1,162 +1,99 @@
-Deciphering microbe–host molecular cascades via memory-augmented reinforcement learning on knowledge graphs
-======================================================
+<p align="center">
+  <img src="./imgs/GA-0813-2.png" alt="MAPLE overview" width="680">
+</p>
 
-**MAPLE** is a memory-augmented, policy-guided reasoning framework for decoding interpretable **microbe–host molecular cascades** from the multi-scale knowledge graph **MiHIKG**. It couples high-fidelity biomedical knowledge infrastructure with an evidence-aware path reasoner, enabling systematic discovery of microbiome-mediated disease mechanisms.
+<h1 align="center">MAPLE</h1>
 
-🌐 MiHIKG: Microbe–Human Interaction Knowledge Graph
-----------------------
+<p align="center">
+  <strong>Deciphering microbe–host molecular cascades via memory-augmented reinforcement learning on knowledge graphs</strong>
+</p>
 
-To support mechanistic microbiome research beyond isolated association mining, we built **MiHIKG (Microbe–Human Interaction Knowledge Graph)** as a unified semantic infrastructure.
+<p align="center">
+  <a href="#quickstart">Quickstart</a> &middot;
+  <a href="#data-and-availability">Data</a> &middot;
+  <a href="#repository-map">Repository Map</a> &middot;
+  <a href="#citation">Citation</a>
+</p>
 
-* **Large-scale integration**: MiHIKG integrates **57 biomedical databases**, covering **4.45M+ nodes** and **24.98M+ edges** across microbes, metabolites, chemicals, host genes, diseases, immune factors, pathways, phenotypes, and environmental exposures.
-* **High-fidelity standardization**:
-  * Microbial nodes are mapped to standardized TaxIDs to improve cross-database interoperability.
-  * Disease, phenotype, taxonomic, metabolite, and host molecular entities are harmonized into a computable graph schema.
-  * Directional relation names preserve biomedical semantics such as microbe-induced disease, metabolite-mediated signaling, and host regulatory events.
-* **Metabolite-centered topology**:
-  * MiHIKG reveals that metabolites and chemicals act as the major semantic bridge between microbial perturbations and host responses.
-  * This design supports long-range reasoning across microbial taxa, metabolic products, host genes, immune factors, and disease phenotypes.
+MAPLE is a memory-augmented policy-learning framework for interpretable reasoning over the Microbe-Human Interaction Knowledge Graph (MiHIKG). It ranks candidate microbe-disease links and returns multi-hop evidence paths from microbial signals through molecular processes to disease phenotypes.
 
-![MiHIKG overview](./imgs/figure1_mihikg_overview.png)
+## MiHIKG: Microbe-Human Interaction Knowledge Graph
 
-🧠 MAPLE: Memory-Augmented Policy Learning Engine
----------------
+MiHIKG provides a unified semantic infrastructure for mechanism-oriented microbiome research beyond isolated association mining. It integrates 57 biomedical databases into a graph of 4.45M+ nodes and 24.98M+ edges spanning microbes, metabolites, chemicals, host genes, diseases, pathways, phenotypes, and environmental exposures.
 
-**MAPLE** is designed for interpretable biomedical knowledge graph completion under sparse, noisy, and biologically heterogeneous evidence. It addresses two common problems in microbe-host KG reasoning: trivial negative samples and weak mechanistic interpretability.
+- **Standardized biomedical entities:** microbial nodes are mapped to TaxIDs, while disease, phenotype, taxonomic, metabolite, and host molecular entities are harmonized into a computable schema.
+- **Directional biological semantics:** relation names preserve mechanistic directionality, including microbe-induced disease, metabolite-mediated signaling, and host regulation.
+- **Metabolite-centered topology:** metabolites and chemicals bridge microbial perturbations with host responses, enabling reasoning across taxa, molecular processes, immune factors, and disease phenotypes.
 
-The model code builds upon [A*Net](https://github.com/DeepGraphLearning/AStarNet) for neural path-based reasoning and [TorchDrug](https://github.com/DeepGraphLearning/torchdrug) for graph learning infrastructure.
+<p align="center">
+  <img src="./imgs/figure1_mihikg_overview.png" alt="MiHIKG knowledge graph overview" width="820">
+</p>
 
-* **Evidence-aware path reasoning**: MAPLE uses an A*Net-style path reasoner to expand compact query-relevant subgraphs and evaluate candidate triples through coherent multi-hop biomedical paths.
-* **Policy-guided hard negative mining**:
-  * A **Frozen Relational Prior** provides global DistMult-style plausibility.
-  * A **Query-Conditioned Policy Head** adapts candidate selection to the current disease / microbe / metabolite query.
-  * A **Relation-Conditioned Memory Module** stores reward feedback for confusing relation-specific negatives.
-* **Reward-driven learning loop**: Ranking-margin violations generate reward signals that update the sampler, helping MAPLE focus on biologically plausible confounders rather than random false negatives.
-* **Interpretable output**: The visualization scripts rank candidate disease-microbe or disease-metabolite associations and print reasoning paths as testable mechanistic hypotheses.
+## MAPLE: Memory-Augmented Policy Learning
 
-![MAPLE framework](./imgs/figure2_maple.png)
+Built on [A*Net](https://github.com/DeepGraphLearning/AStarNet) and [TorchDrug](https://github.com/DeepGraphLearning/torchdrug), MAPLE is designed for biomedical knowledge graph completion under sparse, noisy, and heterogeneous evidence. It combines a query-focused path reasoner with a memory-augmented policy for selecting informative hard negatives.
 
-📈 Application Scenarios
-----------
+- **Evidence-aware path reasoning:** an A*Net-style reasoner expands compact, query-relevant subgraphs and scores candidate triples through coherent multi-hop paths.
+- **Frozen relational prior:** pretrained DistMult embeddings provide global plausibility while the policy and memory modules adapt candidate selection to each query.
+- **Reward-driven policy learning:** ranking-margin violations update relation-conditioned memory and focus sampling on biologically plausible confounders rather than random negatives.
+- **Interpretable output:** visualization scripts return ranked microbe-disease links together with path evidence for downstream biological interpretation.
 
-MAPLE is built as a “digital scientist” for mechanism-oriented microbiome discovery.
+<p align="center">
+  <img src="./imgs/figure2_maple.png" alt="MAPLE model architecture" width="920">
+</p>
 
-* **Disease-associated microbe discovery**: prioritize candidate microbes for predefined disease entities while filtering known training triples.
-* **Metabolic cascade interpretation**: connect microbial taxa to disease phenotypes through metabolites, chemicals, host genes, immune factors, and pathways.
-* **Cardiovascular mechanism mining**: support CAD / AMI case studies by ranking metabolite-linked mechanisms such as PAG or butyrate-related networks.
-* **Sparse-evidence reasoning**: infer functionally convergent paths when direct microbe-disease evidence is incomplete.
-* **Translational hypothesis generation**: produce ranked candidates and multi-hop path evidence for downstream wet-lab or cohort validation.
+## Quickstart
 
-📁 Repository Layout
--------
-
-```text
-MAPLE_main02/
-├── README.md                         # Project overview and usage guide
-├── run.sh                            # Quickstart: visualization only by default
-├── config.py                         # Legacy config helper used by generator modules
-├── pretrain.py                       # DistMult generator pretraining entry
-├── memory_distmult.py                # MAPLE memory-augmented DistMult generator
-├── base_model.py / distmult.py       # Generator model components
-├── configs/
-│   ├── train.yaml                    # MAPLE adversarial training configuration
-│   └── quickstart_visualization.yaml # Disease-microbe visualization configuration
-├── data/
-│   ├── train.txt / valid.txt / test.txt
-│   └── mappings/
-│       ├── entity.txt
-│       └── relation.txt
-├── checkpoints/
-│   └── maple_checkpoint.pth          # MAPLE checkpoint for visualization / evaluation
-├── imgs/
-│   ├── figure1_mihikg_overview.png
-│   └── figure2_maple.png
-├── reasoning/                        # A*Net / TorchDrug-based KGC engine
-└── script/
-    ├── train.py                      # Training / evaluation entry
-    ├── visualize_disease_microbes.py # Disease-to-microbe ranking and path evidence
-    └── visualize_cad_metabolite.py   # CAD / AMI metabolite case visualization
-```
-
-⚙️ Environment Setup
--------
-
-Create or activate a Python environment with PyTorch and graph-learning dependencies. Typical packages include:
+Run the two-stage pipeline from the project root:
 
 ```bash
-pip install torch numpy pyyaml easydict jinja2 tqdm scikit-learn matplotlib
+python script/quickstart_pipeline.py \
+  --config configs/quickstart_train.yaml \
+  --gpu 0
 ```
 
-The project also requires CUDA-compatible graph extensions such as `torch-scatter` and `torch-sparse`. Install versions that match your local PyTorch / CUDA build.
+The pipeline uses the packaged graph in `data/quickstart/` and writes run artifacts to `outputs/quickstart_pipeline/`.
 
-🧩 Data and Checkpoints
--------
+1. Train DistMult when `pretrain_gen_model` is absent.
+2. Freeze the pretrained DistMult backbone.
+3. Train MAPLE with reinforcement-guided hard-negative sampling.
+4. Select the best MAPLE checkpoint by validation MRR and evaluate it on the test split.
 
-The current configs expect all dataset files to live inside this repository:
+Use `--force-pretrain` to replace an existing Quickstart DistMult checkpoint.
 
-```text
-data/
-├── train.txt
-├── valid.txt
-├── test.txt
-└── mappings/
-    ├── entity.txt
-    └── relation.txt
-```
+> [!NOTE]
+> The packaged execution demo contains 1,000 nodes, 2,000 connected triples, and five microbe-host cascade relations. Its `1,940 / 30 / 30` train/validation/test split is relation-balanced, with held-out triples chosen using graph topology only. It is provided to validate installation and the complete training workflow; it is not a substitute for full-scale benchmark evaluation.
 
-The default checkpoint path is:
+### Full-Scale Training
 
-```text
-checkpoints/maple_checkpoint.pth
-```
-
-All paths in `configs/*.yaml` are repository-relative and are resolved to absolute paths at runtime, so training and visualization continue to work after the scripts create timestamped output directories.
-
-🚀 Quick Start
--------
-
-### 1. Run Disease-to-Microbe Visualization
+Full MiHIKG experiments use the same entry point with the full configuration and privately available data:
 
 ```bash
-bash run.sh
+python script/quickstart_pipeline.py \
+  --config configs/train.yaml \
+  --gpu 0
 ```
 
-`run.sh` intentionally keeps training commented out and only runs the quickstart visualization:
+## Data and Availability
 
-```bash
-python script/visualize_disease_microbes.py -c configs/quickstart_visualization.yaml
-```
+The repository includes the self-contained Quickstart graph required for execution-demo training. Full MiHIKG files and large checkpoints are excluded from version control and will be released during peer review. After publication, the model and dataset are planned as an accessible web resource, which is currently under development.
 
-The script loads the MAPLE checkpoint, ranks candidate microbes for predefined disease heads, filters known training triples, and prints top novel associations with path evidence.
+Place private full-scale data under `data/` and checkpoints under `checkpoints/` when reproducing large-scale experiments. Large source caches and `.pth` checkpoints remain excluded by `.gitignore`.
 
-### 2. Run MAPLE Training
+## Repository Map
 
-Full adversarial training is computationally expensive. Review GPU, batch size, output directory, and epoch settings before running:
+| Path | Purpose |
+| --- | --- |
+| `configs/quickstart_train.yaml` | Packaged two-stage training configuration. |
+| `configs/train.yaml` | Full-scale training configuration. |
+| `data/quickstart/` | Packaged connected execution-demo graph. |
+| `pretrain.py` | DistMult pretraining entry point. |
+| `script/quickstart_pipeline.py` | Shared DistMult-to-MAPLE training entry point. |
+| `script/train.py` | MAPLE training and evaluation entry point. |
+| `script/visualize_*.py` | Link-ranking and explanatory-path visualization scripts. |
+| `reasoning/` | A*Net and TorchDrug-based reasoning engine. |
 
-```bash
-python script/train.py -c configs/train.yaml
-```
-
-### 3. Run CAD / AMI Metabolite Visualization
-
-```bash
-python script/visualize_cad_metabolite.py -c configs/quickstart_visualization.yaml
-```
-
-🔧 Configuration Notes
--------
-
-* `configs/train.yaml`: full MAPLE adversarial training configuration.
-* `configs/quickstart_visualization.yaml`: checkpoint-based visualization configuration.
-* `dataset.path`: defaults to `data/`.
-* `checkpoint`: defaults to `checkpoints/maple_checkpoint.pth`.
-* `engine.gpus`: controls the CUDA device; visualization scripts no longer hard-code GPU IDs.
-* `output_dir`: defaults to `outputs/...` and is ignored by Git.
-
-📄 Citation
------
-
-If you use MAPLE or MiHIKG in your research, please cite:
+## Citation
 
 ```bibtex
 @article{li2026maple,
@@ -165,5 +102,3 @@ If you use MAPLE or MiHIKG in your research, please cite:
   year={2026}
 }
 ```
-
----

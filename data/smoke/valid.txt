@@ -1,2 +1,0 @@
-Disease//D1	ASSOCIATES_DaM	Microbe//M2
-Microbe//M2	PRODUCES_MpMet	Metabolite//T1

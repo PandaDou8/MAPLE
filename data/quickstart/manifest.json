@@ -1,25 +1,41 @@
 {
-  "connected": true,
-  "description": "Connected MiHIKG quickstart subset for the MAPLE two-stage training pipeline",
+  "construction": "Topology- and relation-stratified selection from the private full graph; supported demo holdouts use graph degree and two-hop support only, never model metrics",
+  "description": "Dense, relation-balanced MiHIKG cascade subset for MAPLE Quickstart",
+  "entity_type_counts": {
+    "Chemical": 220,
+    "Disease": 280,
+    "Metabolite": 279,
+    "Microbe": 220,
+    "Symptom": 1
+  },
   "full_private_graph_required_at_runtime": false,
-  "minimum_degree_before_split": 1,
-  "num_edges": 1800,
-  "num_nodes": 1200,
-  "num_relations": 9,
-  "seed": 1024,
-  "source_seed_entities": [
-    "Microbe//Bacteroides sp. 1_1_6",
-    "Disease//MONDO:0007915"
+  "holdout_strategy": "supported",
+  "num_edges": 2000,
+  "num_nodes": 1000,
+  "num_relations": 5,
+  "relation_counts": {
+    "ASSOCIATES_MiaM": 696,
+    "CHANGE_RICHNESS_DcrMi": 583,
+    "INDUCES_CHiD": 461,
+    "METABOLIZES_MimC": 78,
+    "TREATS_CtD": 182
+  },
+  "relations": [
+    "ASSOCIATES_MiaM",
+    "INDUCES_CHiD",
+    "TREATS_CtD",
+    "METABOLIZES_MimC",
+    "CHANGE_RICHNESS_DcrMi"
   ],
-  "source_seed_relation": "CHANGE_RICHNESS_DcrMi",
+  "seed": 1024,
   "split_ratio": [
-    0.8,
-    0.1,
-    0.1
+    0.97,
+    0.015,
+    0.015
   ],
   "split_sizes": [
-    1440,
-    180,
-    180
+    1940,
+    30,
+    30
   ]
 }

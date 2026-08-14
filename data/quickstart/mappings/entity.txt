@@ -1,1200 +1,1000 @@
-Reaction//3OAR13M14	0
-Microbe//Afipia birgiae 34632	1
-Microbe//Pseudomonas fluorescens PfO-1	2
-Microbe//Rhodococcus rhodochrous ATCC 21198	3
-Reaction//NDPK1	4
-Metabolite//HMDB0001487	5
-Reaction//PPNCL3	6
-Microbe//Laribacter hongkongensis HLHK9	7
-Metabolite//HMDB0028837	8
-Microbe//Bacillus halodurans C-125	9
-Microbe//Clostridiales sp. 1_7_47FAA	10
-Microbe//Pseudomonas putida F1	11
-Microbe//Odoribacter laneus YIT 12061	12
-Metabolite//HMDB0000126	13
-Microbe//Parabacteroides distasonis ATCC 8503	14
-Microbe//Clostridium bartlettii DSM 16795	15
-Reaction//DM_atp_c_	16
-Reaction//pbiosynthesis	17
-Metabolite//HMDB0000902	18
-Metabolite//HMDB0001423	19
-Metabolite//HMDB0002111	20
-Microbe//Lactobacillus helveticus DSM 20075	21
-Metabolite//13m3hmyrsACP	22
-Reaction//dreplication	23
-Microbe//Clostridium difficile CD196	24
-Microbe//Bacteroides intestinalis 341, DSM 17393	25
-Reaction//3OAR4M5	26
-Metabolite//HMDB0000883	27
-Microbe//Pseudobutyrivibrio ruminis AD2017	28
-Microbe//Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305	29
-Metabolite//HMDB0001473	30
-Microbe//Fusobacterium periodonticum 1_1_41FAA	31
-Microbe//Corynebacterium durum F0235	32
-Microbe//Bacteroides fragilis YCH46	33
-Metabolite//HMDB0000095	34
-Microbe//Alistipes indistinctus YIT 12060	35
-Metabolite//3haACP	36
-Microbe//Bacteroides sp. D1	37
-Microbe//Bacteroides sp. 20_3	38
-Microbe//Listeria grayi DSM 20601	39
-Microbe//Veillonella sp. 6_1_27	40
-Microbe//Butyrivibrio fibrisolvens 16/4	41
-Reaction//G3PD2	42
-Microbe//Clostridium sp. 7_2_43FAA	43
-Metabolite//HMDB0001117	44
-Microbe//Lactobacillus ruminis ATCC 25644	45
-Metabolite//HMDB0000082	46
-Microbe//Clostridium butyricum DSM 10702	47
-Microbe//Ruminococcus bicirculans 80/3	48
-Microbe//Corynebacterium ammoniagenes DSM 20306	49
-Microbe//Lactobacillus plantarum WCFS1	50
-Microbe//Bifidobacterium longum longum JDM301	51
-Microbe//Lactobacillus coryniformis subsp. coryniformis CECT 5711	52
-Microbe//Phascolarctobacterium succinatutens YIT 12067	53
-Microbe//Citrobacter youngae ATCC 29220	54
-Microbe//Veillonella atypica ACS-049-V-Sch6	55
-Microbe//Odoribacter splanchnicus 1651/6, DSM 20712	56
-Microbe//Streptococcus thermophilus LMG 18311	57
-Reaction//DMATT	58
-Microbe//Acinetobacter johnsonii SH046	59
-Microbe//Acidaminococcus fermentans DSM 20731	60
-Microbe//Selenomonas ruminantium AC2024	61
-Metabolite//HMDB0000250	62
-Microbe//Lactobacillus rhamnosus LMS2-1	63
-Metabolite//HMDB0001044	64
-Reaction//AMPTASECG	65
-Microbe//Coprobacillus sp. 29_1	66
-Microbe//Staphylococcus xylosus NJ	67
-Microbe//Faecalibacterium cf. prausnitzii KLE1255	68
-Microbe//Streptococcus constellatus subsp. constellatus SK53	69
-Metabolite//HMDB0001370	70
-Microbe//Pyramidobacter piscolens W5455	71
-Microbe//Bacteroides nordii CL02T12C05	72
-Microbe//Staphylococcus caprae C87	73
-Microbe//Listeria monocytogenes FSL R2-561	74
-Microbe//Paraprevotella xylaniphila YIT 11841	75
-Metabolite//HMDB0059597	76
-Microbe//Erysipelotrichaceae bacterium sp. 3_1_53	77
-Microbe//Lysinibacillus fusiformis ZB2	78
-Microbe//Ralstonia sp. 5_7_47FAA	79
-Metabolite//HMDB0001429	80
-Microbe//Methylobacterium radiotolerans JCM 2831	81
-Metabolite//HMDB0001967	82
-Microbe//Ruminococcaceae bacterium D16	83
-Microbe//Dermacoccus nishinomiyaensis	84
-Microbe//Propionibacterium jensenii DSM 20535	85
-Microbe//Clostridium sordellii ATCC 9714	86
-Microbe//Lactococcus garvieae ATCC 49156	87
-Microbe//Propionibacterium acnes KPA171202	88
-Microbe//Yokenella regensburgei ATCC 43003	89
-Microbe//Staphylococcus haemolyticus JCSC1435	90
-Microbe//Raoultella planticola ATCC 33531	91
-Microbe//Escherichia albertii TW07627	92
-Microbe//Streptococcus pneumoniae G54	93
-Metabolite//HMDB00595	94
-Microbe//Helicobacter pylori 26695	95
-Microbe//Clostridium botulinum A str. Hall	96
-Reaction//3OAR140	97
-Reaction//GLYGLN1c	98
-Microbe//Brachyspira pilosicoli B2904	99
-Reaction//PGAMT	100
-Microbe//Bacteroides ovatus SD CMC 3f	101
-Reaction//PNTK	102
-Microbe//Helicobacter bilis ATCC 43879	103
-Microbe//Helicobacter canadensis MIT 98-5491	104
-Microbe//Prevotella melaninogenica ATCC 25845	105
-Microbe//Escherichia albertii KF1	106
-Reaction//ATPS4	107
-Microbe//Kingella oralis ATCC 51147	108
-Microbe//Eubacterium cellulosolvens 6	109
-Metabolite//HMDB0000657	110
-Microbe//Lactobacillus paracasei subsp. paracasei ATCC 25302	111
-Metabolite//HMDB0001056	112
-Microbe//Pantoea agglomerans IG1	113
-Microbe//Citrobacter sp. 30_2	114
-Microbe//Fusobacterium periodonticum 2_1_31	115
-Metabolite//HMDB0001275	116
-Microbe//Anaerostipes sp. 3_2_56FAA	117
-Microbe//Neisseria elongata subsp. glycolytica ATCC 29315	118
-Microbe//Providencia alcalifaciens DSM 30120	119
-Metabolite//HMDB0000286	120
-Microbe//Prevotella conceptionensis  9403948	121
-Microbe//Lactobacillus sakei subsp. sakei 23K	122
-Microbe//Shigella flexneri 2002017	123
-Reaction//AMPTASEGC	124
-Microbe//Bacteroides xylanisolvens XB1A	125
-Microbe//Bacteroides uniformis ATCC 8492	126
-Microbe//Brachybacterium paraconglomeratum LC44	127
-Reaction//FPGS7	128
-Chemical//DB00860	129
-Reaction//3OAR5M6	130
-Reaction//3OAR14M16	131
-Microbe//Bacteroides plebeius M12, DSM 17135	132
-Microbe//Clostridium sp M62/1	133
-Microbe//Clostridium methoxybenzovorans SR3	134
-Reaction//rtranscription	135
-Microbe//Aerococcus viridans ATCC 11563	136
-Microbe//Leminorella grimontii ATCC 33999 = DSM 5078	137
-Microbe//Bacteroides clarus YIT 12056	138
-Microbe//Butyrivibrio crossotus DSM 2876	139
-Microbe//Butyricimonas virosa DSM 23226	140
-Microbe//Paenibacillus lactis 154	141
-Microbe//Alistipes finegoldii DSM 17242	142
-Metabolite//HMDB0001469	143
-Microbe//Brevundimonas diminuta 470-4	144
-Microbe//Lactobacillus johnsonii NCC 533	145
-Metabolite//HMDB0000960	146
-Microbe//Enterococcus saccharolyticus DSM8903	147
-Metabolite//paai17	148
-Microbe//Enterobacter aerogenes KCTC 2190	149
-Microbe//Kluyvera ascorbata  ATCC 33433	150
-Microbe//Aeromonas jandaei Riv2	151
-Microbe//Helicobacter cinaedi CCUG 18818	152
-Microbe//Subdoligranulum variabile DSM 15176	153
-Microbe//Eubacterium dolichum DSM 3991	154
-Microbe//Eubacterium ramulus ATCC 29099	155
-Microbe//Eubacterium brachy ATCC 33089	156
-Microbe//Blautia wexlerae DSM 19850	157
-Microbe//Mesorhizobium loti MAFF303099	158
-Microbe//Prevotella bryantii  C21a	159
-Microbe//Ruminococcus gauvreauii DSM 19829	160
-Microbe//Finegoldia magna ATCC 29328	161
-Microbe//Pseudomonas aeruginosa NCGM2.S1	162
-Reaction//DASYN120	163
-Microbe//Corynebacterium aurimucosum ATCC 700975	164
-Microbe//Sphingomonas paucimobilis HER1398	165
-Reaction//3OAR12M14	166
-Microbe//Microbacterium gubbeenense  DSM 15944	167
-Microbe//Holdemania filiformis VPI J1-31B-1, DSM 12042	168
-Microbe//Campylobacter lari RM2100	169
-Microbe//Burkholderia cepacia GG4	170
-Microbe//Brevibacillus borstelensis AK1	171
-Microbe//Bacteroides thetaiotaomicron VPI-5482	172
-Microbe//Campylobacter gracilis RM3268	173
-Reaction//RBFK	174
-Reaction//GLYASN1c	175
-Microbe//Fusobacterium nucleatum subsp. animalis 3_1_33	176
-Metabolite//HMDB0001416	177
-Chemical//DB00959	178
-Microbe//Citrobacter koseri ATCC BAA-895	179
-Microbe//Anaerostipes caccae DSM 14662	180
-Microbe//Bifidobacterium scardovii JCM 12489 = DSM 13734	181
-Metabolite//proteinsynth	182
-Microbe//Rhodococcus equi NBRC 101255 = C 7	183
-Microbe//Bacteroides sp. 1_1_6	184
-Microbe//Bacillus amyloliquefaciens DSM7	185
-Microbe//Roseburia inulinivorans DSM 16841	186
-Reaction//CTPS2	187
-Microbe//Helicobacter pullorum MIT 98-5489	188
-Metabolite//HMDB0000939	189
-Microbe//Methyloversatilis universalis Fam500	190
-Reaction//Cuabc	191
-Microbe//Acidaminococcus intestini RyC-MR95	192
-Microbe//Listeria monocytogenes 4b F2365	193
-Microbe//Serratia liquefaciens ATCC 27592	194
-Microbe//Faecalibacterium prausnitzii L2-6	195
-Microbe//Aeromonas media WS	196
-Microbe//Bacillus timonensis 10403023	197
-Microbe//Filifactor alocis ATCC 35896	198
-Reaction//DASYNI17	199
-Microbe//Lactobacillus casei casei BL23	200
-Microbe//Bifidobacterium longum NCC2705	201
-Microbe//Ruminococcus bromii L2-63	202
-Microbe//Streptococcus gordonii str. Challis substr. CH1	203
-Microbe//Clostridium tyrobutyricum DSM 2637 = ATCC 25755 = JCM 11008	204
-Microbe//Clostridium cellobioparum DSM 1351 = ATCC 15832	205
-Microbe//Acinetobacter lwoffii WJ10621	206
-Microbe//Bacteroides sp. 3_1_33FAA	207
-Microbe//Staphylococcus lugdunensis HKU09-01	208
-Microbe//Collinsella tanakaei YIT 12063	209
-Microbe//Yersinia rohdei ATCC 43380	210
-Reaction//METALA1c	211
-Microbe//Streptococcus oralis Uo5	212
-Microbe//Clostridium hylemonae DSM 15053	213
-Reaction//GLYMETabc	214
-Microbe//Vibrio fluvialis I21563	215
-Microbe//Streptococcus lutetiensis 033	216
-Microbe//Vibrio furnissii NCTC 11218	217
-Microbe//Mycobacterium fortuitum subsp. fortuitum DSM 46621	218
-Microbe//Vibrio parahaemolyticus RIMD 2210633	219
-Metabolite//3hhexACP	220
-Microbe//Vibrio fluvialis 560	221
-Microbe//Neisseria mucosa ATCC 25996	222
-Microbe//Bacteroides fragilis NCTC 9343	223
-Microbe//Listeria monocytogenes serotype 7 SLCC 2482	224
-Microbe//Enterococcus gallinarum EG2	225
-Microbe//Shigella sonnei Ss046	226
-Microbe//Bradyrhizobium elkanii USDA 76	227
-Microbe//Paraprevotella clara YIT 11840	228
-Microbe//Clostridium glycolicum ATCC 14880 = DSM 1288	229
-Metabolite//HMDB0000218	230
-Microbe//Campylobacter concisus 13826	231
-Metabolite//triphosphate(5-)	232
-Microbe//Listeria monocytogenes SLCC2540	233
-Microbe//Kytococcus sedentarius DSM 20547	234
-Reaction//URIDK3	235
-Metabolite//cdpdihpdecg	236
-Microbe//Yersinia frederiksenii ATCC 33641	237
-Reaction//3OAR60	238
-Microbe//Bacillus vallismortis DV1-F-3	239
-Microbe//Clostridium butyricum E4 str. BoNT E BL5262	240
-Microbe//Yersinia enterocolitica subsp. enterocolitica 8081	241
-Microbe//Erysipelotrichaceae bacterium 5_2_54FAA	242
-Microbe//Aeromonas hydrophila subsp. hydrophila ATCC 7966	243
-Microbe//Oceanobacillus picturae strain S1	244
-Microbe//Gordonia terrae NBRC 100016	245
-Microbe//Faecalibacterium prausnitzii A2-165	246
-Microbe//Eubacterium ventriosum ATCC 27560	247
-Microbe//Bacillus endophyticus 2102	248
-Metabolite//HMDB0000132	249
-Chemical//DB00993	250
-Microbe//Akkermansia muciniphila ATCC BAA-835	251
-Microbe//Bacillus licheniformis ATCC 14580	252
-Microbe//Lactobacillus brevis subsp. gravesensis ATCC 27305	253
-Microbe//Clostridium celatum DSM 1785	254
-Microbe//Bartonella quintana Toulouse	255
-Microbe//Roseburia intestinalis L1-82	256
-Microbe//Ruminococcus albus 7 = DSM 20455	257
-Microbe//Mycobacterium avium subsp. avium ATCC 25291	258
-Microbe//Clostridium ramosum VPI 0427, DSM 1402	259
-Reaction//DASYN181	260
-Metabolite//HMDB0001409	261
-Microbe//Bifidobacterium longum longum CCUG 52486	262
-Reaction//IMPC	263
-Microbe//Clostridium hiranonis TO-931 DSM 13275	264
-Microbe//Campylobacter curvus 525.92	265
-Microbe//Bacteroides sp. 4_3_47FAA	266
-Microbe//Bacteroides fluxus YIT 12057	267
-Reaction//NADK2	268
-Microbe//Bacteroides fragilis 638R	269
-Microbe//Salmonella enterica enterica sv Typhimurium LT2	270
-Reaction//ALAGLU1c	271
-Reaction//UGMDDS	272
-Microbe//Streptococcus parauberis KCTC 11537	273
-Metabolite//HMDB0000538	274
-Microbe//Microbacterium paraoxydans 77MFTsu3.2	275
-Metabolite//HMDB0001354	276
-Microbe//Tatumella ptyseos ATCC 33301	277
-Reaction//GLYPHEHYc	278
-Microbe//Campylobacter rectus RM3267	279
-Microbe//Clostridium symbiosum ATCC 14940	280
-Reaction//GAPD	281
-Microbe//Lactobacillus buchneri ATCC 11577	282
-Microbe//Bifidobacterium thermophilum RBL67	283
-Microbe//Campylobacter coli JV20	284
-Microbe//Olsenella uli DSM 7084	285
-Microbe//Succinivibrio dextrinosolvens H5	286
-Microbe//Propionibacterium granulosum DSM 20700	287
-Metabolite//8m3hdcaACP	288
-Microbe//Slackia piriformis YIT 12062	289
-Microbe//Bacillus subtilis str. 168	290
-Reaction//3OAR8M9	291
-Microbe//Listeria monocytogenes J0161, FSL R2-499	292
-Metabolite//HMDB0003276	293
-Microbe//Weissella confusa LBAE C39-2	294
-Reaction//FBA	295
-Microbe//Veillonella parvula Te3, DSM 2008	296
-Microbe//Lactobacillus reuteri MM4-1A	297
-Microbe//Clostridium bolteae ATCC BAA-613	298
-Reaction//3OAR6M8	299
-Microbe//Enterobacter asburiae LF7a	300
-Microbe//Bacteroides coprocola M16, DSM 17136	301
-Microbe//Cronobacter sakazakii ATCC BAA-894	302
-Microbe//Clostridium acetobutylicum ATCC 824	303
-Microbe//Bacteroides sp. 1_1_30	304
-Microbe//Ruminococcus lactaris ATCC 29176	305
-Microbe//Serratia marcescens Db11	306
-Microbe//Parabacteroides gordonii DSM 23371	307
-Microbe//Ruminococcus obeum A2-162	308
-Microbe//Clostridium difficile R20291	309
-Microbe//Lactobacillus salivarius HO66, ATCC 11741	310
-Microbe//Pseudomonas oleovorans MOIL14HWK12	311
-Microbe//Enterobacteriaceae bacterium 9_2_54FAA	312
-Microbe//Citrobacter freundii UCI 31	313
-Reaction//FE2abc	314
-Microbe//Bacteroides cellulosilyticus DSM 14838	315
-Microbe//Hafnia alvei ATCC 51873	316
-Microbe//Megamonas funiformis YIT 11815	317
-Microbe//Bordetella hinzii OH87 BAL007II	318
-Microbe//Anaerofustis stercorihominis DSM 17244	319
-Microbe//Lactobacillus acidophilus NCFM	320
-Microbe//Pseudomonas monteilii NBRC 103158 = DSM 14164	321
-Microbe//Escherichia coli O157:H7 str. Sakai	322
-Reaction//IMPD	323
-Microbe//Aeromonas caviae Ae398	324
-Microbe//Providencia rustigianii DSM 4541	325
-Microbe//Rhodococcus equi ATCC 33707	326
-Microbe//Anaerobaculum hydrogeniformans OS1, ATCC BAA-1850	327
-Microbe//Escherichia coli SE11	328
-Reaction//3OAR40	329
-Microbe//Silanimonas lenta DSM 16282	330
-Microbe//Corynebacterium propinquum DSM 44285	331
-Microbe//Prevotella intermedia 17	332
-Microbe//Citrobacter amalonaticus Y19	333
-Microbe//Rudanella lutea DSM 19387	334
-Microbe//Prevotella bryantii B14	335
-Microbe//Yersinia kristensenii ATCC 33638	336
-Microbe//Bacteroides dorei DSM 17855	337
-Microbe//Citrobacter freundii ATCC 8090 = MTCC 1658	338
-Microbe//Kurthia massiliensis JC30	339
-Reaction//PIabc	340
-Microbe//Anaerobiospirillum succiniciproducens DSM 64000	341
-Microbe//Campylobacter fetus subsp. fetus 82-40	342
-Microbe//Ruminococcus torques ATCC 27756	343
-Microbe//Eggerthella lenta DSM 2243	344
-Microbe//Clostridium hathewayi DSM 13479	345
-Microbe//Blautia hydrogenotrophica DSM 10507	346
-Microbe//Bifidobacterium bifidum PRL2010	347
-Microbe//Prevotella copri CB7, DSM 18205	348
-Reaction//CBPS	349
-Reaction//ALAALA	350
-Microbe//Veillonella dispar ATCC 17748	351
-Microbe//Escherichia hermannii NBRC 105704	352
-Microbe//Clostridium botulinum A str. ATCC 19397	353
-Metabolite//HMDB0000638	354
-Microbe//Providencia stuartii ATCC 25827	355
-Microbe//Lactobacillus plantarum subsp. plantarum ATCC 14917	356
-Microbe//Enterococcus cecorum DSM 20682 = ATCC 43198	357
-Microbe//Listeria monocytogenes Finland 1988	358
-Microbe//Streptococcus equinus ATCC 9812	359
-Microbe//Eubacterium biforme DSM 3989	360
-Reaction//3OAR12M13	361
-Microbe//Roseomonas mucosa ATCC BAA-692	362
-Microbe//Bacteroides ureolyticus DSM 20703	363
-Microbe//Bacillus thuringiensis serovar thuringiensis str. T01001	364
-Microbe//Bacteroides sp. 2_1_22	365
-Microbe//Fusobacterium sp. 4_8	366
-Microbe//Coprococcus eutactus ATCC 27759	367
-Reaction//ADSS	368
-Microbe//Streptococcus intermedius JTH08	369
-Microbe//Staphylococcus pettenkoferi VCU012	370
-Metabolite//fa11coa, Iso-C17:0 CoA   Isoheptadecanoyl-CoA	371
-Microbe//Neisseria subflava NJ9703	372
-Microbe//Lysinibacillus sphaericus C3-41	373
-Metabolite//ITP(3-)	374
-Metabolite//3hpalmACP	375
-Microbe//Dorea longicatena DSM 13814	376
-Reaction//ALAGLN1c	377
-Disease//MONDO:0005147	378
-Reaction//UAGPT3	379
-Microbe//Eubacterium eligens ATCC 27750	380
-Microbe//Collinsella intestinalis DSM 13280	381
-Metabolite//HMDB0000547	382
-Microbe//Peptoniphilus indolicus ATCC 29427	383
-Reaction//TRDRr	384
-Reaction//3OAR8M10	385
-Microbe//Clostridium botulinum F str. 230613	386
-Metabolite//PGPm1	387
-Microbe//Bifidobacterium longum longum JCM 1217	388
-Reaction//3OAR4M6	389
-Microbe//Eubacterium hallii DSM 3353	390
-Microbe//Pseudomonas nitroreducens HBP1	391
-Metabolite//HMDB0001586	392
-Reaction//3OAR10M11	393
-Microbe//Lactobacillus reuteri SD2112, ATCC 55730	394
-Microbe//Clostridium symbiosum WAL-14673	395
-Microbe//Klebsiella pneumoniae pneumoniae MGH78578	396
-Microbe//Bacteroides salyersiae WAL 10018 = DSM 18765 = JCM 12988	397
-Microbe//Nevskia ramosa DSM 11499	398
-Microbe//Rothia aeria F0474	399
-Microbe//Staphylococcus arlettae CVD059	400
-Chemical//DB01234	401
-Microbe//Blautia obeum ATCC 29174	402
-Microbe//Enterobacter cancerogenus ATCC 35316	403
-Microbe//Prevotella veroralis DSM 19559	404
-Microbe//Parabacteroides goldsteinii dnLKV18	405
-Microbe//Bacteroides sp. 3_1_23	406
-Microbe//Butyricicoccus pullicaecorum 1.2	407
-Microbe//Enterococcus durans ATCC 6056	408
-Microbe//Klebsiella oxytoca KCTC 1686	409
-Microbe//Faecalibacterium prausnitzii SL3/3	410
-Metabolite//HMDB0000078	411
-Microbe//Campylobacter jejuni jejuni 81-176	412
-Microbe//Clostridium saccharoperbutylacetonicum N1-4(HMT)	413
-Microbe//Haemophilus sputorum CCUG 13788	414
-Microbe//Bacillus cereus AH187 (F4810/72)	415
-Microbe//Eubacterium desmolans ATCC 43058	416
-Microbe//Veillonella sp. 3_1_44	417
-Microbe//Ruminococcus sp. 5_1_39BFAA	418
-Microbe//Paenibacillus barengoltzii G22	419
-Reaction//3OAR11M12	420
-Microbe//Staphylococcus hominis subsp. hominis C80	421
-Metabolite//3odecACP	422
-Microbe//Bradyrhizobium japonicum USDA 6	423
-Reaction//NDPK3	424
-Microbe//Actinomyces viscosus  C505	425
-Reaction//ALAHIS1c	426
-Microbe//Cellulosilyticum lentocellum DSM 5427	427
-Microbe//Shigella dysenteriae Sd197	428
-Microbe//Leuconostoc argentinum KCTC 3773	429
-Microbe//Bifidobacterium breve HPH0326	430
-Reaction//NDPK9	431
-Microbe//Eubacterium cylindroides T2-87	432
-Microbe//Bacteroides sp. 3_1_40A	433
-Reaction//3OAR10M12	434
-Reaction//YUMPS	435
-Microbe//Porphyromonas endodontalis ATCC 35406	436
-Microbe//Clostridium cadaveris AGR2141	437
-Reaction//ALALEU1c	438
-Reaction//E4PD	439
-Microbe//Pseudoramibacter alactolyticus ATCC 23263	440
-Microbe//Megasphaera elsdenii DSM 20460	441
-Microbe//Bacteroides pectinophilus ATCC 43243	442
-Microbe//Streptococcus sp. I-G2	443
-Microbe//Propionibacterium propionicum F0230a	444
-Microbe//Bacteroides sp. 2_1_33B	445
-Microbe//Staphylococcus pasteuri SP1	446
-Metabolite//HMDB0001254	447
-Microbe//Faecalibacterium prausnitzii M21/2	448
-Microbe//Lactobacillus antri DSM 16041	449
-Microbe//Arthrobacter castelli DSM 16402	450
-Microbe//Enterococcus faecalis TX1322	451
-Microbe//Corynebacterium amycolatum SK46	452
-Microbe//Lactobacillus rhamnosus GG, ATCC 53103	453
-Microbe//Prevotella oralis ATCC 33269	454
-Microbe//Escherichia sp. 4_1_40B	455
-Microbe//Bacillus flexus 27Col1.1E	456
-Microbe//Gordonia rubripertincta NBRC 101908	457
-Reaction//GF6PTA	458
-Reaction//3OAR80	459
-Microbe//Prevotella corporis DSM 18810	460
-Metabolite//HMDB0000089	461
-Microbe//Fusobacterium nucleatum subsp. nucleatum ATCC 25586	462
-Reaction//GARFTi	463
-Reaction//3OAR180	464
-Microbe//Staphylococcus simulans ACS-120-V-Sch1	465
-Microbe//Escherichia sp. 3_2_53FAA	466
-Metabolite//HMDB0001206	467
-Microbe//Micromonospora aurantiaca ATCC 27029	468
-Microbe//Lautropia mirabilis ATCC 51599	469
-Microbe//Bacteroides vulgatus ATCC 8482	470
-Microbe//Proteus penneri ATCC 35198	471
-Microbe//Lactobacillus reuteri CF48-3A	472
-Microbe//Ruminococcus champanellensis 18P13	473
-Microbe//Corynebacterium kroppenstedtii DSM 44385	474
-Microbe//Ochrobactrum intermedium LMG 3301	475
-Metabolite//HMDB0001270	476
-Microbe//Dyadobacter fermentans DSM 18053	477
-Microbe//Listeria monocytogenes SLCC2378	478
-Microbe//Prevotella buccae ATCC 33574	479
-Microbe//Streptococcus australis ATCC 700641	480
-Microbe//Clostridium innocuum 2959	481
-Microbe//Anaerostipes hadrus DSM 3319	482
-Microbe//Dyadobacter beijingensis DSM 21582	483
-Reaction//DASYNI15	484
-Microbe//Providencia rettgeri DSM 1131	485
-Microbe//Lactobacillus gastricus PS3	486
-Microbe//Bacteroides oleiciplenus YIT 12058	487
-Reaction//DHORD5	488
-Microbe//Dysgonomonas gadei ATCC BAA-286	489
-Microbe//Haemophilus influenzae R2846	490
-Microbe//Enterococcus asini ATCC 700915	491
-Microbe//Propionibacterium freudenreichii subsp. shermanii CIRM-BIA1	492
-Microbe//Bacillus amyloliquefaciens subsp. amyloliquefaciens DC-12	493
-Microbe//Weissella cibaria KACC 11862	494
-Microbe//Bacteroides sp. 3_1_19	495
-Microbe//Adlercreutzia equolifaciens DSM 19450	496
-Microbe//Fusobacterium ulcerans ATCC 49185	497
-Reaction//O2t	498
-Microbe//Edwardsiella tarda FL6-60	499
-Microbe//Enterococcus casseliflavus ATCC 12755	500
-Chemical//DB00091	501
-Microbe//Listeria monocytogenes 4a L99	502
-Microbe//Clostridium difficile NAP07	503
-Microbe//Bacteroides eggerthii DSM 20697	504
-Metabolite//HMDB0304524	505
-Microbe//Achromobacter xylosoxidans A8	506
-Microbe//Blastococcus massiliensis AP3	507
-Microbe//Bifidobacterium bifidum S17	508
-Microbe//Eggerthia catenaformis OT 569 = DSM 20559	509
-Microbe//Capnocytophaga granulosa ATCC 51502	510
-Microbe//Cetobacterium somerae ATCC BAA-474	511
-Microbe//Clostridium citroniae WAL-17108	512
-Microbe//Parabacteroides sp. D13	513
-Microbe//Barnesiella intestinihominis YIT 11860	514
-Microbe//Prevotella intermedia ATCC 25611 = DSM 20706	515
-Microbe//Rhodococcus erythropolis PR4	516
-Reaction//ALAGLY1c	517
-Microbe//Lactobacillus hilgardii ATCC 8290	518
-Metabolite//pa160	519
-Microbe//Bifidobacterium longum longum BBMN68	520
-Microbe//Clostridium symbiosum WAL-14163	521
-Microbe//Trabulsiella guamensis ATCC 49490	522
-Microbe//Acinetobacter baumannii AB0057	523
-Metabolite//HMDB0001347	524
-Microbe//Comamonas testosteroni CNB-2	525
-Microbe//Leuconostoc lactis KACC 91922	526
-Microbe//Kocuria rhizophila DC2201	527
-Microbe//Lactobacillus plantarum JDM1	528
-Microbe//Bifidobacterium longum E18	529
-Microbe//Campylobacter showae CSUNSWCD	530
-Reaction//DASYNI16	531
-Microbe//Prevotella shahii JCM 12083	532
-Microbe//Bifidobacterium stercoris DSM 24849	533
-Metabolite//HMDB0000168	534
-Microbe//Streptococcus sp. I-P16	535
-Microbe//Streptococcus parasanguinis ATCC 903	536
-Microbe//Ruminococcus gnavus ATCC 29149	537
-Microbe//Bacillus clausii KSM-K16	538
-Microbe//Bifidobacterium mongoliense DSM 21395	539
-Microbe//Bacillus nealsonii AAU1	540
-Microbe//Brevibacillus agri BAB-2500	541
-Microbe//Serratia fonticola RB-25	542
-Microbe//Mitsuokella multacida DSM 20544	543
-Microbe//Paenibacillus alvei DSM 29	544
-Metabolite//HMDB0000300	545
-Microbe//Bacteroides ovatus ATCC 8483	546
-Microbe//Vibrio mimicus MB-451	547
-Microbe//Paenibacillus daejeonensis DSM 15491	548
-Microbe//Lactobacillus acidophilus ATCC 4796	549
-Microbe//Alistipes onderdonkii DSM 19147	550
-Microbe//Streptococcus thoraltensis DSM 12221	551
-Microbe//Lactobacillus animalis KCTC 3501	552
-Microbe//Actinobacillus pleuropneumoniae L20	553
-Microbe//Marvinbryantia formatexigens I-52, DSM 14469	554
-Microbe//Pseudomonas stutzeri DSM 4166	555
-Microbe//Proteus mirabilis ATCC 29906	556
-Microbe//Bacteroides sp. D22	557
-Microbe//Lactobacillus casei ATCC 334	558
-Reaction//MTHFC	559
-Microbe//Bacteroides xylanisolvens SD CC 1b	560
-Reaction//UMPK	561
-Microbe//Gordonia terrae C-6	562
-Reaction//GK1	563
-Microbe//Moraxella catarrhalis RH4	564
-Microbe//Campylobacter upsaliensis JV21	565
-Metabolite//HMDB0000243	566
-Metabolite//glyglu	567
-Reaction//PAPPT2	568
-Metabolite//glygln	569
-Reaction//NDPK8	570
-Microbe//Methyloversatilis universalis FAM5	571
-Chemical//DB11998	572
-Microbe//Campylobacter jejuni jejuni NCTC 11168	573
-Microbe//Actinomyces graevenitzii  C83	574
-Microbe//Kocuria palustris PEL	575
-Metabolite//pai16	576
-Metabolite//15m3opalmACP	577
-Microbe//Prevotella loescheii DSM 19665 = JCM 12249 = ATCC 15930	578
-Microbe//Pediococcus acidilactici 7_4	579
-Reaction//RPE	580
-Microbe//Enterococcus faecalis TX2134	581
-Microbe//Desulfovibrio piger ATCC 29098	582
-Microbe//Clostridium sporosphaeroides DSM 1294	583
-Reaction//PGK	584
-Microbe//Micrococcus luteus NCTC 2665	585
-Microbe//Bacteroides sp. 2_2_4	586
-Microbe//Ureibacillus thermosphaericus str. Thermo-BF	587
-Microbe//Lactobacillus salivarius salivarius UCC118	588
-Microbe//Bacteroides pyogenes DSM20611	589
-Microbe//Staphylococcus warneri SG1	590
-Microbe//Streptococcus vestibularis F0396	591
-Microbe//Paracoccus yeei ATCC BAA-599	592
-Metabolite//HMDB0001367	593
-Microbe//Lactobacillus pentosus KCA1	594
-Metabolite//HMDB0001448	595
-Reaction//TPI	596
-Microbe//Acinetobacter calcoaceticus PHEA-2	597
-Microbe//Propionibacterium avidum 44067	598
-Microbe//Alloprevotella tannerae ATCC 51259	599
-Reaction//DUTPDP	600
-Microbe//Lactobacillus delbrueckii subsp. bulgaricus ATCC 11842	601
-Microbe//Clostridium botulinum Bf	602
-Microbe//Bacteroides faecis MAJ27	603
-Microbe//Propionibacterium acidipropionici ATCC 4875	604
-Microbe//Clostridium nexile DSM 1787	605
-Microbe//Bacillus atrophaeus ATCC 49822-1	606
-Microbe//Peptostreptococcus anaerobius DSM 2949	607
-Microbe//Campylobacter hyointestinalis subsp. hyointestinalis LMG 9260	608
-Metabolite//HMDB0000042	609
-Microbe//Capnocytophaga ochracea DSM 7271	610
-Microbe//Parabacteroides johnsonii DSM 18315	611
-Metabolite//l2a6o	612
-Microbe//Clostridium clostridioforme CM201	613
-Microbe//Clostridium botulinum A str. ATCC 3502	614
-Microbe//Bacteroides sp. D20	615
-Microbe//Kandleria vitulina DSM 20405	616
-Microbe//Streptococcus cristatus ATCC 51100	617
-Microbe//Agrobacterium tumefaciens F2	618
-Metabolite//HMDB0000797	619
-Microbe//Fusobacterium necrophorum D12	620
-Microbe//Atopobium minutum 10063974	621
-Reaction//CTPS1	622
-Reaction//PPCDC	623
-Microbe//Yersinia bercovieri ATCC 43970	624
-Microbe//Aneurinibacillus aneurinilyticus ATCC 12856	625
-Microbe//Clostridium sartagoforme AAU1	626
-Metabolite//3ooctACP	627
-Metabolite//udcpp	628
-Microbe//Acinetobacter pittii ANC 4052	629
-Microbe//Alcaligenes faecalis subsp. faecalis NCIB 8687	630
-Microbe//Bacteroides sp. 3_2_5	631
-Microbe//Enterococcus faecium TX1330	632
-Microbe//Streptococcus uberis 0140J	633
-Reaction//3OAR15M16	634
-Microbe//Schlesneria paludicola DSM 18645	635
-Reaction//GLYASP1c	636
-Microbe//Klebsiella sp. 1_1_55	637
-Microbe//Desulfovibrio desulfuricans subsp. desulfuricans DSM 642	638
-Reaction//PAPPT3	639
-Metabolite//pai14	640
-Reaction//GLYPROPRO1c	641
-Microbe//Lachnospiraceae bacterium sp. 5_1_63FAA	642
-Microbe//Weissella paramesenteroides ATCC 33313	643
-Microbe//Morganella morganii subsp. morganii KT	644
-Reaction//ALATHR1c	645
-Microbe//Hafnia alvei BIDMC 31	646
-Microbe//Grimontia hollisae CIP 101886	647
-Microbe//Brevundimonas bacteroides DSM 4726	648
-Reaction//ENO	649
-Microbe//Rothia dentocariosa ATCC 17931	650
-Metabolite//HMDB0001016	651
-Microbe//Fusobacterium varium ATCC 27725	652
-Microbe//Listeria monocytogenes SLCC7179	653
-Metabolite//HMDB0028853	654
-Microbe//Edwardsiella tarda ATCC 23685	655
-Microbe//Bifidobacterium coryneforme DSM 20216	656
-Metabolite//HMDB0006273	657
-Metabolite//HMDB0000972	658
-Microbe//Bacteroides stercoris ATCC 43183	659
-Microbe//Lactobacillus oris F0423	660
-Reaction//UAGCVT_r	661
-Microbe//Clostridium sp. L2-50	662
-Microbe//Exiguobacterium aurantiacum DSM 6208	663
-Microbe//Bifidobacterium catenulatum DSM 16992	664
-Microbe//Prevotella disiens FB035-09AN	665
-Metabolite//HMDB0000226	666
-Microbe//Lactobacillus brevis ATCC 367	667
-Microbe//Pediococcus pentosaceus ATCC 25745	668
-Reaction//DHFS	669
-Microbe//Staphylococcus capitis CR01	670
-Reaction//AIRC4	671
-Microbe//Bacillus pumilus ATCC 7061	672
-Metabolite//HMDB0028686	673
-Microbe//Lactobacillus paracasei subsp. paracasei 8700:2	674
-Microbe//Bacteroides massiliensis B846dnLKV334 = Timone 84634 = DSM 17679 = JCM 13223	675
-Microbe//Neisseria macacae ATCC 33926	676
-Microbe//Bacteroides eggerthii 1_2_48FAA	677
-Metabolite//6m3oocACP	678
-Microbe//Abiotrophia defectiva ATCC 49176	679
-Reaction//ACPS1	680
-Microbe//Enterobacter hormaechei YT2	681
-Microbe//Bacillus altitudinis 41KF2b	682
-Microbe//Lactobacillus fermentum IFO 3956	683
-Microbe//Acinetobacter radioresistens NIPH 2130	684
-Reaction//DASYNI14	685
-Microbe//Clostridium sporogenes ATCC 15579	686
-Metabolite//3oddecACP	687
-Microbe//Succinatimonas hippei YIT 12066	688
-Reaction//OMPDC	689
-Reaction//r0345	690
-Microbe//Acinetobacter haemolyticus NIPH 261	691
-Reaction//NADS2	692
-Microbe//Actinomyces naeslundii str. Howell 279	693
-Microbe//Campylobacter hominis ATCC BAA-381	694
-Microbe//Lactobacillus reuteri F275, JCM 1112	695
-Reaction//ADSL1r	696
-Reaction//GLYMET1c	697
-Microbe//Streptococcus agalactiae A909	698
-Metabolite//HMDB0001341	699
-Microbe//Pseudomonas monteilii QM	700
-Microbe//Streptococcus sanguinis SK36	701
-Microbe//Ochrobactrum anthropi ATCC 49188	702
-Microbe//Parabacteroides merdae ATCC 43184	703
-Microbe//Brochothrix thermosphacta DSM 20171 = FSL F6-1036	704
-Microbe//Ruminococcus sp. SR1/5	705
-Microbe//Burkholderiales bacterium 1_1_47	706
-Metabolite//HMDB0001274	707
-Metabolite//3opalmACP	708
-Microbe//Prevotella bivia DSM 20514	709
-Microbe//Fusobacterium gonidiaformans 3-1-5R	710
-Reaction//MG2abc	711
-Metabolite//HMDB0000586	712
-Reaction//3OAR6M7	713
-Microbe//Pediococcus acidilactici DSM 20284	714
-Metabolite//1ihpdecg3p	715
-Microbe//Actinomyces urogenitalis DSM 15434	716
-Microbe//Microbacterium oleivorans NBRC 103075	717
-Metabolite//HMDB0006899	718
-Microbe//Enterobacter hormaechei YT3	719
-Microbe//Coprococcus catus GD/7	720
-Microbe//Staphylococcus equorum subsp. equorum Mu2	721
-Microbe//Achromobacter xylosoxidans NBRC 15126 = ATCC 27061	722
-Microbe//Plesiomonas shigelloides 302-73	723
-Microbe//Brevibacterium massiliense 5401308	724
-Microbe//Bifidobacterium angulatum DSM 20098	725
-Microbe//Prevotella denticola DSM20614	726
-Microbe//Mitsuokella jalaludinii DSM 13811	727
-Microbe//Anaerococcus hydrogenalis DSM 7454	728
-Microbe//Streptococcus salivarius JIM8777	729
-Reaction//3OAR14M15	730
-Microbe//Fusobacterium nucleatum subsp. vincentii 3_1_36A2	731
-Microbe//Prevotella nigrescens ATCC 33563	732
-Metabolite//HMDB0000608	733
-Metabolite//HMDB0001546	734
-Metabolite//3hoctACP	735
-Microbe//Prevotella denticola F0289	736
-Microbe//Neisseria cinerea ATCC 14685	737
-Microbe//Staphylococcus cohnii hu-01	738
-Microbe//Clostridium scindens ATCC 35704	739
-Metabolite//rnatrans	740
-Microbe//Enterobacter cloacae EcWSU1	741
-Reaction//3OAR160	742
-Microbe//Capnocytophaga sputigena ATCC 33612	743
-Reaction//3OAR120	744
-Microbe//Streptococcus gallolyticus subsp. gallolyticus ATCC 43143	745
-Microbe//Staphylococcus epidermidis ATCC 12228	746
-Microbe//Paenibacillus graminis C4D1M	747
-Metabolite//HMDB0003125	748
-Microbe//Prevotella albensis DSM 11370	749
-Microbe//Escherichia fergusonii ATCC 35469	750
-Microbe//Bacteroides sp. D2	751
-Microbe//Ruminococcus flavefaciens FD-1	752
-Metabolite//cdpdtdec7eg	753
-Microbe//Clostridium difficile NAP08	754
-Microbe//Lactobacillus fermentum ATCC 14931	755
-Reaction//ASNt2r	756
-Microbe//Collinsella stercoris DSM 13279	757
-Microbe//Mogibacterium timidum ATCC 33093	758
-Microbe//Ruminococcus flavefaciens ATCC 19208	759
-Microbe//Brevibacillus agri 5-2	760
-Microbe//Eubacterium hallii L2-7	761
-Microbe//Leuconostoc gelidum JB7	762
-Metabolite//HMDB0028836	763
-Microbe//Bacillus mojavensis RO-H-1 = KCTC 3706	764
-Metabolite//HMDB0001508	765
-Reaction//CO2t	766
-Reaction//OROTPT	767
-Microbe//Bacteroides sp. 4_1_36	768
-Microbe//Geobacillus vulcani PSS1	769
-Metabolite//HMDB0028683	770
-Microbe//Alistipes shahii WAL 8301	771
-Microbe//Bacillus mycoides  DSM 2048	772
-Metabolite//10m3oddcaACP	773
-Reaction//DASYN180	774
-Reaction//GLNS	775
-Microbe//Staphylococcus sciuri subsp. sciuri Z8	776
-Microbe//Dietzia cinnamea P4	777
-Microbe//Aggregatibacter aphrophilus NJ8700	778
-Reaction//NDPK6	779
-Metabolite//HMDB0001533	780
-Reaction//UAPGR	781
-Reaction//ADK2	782
-Reaction//UDCPDP	783
-Microbe//Blautia producta DSM 2950	784
-Metabolite//11m3hddcaACP	785
-Microbe//Clostridium asparagiforme DSM 15981	786
-Metabolite//HMDB0000464	787
-Microbe//Bacteroides graminisolvens DSM 19988	788
-Metabolite//HMDB0001112	789
-Microbe//Lactobacillus amylovorus GRL 1112	790
-Metabolite//L-lysinium(1+)	791
-Microbe//Spirosoma linguale DSM 74	792
-Microbe//Methylobacterium populi BJ001	793
-Metabolite//HMDB0001245	794
-Microbe//Bacillus infantis NRRL B-14911	795
-Microbe//Bifidobacterium kashiwanohense DSM 21854	796
-Microbe//Enterococcus caccae ATCC BAA-1240	797
-Microbe//Enterococcus faecalis OG1RF, ATCC 47077	798
-Microbe//Bifidobacterium longum longum ATCC 55813	799
-Microbe//Streptococcus peroris ATCC 700780	800
-Microbe//Streptococcus pyogenes MGAS9429	801
-Metabolite//Reduced thioredoxin	802
-Microbe//Escherichia coli UTI89 (UPEC)	803
-Microbe//Bacteroides sp. 1_1_14	804
-Microbe//Acinetobacter junii SH205	805
-Reaction//UAMAGS	806
-Microbe//Bifidobacterium dentium ATCC 27678	807
-Reaction//PYK	808
-Metabolite//HMDB0000175	809
-Microbe//Campylobacter jejuni jejuni M1	810
-Chemical//DB00620	811
-Metabolite//dAMP(2-)	812
-Metabolite//cdpdodecg	813
-Reaction//PEPGLY	814
-Microbe//Parasutterella excrementihominis YIT 11859	815
-Metabolite//HMDB0015531	816
-Reaction//NADK	817
-Reaction//GLYLEUHYDROc	818
-Microbe//Coprococcus comes ATCC 27758	819
-Metabolite//1odecg3p	820
-Metabolite//pa181	821
-Microbe//Clostridium saccharogumia DSM 17460	822
-Microbe//Enterococcus hirae ATCC 9790	823
-Microbe//Lachnospiraceae bacterium sp. 8_1_57FAA	824
-Microbe//Neisseria flavescens SK114	825
-Metabolite//HMDB0001185	826
-Microbe//Leuconostoc mesenteroides subsp. cremoris ATCC 19254	827
-Microbe//Leptotrichia buccalis C-1013-b	828
-Metabolite//HMDB0000123	829
-Microbe//Prevotella timonensis CRIS 5C-B1	830
-Metabolite//fa4coa,Anteiso-C15:0 CoA   Anteisopentadecanoyl-CoA	831
-Metabolite//HMDB0000122	832
-Microbe//Eubacterium siraeum 70/3	833
-Reaction//NDPK4	834
-Microbe//Corynebacterium striatum ATCC 6940	835
-Microbe//Geobacillus stearothermophilus ATCC 7953	836
-Microbe//Eubacterium sulci ATCC 35585	837
-Microbe//Bilophila wadsworthia 3_1_6	838
-Microbe//Methylobacterium mesophilicum SR1.6/6	839
-Microbe//Slackia exigua ATCC 700122	840
-Metabolite//HMDB0001271	841
-Microbe//Lactobacillus mucosae LM1	842
-Microbe//Enterococcus sp. 7L76	843
-Microbe//Bifidobacterium longum DJO10A	844
-Reaction//GRTT	845
-Microbe//Eubacterium limosum KIST612	846
-Microbe//Escherichia coli str. K-12 substr. MG1655	847
-Microbe//Stoquefichus massiliensis AP9	848
-Metabolite//3hddecACP	849
-Microbe//Lactobacillus reuteri MM2-3	850
-Metabolite//HMDB0000177	851
-Microbe//Pseudomonas alcaliphila 34	852
-Reaction//PRPPS	853
-Microbe//Fusobacterium nucleatum subsp. animalis D11	854
-Microbe//Eubacterium rectale ATCC 33656	855
-Metabolite//6m3hocACP	856
-Reaction//NDPK7	857
-Microbe//Ruminococcus torques L2-14	858
-Reaction//3OAR100	859
-Microbe//Bifidobacterium bifidum BGN4	860
-Microbe//Bacillus megaterium DSM319	861
-Microbe//Coprobacillus sp. D7	862
-Metabolite//pa141	863
-Reaction//NDPK5	864
-Microbe//Brevibacterium casei S18	865
-Microbe//Prevotella enoeca  JCM 12259	866
-Metabolite//cdpdihdecg	867
-Microbe//Eikenella corrodens ATCC 23834	868
-Microbe//Clostridium clariflavum DSM 19732	869
-Microbe//Tannerella forsythia ATCC 43037	870
-Microbe//Clostridium viride DSM 6836	871
-Microbe//Eubacterium siraeum DSM 15702	872
-Reaction//PRO1x	873
-Metabolite//1hdecg3p	874
-Reaction//CDPMEK	875
-Microbe//Bifidobacterium longum infantis ATCC 15697	876
-Microbe//Clostridium sticklandii DSM 519	877
-Microbe//Lactococcus raffinolactis 4877	878
-Metabolite//HMDB0000210	879
-Microbe//Bacteroides caccae ATCC 43185	880
-Microbe//Megamonas hypermegale ART12/1	881
-Reaction//ALAASP1c	882
-Reaction//GLYGLU1c	883
-Microbe//Sutterella wadsworthensis 3_1_45B	884
-Microbe//Yersinia pseudotuberculosis YPIII	885
-Microbe//Fusobacterium nucleatum subsp. vincentii 3_1_27	886
-Metabolite//HMDB0028685	887
-Microbe//Lachnospira multipara ATCC 19207	888
-Reaction//PRAIS	889
-Metabolite//HMDB0000161	890
-Reaction//3OAR7M8	891
-Microbe//Cloacibacillus evryensis DSM 19522	892
-Microbe//Delftia acidovorans SPH-1	893
-Metabolite//HMDB0003349	894
-Metabolite//HMDB0000687	895
-Reaction//BPNT	896
-Microbe//Haemophilus parainfluenzae T3T1	897
-Metabolite//HMDB0001191	898
-Metabolite//Produced biomass	899
-Reaction//PRASCSi	900
-Metabolite//fa12coa,Anteiso-C17:0 CoA   Anteisoheptadecanoyl-CoA	901
-Metabolite//HMDB0000536	902
-Microbe//Clostridium leptum DSM 753	903
-Microbe//Pseudoflavonifractor capillosus strain ATCC 29799	904
-Microbe//Alcaligenes faecalis subsp. faecalis NBRC 13111	905
-Microbe//Prevotella	906
-Microbe//Tropheryma whipplei str. Twist	907
-Metabolite//HMDB0001401	908
-Microbe//Corynebacterium tuberculostearicum SK141	909
-Microbe//Bifidobacterium longum infantis 157F-NC	910
-Microbe//Enterococcus dispar ATCC 51266	911
-Reaction//ADSL2r	912
-Metabolite//HMDB0001520	913
-Metabolite//15m3hpalmACP	914
-Microbe//Gordonibacter pamelaeae 7-10-1-bT, DSM 19378	915
-Reaction//G3PD1	916
-Microbe//Bacillus firmus DS1	917
-Metabolite//HMDB0001201	918
-Microbe//Clostridium paraputrificum AGR2156	919
-Microbe//Enterococcus avium ATCC 14025	920
-Metabolite//HMDB0000208	921
-Microbe//Bacteroides sp. 2_1_7	922
-Microbe//Clostridium beijerinckii NCIMB 8052	923
-Microbe//Clostridium spiroforme DSM 1552	924
-Microbe//Brevibacterium linens BL2	925
-Microbe//Prevotella ruminicola 23	926
-Metabolite//4m3hhexACP	927
-Reaction//THRt2r	928
-Metabolite//HMDB0000217	929
-Reaction//DGK1	930
-Microbe//Streptococcus anginosus 1_2_62CV	931
-Microbe//Staphylococcus xylosus DMB3-Bh1	932
-Microbe//Cedecea davisae DSM 4568	933
-Microbe//Atopobium parvulum DSM 20469	934
-Chemical//DB00635	935
-Microbe//Stenotrophomonas rhizophila PCA13	936
-Metabolite//HMDB0000187	937
-Microbe//Eubacterium rectale M104/1	938
-Metabolite//12m3hmyrsACP	939
-Metabolite//HMDB0000142	940
-Metabolite//12m3omyrsACP	941
-Metabolite//HMDB0000159	942
-Microbe//Aeromonas veronii B565	943
-Microbe//Bacillus cereus G9842	944
-Metabolite//HMDB0001548	945
-Microbe//Fusobacterium russii ATCC 25533	946
-Microbe//Streptococcus equi subsp. equi 4047	947
-Microbe//Clostridium hathewayi 12489931	948
-Microbe//Peptostreptococcus stomatis DSM 17678	949
-Microbe//Lactobacillus helveticus DPC 4571	950
-Metabolite//paai15	951
-Microbe//Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365	952
-Reaction//DASYN140	953
-Metabolite//cdpditdecg	954
-Reaction//MTHFD	955
-Metabolite//HMDB0000167	956
-Metabolite//4m3ohexACP	957
-Microbe//Clostridium botulinum E1 str. 'BoNT E Beluga'	958
-Microbe//Bacteroides sp. 9_1_42FAA	959
-Metabolite//HMDB0000131	960
-Reaction//GLYTYR1c	961
-Reaction//PRAGS	962
-Microbe//Prevotella brevis ATCC 19188	963
-Microbe//Campylobacter jejuni jejuni ICDCCJ07004	964
-Metabolite//pa120	965
-Microbe//Streptococcus mitis NCTC 12261	966
-Microbe//Clostridium sp. SS2/1	967
-Metabolite//HMDB0000254	968
-Reaction//DASYN141	969
-Microbe//Cryptobacterium curtum DSM 15641	970
-Microbe//Bacteroides coprophilus DSM 18228	971
-Metabolite//HMDB0001096	972
-Metabolite//HMDB0003459	973
-Reaction//FMNAT	974
-Metabolite//Oxidized thioredoxin	975
-Metabolite//HMDB0000285	976
-Microbe//Lactobacillus vaginalis ATCC 49540	977
-Microbe//Streptococcus pleomorphus DSM 20574	978
-Metabolite//HMDB0000990	979
-Microbe//Bifidobacterium adolescentis ATCC 15703	980
-Microbe//Bacteroides finegoldii DSM 17565	981
-Microbe//Desulfovibrio sp. 3_1_syn3	982
-Microbe//Blautia hansenii VPI C7-24, DSM 20583	983
-Metabolite//HMDB0000492	984
-Metabolite//HMDB0001377	985
-Microbe//Porphyromonas somerae DSM 23386	986
-Metabolite//HMDB0001109	987
-Microbe//Haemophilus haemolyticus M19501	988
-Metabolite//HMDB0000045	989
-Microbe//Oxalobacter formigenes HOxBLS	990
-Microbe//Eggerthella sp. 1_3_56FAA	991
-Microbe//Curtobacterium flaccumfaciens UCD-AKU	992
-Microbe//Bacillus fordii DSM 16014	993
-Microbe//Clostridium methylpentosum R2, DSM 5476	994
-Microbe//Fusobacterium nucleatum subsp. animalis 7_1	995
-Microbe//Alistipes putredinis DSM 17216	996
-Microbe//Fusobacterium gonidiaformans ATCC 25563	997
-Microbe//Vibrio fluvialis PG41	998
-Microbe//Clostridium perfringens ATCC 13124	999
-Microbe//Bacillus pseudofirmus  OF4	1000
-Microbe//Catenibacterium mitsuokai DSM 15897	1001
-Metabolite//HMDB0028966	1002
-Microbe//Clostridium bifermentans ATCC 19299	1003
-Reaction//GLUTRS	1004
-Reaction//DASYN160	1005
-Metabolite//HMDB0062321	1006
-Reaction//PRFGS	1007
-Microbe//Streptococcus dysgalactiae subsp. dysgalactiae ATCC 27957	1008
-Microbe//Prevotella nanceiensis DSM 19126	1009
-Microbe//Flavonifractor plautii ATCC 29863	1010
-Microbe//Ruminococcus callidus ATCC 27760	1011
-Reaction//DASYNAI15	1012
-Microbe//Veillonella ratti ACS-216-V-Col6b	1013
-Microbe//Arcobacter butzleri RM4018	1014
-Reaction//UAMAS	1015
-Microbe//Bifidobacterium ruminantium DSM 6489	1016
-Metabolite//HMDB0001060	1017
-Reaction//DTMPK	1018
-Metabolite//HMDB0001120	1019
-Metabolite//L-aspartate(1-)	1020
-Microbe//Enterococcus phoeniculicola ATCC BAA-412	1021
-Reaction//ADK1	1022
-Microbe//Butyricimonas synergistica DSM 23225	1023
-Metabolite//HMDB0000124	1024
-Microbe//Clostridium indolis DSM 755	1025
-Microbe//Dorea formicigenerans ATCC 27755	1026
-Reaction//P5CRyr	1027
-Microbe//Bifidobacterium breve UCC2003 (NCIMB8807)	1028
-Microbe//Streptococcus pseudopneumoniae IS7493	1029
-Microbe//Fusobacterium mortiferum ATCC 9817	1030
-Microbe//Bacillus thermoamylovorans	1031
-Metabolite//HMDB0041827	1032
-Reaction//HMR_4261	1033
-Microbe//Clostridium sp. SY8519	1034
-Microbe//Enterococcus faecalis TX0104	1035
-Metabolite//HMDB0000929	1036
-Metabolite//13m3omyrsACP	1037
-Reaction//PTPAT	1038
-BodySite//Large intestine	1039
-Metabolite//HMDB0001273	1040
-Metabolite//HMDB0015532	1041
-Microbe//Helicobacter winghamensis ATCC BAA-430	1042
-Metabolite//HMDB0000695	1043
-Metabolite//HMDB0000288	1044
-Microbe//Stenotrophomonas maltophilia D457	1045
-Microbe//Rothia mucilaginosa DY-18	1046
-Microbe//Collinsella aerofaciens ATCC 25986	1047
-Metabolite//5m3hhexACP	1048
-Metabolite//3hdecACP	1049
-Microbe//Bacteroides timonensis AP1	1050
-Microbe//Atopobium rimae ATCC 49626	1051
-Microbe//Lactobacillus johnsonii DPC 6026	1052
-Microbe//Enterococcus faecalis V583	1053
-Metabolite//HMDB0001397	1054
-Metabolite//HMDB0001333	1055
-Metabolite//HMDB0000162	1056
-Metabolite//HMDB0001532	1057
-Reaction//DASYN161	1058
-Reaction//3OAR9M10	1059
-Microbe//Streptococcus mutans ATCC 25175	1060
-Microbe//Dialister invisus DSM 15470	1061
-Metabolite//dnarep	1062
-Microbe//Acidaminococcus sp. D21	1063
-Microbe//Staphylococcus vitulinus F1028	1064
-Microbe//Staphylococcus aureus subsp. aureus USA300_FPR3757	1065
-Microbe//Olsenella profusa F0195	1066
-Reaction//NDPK2	1067
-Microbe//Bacillus sonorensis L12	1068
-Reaction//NH4tb	1069
-Microbe//Staphylococcus capitis QN1	1070
-Metabolite//pa161	1071
-Microbe//Bifidobacterium pseudocatenulatum DSM 20438	1072
-Metabolite//HMDB0001491	1073
-Reaction//UAGDP	1074
-Reaction//GLUPRT	1075
-Metabolite//10m3hddcaACP	1076
-Microbe//Streptococcus sp. 2_1_36FAA	1077
-Metabolite//HMDB0001248	1078
-Reaction//FPGS_tm	1079
-Microbe//Bacteroides fragilis 3_1_12	1080
-Microbe//Staphylococcus intermedius ATCC 27335	1081
-Metabolite//8m3odcaACP	1082
-Metabolite//HMDB0003391	1083
-Reaction//PGM	1084
-Microbe//Oxalobacter formigenes OXCC13	1085
-Microbe//Prevotella pallens ATCC 700821	1086
-Microbe//Fusobacterium nucleatum subsp. vincentii 4_1_13	1087
-Metabolite//cdpdodec11eg	1088
-Metabolite//HMDB0254435	1089
-Microbe//Streptococcus constellatus subsp. pharyngis SK1060	1090
-Metabolite//HMDB0000574	1091
-Metabolite//HMDB0001227	1092
-Reaction//G1PACT	1093
-Microbe//Lactobacillus curvatus CRL 705	1094
-Reaction//r2137	1095
-Metabolite//HMDB0001440	1096
-Metabolite//HMDB0028847	1097
-Microbe//Dialister succinatiphilus YIT 11850	1098
-Reaction//NNATr	1099
-Microbe//Prevotella timonensis 4401737 = DSM 22865 = JCM 15640	1100
-Reaction//DPCOAK	1101
-Microbe//Lactococcus lactis subsp. lactis Il1403	1102
-Reaction//METAT	1103
-Metabolite//HMDB0000998	1104
-Microbe//Brevibacillus brevis NBRC 100599	1105
-Metabolite//cdpdaipdecg	1106
-Metabolite//HMDB0000759	1107
-Metabolite//HMDB0000641	1108
-Metabolite//pai15	1109
-Reaction//UAAGDS	1110
-Microbe//Eggerthella sp. YY7918	1111
-Metabolite//5m3ohexACP	1112
-Reaction//GK2	1113
-Reaction//L2A6ODs	1114
-Metabolite//HMDB0028689	1115
-Metabolite//HMDB0000295	1116
-Reaction//FE3abc	1117
-Metabolite//HMDB0001179	1118
-Microbe//Peptoniphilus lacrimalis DSM 7455	1119
-Metabolite//HMDB0012289	1120
-Microbe//Peptoniphilus harei ACS-146-V-Sch2b	1121
-Metabolite//HMDB0001342	1122
-Metabolite//HMDB0000692	1123
-Metabolite//HMDB0001488	1124
-Metabolite//cdpdhdec9eg	1125
-Microbe//Bacteroides ovatus SD CC 2a	1126
-Metabolite//HMDB0001058	1127
-Metabolite//HMDB0000961	1128
-Microbe//Prevotella disiens JCM 6334 = ATCC 29426	1129
-Metabolite//HMDB0001439	1130
-Metabolite//HMDB0001301	1131
-Metabolite//L-glutamate(1-)	1132
-Metabolite//adenosine 3,5-bismonophosphate(4-)	1133
-Reaction//DASYNAI17	1134
-Metabolite//acyl carrier protein	1135
-Metabolite//HMDB0028848	1136
-Metabolite//HMDB0000696	1137
-Metabolite//HMDB0000807	1138
-Metabolite//cdpdtdecg	1139
-Metabolite//HMDB0028838	1140
-Metabolite//11m3oddcaACP	1141
-Metabolite//HMDB0001000	1142
-Reaction//ASAD	1143
-Metabolite//HMDB0000221	1144
-Microbe//Roseburia hominis A2-183	1145
-Reaction//H2Ot	1146
-Metabolite//HMDB0001310	1147
-Metabolite//3omrsACP	1148
-Symptom//HP:0002725	1149
-Metabolite//cdpdhdecg	1150
-Metabolite//mql8	1151
-Metabolite//HMDB0000158	1152
-Microbe//Streptococcus infantis ATCC 700779	1153
-Metabolite//pa180	1154
-Metabolite//HMDB0000172	1155
-Metabolite//HMDB0001373	1156
-Metabolite//cdpdddecg	1157
-Metabolite//Myristoyl-ACP (n-C14:0ACP)	1158
-Metabolite//Tetradecanoyl-CoA (n-C14:0CoA)	1159
-Metabolite//HMDB0001321	1160
-Metabolite//cdpdipdecg	1161
-Microbe//Streptococcus infantarius subsp. infantarius ATCC BAA-102	1162
-Metabolite//HMDB0028697	1163
-Metabolite//HMDB0028691	1164
-Metabolite//HMDB0000263	1165
-Metabolite//HMDB0000244	1166
-Metabolite//HMDB0003339	1167
-Metabolite//9m3hdcaACP	1168
-Metabolite//HMDB0001554	1169
-Metabolite//pa140	1170
-Metabolite//7m3hocACP	1171
-Metabolite//14m3opalmACP	1172
-Metabolite//3hmrsACP	1173
-Metabolite//7m3oocACP	1174
-Metabolite//HMDB0000240	1175
-Metabolite//M02377	1176
-Metabolite//HMDB0000157	1177
-Reaction//PGI	1178
-Metabolite//14m3hpalmACP	1179
-Metabolite//HMDB0000721	1180
-Metabolite//HMDB0000280	1181
-Metabolite//HMDB0001235	1182
-Metabolite//9m3odcaACP	1183
-Metabolite//apoprotein [acyl carrier protein]	1184
-Metabolite//D-ribulose 5-phosphate(2-)	1185
-Metabolite//Dodecanoyl-ACP (n-C12:0ACP)	1186
-Metabolite//cdpdaihpdecg	1187
-Metabolite//pai17	1188
-Disease//MONDO:0007915	1189
-Metabolite//HMDB0001213	1190
-Metabolite//HMDB0000034	1191
-Metabolite//HMDB0001132	1192
-Metabolite//HMDB0001051	1193
-Metabolite//IDP(3-)	1194
-Metabolite//HMDB0000223	1195
-Metabolite//HMDB0062762	1196
-Metabolite//1aihpdecg3p	1197
-Metabolite//3ohexACP	1198
-Metabolite//HMDB0001285	1199
+Metabolite//HMDB0001487	0
+Metabolite//HMDB0028837	1
+Metabolite//HMDB0000126	2
+Microbe//Parabacteroides distasonis ATCC 8503	3
+Metabolite//HMDB0000902	4
+Metabolite//HMDB0001423	5
+Metabolite//HMDB0002111	6
+Metabolite//13m3hmyrsACP	7
+Disease//MONDO:0021117	8
+Metabolite//HMDB0000883	9
+Chemical//DB00563	10
+Metabolite//HMDB0001473	11
+Metabolite//HMDB0000095	12
+Metabolite//HMDB0001117	13
+Metabolite//HMDB0000082	14
+Metabolite//HMDB0000250	15
+Metabolite//HMDB0001044	16
+Disease//MONDO:0029000	17
+Metabolite//HMDB0011720	18
+Metabolite//HMDB0001370	19
+Metabolite//HMDB0059597	20
+Metabolite//HMDB0001429	21
+Metabolite//HMDB0001967	22
+Disease//MONDO:0004976	23
+Metabolite//HMDB00595	24
+Metabolite//HMDB0000657	25
+Metabolite//HMDB0001275	26
+Metabolite//HMDB0000286	27
+Microbe//Bacteroides uniformis ATCC 8492	28
+Chemical//DB00860	29
+Microbe//Bacteroides uniformis	30
+Metabolite//HMDB0001469	31
+Metabolite//HMDB0000960	32
+Metabolite//paai17	33
+Microbe//Bacteroides thetaiotaomicron VPI-5482	34
+Metabolite//HMDB0001416	35
+Chemical//DB00959	36
+Metabolite//proteinsynth	37
+Microbe//Bacteroides sp. 1_1_6	38
+Metabolite//HMDB0000939	39
+Disease//MONDO:0100096	40
+Disease//MONDO:0005148	41
+Disease//MONDO:0024644	42
+Chemical//DB00997	43
+Disease//MONDO:0005083	44
+Microbe//Bacteroides fragilis NCTC 9343	45
+Metabolite//triphosphate(5-)	46
+Chemical//D012906	47
+Disease//MONDO:0012788	48
+Metabolite//cdpdihpdecg	49
+Metabolite//uaagmda	50
+Metabolite//fa3coa,Iso-C15:0 CoA   Isopentadecanoyl-CoA	51
+Chemical//DB00993	52
+Metabolite//Palmitoyl-CoA (n-C16:0CoA)	53
+Metabolite//HMDB0001409	54
+Microbe//Bacteroidetes	55
+Microbe//Pseudomonas	56
+Metabolite//HMDB0000538	57
+Metabolite//HMDB0001354	58
+Chemical//D019980	59
+Metabolite//8m3hdcaACP	60
+Metabolite//HMDB0003276	61
+Microbe//Clostridium bolteae ATCC BAA-613	62
+Microbe//Escherichia coli O157:H7 str. Sakai	63
+Chemical//DB00762	64
+Microbe//Bacteroides dorei DSM 17855	65
+Disease//MONDO:0005359	66
+Microbe//Eubacterium biforme DSM 3989	67
+Disease//MONDO:0005071	68
+Chemical//DB00331	69
+Disease//MONDO:0002009	70
+Metabolite//fa11coa, Iso-C17:0 CoA   Isoheptadecanoyl-CoA	71
+Metabolite//ITP(3-)	72
+Chemical//DB00441	73
+Disease//MONDO:0005147	74
+Metabolite//HMDB0000547	75
+Metabolite//PGPm1	76
+Microbe//Eubacterium hallii DSM 3353	77
+Metabolite//HMDB0001586	78
+Chemical//DB01234	79
+Chemical//DB00515	80
+Chemical//D003276	81
+Disease//MONDO:0002492	82
+Metabolite//HMDB0000078	83
+Metabolite//HMDB0001254	84
+Disease//MONDO:0005351	85
+Microbe//Coriobacteriaceae	86
+Disease//MONDO:0005130	87
+Microbe//Escherichia sp. 4_1_40B	88
+Metabolite//HMDB0000089	89
+Microbe//Lactobacillus	90
+Microbe//Escherichia sp. 3_2_53FAA	91
+Metabolite//HMDB0001206	92
+Microbe//Bacteroides vulgatus ATCC 8482	93
+Microbe//Lactobacillus reuteri CF48-3A	94
+Metabolite//HMDB0001270	95
+Metabolite//ugmd	96
+Disease//MONDO:0007256	97
+Chemical//DB01204	98
+Disease//MONDO:0011292	99
+Chemical//DB00091	100
+Microbe//Bacteroides eggerthii DSM 20697	101
+Metabolite//HMDB0304524	102
+Chemical//DB00795	103
+Metabolite//pa160	104
+Metabolite//HMDB0001347	105
+Metabolite//HMDB0000168	106
+Chemical//D008628	107
+Metabolite//HMDB0000300	108
+Microbe//Bacteroides ovatus ATCC 8483	109
+Metabolite//HMDB0002183	110
+Microbe//Lachnospiraceae	111
+Metabolite//uaaGgla	112
+Metabolite//HMDB0000243	113
+Metabolite//glyglu	114
+Metabolite//glygln	115
+Metabolite//pai16	116
+Metabolite//15m3opalmACP	117
+Disease//MONDO:0005010	118
+Disease//MONDO:0011565	119
+Microbe//Eubacterium eligens	120
+Metabolite//HMDB0001448	121
+Microbe//Bulleidia	122
+Disease//MONDO:0005249	123
+Metabolite//PGP	124
+Metabolite//HMDB0000742	125
+Metabolite//HMDB0000042	126
+Metabolite//l2a6o	127
+Metabolite//HMDB0000797	128
+Disease//MONDO:0005306	129
+Metabolite//udcpp	130
+Disease//MONDO:0005468	131
+Disease//MONDO:0007191	132
+Microbe//Megamonas	133
+Metabolite//pai14	134
+Disease//MONDO:0004985	135
+Disease//MONDO:0005267	136
+Metabolite//HMDB0001016	137
+Metabolite//HMDB0000237	138
+Metabolite//HMDB0028853	139
+Metabolite//HMDB0000972	140
+Microbe//Bacteroides stercoris ATCC 43183	141
+Disease//MONDO:0004995	142
+Disease//MONDO:0005180	143
+Metabolite//HMDB0028686	144
+Metabolite//6m3oocACP	145
+Disease//MONDO:0021085	146
+Chemical//DB00531	147
+Metabolite//HMDB0001341	148
+Disease//MONDO:0004981	149
+Metabolite//HMDB0001274	150
+Metabolite//HMDB0000586	151
+Metabolite//1ihpdecg3p	152
+Metabolite//HMDB0006899	153
+Chemical//C010902	154
+Disease//MONDO:0002909	155
+Disease//MONDO:0005101	156
+Metabolite//HMDB0000608	157
+Metabolite//HMDB0001546	158
+Chemical//DB00390	159
+Chemical//D001335	160
+Metabolite//rnatrans	161
+Metabolite//HMDB0003125	162
+Metabolite//cdpdtdec7eg	163
+Metabolite//Octadecanoyl-ACP (n-C18:0ACP)	164
+Metabolite//HMDB0028836	165
+Metabolite//HMDB0001508	166
+Metabolite//HMDB0028683	167
+Metabolite//10m3oddcaACP	168
+Chemical//C434926	169
+Metabolite//HMDB0001533	170
+Disease//MONDO:0005044	171
+Metabolite//11m3hddcaACP	172
+Metabolite//HMDB0000464	173
+Metabolite//HMDB0001112	174
+Metabolite//L-lysinium(1+)	175
+Metabolite//HMDB0001245	176
+Metabolite//Reduced thioredoxin	177
+Microbe//Escherichia coli UTI89 (UPEC)	178
+Metabolite//HMDB0000175	179
+Chemical//DB00620	180
+Disease//MONDO:0005258	181
+Microbe//Streptococcaceae	182
+Metabolite//dAMP(2-)	183
+Metabolite//cdpdodecg	184
+Metabolite//HMDB0015531	185
+Metabolite//1odecg3p	186
+Metabolite//pa181	187
+Metabolite//HMDB0001185	188
+Metabolite//HMDB0000123	189
+Metabolite//fa4coa,Anteiso-C15:0 CoA   Anteisopentadecanoyl-CoA	190
+Chemical//DB00773	191
+Disease//MONDO:0004790	192
+Metabolite//HMDB0001271	193
+Disease//MONDO:0005090	194
+Microbe//Enterococcus sp. 7L76	195
+Microbe//Escherichia coli str. K-12 substr. MG1655	196
+Metabolite//HMDB0000177	197
+Disease//MONDO:0008487	198
+Chemical//C107773	199
+Microbe//Eubacterium rectale ATCC 33656	200
+Metabolite//6m3hocACP	201
+Disease//MONDO:0005109	202
+Metabolite//pa141	203
+Metabolite//cdpdihdecg	204
+Disease//MONDO:0011122	205
+Microbe//Veillonella dispar	206
+Metabolite//HMDB0000210	207
+Metabolite//HMDB0028685	208
+Metabolite//HMDB0000161	209
+Metabolite//HMDB0000687	210
+Metabolite//HMDB0001191	211
+Chemical//DB14681	212
+Metabolite//Produced biomass	213
+Metabolite//D-xylulose 5-phosphate(2-)	214
+Metabolite//fa12coa,Anteiso-C17:0 CoA   Anteisoheptadecanoyl-CoA	215
+Microbe//Prevotella	216
+Metabolite//HMDB0001401	217
+Disease//MONDO:0005275	218
+Metabolite//HMDB0001520	219
+Metabolite//15m3hpalmACP	220
+Metabolite//HMDB0001201	221
+Disease//MONDO:0004970	222
+Metabolite//HMDB0000208	223
+Metabolite//4m3hhexACP	224
+Metabolite//HMDB0000217	225
+Disease//MONDO:0011429	226
+Disease//MONDO:0005096	227
+Metabolite//HMDB0001128	228
+Chemical//DB00635	229
+Metabolite//HMDB0000187	230
+Metabolite//12m3hmyrsACP	231
+Metabolite//HMDB0000142	232
+Metabolite//12m3omyrsACP	233
+Metabolite//HMDB0000159	234
+Microbe//Parabacteroides distasonis	235
+Microbe//Bifidobacterium adolescentis	236
+Metabolite//HMDB0001548	237
+Disease//MONDO:0008383	238
+Disease//MONDO:0005155	239
+Microbe//Streptococcus anginosus	240
+Metabolite//paai15	241
+Metabolite//cdpditdecg	242
+Metabolite//HMDB0000030	243
+Disease//MONDO:0004975	244
+Metabolite//HMDB0000167	245
+Metabolite//4m3ohexACP	246
+Metabolite//HMDB0000131	247
+Metabolite//pa120	248
+Metabolite//HMDB0000121	249
+Disease//MONDO:0009831	250
+Metabolite//HMDB0000254	251
+Microbe//Firmicutes	252
+Metabolite//HMDB0001096	253
+Metabolite//HMDB0003459	254
+Metabolite//Oxidized thioredoxin	255
+Metabolite//HMDB0000285	256
+Metabolite//HMDB0000990	257
+Chemical//C004925	258
+Disease//MONDO:0020745	259
+Chemical//D012964	260
+Metabolite//HMDB0000492	261
+Metabolite//HMDB0001377	262
+Microbe//Veillonella	263
+Disease//MONDO:0005575	264
+Metabolite//HMDB0001109	265
+Chemical//D052638	266
+Metabolite//HMDB0000045	267
+Chemical//D000438	268
+Disease//MONDO:0001106	269
+Disease//MONDO:0005011	270
+Disease//MONDO:0021100	271
+Metabolite//HMDB0000195	272
+Chemical//D000894	273
+Metabolite//HMDB0000235	274
+Chemical//D004390	275
+Metabolite//HMDB0028966	276
+Metabolite//tRNA (Glu)	277
+Metabolite//HMDB0001060	278
+Metabolite//HMDB0001120	279
+Metabolite//L-aspartate(1-)	280
+Metabolite//HMDB0000124	281
+Metabolite//HMDB0000239	282
+Disease//MONDO:0005271	283
+Disease//MONDO:0005300	284
+Disease//MONDO:0005447	285
+Metabolite//HMDB0041827	286
+Chemical//DB00443	287
+Metabolite//HMDB0000929	288
+Metabolite//13m3omyrsACP	289
+Microbe//Clostridium cluster IV	290
+Disease//MONDO:0012268	291
+Disease//MONDO:0005100	292
+Disease//MONDO:0008315	293
+Metabolite//HMDB0001273	294
+Metabolite//HMDB0015532	295
+Metabolite//HMDB0000695	296
+Metabolite//HMDB0000288	297
+Disease//MONDO:0000831	298
+Metabolite//5m3hhexACP	299
+Chemical//C055494	300
+Metabolite//HMDB0001397	301
+Metabolite//uama	302
+Metabolite//HMDB0001333	303
+Metabolite//HMDB0000162	304
+Metabolite//HMDB0001532	305
+Metabolite//HMDB0002104	306
+Metabolite//dnarep	307
+Disease//MONDO:0004922	308
+Disease//MONDO:0013209	309
+Microbe//Proteobacteria	310
+Metabolite//HMDB0000036	311
+Disease//Edentulism	312
+Metabolite//pa161	313
+Disease//MONDO:0005052	314
+Metabolite//HMDB0001491	315
+Metabolite//HMDB0000209	316
+Metabolite//10m3hddcaACP	317
+Metabolite//HMDB0001248	318
+Chemical//C015001	319
+Metabolite//HMDB0003391	320
+Disease//MONDO:0005002	321
+Microbe//Bifidobacterium longum	322
+Disease//MONDO:0005068	323
+Metabolite//cdpdodec11eg	324
+Metabolite//HMDB0254435	325
+Metabolite//HMDB0000574	326
+Metabolite//HMDB0001227	327
+Metabolite//HMDB0001440	328
+Chemical//D008770	329
+Metabolite//uamag	330
+Metabolite//HMDB0028847	331
+Metabolite//HMDB0001043	332
+Chemical//D004365	333
+Disease//MONDO:0002367	334
+Disease//MONDO:0005070	335
+Metabolite//HMDB0000998	336
+Chemical//D009828	337
+Disease//MONDO:0001751	338
+Microbe//Ruminococcus bromii	339
+Disease//MONDO:0005027	340
+Metabolite//Palmitoyl-ACP (n-C16:0ACP)	341
+Metabolite//cdpdaipdecg	342
+Metabolite//HMDB0000759	343
+Metabolite//HMDB0000641	344
+Disease//MONDO:0004456	345
+Metabolite//pai15	346
+Disease//MONDO:0007079	347
+Microbe//Desulfovibrio	348
+Disease//MONDO:0011438	349
+Metabolite//5m3ohexACP	350
+Metabolite//HMDB0028689	351
+Metabolite//HMDB0000295	352
+Microbe//Roseburia intestinalis	353
+Metabolite//HMDB0001179	354
+Disease//MONDO:0005186	355
+Chemical//DB01235	356
+Metabolite//HMDB0012289	357
+Chemical//C076994	358
+Metabolite//Stearoyl-CoA (n-C18:0CoA)	359
+Metabolite//HMDB0001342	360
+Metabolite//HMDB0001414	361
+Metabolite//fa6coa,Iso-C16:0 CoA   Isohexadecanoyl-CoA	362
+Metabolite//HMDB0000692	363
+Metabolite//HMDB0001488	364
+Disease//MONDO:0005388	365
+Metabolite//cdpdhdec9eg	366
+Disease//MONDO:0008171	367
+Microbe//Alistipes	368
+Metabolite//HMDB0001058	369
+Disease//MONDO:0009688	370
+Chemical//D020106	371
+Disease//MONDO:0005231	372
+Metabolite//HMDB0000961	373
+Chemical//D045930	374
+Disease//MONDO:0019087	375
+Disease//MONDO:0005252	376
+Metabolite//HMDB0001301	377
+Microbe//Collinsella	378
+Chemical//D000806	379
+Disease//MONDO:0000775	380
+Metabolite//L-glutamate(1-)	381
+Metabolite//adenosine 3,5-bismonophosphate(4-)	382
+Disease//MONDO:0005335	383
+Chemical//D015946	384
+Chemical//C017947	385
+Disease//MONDO:0001386	386
+Metabolite//acyl carrier protein	387
+Metabolite//ugmda	388
+Metabolite//HMDB0028848	389
+Metabolite//HMDB0000696	390
+Disease//MONDO:0005032	391
+Disease//MONDO:0005260	392
+Metabolite//HMDB0000807	393
+Metabolite//cdpdtdecg	394
+Disease//MONDO:0005240	395
+Metabolite//HMDB0028838	396
+Metabolite//11m3oddcaACP	397
+Metabolite//HMDB0001000	398
+Metabolite//HMDB0000221	399
+Disease//MONDO:0006001	400
+Microbe//Staphylococcus	401
+Disease//MONDO:0005441	402
+Chemical//D008070	403
+Disease//MONDO:0003939	404
+Disease//MONDO:0005527	405
+Metabolite//HMDB0001310	406
+Disease//MONDO:0011057	407
+Metabolite//cdpdhdecg	408
+Metabolite//mql8	409
+Metabolite//HMDB0000158	410
+Chemical//D004051	411
+Microbe//Staphylococcus epidermidis	412
+Metabolite//pa180	413
+Metabolite//HMDB0000172	414
+Chemical//D008078	415
+Metabolite//HMDB0001373	416
+Disease//MONDO:0005178	417
+Disease//MONDO:0005344	418
+Disease//MONDO:0004982	419
+Disease//MONDO:0002280	420
+Disease//MONDO:0021187	421
+Chemical//D009585	422
+Metabolite//cdpdddecg	423
+Disease//MONDO:0004993	424
+Metabolite//HMDB0000619	425
+Metabolite//UDP-N-acetyl-alpha-D-glucosamine(2-)	426
+Chemical//D011078	427
+Metabolite//uagmda	428
+Microbe//Clostridium	429
+Disease//MONDO:0019182	430
+Disease//MONDO:0005347	431
+Metabolite//Myristoyl-ACP (n-C14:0ACP)	432
+Metabolite//Tetradecanoyl-CoA (n-C14:0CoA)	433
+Disease//MONDO:0001673	434
+Microbe//Prevotella copri	435
+Metabolite//HMDB0001321	436
+Metabolite//cdpdipdecg	437
+Chemical//DB00581	438
+Chemical//D002251	439
+Disease//MONDO:0019100	440
+Disease//MONDO:0004972	441
+Disease//MONDO:0005093	442
+Disease//MONDO:0005133	443
+Metabolite//HMDB0028697	444
+Chemical//D001397	445
+Metabolite//HMDB0028691	446
+Microbe//Akkermansia muciniphila	447
+Microbe//Streptococcus	448
+Chemical//C019133	449
+Metabolite//HMDB0000263	450
+Metabolite//HMDB0000244	451
+Disease//MONDO:0024388	452
+Chemical//D019161	453
+Disease//MONDO:0005301	454
+Metabolite//HMDB0003339	455
+Disease//MONDO:0005016	456
+Disease//MONDO:0005154	457
+Microbe//Collinsella aerofaciens	458
+Metabolite//9m3hdcaACP	459
+Chemical//D009532	460
+Metabolite//HMDB0001554	461
+Disease//MONDO:0024477	462
+Disease//MONDO:0015075	463
+Disease//MONDO:0018908	464
+Metabolite//pa140	465
+Disease//MONDO:0004335	466
+Metabolite//7m3hocACP	467
+Chemical//D010936	468
+Metabolite//14m3opalmACP	469
+Disease//MONDO:0043797	470
+Microbe//Capnocytophaga	471
+Disease//MONDO:0007576	472
+Chemical//D015662	473
+Disease//MONDO:0019542	474
+Disease//MONDO:0004950	475
+Disease//MONDO:0021095	476
+Metabolite//M02377	477
+Disease//MONDO:0005385	478
+Chemical//C023036	479
+Chemical//D011372	480
+Disease//MONDO:0012585	481
+Chemical//C025256	482
+Microbe//Streptococcus oralis	483
+Metabolite//14m3hpalmACP	484
+Disease//MONDO:0008170	485
+Metabolite//uaccg	486
+Microbe//Acinetobacter	487
+Disease//MONDO:0004980	488
+Metabolite//HMDB0000721	489
+Metabolite//HMDB0000039	490
+Metabolite//HMDB0000280	491
+Disease//MONDO:0001444	492
+Disease//MONDO:0005560	493
+Disease//MONDO:0005570	494
+Metabolite//9m3odcaACP	495
+Disease//MONDO:0001126	496
+Microbe//Acidaminococcus	497
+Microbe//Bifidobacterium	498
+Disease//MONDO:0004994	499
+Metabolite//apoprotein [acyl carrier protein]	500
+Disease//MONDO:0005484	501
+Microbe//Comamonas	502
+Disease//MONDO:0005302	503
+Metabolite//D-ribulose 5-phosphate(2-)	504
+Metabolite//HMDB0000673	505
+Metabolite//Dodecanoyl-ACP (n-C12:0ACP)	506
+Disease//MONDO:0006052	507
+Disease//MONDO:0005264	508
+Microbe//Porphyromonadaceae	509
+Microbe//Peptococcus	510
+Metabolite//cdpdaihpdecg	511
+Disease//MONDO:0002050	512
+Microbe//Prevotella melaninogenica	513
+Disease//D000069279	514
+Microbe//Fusobacterium	515
+Chemical//D011084	516
+Metabolite//pai17	517
+Microbe//Sphingomonas	518
+Disease//MONDO:0005020	519
+Disease//MONDO:0007915	520
+Microbe//Haemophilus parainfluenzae	521
+Metabolite//HMDB0001257	522
+Disease//MONDO:0002358	523
+Metabolite//HMDB0001213	524
+Microbe//Escherichia	525
+Chemical//D003287	526
+Disease//MONDO:0005298	527
+Disease//MONDO:0006525	528
+Disease//MONDO:0002334	529
+Microbe//Ruminococcus torques	530
+Microbe//Eubacterium	531
+Disease//MONDO:0004979	532
+Metabolite//fa1coa,Iso-C14:0 CoA   Isotetradecanoyl-CoA	533
+Disease//MONDO:0007254	534
+Disease//MONDO:0005086	535
+Metabolite//HMDB0000034	536
+Disease//MONDO:0001657	537
+Metabolite//HMDB0001132	538
+Disease//MONDO:0005043	539
+Disease//MONDO:0005089	540
+Microbe//Bacteroides fragilis	541
+Disease//MONDO:0010030	542
+Chemical//D004967	543
+Microbe//Turicella	544
+Disease//MONDO:0002691	545
+Metabolite//IDP(3-)	546
+Metabolite//HMDB0001372	547
+Disease//MONDO:0005558	548
+Disease//MONDO:0013792	549
+Microbe//Candida albicans	550
+Chemical//D000171	551
+Disease//MONDO:0005395	552
+Chemical//D005411	553
+Microbe//Granulicatella	554
+Metabolite//HMDB0000223	555
+Microbe//Neisseria	556
+Disease//MONDO:0005377	557
+Disease//MONDO:0005076	558
+Disease//MONDO:0005059	559
+Disease//MONDO:0021074	560
+Microbe//Turicibacter	561
+Chemical//D014280	562
+Disease//MONDO:0010331	563
+Chemical//D007854	564
+Disease//MONDO:0003620	565
+Chemical//D013256	566
+Disease//MONDO:0002203	567
+Metabolite//HMDB0000138	568
+Disease//MONDO:0005277	569
+Disease//MONDO:0002771	570
+Disease//MONDO:0015183	571
+Chemical//C511295	572
+Disease//MONDO:0005015	573
+Metabolite//HMDB0062762	574
+Metabolite//1aihpdecg3p	575
+Disease//MONDO:0018902	576
+Disease//MONDO:0005567	577
+Microbe//Coprobacillus	578
+Microbe//Clostridium perfringens	579
+Microbe//Bacteroides vulgatus	580
+Microbe//Clostridium cluster XI	581
+Microbe//Eggerthella lenta	582
+Chemical//D016627	583
+Chemical//D001151	584
+Microbe//Ruminococcus	585
+Microbe//Proteus	586
+Microbe//Clostridium cluster XIVa	587
+Disease//MONDO:0018874	588
+Disease//MONDO:0003004	589
+Disease//MONDO:0001627	590
+Microbe//Actinomyces	591
+Chemical//C070055	592
+Chemical//D014028	593
+Disease//MONDO:0013662	594
+Disease//MONDO:0004967	595
+Disease//MONDO:0012147	596
+Microbe//Klebsiella pneumoniae	597
+Microbe//Rothia mucilaginosa	598
+Disease//MONDO:0005265	599
+Chemical//D008731	600
+Disease//MONDO:0005290	601
+Disease//MONDO:0005081	602
+Microbe//Haemophilus	603
+Microbe//Blautia	604
+Microbe//Staphylococcus aureus	605
+Metabolite//HMDB0001285	606
+Microbe//Dorea	607
+Microbe//Oscillospiraceae	608
+Disease//MONDO:0023644	609
+Chemical//C029216	610
+Microbe//Enterococcus	611
+Microbe//Peptoclostridium difficile	612
+Metabolite//HMDB0000518	613
+Disease//MONDO:0002412	614
+Disease//MONDO:0005087	615
+Chemical//C026486	616
+Disease//MONDO:0013433	617
+Disease//MONDO:0005649	618
+Microbe//Faecalibacterium prausnitzii	619
+Chemical//D005200	620
+Disease//MONDO:0005401	621
+Chemical//D001564	622
+Chemical//D003633	623
+Microbe//Lactococcus	624
+Disease//MONDO:0010200	625
+Chemical//C561695	626
+Disease//MONDO:0002531	627
+Chemical//D058607	628
+Disease//D000085142	629
+Microbe//Anaerostipes	630
+Disease//MONDO:0018301	631
+Disease//MONDO:0002406	632
+Disease//MONDO:0001187	633
+Disease//MONDO:0002329	634
+Metabolite//HMDB0000626	635
+Disease//MONDO:0007699	636
+Disease//MONDO:0005406	637
+Chemical//D001554	638
+Chemical//C057862	639
+Disease//MONDO:0015796	640
+Disease//MONDO:0005276	641
+Microbe//Porphyromonas	642
+Disease//MONDO:0005701	643
+Disease//MONDO:0005311	644
+Disease//MONDO:0001711	645
+Disease//MONDO:0009411	646
+Chemical//D013749	647
+Microbe//Bacteroides	648
+Metabolite//HMDB0254119	649
+Chemical//D010578	650
+Microbe//Veillonella parvula	651
+Disease//MONDO:0008903	652
+Microbe//Streptococcus sanguinis	653
+Disease//MONDO:0001076	654
+Microbe//Faecalibacterium	655
+Disease//D012907	656
+Microbe//Butyricimonas	657
+Disease//MONDO:0001475	658
+Disease//MONDO:0000702	659
+Microbe//Streptococcus mitis	660
+Chemical//D001194	661
+Disease//MONDO:0005328	662
+Chemical//C440499	663
+Disease//MONDO:0005203	664
+Microbe//Bacteroidales	665
+Disease//MONDO:0006932	666
+Chemical//D017382	667
+Chemical//C112530	668
+Microbe//Barnesiellaceae	669
+Disease//MONDO:0002049	670
+Disease//MONDO:0004845	671
+Disease//MONDO:0002974	672
+Chemical//D019256	673
+Disease//MONDO:0005372	674
+Disease//MONDO:0007147	675
+Microbe//Streptococcus salivarius	676
+Chemical//C008261	677
+Chemical//D014302	678
+Microbe//Barnesiella	679
+Microbe//Streptococcus mutans	680
+Disease//MONDO:0009061	681
+Disease//MONDO:0016264	682
+Disease//MONDO:0005618	683
+Chemical//D002083	684
+Disease//MONDO:0003634	685
+Chemical//D000393	686
+Microbe//Enterobacteriaceae	687
+Chemical//D000662	688
+Disease//MONDO:0013765	689
+Chemical//C014024	690
+Chemical//C013099	691
+Disease//MONDO:0006496	692
+Disease//MONDO:0002363	693
+Chemical//C009277	694
+Microbe//Shigella	695
+Chemical//C494243	696
+Chemical//D016578	697
+Microbe//Coprococcus	698
+Chemical//D019304	699
+Microbe//Veillonellaceae	700
+Chemical//D000319	701
+Microbe//Porphyromonas gingivalis	702
+Chemical//C017690	703
+Microbe//Roseburia hominis	704
+Chemical//D048789	705
+Disease//MONDO:0043510	706
+Microbe//Filifactor	707
+Disease//MONDO:0004681	708
+Microbe//Blautia coccoides	709
+Chemical//D010575	710
+Disease//MONDO:0018229	711
+Microbe//Streptococcus parasanguinis	712
+Microbe//Gemella	713
+Disease//MONDO:0002332	714
+Microbe//Anaerococcus	715
+Disease//MONDO:0005453	716
+Microbe//Lachnobacterium	717
+Disease//MONDO:0001913	718
+Disease//MONDO:0007179	719
+Metabolite//Phenolic acid	720
+Chemical//D028321	721
+Disease//MONDO:0006732	722
+Chemical//D004026	723
+Disease//MONDO:0008226	724
+Microbe//Fusobacterium nucleatum	725
+Disease//MONDO:0005292	726
+Disease//MONDO:0011849	727
+Disease//MONDO:0016677	728
+Microbe//Megasphaera	729
+Disease//MONDO:0005030	730
+Microbe//Enterobacter	731
+Chemical//C028451	732
+Chemical//D000900	733
+Disease//MONDO:0021245	734
+Chemical//D015073	735
+Disease//MONDO:0018075	736
+Microbe//Phascolarctobacterium	737
+Chemical//D008054	738
+Disease//MONDO:0002635	739
+Microbe//Tannerella	740
+Chemical//D004052	741
+Microbe//Ruminococcus gnavus	742
+Chemical//D003976	743
+Chemical//D004785	744
+Chemical//D017673	745
+Chemical//D014150	746
+Disease//MONDO:0004496	747
+Chemical//D004041	748
+Chemical//D005038	749
+Chemical//D010416	750
+Disease//MONDO:0800029	751
+Disease//MONDO:0005313	752
+Disease//MONDO:0005364	753
+Microbe//Leuconostocaceae	754
+Chemical//C061132	755
+Chemical//D005343	756
+Chemical//D019813	757
+Chemical//D001688	758
+Chemical//C009265	759
+Chemical//D037742	760
+Chemical//D011929	761
+Disease//MONDO:0005607	762
+Chemical//D008767	763
+Microbe//Akkermansia	764
+Microbe//Halomonas	765
+Microbe//Rikenellaceae	766
+Chemical//C009505	767
+Disease//Pervasive developmental disorder NOS	768
+Chemical//D010278	769
+Chemical//D010406	770
+Chemical//C558899	771
+Chemical//D000728	772
+Microbe//Bacteroides ovatus	773
+Disease//MONDO:0012727	774
+Disease//MONDO:0002177	775
+Chemical//D015632	776
+Microbe//Klebsiella	777
+Microbe//Roseburia	778
+Microbe//Odoribacter	779
+Chemical//D020058	780
+Microbe//Lachnoclostridium	781
+Microbe//Peptostreptococcus	782
+Disease//MONDO:0002251	783
+Disease//MONDO:0005098	784
+Chemical//D012970	785
+Microbe//Alcaligenaceae	786
+Disease//MONDO:0021124	787
+Chemical//C006253	788
+Microbe//Gammaproteobacteria	789
+Disease//MONDO:0001566	790
+Disease//MONDO:0004639	791
+Microbe//Oscillibacter	792
+Chemical//C023888	793
+Disease//MONDO:0100053	794
+Chemical//D005938	795
+Disease//MONDO:0006547	796
+Chemical//D014874	797
+Disease//MONDO:0015514	798
+Chemical//C013592	799
+Disease//MONDO:0012010	800
+Disease//MONDO:0003785	801
+Disease//MONDO:0001942	802
+Disease//MONDO:0005003	803
+Disease//MONDO:0003240	804
+Chemical//C038328	805
+Chemical//D015127	806
+Disease//Aerobic vaginitis	807
+Disease//MONDO:0005316	808
+Disease//MONDO:0005814	809
+Chemical//D009943	810
+Microbe//Actinobacteria	811
+Disease//MONDO:0010726	812
+Chemical//C023470	813
+Chemical//D000305	814
+Chemical//C027576	815
+Disease//D025241	816
+Chemical//D013853	817
+Chemical//C054649	818
+Microbe//Sutterella	819
+Microbe//Bilophila	820
+Chemical//D015084	821
+Microbe//Actinobacillus	822
+Microbe//Parabacteroides	823
+Disease//MONDO:0043923	824
+Disease//MONDO:0005062	825
+Microbe//Mycoplasma	826
+Disease//MONDO:0016064	827
+Disease//MONDO:0005299	828
+Disease//D009980	829
+Microbe//Rothia	830
+Chemical//D005707	831
+Chemical//D002395	832
+Disease//MONDO:0012628	833
+Chemical//D004726	834
+Chemical//C482199	835
+Disease//MONDO:0005960	836
+Chemical//D003278	837
+Disease//MONDO:0003781	838
+Chemical//C001042	839
+Disease//MONDO:0020283	840
+Microbe//Propionibacterium acnes	841
+Chemical//D010269	842
+Disease//MONDO:0001505	843
+Microbe//Ruminiclostridium	844
+Microbe//Bifidobacteriaceae	845
+Chemical//D049971	846
+Microbe//Oribacterium	847
+Microbe//Eggerthella	848
+Disease//MONDO:0006966	849
+Chemical//D004232	850
+Microbe//Leptotrichia	851
+Disease//MONDO:0011817	852
+Chemical//C543008	853
+Chemical//D002791	854
+Disease//MONDO:0012009	855
+Chemical//C012457	856
+Disease//MONDO:0005046	857
+Chemical//D013750	858
+Disease//MONDO:0020022	859
+Microbe//Clostridiaceae	860
+Microbe//Eubacteriales	861
+Chemical//C074702	862
+Disease//MONDO:0021040	863
+Chemical//D009151	864
+Microbe//Lactobacillus salivarius	865
+Microbe//Eikenella	866
+Microbe//Alloprevotella	867
+Microbe//Gemmiger	868
+Microbe//Campylobacter	869
+Microbe//Bifidobacterium bifidum	870
+Chemical//D012838	871
+Chemical//C036989	872
+Chemical//D005278	873
+Chemical//C007262	874
+Chemical//D000929	875
+Chemical//C025589	876
+Disease//MONDO:0006730	877
+Microbe//Moraxella	878
+Chemical//D059808	879
+Chemical//D011134	880
+Chemical//C009536	881
+Chemical//D008748	882
+Chemical//C034456	883
+Disease//MONDO:0003232	884
+Microbe//Eubacterium hallii	885
+Microbe//Parasutterella	886
+Disease//MONDO:0002775	887
+Chemical//DB12179	888
+Chemical//D016291	889
+Microbe//Aggregatibacter	890
+Microbe//Flavobacterium	891
+Chemical//D000927	892
+Metabolite//HMDB0001955	893
+Chemical//C007095	894
+Microbe//Erysipelotrichaceae	895
+Microbe//Dialister	896
+Microbe//Clostridium symbiosum	897
+Microbe//Atopobium	898
+Disease//MONDO:0001085	899
+Microbe//Adlercreutzia	900
+Chemical//D002121	901
+Chemical//C410216	902
+Chemical//C000228	903
+Microbe//Anaerotruncus	904
+Microbe//Succinivibrio	905
+Microbe//Lachnospira	906
+Chemical//C023035	907
+Chemical//D006495	908
+Chemical//D000928	909
+Chemical//D000970	910
+Microbe//Treponema	911
+Microbe//Propionibacterium	912
+Microbe//Paraprevotella	913
+Microbe//Stenotrophomonas	914
+Microbe//Oscillospira	915
+Microbe//Clostridium leptum	916
+Chemical//D000602	917
+Chemical//C534628	918
+Microbe//Christensenellaceae	919
+Disease//MONDO:0003085	920
+Chemical//D000925	921
+Disease//MONDO:0005312	922
+Disease//MONDO:0004375	923
+Chemical//D018943	924
+Chemical//C029955	925
+Symptom//HP:0033675	926
+Microbe//Burkholderia	927
+Chemical//D003524	928
+Microbe//Lachnospiraceae incertae sedis	929
+Microbe//Bacteroidaceae	930
+Chemical//D020111	931
+Chemical//D019380	932
+Microbe//Subdoligranulum	933
+Disease//MONDO:0004631	934
+Microbe//TM7	935
+Microbe//Clostridia	936
+Microbe//Citrobacter	937
+Microbe//Butyricicoccus	938
+Chemical//D001152	939
+Microbe//Dialister invisus	940
+Microbe//Fusicatenibacter	941
+Microbe//Butyrivibrio	942
+Chemical//D016264	943
+Microbe//Eubacterium rectale	944
+Chemical//D001786	945
+Chemical//D012997	946
+Chemical//C025643	947
+Chemical//D007306	948
+Chemical//D008076	949
+Chemical//D011692	950
+Microbe//Romboutsia	951
+Disease//MONDO:0005546	952
+Chemical//D004128	953
+Microbe//Flavonifractor	954
+Microbe//Prevotellaceae	955
+Chemical//D013481	956
+Chemical//D002186	957
+Microbe//Bacillus	958
+Chemical//C036990	959
+Microbe//Pseudobutyrivibrio	960
+Disease//MONDO:0006733	961
+Microbe//Mitsuokella	962
+Microbe//Lactobacillales	963
+Chemical//C506365	964
+Microbe//Flavonifractor plautii	965
+Microbe//Methanobrevibacter	966
+Chemical//C023845	967
+Disease//MONDO:0006624	968
+Chemical//C416023	969
+Chemical//C034587	970
+Microbe//Parvimonas	971
+Chemical//C506643	972
+Microbe//Selenomonas	973
+Chemical//D014752	974
+Microbe//Clostridium cluster XVI	975
+Microbe//Roseburia inulinivorans	976
+Microbe//Fusobacteria	977
+Chemical//D005620	978
+Microbe//Bergeyella	979
+Microbe//Fusobacterium periodonticum	980
+Microbe//Ralstonia	981
+Microbe//Eubacterium ventriosum	982
+Chemical//C004312	983
+Microbe//Helicobacter	984
+Microbe//Porphyromonas endodontalis	985
+Chemical//C041517	986
+Microbe//Peptoniphilus	987
+Microbe//Catenibacterium	988
+Disease//Invasive pneumococcal disease	989
+Chemical//C031763	990
+Microbe//Roseburia faecis	991
+Microbe//Alistipes shahii	992
+Microbe//Mogibacterium	993
+Microbe//Pasteurellaceae	994
+Microbe//Serratia	995
+Chemical//C047777	996
+Microbe//Bacteroides plebeius	997
+Microbe//Holdemania	998
+Chemical//C036077	999
