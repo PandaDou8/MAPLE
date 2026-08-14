@@ -1,26 +1,28 @@
-pretrain_config: DistMult
-pretrain_gen_model: checkpoints/mic-distmult.pth
-pretrain_astar: checkpoints/maple_checkpoint_01.pth
+quickstart:
+  source_cache: data/microbekg_transductive_cache.pt
+  target_num_nodes: 1200
+  target_num_edges: 1800
+  initial_growth_batch_size: 50
+  growth_batch_size: 400
+  seed_relation: CHANGE_RICHNESS_DcrMi
+  seed_prefixes:
+    - Microbe//
+    - Disease//
+  seed: 1024
 
+pretrain_config: DistMult
+pretrain_gen_model: outputs/quickstart_pipeline/distmult_quickstart.pth
 
 g_config: DistMult
 d_config: DistMult
-test_batch_size: 10
-
-
-adv:
-  n_sample: 20
-  n_epoch: 5000
-  n_batch: 100
-  epoch_per_test: 100
-  temperature: 1.0
+test_batch_size: 16
 
 DistMult:
   dim: 100
   lam: 0.05
-  n_sample: 20
-  requested_n_sample: 262144
-  gan_sample_cap: 65536
+  n_sample: 16
+  requested_n_sample: 64
+  gan_sample_cap: 64
   enable_policy_gradient: true
   reward_ema_beta: 0.98
   generator_temperature: 1.0
@@ -34,15 +36,15 @@ DistMult:
   policy_dropout: 0.05
   memory_dim: 16
   memory_momentum: 0.98
-  memory_topk: 256
+  memory_topk: 32
   memory_reward_clip: 5.0
   adapter_scale_init: 1.0
   memory_scale_init: 1.0
   sample_freq: 1
-  n_epoch: 1000
-  n_batch: 100
-  epoch_per_test: 1000
-  model_file: distmult.mdl
+  n_epoch: 5
+  n_batch: 10
+  epoch_per_test: 1
+  model_file: distmult_quickstart.pth
 
 log:
   dump_config: false
@@ -50,16 +52,11 @@ log:
   dir: ./log
   prefix:
 
-#####################################################################################
-#####################################################################################
-#####################################################################################
-#####################################################################################
-
-output_dir: outputs/train/
+output_dir: outputs/quickstart_pipeline/
 
 dataset:
   class: MicrobeKGTransductive
-  path: data/
+  path: data/quickstart/
 
 task:
   class: KnowledgeGraphCompletion
@@ -77,13 +74,13 @@ task:
     num_layer: 6
     indicator_func: ppr
     short_cut: yes
-    node_ratio: 0.0002
-    test_node_ratio: 0.0003 #0.0002
+    node_ratio: 0.2
+    test_node_ratio: 0.3
     break_tie: yes
     edge_dropout: 0.3
   criterion: ranking
   margin: 3.0
-  num_negative: 262144
+  num_negative: 128
   strict_negative: yes
   adversarial_temperature: 0.5
   sample_weight: no
@@ -93,24 +90,19 @@ optimizer:
   class: Adam
   lr: 5.0e-4
 
-
 engine:
-  gpus: [2]
-  batch_size: 2 #16 #32
-  log_interval: 10
-  trace_query_count: 32
-  trace_topk: 16
+  gpus: [0]
+  batch_size: 4
+  log_interval: 1
+  trace_query_count: 4
+  trace_topk: 4
   trace_every_n_epoch: 1
   trace_seed: 1024
-  policy_metric_sample_size: 2048
+  policy_metric_sample_size: 32
 
 train:
-  num_epoch: 120
-  # add
-  # randomly draw a subset of the training set for each epoch.
-  # Otherwise, the whole training set is used for each epoch.
-  batch_per_epoch: 400
+  num_epoch: 1
+  batch_per_epoch: 8
 
-fast_test: 5000
-
+fast_test: 64
 metric: mrr

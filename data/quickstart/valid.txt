@@ -1,0 +1,180 @@
+Microbe//Bacteroides sp. 2_2_4	ASSOCIATES_MiaM	Metabolite//HMDB0001469
+Microbe//Prevotella bryantii B14	ASSOCIATES_MiaM	Metabolite//HMDB0001270
+Microbe//Butyrivibrio crossotus DSM 2876	ASSOCIATES_MiaM	Metabolite//HMDB0000250
+Microbe//Clostridium clostridioforme CM201	ASSOCIATES_MiaR	Reaction//GLYPHEHYc
+Microbe//Bacteroides ovatus SD CMC 3f	ASSOCIATES_MiaM	Metabolite//HMDB0001377
+Microbe//Geobacillus stearothermophilus ATCC 7953	ASSOCIATES_MiaR	Reaction//PRASCSi
+Microbe//Rudanella lutea DSM 19387	ASSOCIATES_MiaM	Metabolite//HMDB0003459
+Microbe//Phascolarctobacterium succinatutens YIT 12067	ASSOCIATES_MiaR	Reaction//3OAR11M12
+Microbe//Bacillus cereus G9842	ASSOCIATES_MiaM	Metabolite//HMDB0028838
+Microbe//Corynebacterium ammoniagenes DSM 20306	ASSOCIATES_MiaM	Metabolite//HMDB0062321
+Microbe//Prevotella loescheii DSM 19665 = JCM 12249 = ATCC 15930	ASSOCIATES_MiaR	Reaction//3OAR12M14
+Microbe//Roseburia hominis A2-183	ASSOCIATES_MiaM	Metabolite//10m3oddcaACP
+Microbe//Bartonella quintana Toulouse	ASSOCIATES_MiaR	Reaction//ENO
+Microbe//Fusobacterium periodonticum 2_1_31	ASSOCIATES_MiaM	Metabolite//adenosine 3,5-bismonophosphate(4-)
+Microbe//Lactobacillus oris F0423	ASSOCIATES_MiaM	Metabolite//15m3hpalmACP
+Microbe//Alistipes finegoldii DSM 17242	ASSOCIATES_MiaM	Metabolite//HMDB0001275
+Microbe//Bifidobacterium dentium ATCC 27678	ASSOCIATES_MiaR	Reaction//3OAR12M13
+Microbe//Campylobacter coli JV20	ASSOCIATES_MiaM	Metabolite//HMDB0028847
+Microbe//Listeria monocytogenes SLCC7179	ASSOCIATES_MiaM	Metabolite//HMDB0028838
+Microbe//Serratia fonticola RB-25	ASSOCIATES_MiaR	Reaction//GLUPRT
+Microbe//Oxalobacter formigenes HOxBLS	ASSOCIATES_MiaM	Metabolite//HMDB0028689
+Microbe//Prevotella nanceiensis DSM 19126	ASSOCIATES_MiaR	Reaction//3OAR9M10
+Microbe//Stenotrophomonas rhizophila PCA13	ASSOCIATES_MiaM	Metabolite//HMDB0001254
+Microbe//Bacteroides ureolyticus DSM 20703	ASSOCIATES_MiaR	Reaction//3OAR8M9
+Microbe//Alistipes onderdonkii DSM 19147	ASSOCIATES_MiaM	Metabolite//HMDB0000961
+Microbe//Faecalibacterium prausnitzii A2-165	ASSOCIATES_MiaM	Metabolite//HMDB0000089
+Microbe//Fusobacterium gonidiaformans 3-1-5R	ASSOCIATES_MiaR	Reaction//DASYN141
+Microbe//Lactobacillus reuteri MM4-1A	ASSOCIATES_MiaM	Metabolite//HMDB0000142
+Microbe//Lachnospiraceae bacterium sp. 5_1_63FAA	ASSOCIATES_MiaM	Metabolite//M02377
+Microbe//Bacteroides caccae ATCC 43185	ASSOCIATES_MiaR	Reaction//FE2abc
+Microbe//Pantoea agglomerans IG1	ASSOCIATES_MiaM	Metabolite//HMDB0000547
+Microbe//Bacteroides sp. 3_1_19	ASSOCIATES_MiaM	Metabolite//HMDB0001439
+Microbe//Enterococcus hirae ATCC 9790	ASSOCIATES_MiaR	Reaction//GLYMETabc
+Microbe//Rhodococcus rhodochrous ATCC 21198	ASSOCIATES_MiaR	Reaction//IMPD
+Microbe//Edwardsiella tarda FL6-60	ASSOCIATES_MiaM	Metabolite//HMDB0028966
+Microbe//Streptococcus cristatus ATCC 51100	ASSOCIATES_MiaM	Metabolite//cdpdaipdecg
+Microbe//Enterococcus cecorum DSM 20682 = ATCC 43198	ASSOCIATES_MiaM	Metabolite//HMDB0000089
+Microbe//Campylobacter hyointestinalis subsp. hyointestinalis LMG 9260	ASSOCIATES_MiaR	Reaction//UGMDDS
+Microbe//Fusobacterium nucleatum subsp. nucleatum ATCC 25586	ASSOCIATES_MiaM	Metabolite//Produced biomass
+Microbe//Eubacterium brachy ATCC 33089	ASSOCIATES_MiaM	Metabolite//HMDB0006899
+Microbe//Lactobacillus brevis subsp. gravesensis ATCC 27305	ASSOCIATES_MiaM	Metabolite//HMDB0001254
+Microbe//Spirosoma linguale DSM 74	ASSOCIATES_MiaM	Metabolite//12m3omyrsACP
+Microbe//Clostridium sp. L2-50	ASSOCIATES_MiaR	Reaction//DASYNI16
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//HMDB0001227
+Microbe//Olsenella profusa F0195	ASSOCIATES_MiaM	Metabolite//HMDB0000172
+Microbe//Atopobium rimae ATCC 49626	ASSOCIATES_MiaR	Reaction//3OAR13M14
+Microbe//Fusobacterium nucleatum subsp. animalis 7_1	ASSOCIATES_MiaM	Metabolite//HMDB0000157
+Microbe//Pseudomonas alcaliphila 34	ASSOCIATES_MiaR	Reaction//3OAR160
+Microbe//Kluyvera ascorbata  ATCC 33433	ASSOCIATES_MiaR	Reaction//DASYNAI17
+Microbe//Campylobacter concisus 13826	ASSOCIATES_MiaR	Reaction//HMR_4261
+Microbe//Slackia exigua ATCC 700122	ASSOCIATES_MiaM	Metabolite//3hmrsACP
+Microbe//Enterobacter asburiae LF7a	ASSOCIATES_MiaM	Metabolite//HMDB0000042
+Microbe//Acidaminococcus fermentans DSM 20731	ASSOCIATES_MiaM	Metabolite//HMDB0001520
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaR	Reaction//OROTPT
+Microbe//Bacteroides fluxus YIT 12057	ASSOCIATES_MiaM	Metabolite//HMDB0000285
+Microbe//Propionibacterium granulosum DSM 20700	ASSOCIATES_MiaM	Metabolite//HMDB0000687
+Microbe//Bacillus cereus AH187 (F4810/72)	ASSOCIATES_MiaM	Metabolite//1aihpdecg3p
+Microbe//Blautia obeum ATCC 29174	ASSOCIATES_MiaM	Metabolite//HMDB0000217
+Microbe//Clostridium symbiosum ATCC 14940	ASSOCIATES_MiaR	Reaction//ALAASP1c
+Microbe//Bacteroides sp. 9_1_42FAA	ASSOCIATES_MiaM	Metabolite//HMDB0028838
+Microbe//Streptococcus gordonii str. Challis substr. CH1	ASSOCIATES_MiaM	Metabolite//HMDB0015531
+Microbe//Clostridium sp. SS2/1	ASSOCIATES_MiaM	Metabolite//11m3hddcaACP
+Microbe//Achromobacter xylosoxidans NBRC 15126 = ATCC 27061	ASSOCIATES_MiaM	Metabolite//fa11coa, Iso-C17:0 CoA   Isoheptadecanoyl-CoA
+Microbe//Prevotella timonensis CRIS 5C-B1	ASSOCIATES_MiaM	Metabolite//Reduced thioredoxin
+Microbe//Shigella flexneri 2002017	ASSOCIATES_MiaM	Metabolite//dAMP(2-)
+Microbe//Bacteroides sp. 3_2_5	ASSOCIATES_MiaM	Metabolite//HMDB0001051
+Microbe//Faecalibacterium prausnitzii M21/2	ASSOCIATES_MiaM	Metabolite//15m3opalmACP
+Microbe//Porphyromonas endodontalis ATCC 35406	ASSOCIATES_MiaM	Metabolite//HMDB0001508
+Microbe//Actinobacillus pleuropneumoniae L20	ASSOCIATES_MiaM	Metabolite//HMDB0006899
+Microbe//Pseudobutyrivibrio ruminis AD2017	ASSOCIATES_MiaM	Metabolite//cdpdaipdecg
+Microbe//Clostridium saccharoperbutylacetonicum N1-4(HMT)	ASSOCIATES_MiaM	Metabolite//HMDB0001274
+Microbe//Staphylococcus capitis CR01	ASSOCIATES_MiaM	Metabolite//HMDB0001201
+Microbe//Lactobacillus fermentum ATCC 14931	ASSOCIATES_MiaM	Metabolite//HMDB0001548
+Microbe//Enterococcus faecalis V583	ASSOCIATES_MiaR	Reaction//DASYN161
+Microbe//Prevotella disiens FB035-09AN	ASSOCIATES_MiaR	Reaction//OROTPT
+Microbe//Bacteroides xylanisolvens SD CC 1b	ASSOCIATES_MiaM	Metabolite//HMDB0000547
+Microbe//Cryptobacterium curtum DSM 15641	ASSOCIATES_MiaM	Metabolite//HMDB0001109
+Microbe//Leminorella grimontii ATCC 33999 = DSM 5078	ASSOCIATES_MiaM	Metabolite//HMDB0000161
+Microbe//Pseudomonas monteilii QM	ASSOCIATES_MiaM	Metabolite//HMDB0012289
+Microbe//Sphingomonas paucimobilis HER1398	ASSOCIATES_MiaM	Metabolite//HMDB0000696
+Microbe//Prevotella nigrescens ATCC 33563	ASSOCIATES_MiaM	Metabolite//HMDB0001051
+Microbe//Bacteroides oleiciplenus YIT 12058	ASSOCIATES_MiaM	Metabolite//11m3hddcaACP
+Microbe//Capnocytophaga granulosa ATCC 51502	ASSOCIATES_MiaM	Metabolite//HMDB0001508
+Microbe//Actinomyces naeslundii str. Howell 279	ASSOCIATES_MiaR	Reaction//UAPGR
+Microbe//Propionibacterium freudenreichii subsp. shermanii CIRM-BIA1	ASSOCIATES_MiaR	Reaction//FBA
+Microbe//Lactobacillus reuteri SD2112, ATCC 55730	ASSOCIATES_MiaR	Reaction//NDPK3
+Microbe//Prevotella corporis DSM 18810	ASSOCIATES_MiaM	Metabolite//fa4coa,Anteiso-C15:0 CoA   Anteisopentadecanoyl-CoA
+Microbe//Prevotella albensis DSM 11370	ASSOCIATES_MiaM	Metabolite//triphosphate(5-)
+Microbe//Odoribacter splanchnicus 1651/6, DSM 20712	ASSOCIATES_MiaR	Reaction//3OAR140
+Microbe//Grimontia hollisae CIP 101886	ASSOCIATES_MiaM	Metabolite//cdpdipdecg
+Microbe//Bifidobacterium thermophilum RBL67	ASSOCIATES_MiaR	Reaction//G3PD1
+Microbe//Paenibacillus daejeonensis DSM 15491	ASSOCIATES_MiaR	Reaction//NDPK4
+Microbe//Streptococcus australis ATCC 700641	ASSOCIATES_MiaM	Metabolite//HMDB0001508
+Microbe//Enterococcus phoeniculicola ATCC BAA-412	ASSOCIATES_MiaM	Metabolite//fa11coa, Iso-C17:0 CoA   Isoheptadecanoyl-CoA
+Microbe//Eubacterium siraeum DSM 15702	ASSOCIATES_MiaM	Metabolite//HMDB0000695
+Microbe//Bacteroides eggerthii 1_2_48FAA	ASSOCIATES_MiaM	Metabolite//10m3oddcaACP
+Microbe//Kandleria vitulina DSM 20405	ASSOCIATES_MiaM	Metabolite//10m3oddcaACP
+Microbe//Bifidobacterium mongoliense DSM 21395	ASSOCIATES_MiaM	Metabolite//HMDB0000972
+Microbe//Anaerobaculum hydrogeniformans OS1, ATCC BAA-1850	ASSOCIATES_MiaM	Metabolite//HMDB0000536
+Microbe//Lactobacillus animalis KCTC 3501	ASSOCIATES_MiaM	Metabolite//HMDB0001416
+Microbe//Eubacterium eligens ATCC 27750	ASSOCIATES_MiaM	Metabolite//13m3hmyrsACP
+Microbe//Prevotella bivia DSM 20514	ASSOCIATES_MiaR	Reaction//TRDRr
+Microbe//Streptococcus lutetiensis 033	ASSOCIATES_MiaR	Reaction//UDCPDP
+Microbe//Prevotella disiens JCM 6334 = ATCC 29426	ASSOCIATES_MiaM	Metabolite//5m3hhexACP
+Microbe//Neisseria elongata subsp. glycolytica ATCC 29315	ASSOCIATES_MiaR	Reaction//NDPK7
+Microbe//Bacillus clausii KSM-K16	ASSOCIATES_MiaM	Metabolite//HMDB0006899
+Microbe//Ruminococcus torques ATCC 27756	ASSOCIATES_MiaR	Reaction//DASYN120
+Microbe//Eubacterium limosum KIST612	ASSOCIATES_MiaM	Metabolite//5m3ohexACP
+Microbe//Bacteroides fragilis 638R	ASSOCIATES_MiaM	Metabolite//HMDB0001016
+Microbe//Bacillus pseudofirmus  OF4	ASSOCIATES_MiaR	Reaction//PYK
+Microbe//Streptococcus intermedius JTH08	ASSOCIATES_MiaM	Metabolite//dAMP(2-)
+Microbe//Dyadobacter beijingensis DSM 21582	ASSOCIATES_MiaR	Reaction//PRPPS
+Microbe//Akkermansia muciniphila ATCC BAA-835	ASSOCIATES_MiaM	Metabolite//HMDB00595
+Microbe//Lactobacillus plantarum WCFS1	ASSOCIATES_MiaM	Metabolite//HMDB0001058
+Microbe//Fusobacterium gonidiaformans ATCC 25563	ASSOCIATES_MiaM	Metabolite//4m3ohexACP
+Microbe//Faecalibacterium prausnitzii SL3/3	ASSOCIATES_MiaR	Reaction//ALALEU1c
+Microbe//Peptoniphilus lacrimalis DSM 7455	ASSOCIATES_MiaR	Reaction//GAPD
+Microbe//Brevibacterium massiliense 5401308	ASSOCIATES_MiaM	Metabolite//HMDB0028689
+Microbe//Eubacterium desmolans ATCC 43058	ASSOCIATES_MiaR	Reaction//GLYLEUHYDROc
+Microbe//Bacteroides coprocola M16, DSM 17136	ASSOCIATES_MiaR	Reaction//TPI
+Microbe//Clostridium sporosphaeroides DSM 1294	ASSOCIATES_MiaM	Metabolite//1hdecg3p
+Microbe//Lactobacillus plantarum JDM1	ASSOCIATES_MiaM	Metabolite//HMDB0001096
+Microbe//Bacteroides nordii CL02T12C05	ASSOCIATES_MiaM	Metabolite//HMDB0001546
+Microbe//Bacteroides massiliensis B846dnLKV334 = Timone 84634 = DSM 17679 = JCM 13223	ASSOCIATES_MiaR	Reaction//3OAR80
+Microbe//Methylobacterium radiotolerans JCM 2831	ASSOCIATES_MiaM	Metabolite//L-glutamate(1-)
+Microbe//Listeria monocytogenes SLCC7179	ASSOCIATES_MiaM	Metabolite//HMDB0000159
+Microbe//Lachnospira multipara ATCC 19207	ASSOCIATES_MiaM	Metabolite//HMDB0001440
+Microbe//Campylobacter curvus 525.92	ASSOCIATES_MiaM	Metabolite//adenosine 3,5-bismonophosphate(4-)
+Microbe//Plesiomonas shigelloides 302-73	ASSOCIATES_MiaM	Metabolite//HMDB0000300
+Microbe//Tatumella ptyseos ATCC 33301	ASSOCIATES_MiaR	Reaction//3OAR12M14
+Microbe//Clostridium tyrobutyricum DSM 2637 = ATCC 25755 = JCM 11008	ASSOCIATES_MiaM	Metabolite//HMDB0001532
+Microbe//Dialister invisus DSM 15470	ASSOCIATES_MiaR	Reaction//DGK1
+Microbe//Corynebacterium durum F0235	ASSOCIATES_MiaR	Reaction//DASYNAI17
+Microbe//Lactobacillus rhamnosus LMS2-1	ASSOCIATES_MiaM	Metabolite//10m3hddcaACP
+Microbe//Tannerella forsythia ATCC 43037	ASSOCIATES_MiaM	Metabolite//HMDB0001554
+Microbe//Bacteroides coprocola M16, DSM 17136	ASSOCIATES_MiaM	Metabolite//HMDB0028838
+Microbe//Streptococcus infantarius subsp. infantarius ATCC BAA-102	ASSOCIATES_MiaM	Metabolite//fa12coa,Anteiso-C17:0 CoA   Anteisoheptadecanoyl-CoA
+Microbe//Ruminococcus lactaris ATCC 29176	ASSOCIATES_MiaR	Reaction//IMPC
+Microbe//Butyricicoccus pullicaecorum 1.2	ASSOCIATES_MiaM	Metabolite//HMDB0000721
+Microbe//Veillonella atypica ACS-049-V-Sch6	ASSOCIATES_MiaM	Metabolite//dnarep
+Microbe//Alistipes putredinis DSM 17216	ASSOCIATES_MiaM	Metabolite//HMDB0001000
+Microbe//Bacteroides sp. 3_1_23	ASSOCIATES_MiaR	Reaction//NH4tb
+Microbe//Mitsuokella jalaludinii DSM 13811	ASSOCIATES_MiaR	Reaction//GLNS
+Microbe//Desulfovibrio piger ATCC 29098	ASSOCIATES_MiaM	Metabolite//HMDB0062321
+Microbe//Bacillus flexus 27Col1.1E	ASSOCIATES_MiaR	Reaction//G3PD1
+Microbe//Campylobacter upsaliensis JV21	ASSOCIATES_MiaR	Reaction//DASYNAI15
+Microbe//Kocuria rhizophila DC2201	ASSOCIATES_MiaM	Metabolite//HMDB0000464
+Microbe//Trabulsiella guamensis ATCC 49490	ASSOCIATES_MiaR	Reaction//PAPPT3
+Microbe//Bacteroides pyogenes DSM20611	ASSOCIATES_MiaM	Metabolite//HMDB0001341
+Microbe//Streptococcus australis ATCC 700641	ASSOCIATES_MiaR	Reaction//DASYN180
+Microbe//Leptotrichia buccalis C-1013-b	ASSOCIATES_MiaR	Reaction//NDPK3
+Microbe//Prevotella intermedia 17	ASSOCIATES_MiaR	Reaction//PGM
+Microbe//Pseudobutyrivibrio ruminis AD2017	ASSOCIATES_MiaM	Metabolite//HMDB0000574
+Microbe//Streptococcus sp. I-G2	ASSOCIATES_MiaR	Reaction//PEPGLY
+Microbe//Comamonas testosteroni CNB-2	ASSOCIATES_MiaM	Metabolite//HMDB0012289
+Microbe//Eubacterium hallii L2-7	ASSOCIATES_MiaR	Reaction//DMATT
+Microbe//Brevibacillus brevis NBRC 100599	ASSOCIATES_MiaM	Metabolite//3hddecACP
+Microbe//Pseudomonas monteilii NBRC 103158 = DSM 14164	ASSOCIATES_MiaM	Metabolite//HMDB0001213
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//HMDB0001285
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//HMDB0001347
+Microbe//Roseburia inulinivorans DSM 16841	ASSOCIATES_MiaR	Reaction//FBA
+Microbe//Prevotella denticola F0289	ASSOCIATES_MiaM	Metabolite//HMDB0001310
+Microbe//Ruminococcus bicirculans 80/3	ASSOCIATES_MiaM	Metabolite//HMDB0028836
+Microbe//Pediococcus acidilactici 7_4	ASSOCIATES_MiaR	Reaction//DASYNI15
+Microbe//Bacillus altitudinis 41KF2b	ASSOCIATES_MiaM	Metabolite//HMDB0001469
+Microbe//Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365	ASSOCIATES_MiaM	Metabolite//proteinsynth
+Microbe//Anaerobiospirillum succiniciproducens DSM 64000	ASSOCIATES_MiaM	Metabolite//3ooctACP
+Microbe//Leuconostoc mesenteroides subsp. cremoris ATCC 19254	ASSOCIATES_MiaR	Reaction//THRt2r
+Microbe//Lactobacillus oris F0423	ASSOCIATES_MiaR	Reaction//PAPPT2
+Microbe//Bacillus thermoamylovorans	ASSOCIATES_MiaM	Metabolite//HMDB0001206
+Microbe//Brochothrix thermosphacta DSM 20171 = FSL F6-1036	ASSOCIATES_MiaR	Reaction//UAPGR
+Microbe//Bacteroides sp. 2_1_22	ASSOCIATES_MiaR	Reaction//FPGS7
+Microbe//Mycobacterium avium subsp. avium ATCC 25291	ASSOCIATES_MiaM	Metabolite//HMDB0001967
+Microbe//Bifidobacterium bifidum S17	ASSOCIATES_MiaR	Reaction//r0345
+Microbe//Prevotella shahii JCM 12083	ASSOCIATES_MiaM	Metabolite//HMDB0001301
+Microbe//Micrococcus luteus NCTC 2665	ASSOCIATES_MiaM	Metabolite//HMDB0000492
+Microbe//Sutterella wadsworthensis 3_1_45B	ASSOCIATES_MiaM	Metabolite//HMDB0001554
+Microbe//Bifidobacterium longum longum BBMN68	ASSOCIATES_MiaR	Reaction//GLYGLN1c
+Microbe//Eubacterium ventriosum ATCC 27560	ASSOCIATES_MiaM	Metabolite//HMDB0001401
+Microbe//Enterococcus faecalis OG1RF, ATCC 47077	ASSOCIATES_MiaR	Reaction//Cuabc

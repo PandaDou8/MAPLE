@@ -1,0 +1,8 @@
+Disease//D1	0
+Microbe//M1	1
+Metabolite//T1	2
+Protein//P1	3
+Disease//D2	4
+Microbe//M2	5
+Metabolite//T2	6
+Protein//P2	7
