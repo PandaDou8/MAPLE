@@ -2,12 +2,6 @@
   <img src="./imgs/GA-0813-2.png" alt="MAPLE overview" width="680">
 </p>
 
-<h1 align="center">MAPLE</h1>
-
-<p align="center">
-  <strong>Deciphering microbe–host molecular cascades via memory-augmented reinforcement learning on knowledge graphs</strong>
-</p>
-
 <p align="center">
   <a href="#quickstart">Quickstart</a> &middot;
   <a href="#data-and-availability">Data</a> &middot;
