@@ -1,3 +1,13 @@
+<div align="center">
+
+**🎉 MAPLE Web Service**
+
+MAPLE has been further developed into a web service for human health and microbiome interaction research, providing researchers with public access to MiHIKG.
+
+[https://www.lilab-ecust.cn/MAPLE](https://www.lilab-ecust.cn/MAPLE)
+
+</div>
+
 <p align="center">
   <img src="./imgs/GA-0813-2.png" alt="MAPLE overview" width="680">
 </p>
