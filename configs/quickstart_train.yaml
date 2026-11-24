@@ -1,0 +1,95 @@
+pretrain_config: DistMult
+pretrain_gen_model: outputs/quickstart_pipeline/distmult_quickstart.pth
+
+g_config: DistMult
+d_config: DistMult
+test_batch_size: 16
+
+DistMult:
+  dim: 100
+  lam: 0.05
+  n_sample: 16
+  requested_n_sample: 64
+  gan_sample_cap: 64
+  enable_policy_gradient: true
+  reward_ema_beta: 0.98
+  generator_temperature: 1.0
+  policy_lr: 1.0e-4
+  generator_grad_clip_norm: 5.0
+  generator_logit_clamp: 30.0
+  generator_scale_clamp: 12.0
+  generator_residual_score_clamp: 8.0
+  generator_scale_regularization: 1.0e-4
+  policy_hidden_dim: 64
+  policy_dropout: 0.05
+  memory_dim: 16
+  memory_momentum: 0.98
+  memory_topk: 32
+  memory_reward_clip: 5.0
+  adapter_scale_init: 1.0
+  memory_scale_init: 1.0
+  sample_freq: 1
+  n_epoch: 100
+  n_batch: 10
+  epoch_per_test: 10
+  model_file: distmult_quickstart.pth
+
+log:
+  dump_config: false
+  to_file: false
+  dir: ./log
+  prefix:
+
+output_dir: outputs/quickstart_pipeline/
+
+dataset:
+  class: MicrobeKGTransductive
+  path: data/quickstart/
+
+task:
+  class: KnowledgeGraphCompletion
+  model:
+    class: AStarNet
+    base_layer:
+      class: NBFNetConv
+      input_dim: 32
+      output_dim: 32
+      query_input_dim: 32
+      message_func: distmult
+      aggregate_func: sum
+      layer_norm: yes
+      dependent: yes
+    num_layer: 6
+    indicator_func: ppr
+    short_cut: yes
+    node_ratio: 0.2
+    test_node_ratio: 0.3
+    break_tie: yes
+    edge_dropout: 0.3
+  criterion: ranking
+  margin: 3.0
+  num_negative: 128
+  strict_negative: yes
+  adversarial_temperature: 0.5
+  sample_weight: no
+  full_batch_eval: yes
+
+optimizer:
+  class: Adam
+  lr: 5.0e-4
+
+engine:
+  gpus: [0]
+  batch_size: 4
+  log_interval: 1
+  trace_query_count: 4
+  trace_topk: 4
+  trace_every_n_epoch: 1
+  trace_seed: 1024
+  policy_metric_sample_size: 32
+
+train:
+  num_epoch: 20
+  batch_per_epoch: 16
+
+metric: mrr

@@ -1,0 +1,30 @@
+Chemical//C023036	INDUCES_CHiD	Disease//MONDO:0005359
+Chemical//D004967	INDUCES_CHiD	Disease//MONDO:0005043
+Chemical//D008078	INDUCES_CHiD	Disease//MONDO:0005083
+Disease//MONDO:0004979	CHANGE_RICHNESS_DcrMi	Microbe//Turicella
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//cdpdihpdecg
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//UDP-N-acetyl-alpha-D-glucosamine(2-)
+Chemical//D012906	INDUCES_CHiD	Disease//MONDO:0021100
+Chemical//DB14681	TREATS_CtD	Disease//MONDO:0005265
+Chemical//D000305	TREATS_CtD	Disease//MONDO:0005252
+Microbe//Clostridium bolteae ATCC BAA-613	METABOLIZES_MimC	Chemical//DB00795
+Microbe//Enterococcus sp. 7L76	METABOLIZES_MimC	Chemical//DB00795
+Chemical//C076994	INDUCES_CHiD	Disease//MONDO:0005258
+Microbe//Bacteroides thetaiotaomicron VPI-5482	METABOLIZES_MimC	Chemical//DB00795
+Microbe//Bacteroides eggerthii DSM 20697	METABOLIZES_MimC	Chemical//DB00795
+Chemical//D010936	TREATS_CtD	Disease//MONDO:0005252
+Chemical//D011929	TREATS_CtD	Disease//MONDO:0005083
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0003125
+Disease//MONDO:0005258	CHANGE_RICHNESS_DcrMi	Microbe//Anaerotruncus
+Disease//MONDO:0005109	CHANGE_RICHNESS_DcrMi	Microbe//Lactobacillus
+Disease//MONDO:0005002	CHANGE_RICHNESS_DcrMi	Microbe//Bifidobacterium
+Disease//MONDO:0005258	CHANGE_RICHNESS_DcrMi	Microbe//Megasphaera
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0001285
+Chemical//D058607	TREATS_CtD	Disease//MONDO:0005148
+Disease//MONDO:0005148	CHANGE_RICHNESS_DcrMi	Microbe//Lactobacillus
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0001270
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0000695
+Microbe//Bacteroides dorei DSM 17855	METABOLIZES_MimC	Chemical//DB00795
+Microbe//Bacteroides uniformis ATCC 8492	METABOLIZES_MimC	Chemical//DB00795
+Chemical//C014024	INDUCES_CHiD	Disease//MONDO:0004790
+Chemical//D010936	TREATS_CtD	Disease//MONDO:0005154

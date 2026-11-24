@@ -1,0 +1,1940 @@
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//uaaGgla
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0001275
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//HMDB0000250
+Chemical//D017673	TREATS_CtD	Disease//MONDO:0005468
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//HMDB0001301
+Disease//MONDO:0005101	CHANGE_RICHNESS_DcrMi	Microbe//Bifidobacterium bifidum
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//HMDB0028966
+Microbe//Blautia	METABOLIZES_MimC	Chemical//DB00331
+Chemical//C028451	INDUCES_CHiD	Disease//MONDO:0029000
+Disease//MONDO:0005265	CHANGE_RICHNESS_DcrMi	Microbe//Barnesiella
+Disease//MONDO:0023644	CHANGE_RICHNESS_DcrMi	Microbe//Porphyromonas gingivalis
+Chemical//D001151	INDUCES_CHiD	Disease//MONDO:0002280
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//HMDB0000177
+Disease//MONDO:0008383	CHANGE_RICHNESS_DcrMi	Microbe//Eggerthella lenta
+Disease//Pervasive developmental disorder NOS	CHANGE_RICHNESS_DcrMi	Microbe//Alistipes shahii
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//adenosine 3,5-bismonophosphate(4-)
+Chemical//C534628	TREATS_CtD	Disease//MONDO:0005567
+Chemical//D008731	INDUCES_CHiD	Disease//MONDO:0016677
+Chemical//D004967	TREATS_CtD	Disease//MONDO:0006732
+Disease//MONDO:0005300	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus mitis
+Disease//MONDO:0008226	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus sanguinis
+Disease//MONDO:0011429	CHANGE_RICHNESS_DcrMi	Microbe//Barnesiellaceae
+Microbe//Enterobacter	ASSOCIATES_MiaM	Metabolite//HMDB0000036
+Chemical//D010575	INDUCES_CHiD	Disease//MONDO:0012009
+Disease//MONDO:0008487	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides ovatus
+Disease//MONDO:0002412	CHANGE_RICHNESS_DcrMi	Microbe//Subdoligranulum
+Disease//MONDO:0005076	CHANGE_RICHNESS_DcrMi	Microbe//Rothia mucilaginosa
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//HMDB0000464
+Chemical//C558899	INDUCES_CHiD	Disease//MONDO:0012628
+Chemical//D008070	TREATS_CtD	Disease//MONDO:0005147
+Disease//MONDO:0009688	CHANGE_RICHNESS_DcrMi	Microbe//Bifidobacteriaceae
+Chemical//D005620	INDUCES_CHiD	Disease//MONDO:0005395
+Chemical//DB00635	TREATS_CtD	Disease//MONDO:0005301
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0001473
+Disease//MONDO:0005276	CHANGE_RICHNESS_DcrMi	Microbe//Clostridium cluster XI
+Disease//MONDO:0005147	CHANGE_RICHNESS_DcrMi	Microbe//Lachnospiraceae
+Disease//MONDO:0005276	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus oralis
+Disease//MONDO:0005276	CHANGE_RICHNESS_DcrMi	Microbe//Peptococcus
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//HMDB0000939
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//cdpdodec11eg
+Chemical//D028321	TREATS_CtD	Disease//MONDO:0043510
+Disease//MONDO:0009411	CHANGE_RICHNESS_DcrMi	Microbe//Veillonella parvula
+Disease//MONDO:0005052	CHANGE_RICHNESS_DcrMi	Microbe//Prevotellaceae
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//HMDB0001185
+Chemical//D000927	INDUCES_CHiD	Disease//MONDO:0001627
+Disease//MONDO:0010030	CHANGE_RICHNESS_DcrMi	Microbe//Treponema
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//glyglu
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//cdpdaihpdecg
+Chemical//C558899	TREATS_CtD	Disease//MONDO:0012268
+Chemical//D010936	TREATS_CtD	Disease//MONDO:0002909
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//HMDB0001370
+Disease//MONDO:0005575	CHANGE_RICHNESS_DcrMi	Microbe//Eikenella
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//HMDB0000464
+Chemical//D008054	INDUCES_CHiD	Disease//MONDO:0005359
+Disease//MONDO:0007256	CHANGE_RICHNESS_DcrMi	Microbe//Gemmiger
+Disease//MONDO:0009831	CHANGE_RICHNESS_DcrMi	Microbe//Veillonella
+Chemical//D005411	INDUCES_CHiD	Disease//MONDO:0004790
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//HMDB0001301
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0001416
+Chemical//D000970	INDUCES_CHiD	Disease//MONDO:0006932
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//cdpditdecg
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0001554
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//uaccg
+Chemical//D007854	INDUCES_CHiD	Disease//MONDO:0003620
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//pai17
+Chemical//D001688	TREATS_CtD	Disease//MONDO:0005154
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0001132
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//HMDB0001401
+Chemical//D001554	INDUCES_CHiD	Disease//MONDO:0021117
+Chemical//D013256	INDUCES_CHiD	Disease//MONDO:0006730
+Disease//MONDO:0005083	CHANGE_RICHNESS_DcrMi	Microbe//Flavobacterium
+Disease//MONDO:0006001	CHANGE_RICHNESS_DcrMi	Microbe//Bacillus
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//10m3hddcaACP
+Chemical//C561695	TREATS_CtD	Disease//MONDO:0000775
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//cdpditdecg
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//5m3hhexACP
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//HMDB0000263
+Disease//MONDO:0011292	CHANGE_RICHNESS_DcrMi	Microbe//Bilophila
+Chemical//D008070	INDUCES_CHiD	Disease//MONDO:0004994
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//HMDB0000286
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//cdpdaipdecg
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//HMDB0001487
+Chemical//C007095	TREATS_CtD	Disease//MONDO:0013209
+Chemical//D012964	TREATS_CtD	Disease//MONDO:0002492
+Disease//Aerobic vaginitis	CHANGE_RICHNESS_DcrMi	Microbe//Roseburia faecis
+Chemical//D019980	INDUCES_CHiD	Disease//MONDO:0001751
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//uaagmda
+Disease//MONDO:0005130	CHANGE_RICHNESS_DcrMi	Microbe//Clostridia
+Disease//MONDO:0005306	CHANGE_RICHNESS_DcrMi	Microbe//Parabacteroides distasonis
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//pa141
+Disease//MONDO:0009061	CHANGE_RICHNESS_DcrMi	Microbe//Lachnospiraceae
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//HMDB0000586
+Chemical//D001152	INDUCES_CHiD	Disease//MONDO:0005093
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//HMDB0001254
+Disease//MONDO:0004985	CHANGE_RICHNESS_DcrMi	Microbe//Ruminococcus
+Chemical//C009277	INDUCES_CHiD	Disease//MONDO:0001076
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//cdpditdecg
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//HMDB0001213
+Disease//MONDO:0002358	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus
+Chemical//D002251	INDUCES_CHiD	Disease//MONDO:0015796
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//uamag
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//pa180
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//HMDB0028683
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//IDP(3-)
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//HMDB0001206
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//HMDB0001285
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//HMDB0000078
+Chemical//D004365	TREATS_CtD	Disease//MONDO:0024644
+Disease//MONDO:0015183	CHANGE_RICHNESS_DcrMi	Microbe//Clostridium cluster XI
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0000696
+Chemical//C076994	INDUCES_CHiD	Disease//MONDO:0005148
+Disease//D000085142	CHANGE_RICHNESS_DcrMi	Microbe//Anaerostipes
+Disease//MONDO:0005301	CHANGE_RICHNESS_DcrMi	Microbe//Bacillus
+Disease//MONDO:0004639	CHANGE_RICHNESS_DcrMi	Microbe//Proteobacteria
+Chemical//D014874	INDUCES_CHiD	Disease//MONDO:0005070
+Chemical//D019813	INDUCES_CHiD	Disease//MONDO:0004970
+Chemical//D000929	INDUCES_CHiD	Disease//MONDO:0004985
+Chemical//C038328	INDUCES_CHiD	Disease//MONDO:0001913
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//HMDB0001274
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//pa180
+Disease//MONDO:0008226	CHANGE_RICHNESS_DcrMi	Microbe//Porphyromonas endodontalis
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0001227
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//HMDB0000210
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB0003339
+Disease//MONDO:0021040	CHANGE_RICHNESS_DcrMi	Microbe//Tannerella
+Disease//MONDO:0008487	CHANGE_RICHNESS_DcrMi	Microbe//Faecalibacterium
+Disease//MONDO:0005260	CHANGE_RICHNESS_DcrMi	Microbe//Oscillospira
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//HMDB0000124
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//HMDB0000208
+Disease//MONDO:0005011	CHANGE_RICHNESS_DcrMi	Microbe//Adlercreutzia
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//HMDB0001373
+Chemical//DB00515	TREATS_CtD	Disease//MONDO:0005447
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//Oxidized thioredoxin
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0001248
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//HMDB0001271
+Chemical//D005200	INDUCES_CHiD	Disease//MONDO:0015075
+Chemical//D004041	INDUCES_CHiD	Disease//MONDO:0005468
+Chemical//D005038	INDUCES_CHiD	Disease//MONDO:0005059
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//HMDB0000759
+Chemical//D001335	INDUCES_CHiD	Disease//MONDO:0004981
+Disease//MONDO:0010726	CHANGE_RICHNESS_DcrMi	Microbe//Gemmiger
+Chemical//D000728	INDUCES_CHiD	Disease//MONDO:0018874
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//HMDB0006899
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0000078
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//HMDB0001274
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//5m3ohexACP
+Disease//MONDO:0005260	CHANGE_RICHNESS_DcrMi	Microbe//Escherichia sp. 3_2_53FAA
+Chemical//C000228	INDUCES_CHiD	Disease//MONDO:0002367
+Chemical//C041517	INDUCES_CHiD	Disease//MONDO:0024477
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0001248
+Chemical//D004051	INDUCES_CHiD	Disease//MONDO:0005154
+Disease//MONDO:0005011	CHANGE_RICHNESS_DcrMi	Microbe//Flavonifractor plautii
+Chemical//D016264	INDUCES_CHiD	Disease//MONDO:0005043
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0000217
+Chemical//C017690	INDUCES_CHiD	Disease//MONDO:0006496
+Disease//MONDO:0005010	CHANGE_RICHNESS_DcrMi	Microbe//Prevotella
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//HMDB0001117
+Disease//D009980	CHANGE_RICHNESS_DcrMi	Microbe//Granulicatella
+Disease//MONDO:0005649	CHANGE_RICHNESS_DcrMi	Microbe//Bilophila
+Microbe//Porphyromonas gingivalis	ASSOCIATES_MiaM	Metabolite//HMDB0000042
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//13m3hmyrsACP
+Disease//MONDO:0009831	CHANGE_RICHNESS_DcrMi	Microbe//Aggregatibacter
+Chemical//D017382	INDUCES_CHiD	Disease//MONDO:0001106
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//cdpdihdecg
+Chemical//D005707	TREATS_CtD	Disease//MONDO:0005203
+Chemical//C008261	INDUCES_CHiD	Disease//MONDO:0005275
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//fa11coa, Iso-C17:0 CoA   Isoheptadecanoyl-CoA
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//pa181
+Disease//MONDO:0005265	CHANGE_RICHNESS_DcrMi	Microbe//Rikenellaceae
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//HMDB0028686
+Chemical//D004967	INDUCES_CHiD	Disease//MONDO:0007256
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//HMDB0000034
+Chemical//D000305	TREATS_CtD	Disease//MONDO:0005377
+Disease//MONDO:0005052	CHANGE_RICHNESS_DcrMi	Microbe//Lactobacillales
+Disease//D000069279	CHANGE_RICHNESS_DcrMi	Microbe//Fusobacterium
+Chemical//C023036	INDUCES_CHiD	Disease//MONDO:0029000
+Disease//D025241	CHANGE_RICHNESS_DcrMi	Microbe//Bifidobacterium longum
+Microbe//Clostridium	METABOLIZES_MimC	Chemical//DB00762
+Disease//MONDO:0018874	CHANGE_RICHNESS_DcrMi	Microbe//Pseudobutyrivibrio
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0015532
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB0001179
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//HMDB0001248
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//HMDB0001342
+Disease//MONDO:0003232	CHANGE_RICHNESS_DcrMi	Microbe//Paraprevotella
+Disease//MONDO:0011429	CHANGE_RICHNESS_DcrMi	Microbe//Parabacteroides distasonis
+Microbe//Proteobacteria	METABOLIZES_MimC	Chemical//DB00331
+Chemical//C027576	INDUCES_CHiD	Disease//MONDO:0004976
+Chemical//D004128	INDUCES_CHiD	Disease//MONDO:0019542
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//pa141
+Disease//MONDO:0005265	CHANGE_RICHNESS_DcrMi	Microbe//Sphingomonas
+Chemical//C009277	INDUCES_CHiD	Disease//MONDO:0003240
+Chemical//DB00091	TREATS_CtD	Disease//MONDO:0007179
+Chemical//D015662	TREATS_CtD	Disease//MONDO:0004979
+Chemical//DB00993	TREATS_CtD	Disease//MONDO:0005100
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//Stearoyl-CoA (n-C18:0CoA)
+Disease//MONDO:0009688	CHANGE_RICHNESS_DcrMi	Microbe//Leuconostocaceae
+Microbe//Butyricicoccus	METABOLIZES_MimC	Chemical//DB00331
+Disease//D012907	CHANGE_RICHNESS_DcrMi	Microbe//Granulicatella
+Microbe//Bacteroidetes	ASSOCIATES_MiaM	Metabolite//HMDB0254119
+Disease//MONDO:0011292	CHANGE_RICHNESS_DcrMi	Microbe//Gemmiger
+Disease//MONDO:0005155	CHANGE_RICHNESS_DcrMi	Microbe//Haemophilus
+Disease//MONDO:0005484	CHANGE_RICHNESS_DcrMi	Microbe//Comamonas
+Chemical//DB00515	TREATS_CtD	Disease//MONDO:0005089
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//15m3hpalmACP
+Chemical//D012838	TREATS_CtD	Disease//MONDO:0001126
+Disease//MONDO:0005312	CHANGE_RICHNESS_DcrMi	Microbe//Citrobacter
+Chemical//C006253	INDUCES_CHiD	Disease//MONDO:0005359
+Disease//MONDO:0011565	CHANGE_RICHNESS_DcrMi	Microbe//Eubacterium eligens
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//HMDB0001377
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//rnatrans
+Chemical//D049971	INDUCES_CHiD	Disease//MONDO:0002909
+Disease//MONDO:0008383	CHANGE_RICHNESS_DcrMi	Microbe//Shigella
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//pa161
+Chemical//D002186	TREATS_CtD	Disease//MONDO:0005100
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//cdpdtdec7eg
+Disease//MONDO:0001711	CHANGE_RICHNESS_DcrMi	Microbe//Veillonella
+Disease//MONDO:0003085	CHANGE_RICHNESS_DcrMi	Microbe//Mitsuokella
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//HMDB0001060
+Chemical//D004726	INDUCES_CHiD	Disease//MONDO:0005044
+Chemical//D002083	TREATS_CtD	Disease//MONDO:0021040
+Disease//MONDO:0005301	CHANGE_RICHNESS_DcrMi	Microbe//Erysipelotrichaceae
+Disease//MONDO:0008383	CHANGE_RICHNESS_DcrMi	Microbe//Pseudomonas
+Chemical//D000393	INDUCES_CHiD	Disease//MONDO:0002050
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0028697
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//proteinsynth
+Disease//MONDO:0005011	CHANGE_RICHNESS_DcrMi	Microbe//Staphylococcus
+Chemical//D017673	INDUCES_CHiD	Disease//MONDO:0005032
+Disease//MONDO:0005130	CHANGE_RICHNESS_DcrMi	Microbe//Porphyromonas endodontalis
+Chemical//C561695	TREATS_CtD	Disease//MONDO:0021040
+Disease//MONDO:0005316	CHANGE_RICHNESS_DcrMi	Microbe//Anaerococcus
+Disease//Edentulism	CHANGE_RICHNESS_DcrMi	Microbe//Dialister invisus
+Chemical//C511295	INDUCES_CHiD	Disease//MONDO:0005015
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//rnatrans
+Chemical//D001554	INDUCES_CHiD	Disease//MONDO:0002406
+Disease//MONDO:0007699	CHANGE_RICHNESS_DcrMi	Microbe//Fusicatenibacter
+Disease//MONDO:0004985	CHANGE_RICHNESS_DcrMi	Microbe//Clostridiaceae
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//HMDB0000123
+Chemical//D005278	INDUCES_CHiD	Disease//MONDO:0005347
+Disease//MONDO:0005441	CHANGE_RICHNESS_DcrMi	Microbe//Actinobacillus
+Disease//MONDO:0005300	CHANGE_RICHNESS_DcrMi	Microbe//Romboutsia
+Chemical//D008748	INDUCES_CHiD	Disease//MONDO:0001711
+Disease//MONDO:0043923	CHANGE_RICHNESS_DcrMi	Microbe//Rothia
+Disease//MONDO:0019100	CHANGE_RICHNESS_DcrMi	Microbe//Lachnospiraceae incertae sedis
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//HMDB0000286
+Chemical//D008767	INDUCES_CHiD	Disease//MONDO:0020022
+Chemical//D001786	INDUCES_CHiD	Disease//MONDO:0043797
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0001310
+Microbe//Fusobacteria	ASSOCIATES_MiaM	Metabolite//HMDB0000244
+Chemical//D013749	TREATS_CtD	Disease//MONDO:0005147
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//l2a6o
+Microbe//Lactobacillus	METABOLIZES_MimC	Chemical//DB00331
+Disease//MONDO:0005002	CHANGE_RICHNESS_DcrMi	Microbe//Prevotella
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//cdpdodec11eg
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//cdpdtdecg
+Symptom//HP:0033675	CHANGE_RICHNESS_DcrMi	Microbe//Faecalibacterium prausnitzii
+Chemical//D000305	INDUCES_CHiD	Disease//MONDO:0005015
+Microbe//Firmicutes	METABOLIZES_MimC	Chemical//DB00331
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//ugmd
+Chemical//D004051	INDUCES_CHiD	Disease//MONDO:0024477
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//15m3opalmACP
+Disease//MONDO:0005180	CHANGE_RICHNESS_DcrMi	Microbe//Oscillospiraceae
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//HMDB0000244
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//HMDB0001342
+Disease//MONDO:0005649	CHANGE_RICHNESS_DcrMi	Microbe//Fusobacterium
+Chemical//D009151	INDUCES_CHiD	Disease//MONDO:0006932
+Disease//MONDO:0005002	CHANGE_RICHNESS_DcrMi	Microbe//Klebsiella pneumoniae
+Chemical//D014028	INDUCES_CHiD	Disease//MONDO:0016064
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//HMDB0000288
+Chemical//D019980	INDUCES_CHiD	Disease//MONDO:0018229
+Microbe//Bacteroides	METABOLIZES_MimC	Chemical//DB00563
+Chemical//D001554	INDUCES_CHiD	Disease//MONDO:0008170
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//HMDB0000082
+Chemical//D017382	INDUCES_CHiD	Disease//MONDO:0005180
+Chemical//D052638	INDUCES_CHiD	Disease//MONDO:0001076
+Disease//MONDO:0004950	CHANGE_RICHNESS_DcrMi	Microbe//Klebsiella
+Chemical//D011134	TREATS_CtD	Disease//MONDO:0005377
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0000300
+Disease//MONDO:0005076	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus sanguinis
+Chemical//D000171	INDUCES_CHiD	Disease//MONDO:0005311
+Chemical//C543008	INDUCES_CHiD	Disease//MONDO:0001913
+Disease//MONDO:0010030	CHANGE_RICHNESS_DcrMi	Microbe//Peptostreptococcus
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//HMDB0001372
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//12m3omyrsACP
+Chemical//C057862	INDUCES_CHiD	Disease//MONDO:0002177
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//tRNA (Glu)
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//HMDB0000961
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//HMDB0000172
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//HMDB0000089
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//fa1coa,Iso-C14:0 CoA   Isotetradecanoyl-CoA
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//13m3omyrsACP
+Disease//MONDO:0004982	CHANGE_RICHNESS_DcrMi	Microbe//Ruminococcus bromii
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//HMDB0000187
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//HMDB0000902
+Chemical//C000228	INDUCES_CHiD	Disease//MONDO:0001106
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//HMDB0001321
+Chemical//C007095	TREATS_CtD	Disease//MONDO:0002251
+Disease//MONDO:0012268	CHANGE_RICHNESS_DcrMi	Microbe//Ruminococcus
+Chemical//D016627	INDUCES_CHiD	Disease//MONDO:0021095
+Chemical//D000929	INDUCES_CHiD	Disease//MONDO:0001386
+Chemical//C034587	TREATS_CtD	Disease//MONDO:0021100
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//HMDB0001373
+Disease//MONDO:0005090	CHANGE_RICHNESS_DcrMi	Microbe//Enterococcus
+Chemical//D000319	INDUCES_CHiD	Disease//MONDO:0024644
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//5m3ohexACP
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//HMDB0001179
+Chemical//DB00959	TREATS_CtD	Disease//MONDO:0000775
+Disease//MONDO:0001444	CHANGE_RICHNESS_DcrMi	Microbe//Butyrivibrio
+Chemical//D015662	TREATS_CtD	Disease//MONDO:0005377
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0001058
+Chemical//DB00762	TREATS_CtD	Disease//MONDO:0021100
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//HMDB0028689
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//PGPm1
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//pai15
+Chemical//D000393	INDUCES_CHiD	Disease//MONDO:0005252
+Chemical//D020111	INDUCES_CHiD	Disease//MONDO:0018902
+Disease//MONDO:0005101	CHANGE_RICHNESS_DcrMi	Microbe//Clostridium cluster XIVa
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0028848
+Chemical//D058607	TREATS_CtD	Disease//MONDO:0012009
+Disease//MONDO:0008171	CHANGE_RICHNESS_DcrMi	Microbe//Alistipes
+Chemical//C029216	INDUCES_CHiD	Disease//MONDO:0005032
+Disease//MONDO:0013433	CHANGE_RICHNESS_DcrMi	Microbe//Prevotella copri
+Chemical//D003287	INDUCES_CHiD	Disease//MONDO:0006932
+Chemical//D010936	TREATS_CtD	Disease//MONDO:0005275
+Disease//MONDO:0008383	CHANGE_RICHNESS_DcrMi	Microbe//Bifidobacterium
+Disease//MONDO:0005364	CHANGE_RICHNESS_DcrMi	Microbe//Pasteurellaceae
+Disease//MONDO:0005311	CHANGE_RICHNESS_DcrMi	Microbe//Eggerthella lenta
+Disease//MONDO:0008383	CHANGE_RICHNESS_DcrMi	Microbe//Eggerthella
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//L-lysinium(1+)
+Chemical//D019161	INDUCES_CHiD	Disease//MONDO:0002334
+Disease//MONDO:0004845	CHANGE_RICHNESS_DcrMi	Microbe//Megasphaera
+Chemical//C017947	INDUCES_CHiD	Disease//MONDO:0003634
+Disease//MONDO:0005575	CHANGE_RICHNESS_DcrMi	Microbe//Sutterella
+Disease//MONDO:0005258	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcaceae
+Disease//MONDO:0011122	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides plebeius
+Disease//MONDO:0006733	CHANGE_RICHNESS_DcrMi	Microbe//Veillonella
+Microbe//Enterococcus sp. 7L76	METABOLIZES_MimC	Chemical//DB01235
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//PGP
+Disease//MONDO:0002009	CHANGE_RICHNESS_DcrMi	Microbe//Oscillibacter
+Disease//MONDO:0005052	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides ovatus
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//Palmitoyl-ACP (n-C16:0ACP)
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//HMDB0001354
+Chemical//DB00773	TREATS_CtD	Disease//MONDO:0018874
+Chemical//D004041	TREATS_CtD	Disease//MONDO:0013209
+Chemical//DB00860	TREATS_CtD	Disease//MONDO:0001657
+Disease//MONDO:0005011	CHANGE_RICHNESS_DcrMi	Microbe//Dialister invisus
+Chemical//C036990	INDUCES_CHiD	Disease//MONDO:0005401
+Chemical//D001397	INDUCES_CHiD	Disease//MONDO:0004993
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//cdpdhdecg
+Disease//MONDO:0005441	CHANGE_RICHNESS_DcrMi	Microbe//Acinetobacter
+Chemical//D020058	INDUCES_CHiD	Disease//MONDO:0004335
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//pai17
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//HMDB0001016
+Disease//MONDO:0004967	CHANGE_RICHNESS_DcrMi	Microbe//Coprococcus
+Microbe//Bilophila	ASSOCIATES_MiaM	Metabolite//HMDB0003276
+Chemical//C007262	INDUCES_CHiD	Disease//MONDO:0004790
+Chemical//DB00091	TREATS_CtD	Disease//MONDO:0100096
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//10m3oddcaACP
+Chemical//C009536	INDUCES_CHiD	Disease//MONDO:0019087
+Disease//MONDO:0004979	CHANGE_RICHNESS_DcrMi	Microbe//Faecalibacterium
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//HMDB0000285
+Disease//MONDO:0005155	CHANGE_RICHNESS_DcrMi	Microbe//Coriobacteriaceae
+Disease//MONDO:0005180	CHANGE_RICHNESS_DcrMi	Microbe//Clostridium
+Disease//MONDO:0003085	CHANGE_RICHNESS_DcrMi	Microbe//Treponema
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0000696
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//HMDB0000280
+Disease//MONDO:0005276	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus
+Chemical//D014752	INDUCES_CHiD	Disease//MONDO:0021085
+Microbe//Escherichia sp. 3_2_53FAA	METABOLIZES_MimC	Chemical//DB00563
+Disease//MONDO:0005083	CHANGE_RICHNESS_DcrMi	Microbe//Akkermansia muciniphila
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//HMDB0000078
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//HMDB0001227
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//fa3coa,Iso-C15:0 CoA   Isopentadecanoyl-CoA
+Chemical//C026486	INDUCES_CHiD	Disease//MONDO:0004993
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//cdpdipdecg
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//HMDB0000929
+Chemical//D019304	TREATS_CtD	Disease//MONDO:0011438
+Microbe//Peptoclostridium difficile	METABOLIZES_MimC	Chemical//D000900
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//uamag
+Disease//MONDO:0005575	CHANGE_RICHNESS_DcrMi	Microbe//Enterococcus
+Disease//MONDO:0005148	CHANGE_RICHNESS_DcrMi	Microbe//Bilophila
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//cdpdhdecg
+Chemical//C031763	INDUCES_CHiD	Disease//MONDO:0008170
+Microbe//Eggerthella lenta	ASSOCIATES_MiaM	Metabolite//HMDB0000209
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//4m3ohexACP
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//HMDB0002104
+Chemical//C014024	TREATS_CtD	Disease//MONDO:0029000
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0000929
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0000464
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//cdpdihdecg
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//cdpdaipdecg
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//ugmda
+Chemical//C061132	TREATS_CtD	Disease//MONDO:0006732
+Disease//MONDO:0013209	CHANGE_RICHNESS_DcrMi	Microbe//Bilophila
+Chemical//D004051	TREATS_CtD	Disease//MONDO:0019182
+Microbe//Bifidobacterium bifidum	ASSOCIATES_MiaM	Metabolite//Phenolic acid
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//pa160
+Chemical//D004967	INDUCES_CHiD	Disease//MONDO:0011057
+Chemical//D012997	INDUCES_CHiD	Disease//MONDO:0004976
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//14m3hpalmACP
+Disease//MONDO:0009831	CHANGE_RICHNESS_DcrMi	Microbe//Clostridium cluster IV
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0000990
+Disease//D009980	CHANGE_RICHNESS_DcrMi	Microbe//Rothia
+Disease//MONDO:0005148	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides vulgatus
+Disease//MONDO:0005316	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus sanguinis
+Chemical//D028321	INDUCES_CHiD	Disease//MONDO:0005359
+Disease//MONDO:0005083	CHANGE_RICHNESS_DcrMi	Microbe//Staphylococcus aureus
+Chemical//D005707	TREATS_CtD	Disease//MONDO:0001913
+Chemical//D058607	TREATS_CtD	Disease//MONDO:0012010
+Disease//MONDO:0008171	CHANGE_RICHNESS_DcrMi	Microbe//Fusicatenibacter
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//paai17
+Microbe//Comamonas	METABOLIZES_MimC	Chemical//DB00563
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//L-glutamate(1-)
+Disease//MONDO:0019100	CHANGE_RICHNESS_DcrMi	Microbe//Prevotella melaninogenica
+Chemical//C023845	INDUCES_CHiD	Disease//MONDO:0005401
+Chemical//D005938	INDUCES_CHiD	Disease//MONDO:0002009
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//fa1coa,Iso-C14:0 CoA   Isotetradecanoyl-CoA
+Disease//MONDO:0005258	CHANGE_RICHNESS_DcrMi	Microbe//Rothia
+Chemical//D002251	INDUCES_CHiD	Disease//MONDO:0002251
+Chemical//D007306	INDUCES_CHiD	Disease//MONDO:0018908
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//l2a6o
+Disease//MONDO:0013433	CHANGE_RICHNESS_DcrMi	Microbe//Dorea
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//10m3oddcaACP
+Disease//MONDO:0015075	CHANGE_RICHNESS_DcrMi	Microbe//Turicibacter
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//HMDB0001554
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//9m3odcaACP
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//paai17
+Disease//MONDO:0009831	CHANGE_RICHNESS_DcrMi	Microbe//Leptotrichia
+Disease//MONDO:0005180	CHANGE_RICHNESS_DcrMi	Microbe//Methanobrevibacter
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB0001273
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//HMDB0001206
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//4m3hhexACP
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//HMDB0028836
+Microbe//Bacteroides thetaiotaomicron VPI-5482	METABOLIZES_MimC	Chemical//DB01234
+Chemical//C434926	TREATS_CtD	Disease//MONDO:0002909
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//Tetradecanoyl-CoA (n-C14:0CoA)
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0001554
+Disease//MONDO:0005260	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides fragilis
+Chemical//C036989	INDUCES_CHiD	Disease//MONDO:0021245
+Microbe//Candida albicans	ASSOCIATES_MiaM	Metabolite//HMDB0000990
+Chemical//C561695	TREATS_CtD	Disease//MONDO:0008170
+Chemical//C025256	INDUCES_CHiD	Disease//MONDO:0005453
+Disease//MONDO:0005388	CHANGE_RICHNESS_DcrMi	Microbe//Clostridiaceae
+Disease//MONDO:0011122	CHANGE_RICHNESS_DcrMi	Microbe//Firmicutes
+Chemical//D012906	INDUCES_CHiD	Disease//MONDO:0012788
+Chemical//C506643	INDUCES_CHiD	Disease//MONDO:0003620
+Disease//MONDO:0004976	CHANGE_RICHNESS_DcrMi	Microbe//Odoribacter
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//fa12coa,Anteiso-C17:0 CoA   Anteisoheptadecanoyl-CoA
+Disease//MONDO:0005101	CHANGE_RICHNESS_DcrMi	Microbe//Alistipes shahii
+Chemical//D011078	INDUCES_CHiD	Disease//MONDO:0021100
+Chemical//D002395	INDUCES_CHiD	Disease//MONDO:0005044
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0001245
+Disease//MONDO:0002358	CHANGE_RICHNESS_DcrMi	Microbe//Selenomonas
+Disease//MONDO:0005701	CHANGE_RICHNESS_DcrMi	Microbe//Anaerococcus
+Chemical//D011929	INDUCES_CHiD	Disease//MONDO:0003785
+Chemical//D008767	INDUCES_CHiD	Disease//MONDO:0001386
+Disease//MONDO:0005351	CHANGE_RICHNESS_DcrMi	Microbe//Porphyromonadaceae
+Disease//MONDO:0005344	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides
+Chemical//C434926	TREATS_CtD	Disease//MONDO:0005068
+Disease//MONDO:0005271	CHANGE_RICHNESS_DcrMi	Microbe//Coprococcus
+Microbe//Bacteroides fragilis	METABOLIZES_MimC	Chemical//DB00762
+Chemical//C055494	TREATS_CtD	Disease//MONDO:0005240
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//glygln
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//HMDB0001128
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//HMDB0000695
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//uagmda
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//HMDB0028691
+Chemical//D001194	INDUCES_CHiD	Disease//MONDO:0002771
+Disease//MONDO:0023644	CHANGE_RICHNESS_DcrMi	Microbe//Leptotrichia
+Microbe//Bifidobacterium	ASSOCIATES_MiaM	Metabolite//HMDB0001488
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//Dodecanoyl-ACP (n-C12:0ACP)
+Chemical//C001042	INDUCES_CHiD	Disease//MONDO:0021074
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//11m3hddcaACP
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//uaccg
+Disease//MONDO:0007191	CHANGE_RICHNESS_DcrMi	Microbe//Megamonas
+Chemical//C434926	TREATS_CtD	Disease//MONDO:0005203
+Chemical//D004967	INDUCES_CHiD	Disease//MONDO:0005186
+Disease//MONDO:0005011	CHANGE_RICHNESS_DcrMi	Microbe//Mitsuokella
+Chemical//C506365	INDUCES_CHiD	Disease//MONDO:0010331
+Microbe//Clostridium	ASSOCIATES_MiaM	Metabolite//HMDB0001043
+Disease//MONDO:0005265	CHANGE_RICHNESS_DcrMi	Microbe//Methanobrevibacter
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB0015531
+Chemical//D004051	INDUCES_CHiD	Disease//MONDO:0005043
+Disease//MONDO:0011122	CHANGE_RICHNESS_DcrMi	Microbe//Leuconostocaceae
+Disease//MONDO:0005130	CHANGE_RICHNESS_DcrMi	Microbe//Leptotrichia
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//HMDB0000045
+Disease//MONDO:0005316	CHANGE_RICHNESS_DcrMi	Microbe//Peptostreptococcus
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0000158
+Chemical//C006253	INDUCES_CHiD	Disease//MONDO:0018902
+Disease//MONDO:0004639	CHANGE_RICHNESS_DcrMi	Microbe//Staphylococcus epidermidis
+Chemical//C025643	INDUCES_CHiD	Disease//MONDO:0016677
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//triphosphate(5-)
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0000082
+Chemical//D015084	INDUCES_CHiD	Disease//MONDO:0005372
+Chemical//DB00635	TREATS_CtD	Disease//MONDO:0008315
+Chemical//D009943	INDUCES_CHiD	Disease//MONDO:0011565
+Microbe//Fusobacterium periodonticum	ASSOCIATES_MiaM	Metabolite//HMDB0000237
+Disease//MONDO:0001505	CHANGE_RICHNESS_DcrMi	Microbe//Atopobium
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//HMDB0000608
+Chemical//C015001	INDUCES_CHiD	Disease//MONDO:0024477
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0015532
+Chemical//D002251	INDUCES_CHiD	Disease//MONDO:0005240
+Disease//Aerobic vaginitis	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus mitis
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//12m3omyrsACP
+Chemical//D004365	INDUCES_CHiD	Disease//MONDO:0007256
+Chemical//C023036	INDUCES_CHiD	Disease//MONDO:0003240
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//HMDB0001248
+Chemical//D001554	INDUCES_CHiD	Disease//MONDO:0018874
+Chemical//D003276	INDUCES_CHiD	Disease//MONDO:0007915
+Chemical//C023035	INDUCES_CHiD	Disease//MONDO:0004681
+Disease//MONDO:0005148	CHANGE_RICHNESS_DcrMi	Microbe//Eggerthella lenta
+Chemical//D014280	INDUCES_CHiD	Disease//MONDO:0012147
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//fa6coa,Iso-C16:0 CoA   Isohexadecanoyl-CoA
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//IDP(3-)
+Disease//MONDO:0010200	CHANGE_RICHNESS_DcrMi	Microbe//Proteobacteria
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//HMDB0028685
+Chemical//C023470	INDUCES_CHiD	Disease//MONDO:0005328
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//L-lysinium(1+)
+Disease//MONDO:0001942	CHANGE_RICHNESS_DcrMi	Microbe//Eubacterium rectale
+Chemical//DB00635	TREATS_CtD	Disease//MONDO:0007179
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//Myristoyl-ACP (n-C14:0ACP)
+Chemical//D010575	INDUCES_CHiD	Disease//MONDO:0007179
+Chemical//D001397	INDUCES_CHiD	Disease//MONDO:0005101
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0000162
+Disease//MONDO:0004980	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides fragilis
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//9m3hdcaACP
+Chemical//D015662	INDUCES_CHiD	Disease//MONDO:0100053
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//HMDB0001370
+Chemical//C023888	INDUCES_CHiD	Disease//MONDO:0008315
+Chemical//DB01204	TREATS_CtD	Disease//MONDO:0005062
+Chemical//D020058	INDUCES_CHiD	Disease//MONDO:0005087
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//HMDB0001548
+Chemical//D045930	INDUCES_CHiD	Disease//MONDO:0019087
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB0001423
+Disease//MONDO:0005575	CHANGE_RICHNESS_DcrMi	Microbe//Prevotella copri
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//14m3opalmACP
+Disease//MONDO:0004967	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides uniformis
+Chemical//D012964	TREATS_CtD	Disease//MONDO:0020745
+Chemical//D014028	INDUCES_CHiD	Disease//MONDO:0005109
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//HMDB0001354
+Chemical//D005620	INDUCES_CHiD	Disease//MONDO:0005618
+Disease//MONDO:0007576	CHANGE_RICHNESS_DcrMi	Microbe//Turicella
+Disease//MONDO:0001673	CHANGE_RICHNESS_DcrMi	Microbe//Bifidobacterium
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//HMDB0000243
+Microbe//Bifidobacterium adolescentis	ASSOCIATES_MiaM	Metabolite//HMDB0000244
+Chemical//D002186	INDUCES_CHiD	Disease//MONDO:0005186
+Chemical//D004026	INDUCES_CHiD	Disease//MONDO:0024477
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0000089
+Microbe//Bacteroides	METABOLIZES_MimC	Chemical//DB00581
+Chemical//D010269	INDUCES_CHiD	Disease//MONDO:0005020
+Microbe//Bifidobacterium	ASSOCIATES_MiaM	Metabolite//HMDB0000138
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0000172
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//11m3oddcaACP
+Chemical//D009151	INDUCES_CHiD	Disease//MONDO:0005275
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//HMDB0003339
+Disease//MONDO:0005109	CHANGE_RICHNESS_DcrMi	Microbe//Catenibacterium
+Microbe//Eggerthella lenta	ASSOCIATES_MiaM	Metabolite//HMDB0001955
+Disease//MONDO:0004845	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcaceae
+Chemical//D037742	INDUCES_CHiD	Disease//MONDO:0005093
+Chemical//C009505	INDUCES_CHiD	Disease//MONDO:0005154
+Disease//MONDO:0000702	CHANGE_RICHNESS_DcrMi	Microbe//Prevotella
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0001191
+Disease//MONDO:0005258	CHANGE_RICHNESS_DcrMi	Microbe//Peptoniphilus
+Microbe//Escherichia	ASSOCIATES_MiaM	Metabolite//HMDB0000626
+Disease//MONDO:0019100	CHANGE_RICHNESS_DcrMi	Microbe//Shigella
+Disease//MONDO:0011438	CHANGE_RICHNESS_DcrMi	Microbe//Blautia
+Disease//MONDO:0005083	CHANGE_RICHNESS_DcrMi	Microbe//Comamonas
+Chemical//D004365	INDUCES_CHiD	Disease//MONDO:0001085
+Disease//MONDO:0005300	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus
+Chemical//D002121	TREATS_CtD	Disease//MONDO:0020745
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0001213
+Chemical//C007262	INDUCES_CHiD	Disease//MONDO:0005020
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//HMDB0000142
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//HMDB0001112
+Chemical//C023470	INDUCES_CHiD	Disease//MONDO:0003939
+Disease//MONDO:0005180	CHANGE_RICHNESS_DcrMi	Microbe//Pasteurellaceae
+Chemical//C013592	TREATS_CtD	Disease//MONDO:0005359
+Disease//MONDO:0800029	CHANGE_RICHNESS_DcrMi	Microbe//Pseudobutyrivibrio
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//HMDB0028697
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//HMDB0000195
+Chemical//D006495	INDUCES_CHiD	Disease//MONDO:0013792
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//10m3oddcaACP
+Chemical//C034456	INDUCES_CHiD	Disease//MONDO:0005385
+Chemical//C047777	INDUCES_CHiD	Disease//MONDO:0004972
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//UDP-N-acetyl-alpha-D-glucosamine(2-)
+Chemical//C012457	INDUCES_CHiD	Disease//MONDO:0005401
+Disease//MONDO:0005109	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus mitis
+Chemical//D019256	INDUCES_CHiD	Disease//MONDO:0018075
+Chemical//C036990	INDUCES_CHiD	Disease//MONDO:0005335
+Chemical//D002395	INDUCES_CHiD	Disease//MONDO:0005385
+Chemical//D000927	INDUCES_CHiD	Disease//MONDO:0005570
+Disease//MONDO:0005265	CHANGE_RICHNESS_DcrMi	Microbe//Candida albicans
+Chemical//D004390	INDUCES_CHiD	Disease//MONDO:0005302
+Disease//MONDO:0800029	CHANGE_RICHNESS_DcrMi	Microbe//Stenotrophomonas
+Chemical//C009536	INDUCES_CHiD	Disease//MONDO:0005043
+Disease//MONDO:0043923	CHANGE_RICHNESS_DcrMi	Microbe//Oribacterium
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0001109
+Chemical//C047777	INDUCES_CHiD	Disease//MONDO:0005814
+Disease//MONDO:0002691	CHANGE_RICHNESS_DcrMi	Microbe//Ruminococcus gnavus
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//HMDB0003459
+Chemical//D002791	INDUCES_CHiD	Disease//MONDO:0004994
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0000574
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0254435
+Disease//MONDO:0020283	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0001000
+Microbe//Clostridium	ASSOCIATES_MiaM	Metabolite//HMDB0000626
+Microbe//Bacteroides	METABOLIZES_MimC	Chemical//DB00331
+Chemical//D013749	INDUCES_CHiD	Disease//MONDO:0021117
+Chemical//D007854	INDUCES_CHiD	Disease//MONDO:0008383
+Disease//MONDO:0005277	CHANGE_RICHNESS_DcrMi	Microbe//Eggerthella lenta
+Chemical//DB00773	TREATS_CtD	Disease//MONDO:0008315
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//HMDB0000288
+Disease//MONDO:0005546	CHANGE_RICHNESS_DcrMi	Microbe//Dorea
+Disease//MONDO:0005010	CHANGE_RICHNESS_DcrMi	Microbe//Parabacteroides
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//10m3oddcaACP
+Chemical//D000602	INDUCES_CHiD	Disease//MONDO:0005043
+Disease//MONDO:0007147	CHANGE_RICHNESS_DcrMi	Microbe//Porphyromonas
+Microbe//Ruminococcus gnavus	METABOLIZES_MimC	Chemical//DB00795
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB0000167
+Disease//MONDO:0005316	CHANGE_RICHNESS_DcrMi	Microbe//Leptotrichia
+Chemical//C036077	INDUCES_CHiD	Disease//MONDO:0004993
+Disease//MONDO:0005231	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus
+Chemical//C025256	INDUCES_CHiD	Disease//MONDO:0005558
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//HMDB0000030
+Microbe//Eggerthella lenta	ASSOCIATES_MiaM	Metabolite//HMDB0000042
+Microbe//Comamonas	METABOLIZES_MimC	Chemical//DB00773
+Chemical//DB00762	TREATS_CtD	Disease//MONDO:0021085
+Chemical//D008078	INDUCES_CHiD	Disease//MONDO:0005068
+Disease//MONDO:0005044	CHANGE_RICHNESS_DcrMi	Microbe//Eggerthella
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//HMDB0001967
+Chemical//D000928	INDUCES_CHiD	Disease//MONDO:0004496
+Chemical//D028321	TREATS_CtD	Disease//MONDO:0001187
+Chemical//C025589	INDUCES_CHiD	Disease//MONDO:0005359
+Chemical//D010406	INDUCES_CHiD	Disease//MONDO:0001085
+Chemical//C012457	INDUCES_CHiD	Disease//MONDO:0004972
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//HMDB0001120
+Chemical//C036077	INDUCES_CHiD	Disease//MONDO:0005032
+Disease//MONDO:0005044	CHANGE_RICHNESS_DcrMi	Microbe//Veillonella
+Microbe//Eubacterium biforme DSM 3989	METABOLIZES_MimC	Chemical//DB00531
+Chemical//D001335	INDUCES_CHiD	Disease//MONDO:0001913
+Chemical//C014024	INDUCES_CHiD	Disease//MONDO:0005070
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0000161
+Chemical//C494243	TREATS_CtD	Disease//MONDO:0005044
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//HMDB0001586
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//HMDB0001275
+Disease//MONDO:0001187	CHANGE_RICHNESS_DcrMi	Microbe//Proteus
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//HMDB0001257
+Chemical//C009505	INDUCES_CHiD	Disease//MONDO:0002367
+Symptom//HP:0033675	CHANGE_RICHNESS_DcrMi	Microbe//Blautia
+Chemical//DB00860	TREATS_CtD	Disease//MONDO:0006052
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//fa3coa,Iso-C15:0 CoA   Isopentadecanoyl-CoA
+Chemical//D010269	INDUCES_CHiD	Disease//MONDO:0006932
+Chemical//D000438	INDUCES_CHiD	Disease//MONDO:0004456
+Chemical//D005200	INDUCES_CHiD	Disease//MONDO:0005814
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB0041827
+Disease//MONDO:0005265	CHANGE_RICHNESS_DcrMi	Microbe//Ruminococcus bromii
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//ugmd
+Disease//MONDO:0004982	CHANGE_RICHNESS_DcrMi	Microbe//Flavobacterium
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//15m3opalmACP
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//HMDB0000208
+Chemical//DB00331	TREATS_CtD	Disease//MONDO:0005148
+Microbe//Bacteroides vulgatus ATCC 8482	METABOLIZES_MimC	Chemical//DB00795
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//apoprotein [acyl carrier protein]
+Chemical//D010278	INDUCES_CHiD	Disease//MONDO:0021100
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0001469
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0028689
+Symptom//HP:0033675	CHANGE_RICHNESS_DcrMi	Microbe//Eggerthella lenta
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//HMDB0001520
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB0001333
+Microbe//Escherichia	ASSOCIATES_MiaM	Metabolite//HMDB0000036
+Disease//MONDO:0008383	CHANGE_RICHNESS_DcrMi	Microbe//Collinsella
+Disease//MONDO:0013433	CHANGE_RICHNESS_DcrMi	Microbe//Rothia
+Disease//MONDO:0005311	CHANGE_RICHNESS_DcrMi	Microbe//Ruminococcus gnavus
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0000972
+Chemical//C070055	INDUCES_CHiD	Disease//MONDO:0002332
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//5m3ohexACP
+Disease//MONDO:0006052	CHANGE_RICHNESS_DcrMi	Microbe//Lactobacillus
+Microbe//Bacteroides stercoris ATCC 43183	METABOLIZES_MimC	Chemical//DB01234
+Disease//MONDO:0005155	CHANGE_RICHNESS_DcrMi	Microbe//Leuconostocaceae
+Disease//MONDO:0005083	CHANGE_RICHNESS_DcrMi	Microbe//Lachnospiraceae
+Disease//MONDO:0005960	CHANGE_RICHNESS_DcrMi	Microbe//Shigella
+Disease//MONDO:0005311	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides
+Chemical//D005620	INDUCES_CHiD	Disease//MONDO:0007699
+Chemical//C007095	TREATS_CtD	Disease//MONDO:0005292
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//HMDB0000961
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//HMDB0000721
+Chemical//D000927	INDUCES_CHiD	Disease//MONDO:0008171
+Disease//MONDO:0005258	CHANGE_RICHNESS_DcrMi	Microbe//Enterococcus
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//1odecg3p
+Chemical//D000602	TREATS_CtD	Disease//MONDO:0006732
+Chemical//D014752	INDUCES_CHiD	Disease//MONDO:0004790
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//HMDB0000998
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//HMDB0028689
+Disease//MONDO:0007191	CHANGE_RICHNESS_DcrMi	Microbe//Prevotella
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//HMDB0000574
+Chemical//C543008	INDUCES_CHiD	Disease//MONDO:0015514
+Disease//MONDO:0011429	CHANGE_RICHNESS_DcrMi	Microbe//Propionibacterium acnes
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//1ihpdecg3p
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0000657
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0000177
+Chemical//D019304	INDUCES_CHiD	Disease//MONDO:0000831
+Disease//MONDO:0010030	CHANGE_RICHNESS_DcrMi	Microbe//Fusobacterium nucleatum
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//HMDB0001257
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB0000162
+Chemical//D003287	INDUCES_CHiD	Disease//MONDO:0001386
+Disease//MONDO:0007191	CHANGE_RICHNESS_DcrMi	Microbe//TM7
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0000797
+Disease//MONDO:0005231	CHANGE_RICHNESS_DcrMi	Microbe//Lactobacillus salivarius
+Disease//D012907	CHANGE_RICHNESS_DcrMi	Microbe//Peptococcus
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0001372
+Symptom//HP:0033675	CHANGE_RICHNESS_DcrMi	Microbe//Lachnospiraceae
+Disease//MONDO:0005406	CHANGE_RICHNESS_DcrMi	Microbe//Klebsiella
+Disease//MONDO:0100096	CHANGE_RICHNESS_DcrMi	Microbe//Fusicatenibacter
+Disease//MONDO:0013662	CHANGE_RICHNESS_DcrMi	Microbe//Mogibacterium
+Chemical//D009828	INDUCES_CHiD	Disease//MONDO:0001751
+Chemical//C010902	INDUCES_CHiD	Disease//MONDO:0002909
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//HMDB0041827
+Disease//MONDO:0005002	CHANGE_RICHNESS_DcrMi	Microbe//Campylobacter
+Disease//MONDO:0010030	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus mutans
+Chemical//C029955	INDUCES_CHiD	Disease//MONDO:0002332
+Disease//MONDO:0005364	CHANGE_RICHNESS_DcrMi	Microbe//Eubacterium
+Microbe//Actinobacteria	ASSOCIATES_MiaM	Metabolite//HMDB0000239
+Disease//MONDO:0007256	CHANGE_RICHNESS_DcrMi	Microbe//Acidaminococcus
+Disease//MONDO:0005575	CHANGE_RICHNESS_DcrMi	Microbe//Odoribacter
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//HMDB0000168
+Chemical//D011372	INDUCES_CHiD	Disease//MONDO:0011438
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0000124
+Microbe//Actinobacteria	ASSOCIATES_MiaM	Metabolite//HMDB0000121
+Chemical//D014028	INDUCES_CHiD	Disease//MONDO:0005087
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//6m3oocACP
+Chemical//D020106	INDUCES_CHiD	Disease//MONDO:0004972
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//pa181
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//Dodecanoyl-ACP (n-C12:0ACP)
+Chemical//D005707	TREATS_CtD	Disease//MONDO:0005347
+Chemical//D010575	INDUCES_CHiD	Disease//MONDO:0011565
+Disease//MONDO:0004967	CHANGE_RICHNESS_DcrMi	Microbe//Veillonellaceae
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB0003125
+Disease//MONDO:0005081	CHANGE_RICHNESS_DcrMi	Microbe//Prevotella
+Chemical//D004041	INDUCES_CHiD	Disease//MONDO:0004970
+Chemical//D011134	TREATS_CtD	Disease//MONDO:0005089
+Chemical//C070055	INDUCES_CHiD	Disease//MONDO:0019087
+Microbe//Enterobacter	ASSOCIATES_MiaM	Metabolite//HMDB0000673
+Chemical//D013749	INDUCES_CHiD	Disease//MONDO:0002280
+Disease//MONDO:0002358	CHANGE_RICHNESS_DcrMi	Microbe//Serratia
+Chemical//D008770	INDUCES_CHiD	Disease//MONDO:0005062
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//HMDB0006899
+Chemical//D019256	INDUCES_CHiD	Disease//MONDO:0029000
+Chemical//DB00959	TREATS_CtD	Disease//MONDO:0005570
+Disease//MONDO:0005180	CHANGE_RICHNESS_DcrMi	Microbe//Parabacteroides
+Chemical//D011692	INDUCES_CHiD	Disease//MONDO:0005347
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0000883
+Chemical//D010936	TREATS_CtD	Disease//MONDO:0021187
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//D-ribulose 5-phosphate(2-)
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0000162
+Chemical//D004785	INDUCES_CHiD	Disease//MONDO:0004790
+Chemical//D009151	INDUCES_CHiD	Disease//MONDO:0029000
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB0000042
+Disease//MONDO:0005258	CHANGE_RICHNESS_DcrMi	Microbe//Ruminiclostridium
+Chemical//D008076	INDUCES_CHiD	Disease//MONDO:0012147
+Microbe//Clostridium	METABOLIZES_MimC	Chemical//DB00795
+Chemical//D019256	INDUCES_CHiD	Disease//MONDO:0002332
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//acyl carrier protein
+Chemical//C009536	INDUCES_CHiD	Disease//MONDO:0005814
+Disease//MONDO:0005133	CHANGE_RICHNESS_DcrMi	Microbe//Acinetobacter
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//HMDB0000721
+Chemical//D049971	TREATS_CtD	Disease//MONDO:0005298
+Chemical//C008261	INDUCES_CHiD	Disease//MONDO:0003240
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//HMDB0000742
+Chemical//D001151	INDUCES_CHiD	Disease//MONDO:0024644
+Disease//MONDO:0004975	CHANGE_RICHNESS_DcrMi	Microbe//Phascolarctobacterium
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//HMDB0012289
+Disease//MONDO:0004976	CHANGE_RICHNESS_DcrMi	Microbe//Anaerotruncus
+Disease//MONDO:0019100	CHANGE_RICHNESS_DcrMi	Microbe//Prevotella copri
+Chemical//D003976	INDUCES_CHiD	Disease//MONDO:0029000
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//HMDB0000902
+Chemical//C534628	TREATS_CtD	Disease//MONDO:0020745
+Disease//MONDO:0006624	CHANGE_RICHNESS_DcrMi	Microbe//Prevotella
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//cdpdaipdecg
+Chemical//DB00581	TREATS_CtD	Disease//MONDO:0001711
+Microbe//Clostridium	ASSOCIATES_MiaM	Metabolite//HMDB0000518
+Chemical//C014024	INDUCES_CHiD	Disease//MONDO:0015514
+Disease//MONDO:0013209	CHANGE_RICHNESS_DcrMi	Microbe//Anaerostipes
+Disease//MONDO:0009831	CHANGE_RICHNESS_DcrMi	Microbe//Porphyromonas gingivalis
+Microbe//Mycoplasma	METABOLIZES_MimC	Chemical//DB00441
+Microbe//Enterobacter	ASSOCIATES_MiaM	Metabolite//HMDB0001043
+Chemical//C054649	TREATS_CtD	Disease//MONDO:0004456
+Chemical//D012906	INDUCES_CHiD	Disease//MONDO:0011817
+Chemical//D001554	INDUCES_CHiD	Disease//MONDO:0002049
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//HMDB0028848
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//HMDB0001416
+Chemical//D000894	TREATS_CtD	Disease//MONDO:0005180
+Chemical//D015084	INDUCES_CHiD	Disease//MONDO:0016677
+Chemical//DB01204	TREATS_CtD	Disease//MONDO:0005089
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0000961
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0028691
+Chemical//D009943	INDUCES_CHiD	Disease//MONDO:0006966
+Disease//MONDO:0012727	CHANGE_RICHNESS_DcrMi	Microbe//Roseburia hominis
+Disease//MONDO:0004979	CHANGE_RICHNESS_DcrMi	Microbe//Adlercreutzia
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//PGPm1
+Disease//MONDO:0004976	CHANGE_RICHNESS_DcrMi	Microbe//Eubacteriales
+Chemical//D052638	INDUCES_CHiD	Disease//MONDO:0004681
+Chemical//C025643	INDUCES_CHiD	Disease//MONDO:0005558
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//HMDB0000742
+Microbe//Escherichia sp. 3_2_53FAA	METABOLIZES_MimC	Chemical//DB00581
+Chemical//C017690	INDUCES_CHiD	Disease//MONDO:0005395
+Disease//MONDO:0004631	CHANGE_RICHNESS_DcrMi	Microbe//Turicella
+Microbe//Escherichia sp. 3_2_53FAA	METABOLIZES_MimC	Chemical//DB00773
+Chemical//D014302	INDUCES_CHiD	Disease//MONDO:0001673
+Chemical//C074702	INDUCES_CHiD	Disease//MONDO:0005096
+Chemical//DB00443	TREATS_CtD	Disease//MONDO:0002334
+Disease//MONDO:0005133	CHANGE_RICHNESS_DcrMi	Microbe//Barnesiella
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//HMDB0000121
+Chemical//D004967	TREATS_CtD	Disease//MONDO:0005071
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//cdpdtdec7eg
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0028836
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//HMDB0001285
+Disease//MONDO:0004975	CHANGE_RICHNESS_DcrMi	Microbe//Blautia
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//dnarep
+Disease//MONDO:0007915	CHANGE_RICHNESS_DcrMi	Microbe//Haemophilus parainfluenzae
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//HMDB0001491
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//HMDB0000250
+Chemical//D000925	INDUCES_CHiD	Disease//MONDO:0001751
+Microbe//Bacteroides vulgatus ATCC 8482	METABOLIZES_MimC	Chemical//DB00390
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0000547
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//HMDB0000045
+Disease//MONDO:0018301	CHANGE_RICHNESS_DcrMi	Microbe//Atopobium
+Disease//MONDO:0002635	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus oralis
+Chemical//DB00635	TREATS_CtD	Disease//MONDO:0005059
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//HMDB0001120
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//cdpdodecg
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB0028847
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//cdpdddecg
+Disease//MONDO:0005298	CHANGE_RICHNESS_DcrMi	Microbe//Clostridium cluster XIVa
+Disease//MONDO:0005155	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus anginosus
+Chemical//D011929	TREATS_CtD	Disease//MONDO:0005240
+Disease//MONDO:0011292	CHANGE_RICHNESS_DcrMi	Microbe//Akkermansia
+Chemical//DB00773	TREATS_CtD	Disease//MONDO:0005089
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//HMDB0000217
+Microbe//Bacteroidetes	METABOLIZES_MimC	Chemical//DB00331
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//HMDB0003391
+Disease//MONDO:0005147	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides uniformis
+Disease//MONDO:0004375	CHANGE_RICHNESS_DcrMi	Microbe//Eggerthella lenta
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0001341
+Chemical//D000393	INDUCES_CHiD	Disease//MONDO:0005335
+Chemical//D049971	INDUCES_CHiD	Disease//MONDO:0005015
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//cdpdtdecg
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//HMDB0028853
+Disease//MONDO:0005010	CHANGE_RICHNESS_DcrMi	Microbe//Akkermansia
+Disease//MONDO:0005649	CHANGE_RICHNESS_DcrMi	Microbe//Fusobacterium nucleatum
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//HMDB0000210
+Disease//MONDO:0005101	CHANGE_RICHNESS_DcrMi	Microbe//Phascolarctobacterium
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//HMDB0002104
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//HMDB0001096
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//HMDB0000280
+Chemical//D012838	TREATS_CtD	Disease//MONDO:0008315
+Disease//MONDO:0005003	CHANGE_RICHNESS_DcrMi	Microbe//Lachnospiraceae
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0000619
+Chemical//C054649	INDUCES_CHiD	Disease//MONDO:0016064
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//PGP
+Disease//MONDO:0009411	CHANGE_RICHNESS_DcrMi	Microbe//Oscillospiraceae
+Chemical//D004232	INDUCES_CHiD	Disease//MONDO:0002049
+Microbe//Clostridium	ASSOCIATES_MiaM	Metabolite//HMDB0000673
+Chemical//D000900	INDUCES_CHiD	Disease//MONDO:0006525
+Chemical//D000438	INDUCES_CHiD	Disease//MONDO:0001106
+Chemical//D000305	TREATS_CtD	Disease//MONDO:0005301
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//ITP(3-)
+Chemical//C036990	INDUCES_CHiD	Disease//MONDO:0005070
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//HMDB0001257
+Disease//MONDO:0003232	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides
+Microbe//Comamonas	METABOLIZES_MimC	Chemical//DB00997
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//HMDB0028683
+Chemical//C034456	TREATS_CtD	Disease//MONDO:0021100
+Chemical//DB00515	TREATS_CtD	Disease//MONDO:0008903
+Disease//D000085142	CHANGE_RICHNESS_DcrMi	Microbe//Lachnospira
+Disease//MONDO:0043923	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus oralis
+Microbe//Clostridium	METABOLIZES_MimC	Chemical//DB00581
+Chemical//D003524	INDUCES_CHiD	Disease//MONDO:0003634
+Disease//MONDO:0005301	CHANGE_RICHNESS_DcrMi	Microbe//Clostridium perfringens
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//HMDB0000285
+Chemical//D001397	INDUCES_CHiD	Disease//MONDO:0004972
+Chemical//C112530	TREATS_CtD	Disease//MONDO:0005086
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//5m3hhexACP
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//Tetradecanoyl-CoA (n-C14:0CoA)
+Disease//MONDO:0005130	CHANGE_RICHNESS_DcrMi	Microbe//Veillonellaceae
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//fa4coa,Anteiso-C15:0 CoA   Anteisopentadecanoyl-CoA
+Chemical//D000925	TREATS_CtD	Disease//MONDO:0002492
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0001508
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//HMDB0000095
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//pai15
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//HMDB0000960
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//HMDB0000142
+Chemical//DB00443	TREATS_CtD	Disease//MONDO:0007915
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//9m3odcaACP
+Disease//MONDO:0010030	CHANGE_RICHNESS_DcrMi	Microbe//Parvimonas
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//D-ribulose 5-phosphate(2-)
+Chemical//D011372	INDUCES_CHiD	Disease//MONDO:0012585
+Chemical//D009828	TREATS_CtD	Disease//MONDO:0002531
+Disease//MONDO:0005052	CHANGE_RICHNESS_DcrMi	Microbe//Blautia coccoides
+Chemical//D013853	INDUCES_CHiD	Disease//MONDO:0024477
+Disease//MONDO:0004985	CHANGE_RICHNESS_DcrMi	Microbe//Parasutterella
+Disease//MONDO:0010030	CHANGE_RICHNESS_DcrMi	Microbe//Dorea
+Disease//MONDO:0002775	CHANGE_RICHNESS_DcrMi	Microbe//Peptococcus
+Disease//MONDO:0007079	CHANGE_RICHNESS_DcrMi	Microbe//Parabacteroides
+Disease//MONDO:0005265	CHANGE_RICHNESS_DcrMi	Microbe//Lachnobacterium
+Disease//MONDO:0001751	CHANGE_RICHNESS_DcrMi	Microbe//Staphylococcus
+Disease//MONDO:0013433	CHANGE_RICHNESS_DcrMi	Microbe//Oribacterium
+Chemical//D052638	INDUCES_CHiD	Disease//MONDO:0005240
+Chemical//D048789	TREATS_CtD	Disease//MONDO:0012628
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB0001373
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//cdpdtdec7eg
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0028685
+Chemical//D000927	INDUCES_CHiD	Disease//MONDO:0000775
+Disease//MONDO:0010726	CHANGE_RICHNESS_DcrMi	Microbe//Enterobacteriaceae
+Disease//MONDO:0005155	CHANGE_RICHNESS_DcrMi	Microbe//Eubacterium hallii
+Chemical//D009532	INDUCES_CHiD	Disease//MONDO:0015796
+Microbe//Lactobacillus	METABOLIZES_MimC	Chemical//DB00531
+Chemical//D008070	TREATS_CtD	Disease//MONDO:0001386
+Disease//MONDO:0005277	CHANGE_RICHNESS_DcrMi	Microbe//Clostridium symbiosum
+Microbe//Alistipes	METABOLIZES_MimC	Chemical//DB00795
+Disease//D000069279	CHANGE_RICHNESS_DcrMi	Microbe//Clostridium cluster XVI
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//HMDB0001333
+Chemical//D014150	INDUCES_CHiD	Disease//MONDO:0005453
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0003391
+Microbe//Streptococcus	METABOLIZES_MimC	Chemical//DB00563
+Chemical//D011084	INDUCES_CHiD	Disease//MONDO:0003781
+Disease//MONDO:0005100	CHANGE_RICHNESS_DcrMi	Microbe//Fusobacterium
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//HMDB0000209
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//HMDB0000254
+Chemical//D058607	TREATS_CtD	Disease//MONDO:0012585
+Disease//MONDO:0005298	CHANGE_RICHNESS_DcrMi	Microbe//Blautia
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0028691
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//HMDB0059597
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//HMDB0000300
+Disease//MONDO:0001913	CHANGE_RICHNESS_DcrMi	Microbe//Klebsiella
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//pa160
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//HMDB0015531
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0000641
+Chemical//D003276	INDUCES_CHiD	Disease//MONDO:0002280
+Disease//MONDO:0005178	CHANGE_RICHNESS_DcrMi	Microbe//Turicibacter
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0000692
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0001414
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//HMDB0001520
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//HMDB0001000
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//ugmda
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//HMDB0001533
+Chemical//C410216	TREATS_CtD	Disease//MONDO:0021085
+Chemical//DB00959	TREATS_CtD	Disease//MONDO:0005306
+Disease//MONDO:0020283	CHANGE_RICHNESS_DcrMi	Microbe//Halomonas
+Disease//MONDO:0011122	CHANGE_RICHNESS_DcrMi	Microbe//Coriobacteriaceae
+Disease//MONDO:0021040	CHANGE_RICHNESS_DcrMi	Microbe//Campylobacter
+Disease//MONDO:0019100	CHANGE_RICHNESS_DcrMi	Microbe//Clostridium perfringens
+Disease//MONDO:0005148	CHANGE_RICHNESS_DcrMi	Microbe//Clostridia
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//HMDB0001060
+Chemical//D000662	INDUCES_CHiD	Disease//MONDO:0013792
+Disease//MONDO:0005701	CHANGE_RICHNESS_DcrMi	Microbe//Lactobacillus
+Chemical//C074702	INDUCES_CHiD	Disease//MONDO:0005043
+Chemical//C027576	INDUCES_CHiD	Disease//MONDO:0019182
+Disease//MONDO:0005010	CHANGE_RICHNESS_DcrMi	Microbe//Catenibacterium
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//uaaGgla
+Disease//MONDO:0005344	CHANGE_RICHNESS_DcrMi	Microbe//Butyricimonas
+Chemical//C107773	TREATS_CtD	Disease//MONDO:0002363
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//triphosphate(5-)
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB0003459
+Chemical//D001151	INDUCES_CHiD	Disease//MONDO:0020745
+Disease//MONDO:0015075	CHANGE_RICHNESS_DcrMi	Microbe//Lactobacillus
+Disease//MONDO:0024388	CHANGE_RICHNESS_DcrMi	Microbe//Bifidobacterium
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//pai16
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//fa3coa,Iso-C15:0 CoA   Isopentadecanoyl-CoA
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//Oxidized thioredoxin
+Disease//MONDO:0007079	CHANGE_RICHNESS_DcrMi	Microbe//Desulfovibrio
+Microbe//Fusobacterium periodonticum	ASSOCIATES_MiaM	Metabolite//HMDB0000042
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//L-aspartate(1-)
+Microbe//Eggerthella lenta	METABOLIZES_MimC	Chemical//DB01235
+Disease//MONDO:0008383	CHANGE_RICHNESS_DcrMi	Microbe//Roseburia faecis
+Chemical//C482199	INDUCES_CHiD	Disease//MONDO:0006932
+Disease//MONDO:0004375	CHANGE_RICHNESS_DcrMi	Microbe//Alistipes shahii
+Chemical//C015001	TREATS_CtD	Disease//MONDO:0005401
+Chemical//D004026	INDUCES_CHiD	Disease//MONDO:0005359
+Disease//MONDO:0001187	CHANGE_RICHNESS_DcrMi	Microbe//Serratia
+Disease//MONDO:0011122	CHANGE_RICHNESS_DcrMi	Microbe//Clostridium
+Microbe//Actinobacteria	ASSOCIATES_MiaM	Metabolite//HMDB0000030
+Chemical//DB00993	TREATS_CtD	Disease//MONDO:0005101
+Disease//MONDO:0005301	CHANGE_RICHNESS_DcrMi	Microbe//Lactobacillus
+Disease//MONDO:0043923	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus salivarius
+Disease//MONDO:0003004	CHANGE_RICHNESS_DcrMi	Microbe//Gemella
+Disease//MONDO:0005109	CHANGE_RICHNESS_DcrMi	Microbe//Oscillibacter
+Disease//MONDO:0005301	CHANGE_RICHNESS_DcrMi	Microbe//Fusobacteria
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0000095
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0000030
+Microbe//Eubacterium rectale ATCC 33656	METABOLIZES_MimC	Chemical//DB00795
+Disease//MONDO:0005044	CHANGE_RICHNESS_DcrMi	Microbe//Dorea
+Chemical//C041517	INDUCES_CHiD	Disease//MONDO:0021245
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//pai14
+Chemical//D000305	INDUCES_CHiD	Disease//MONDO:0002050
+Chemical//D003278	INDUCES_CHiD	Disease//MONDO:0012628
+Chemical//D001397	INDUCES_CHiD	Disease//MONDO:0005155
+Microbe//Eubacterium	METABOLIZES_MimC	Chemical//DB00795
+Chemical//D008628	INDUCES_CHiD	Disease//MONDO:0005395
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//HMDB0001132
+Disease//D012907	CHANGE_RICHNESS_DcrMi	Microbe//Neisseria
+Chemical//C055494	TREATS_CtD	Disease//MONDO:0005203
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//HMDB0011720
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//HMDB0000538
+Disease//MONDO:0005265	CHANGE_RICHNESS_DcrMi	Microbe//Anaerostipes
+Disease//MONDO:0005276	CHANGE_RICHNESS_DcrMi	Microbe//Capnocytophaga
+Disease//MONDO:0007191	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroidetes
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0015531
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//L-glutamate(1-)
+Disease//MONDO:0001505	CHANGE_RICHNESS_DcrMi	Microbe//Enterobacteriaceae
+Disease//MONDO:0004979	CHANGE_RICHNESS_DcrMi	Microbe//Flavonifractor
+Disease//MONDO:0005083	CHANGE_RICHNESS_DcrMi	Microbe//Rothia mucilaginosa
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//HMDB0001546
+Microbe//Succinivibrio	ASSOCIATES_MiaM	Metabolite//HMDB0001257
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//uagmda
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//HMDB0000586
+Chemical//D019980	INDUCES_CHiD	Disease//MONDO:0001085
+Chemical//D010936	TREATS_CtD	Disease//MONDO:0005618
+Disease//MONDO:0005546	CHANGE_RICHNESS_DcrMi	Microbe//Flavonifractor plautii
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//D-ribulose 5-phosphate(2-)
+Chemical//D019813	INDUCES_CHiD	Disease//MONDO:0021117
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//acyl carrier protein
+Chemical//C023035	INDUCES_CHiD	Disease//MONDO:0016677
+Chemical//D008628	INDUCES_CHiD	Disease//MONDO:0005372
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//HMDB0000195
+Chemical//D001786	INDUCES_CHiD	Disease//MONDO:0005016
+Disease//MONDO:0005101	CHANGE_RICHNESS_DcrMi	Microbe//Faecalibacterium
+Chemical//D008767	INDUCES_CHiD	Disease//MONDO:0013765
+Chemical//C013592	TREATS_CtD	Disease//MONDO:0002909
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//HMDB0001060
+Disease//MONDO:0008226	CHANGE_RICHNESS_DcrMi	Microbe//TM7
+Disease//MONDO:0005344	CHANGE_RICHNESS_DcrMi	Microbe//Filifactor
+Disease//MONDO:0005011	CHANGE_RICHNESS_DcrMi	Microbe//Barnesiellaceae
+Chemical//D007854	INDUCES_CHiD	Disease//MONDO:0005068
+Chemical//D013256	INDUCES_CHiD	Disease//MONDO:0001126
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//HMDB0001273
+Chemical//D010575	INDUCES_CHiD	Disease//MONDO:0012147
+Chemical//D010936	TREATS_CtD	Disease//MONDO:0005299
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//HMDB0001967
+Chemical//C019133	INDUCES_CHiD	Disease//MONDO:0005096
+Disease//Aerobic vaginitis	CHANGE_RICHNESS_DcrMi	Microbe//Escherichia sp. 3_2_53FAA
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//pa181
+Disease//MONDO:0002358	CHANGE_RICHNESS_DcrMi	Microbe//Aggregatibacter
+Chemical//D011372	INDUCES_CHiD	Disease//MONDO:0012009
+Chemical//C511295	INDUCES_CHiD	Disease//MONDO:0005260
+Chemical//D010575	INDUCES_CHiD	Disease//MONDO:0010331
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//HMDB0001128
+Disease//MONDO:0008903	CHANGE_RICHNESS_DcrMi	Microbe//Bifidobacterium adolescentis
+Chemical//D010416	INDUCES_CHiD	Disease//MONDO:0019087
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//ITP(3-)
+Chemical//C019133	INDUCES_CHiD	Disease//MONDO:0004993
+Chemical//D049971	INDUCES_CHiD	Disease//MONDO:0005086
+Chemical//DB01234	TREATS_CtD	Disease//MONDO:0006052
+Disease//MONDO:0005076	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroidales
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0000221
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//HMDB0000797
+Disease//MONDO:0005312	CHANGE_RICHNESS_DcrMi	Microbe//Acidaminococcus
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0001586
+Chemical//D013256	TREATS_CtD	Disease//MONDO:0011292
+Disease//MONDO:0005313	CHANGE_RICHNESS_DcrMi	Microbe//Actinobacteria
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//8m3hdcaACP
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//HMDB0015531
+Disease//MONDO:0004975	CHANGE_RICHNESS_DcrMi	Microbe//Subdoligranulum
+Disease//MONDO:0005388	CHANGE_RICHNESS_DcrMi	Microbe//Rikenellaceae
+Chemical//D005411	INDUCES_CHiD	Disease//MONDO:0004681
+Microbe//Lactobacillus	ASSOCIATES_MiaM	Metabolite//HMDB0002183
+Chemical//C534628	TREATS_CtD	Disease//MONDO:0001386
+Chemical//C004925	INDUCES_CHiD	Disease//MONDO:0001085
+Disease//MONDO:0005083	CHANGE_RICHNESS_DcrMi	Microbe//Alistipes
+Chemical//C038328	INDUCES_CHiD	Disease//MONDO:0005059
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//IDP(3-)
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//12m3hmyrsACP
+Disease//MONDO:0005011	CHANGE_RICHNESS_DcrMi	Microbe//Clostridium leptum
+Disease//MONDO:0004980	CHANGE_RICHNESS_DcrMi	Microbe//Oscillospira
+Disease//Aerobic vaginitis	CHANGE_RICHNESS_DcrMi	Microbe//Faecalibacterium prausnitzii
+Chemical//D000927	INDUCES_CHiD	Disease//MONDO:0016677
+Disease//MONDO:0007079	CHANGE_RICHNESS_DcrMi	Microbe//Enterobacteriaceae
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0015531
+Disease//MONDO:0005130	CHANGE_RICHNESS_DcrMi	Microbe//Staphylococcus epidermidis
+Disease//MONDO:0005101	CHANGE_RICHNESS_DcrMi	Microbe//Citrobacter
+Disease//MONDO:0024388	CHANGE_RICHNESS_DcrMi	Microbe//Eubacteriales
+Chemical//D007306	INDUCES_CHiD	Disease//MONDO:0018874
+Chemical//D037742	INDUCES_CHiD	Disease//MONDO:0015796
+Chemical//D010575	INDUCES_CHiD	Disease//MONDO:0005271
+Chemical//D018943	INDUCES_CHiD	Disease//MONDO:0005252
+Chemical//D003976	INDUCES_CHiD	Disease//MONDO:0005406
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//cdpdddecg
+Disease//MONDO:0004980	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides ovatus
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//Reduced thioredoxin
+Chemical//D003524	TREATS_CtD	Disease//MONDO:0011849
+Chemical//C511295	INDUCES_CHiD	Disease//MONDO:0004976
+Microbe//Collinsella aerofaciens	ASSOCIATES_MiaM	Metabolite//HMDB0000039
+Microbe//Peptoclostridium difficile	METABOLIZES_MimC	Chemical//DB00762
+Chemical//C410216	INDUCES_CHiD	Disease//MONDO:0002280
+Disease//MONDO:0008226	CHANGE_RICHNESS_DcrMi	Microbe//Ruminococcus
+Disease//MONDO:0005260	CHANGE_RICHNESS_DcrMi	Microbe//Ruminococcus torques
+Chemical//D048789	TREATS_CtD	Disease//MONDO:0005277
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//HMDB0001201
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//HMDB0000972
+Chemical//D006495	INDUCES_CHiD	Disease//MONDO:0005098
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//HMDB0000929
+Disease//MONDO:0005546	CHANGE_RICHNESS_DcrMi	Microbe//Prevotella copri
+Chemical//D008070	INDUCES_CHiD	Disease//MONDO:0005347
+Disease//MONDO:0005180	CHANGE_RICHNESS_DcrMi	Microbe//Ralstonia
+Chemical//D014302	INDUCES_CHiD	Disease//MONDO:0005292
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//HMDB0001096
+Disease//MONDO:0005083	CHANGE_RICHNESS_DcrMi	Microbe//Sutterella
+Disease//MONDO:0004979	CHANGE_RICHNESS_DcrMi	Microbe//Neisseria
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//HMDB0001273
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//HMDB0000123
+Disease//MONDO:0004950	CHANGE_RICHNESS_DcrMi	Microbe//Selenomonas
+Chemical//C031763	INDUCES_CHiD	Disease//MONDO:0005359
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0001270
+Chemical//D002083	TREATS_CtD	Disease//MONDO:0002691
+Microbe//Escherichia sp. 3_2_53FAA	METABOLIZES_MimC	Chemical//D000894
+Microbe//Bacteroides	ASSOCIATES_MiaM	Metabolite//HMDB0001955
+Chemical//D000319	INDUCES_CHiD	Disease//MONDO:0005290
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//HMDB0000902
+Chemical//C054649	TREATS_CtD	Disease//MONDO:0001386
+Disease//MONDO:0009688	CHANGE_RICHNESS_DcrMi	Microbe//Desulfovibrio
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//cdpdodec11eg
+Chemical//C023888	INDUCES_CHiD	Disease//MONDO:0005335
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//HMDB0001117
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0001274
+Chemical//D005278	INDUCES_CHiD	Disease//MONDO:0029000
+Disease//MONDO:0100096	CHANGE_RICHNESS_DcrMi	Microbe//Coprobacillus
+Chemical//D059808	TREATS_CtD	Disease//MONDO:0005359
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0000492
+Microbe//Fusobacteria	ASSOCIATES_MiaM	Metabolite//HMDB0000235
+Chemical//C013592	TREATS_CtD	Disease//MONDO:0005203
+Chemical//D012906	TREATS_CtD	Disease//MONDO:0005090
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//HMDB0000692
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//HMDB0001397
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//fa11coa, Iso-C17:0 CoA   Isoheptadecanoyl-CoA
+Disease//MONDO:0005484	CHANGE_RICHNESS_DcrMi	Microbe//Lactococcus
+Microbe//Bacteroides uniformis ATCC 8492	METABOLIZES_MimC	Chemical//DB01234
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//HMDB0001206
+Chemical//D004390	INDUCES_CHiD	Disease//MONDO:0002329
+Chemical//D010936	TREATS_CtD	Disease//MONDO:0021095
+Chemical//D010416	INDUCES_CHiD	Disease//MONDO:0005359
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//10m3hddcaACP
+Chemical//D010406	INDUCES_CHiD	Disease//MONDO:0001751
+Chemical//C009265	INDUCES_CHiD	Disease//MONDO:0006730
+Disease//MONDO:0007254	CHANGE_RICHNESS_DcrMi	Microbe//Bacillus
+Disease//MONDO:0005276	CHANGE_RICHNESS_DcrMi	Microbe//Bergeyella
+Disease//MONDO:0005575	CHANGE_RICHNESS_DcrMi	Microbe//Klebsiella
+Chemical//D013481	INDUCES_CHiD	Disease//MONDO:0005385
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//HMDB0001206
+Disease//MONDO:0005155	CHANGE_RICHNESS_DcrMi	Microbe//Enterobacter
+Chemical//C558899	INDUCES_CHiD	Disease//MONDO:0021187
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0001285
+Microbe//Bifidobacterium longum	ASSOCIATES_MiaM	Metabolite//HMDB0000042
+Disease//Pervasive developmental disorder NOS	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides vulgatus
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0001546
+Disease//MONDO:0005101	CHANGE_RICHNESS_DcrMi	Microbe//Mogibacterium
+Disease//MONDO:0004981	CHANGE_RICHNESS_DcrMi	Microbe//Flavonifractor
+Disease//MONDO:0018301	CHANGE_RICHNESS_DcrMi	Microbe//Eggerthella
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//pai16
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//Myristoyl-ACP (n-C14:0ACP)
+Chemical//C013592	TREATS_CtD	Disease//MONDO:0005016
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0001185
+Disease//MONDO:0004979	CHANGE_RICHNESS_DcrMi	Microbe//Capnocytophaga
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//HMDB0000492
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//HMDB0028853
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//1odecg3p
+Disease//D009980	CHANGE_RICHNESS_DcrMi	Microbe//Ralstonia
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//1ihpdecg3p
+Chemical//D001152	INDUCES_CHiD	Disease//MONDO:0021100
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//HMDB0001401
+Disease//MONDO:0005265	CHANGE_RICHNESS_DcrMi	Microbe//Fusobacteria
+Chemical//D001151	INDUCES_CHiD	Disease//MONDO:0005015
+Chemical//C023036	INDUCES_CHiD	Disease//MONDO:0002909
+Disease//MONDO:0005575	CHANGE_RICHNESS_DcrMi	Microbe//Methanobrevibacter
+Chemical//D000806	TREATS_CtD	Disease//MONDO:0005068
+Microbe//Bacteroidales	ASSOCIATES_MiaM	Metabolite//HMDB0254119
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0001120
+Chemical//D003633	INDUCES_CHiD	Disease//MONDO:0002909
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB00595
+Disease//MONDO:0002009	CHANGE_RICHNESS_DcrMi	Microbe//Lachnospiraceae incertae sedis
+Chemical//D001688	TREATS_CtD	Disease//MONDO:0005089
+Disease//MONDO:0005109	CHANGE_RICHNESS_DcrMi	Microbe//Bulleidia
+Chemical//C006253	INDUCES_CHiD	Disease//MONDO:0021074
+Disease//MONDO:0005083	CHANGE_RICHNESS_DcrMi	Microbe//Collinsella aerofaciens
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0001044
+Disease//MONDO:0004845	CHANGE_RICHNESS_DcrMi	Microbe//Sphingomonas
+Microbe//Bacteroides dorei DSM 17855	METABOLIZES_MimC	Chemical//DB01234
+Microbe//Bacteroides dorei DSM 17855	METABOLIZES_MimC	Chemical//DB00390
+Chemical//D015127	INDUCES_CHiD	Disease//MONDO:0005359
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//8m3hdcaACP
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0001016
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//5m3ohexACP
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//HMDB0000187
+Disease//MONDO:0005649	CHANGE_RICHNESS_DcrMi	Microbe//Bulleidia
+Chemical//D011078	INDUCES_CHiD	Disease//MONDO:0005030
+Chemical//D010269	INDUCES_CHiD	Disease//MONDO:0004335
+Disease//MONDO:0005575	CHANGE_RICHNESS_DcrMi	Microbe//Stenotrophomonas
+Microbe//Bacteroides eggerthii DSM 20697	METABOLIZES_MimC	Chemical//DB00390
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//15m3opalmACP
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//pa180
+Disease//MONDO:0005298	CHANGE_RICHNESS_DcrMi	Microbe//Oscillospiraceae
+Disease//MONDO:0007699	CHANGE_RICHNESS_DcrMi	Microbe//Romboutsia
+Chemical//D014280	INDUCES_CHiD	Disease//MONDO:0005359
+Disease//MONDO:0005011	CHANGE_RICHNESS_DcrMi	Microbe//Actinobacillus
+Chemical//D012906	INDUCES_CHiD	Disease//MONDO:0012585
+Disease//MONDO:0020283	CHANGE_RICHNESS_DcrMi	Microbe//Pseudomonas
+Disease//MONDO:0002009	CHANGE_RICHNESS_DcrMi	Microbe//Dialister
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0062762
+Chemical//D018943	INDUCES_CHiD	Disease//MONDO:0004981
+Disease//MONDO:0004845	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus
+Disease//MONDO:0019100	CHANGE_RICHNESS_DcrMi	Microbe//Fusicatenibacter
+Microbe//Klebsiella pneumoniae	METABOLIZES_MimC	Chemical//DB00997
+Chemical//D019161	INDUCES_CHiD	Disease//MONDO:0007576
+Chemical//C013099	INDUCES_CHiD	Disease//MONDO:0005558
+Disease//MONDO:0013433	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus parasanguinis
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0001487
+Chemical//D000900	TREATS_CtD	Disease//MONDO:0005155
+Disease//MONDO:0005076	CHANGE_RICHNESS_DcrMi	Microbe//Filifactor
+Disease//MONDO:0005180	CHANGE_RICHNESS_DcrMi	Microbe//Gemella
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//dnarep
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//dnarep
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0000161
+Chemical//D014028	INDUCES_CHiD	Disease//MONDO:0012010
+Chemical//D000806	TREATS_CtD	Disease//MONDO:0005100
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0000939
+Chemical//D004785	INDUCES_CHiD	Disease//MONDO:0005267
+Disease//MONDO:0002775	CHANGE_RICHNESS_DcrMi	Microbe//Lactococcus
+Chemical//D005343	INDUCES_CHiD	Disease//MONDO:0003939
+Disease//MONDO:0005351	CHANGE_RICHNESS_DcrMi	Microbe//Lactobacillales
+Disease//MONDO:0005002	CHANGE_RICHNESS_DcrMi	Microbe//Butyrivibrio
+Disease//MONDO:0019100	CHANGE_RICHNESS_DcrMi	Microbe//Prevotellaceae
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//fa3coa,Iso-C15:0 CoA   Isopentadecanoyl-CoA
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0001423
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//pai14
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//13m3hmyrsACP
+Chemical//C023036	INDUCES_CHiD	Disease//MONDO:0021124
+Microbe//Bifidobacterium longum	METABOLIZES_MimC	Chemical//DB00762
+Chemical//D005938	INDUCES_CHiD	Disease//MONDO:0006525
+Disease//MONDO:0005406	CHANGE_RICHNESS_DcrMi	Microbe//Alcaligenaceae
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB0001341
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0001448
+Disease//MONDO:0005011	CHANGE_RICHNESS_DcrMi	Microbe//Anaerotruncus
+Disease//MONDO:0005301	CHANGE_RICHNESS_DcrMi	Microbe//Butyricicoccus
+Microbe//Bifidobacterium adolescentis	METABOLIZES_MimC	Chemical//DB00331
+Chemical//D015662	INDUCES_CHiD	Disease//MONDO:0019542
+Microbe//Escherichia sp. 3_2_53FAA	METABOLIZES_MimC	Chemical//DB00441
+Chemical//D003276	INDUCES_CHiD	Disease//MONDO:0024477
+Disease//MONDO:0007699	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides
+Chemical//D004041	INDUCES_CHiD	Disease//MONDO:0005814
+Chemical//D045930	INDUCES_CHiD	Disease//MONDO:0001751
+Disease//MONDO:0005109	CHANGE_RICHNESS_DcrMi	Microbe//Anaerococcus
+Chemical//D009532	INDUCES_CHiD	Disease//MONDO:0002909
+Disease//MONDO:0006052	CHANGE_RICHNESS_DcrMi	Microbe//Roseburia intestinalis
+Disease//MONDO:0006624	CHANGE_RICHNESS_DcrMi	Microbe//Mycoplasma
+Chemical//DB00620	TREATS_CtD	Disease//MONDO:0011292
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//paai15
+Chemical//D004967	INDUCES_CHiD	Disease//MONDO:0001627
+Symptom//HP:0033675	CHANGE_RICHNESS_DcrMi	Microbe//Dorea
+Microbe//Enterobacteriaceae	METABOLIZES_MimC	Chemical//DB00762
+Disease//MONDO:0005109	CHANGE_RICHNESS_DcrMi	Microbe//Roseburia
+Disease//MONDO:0005265	CHANGE_RICHNESS_DcrMi	Microbe//Christensenellaceae
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//HMDB0001347
+Chemical//D003276	INDUCES_CHiD	Disease//MONDO:0002492
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//UDP-N-acetyl-alpha-D-glucosamine(2-)
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//D-xylulose 5-phosphate(2-)
+Disease//Invasive pneumococcal disease	CHANGE_RICHNESS_DcrMi	Microbe//Alloprevotella
+Disease//MONDO:0005306	CHANGE_RICHNESS_DcrMi	Microbe//Actinomyces
+Chemical//D001564	TREATS_CtD	Disease//MONDO:0005292
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//HMDB0001044
+Chemical//D004051	INDUCES_CHiD	Disease//MONDO:0016677
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//HMDB0000263
+Chemical//C004925	INDUCES_CHiD	Disease//MONDO:0005560
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//HMDB0001397
+Disease//MONDO:0001751	CHANGE_RICHNESS_DcrMi	Microbe//Enterococcus
+Disease//MONDO:0005265	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides
+Disease//MONDO:0003085	CHANGE_RICHNESS_DcrMi	Microbe//Sutterella
+Chemical//C013592	TREATS_CtD	Disease//MONDO:0100053
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//HMDB0028691
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//HMDB0001377
+Chemical//D010936	INDUCES_CHiD	Disease//MONDO:0004972
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//Dodecanoyl-ACP (n-C12:0ACP)
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//HMDB0028686
+Disease//MONDO:0011122	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides uniformis
+Disease//MONDO:0006001	CHANGE_RICHNESS_DcrMi	Microbe//Erysipelotrichaceae
+Chemical//D000728	INDUCES_CHiD	Disease//MONDO:0007256
+Microbe//Escherichia	ASSOCIATES_MiaM	Metabolite//HMDB0000138
+Disease//MONDO:0005130	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus mutans
+Chemical//D000806	TREATS_CtD	Disease//MONDO:0004456
+Chemical//D000171	INDUCES_CHiD	Disease//MONDO:0020745
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//cdpdhdec9eg
+Microbe//Lactobacillus	METABOLIZES_MimC	Chemical//DB00581
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0001333
+Disease//MONDO:0019100	CHANGE_RICHNESS_DcrMi	Microbe//Faecalibacterium
+Chemical//D002121	TREATS_CtD	Disease//MONDO:0004995
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//HMDB0000167
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//udcpp
+Disease//MONDO:0015183	CHANGE_RICHNESS_DcrMi	Microbe//Roseburia
+Disease//MONDO:0008383	CHANGE_RICHNESS_DcrMi	Microbe//Eubacterium rectale
+Chemical//C025589	INDUCES_CHiD	Disease//MONDO:0005046
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//HMDB0002111
+Disease//MONDO:0004982	CHANGE_RICHNESS_DcrMi	Microbe//Faecalibacterium
+Chemical//D000393	INDUCES_CHiD	Disease//MONDO:0004979
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//HMDB0001440
+Disease//MONDO:0005027	CHANGE_RICHNESS_DcrMi	Microbe//Bifidobacterium
+Microbe//Bacteroides	METABOLIZES_MimC	Chemical//DB00762
+Chemical//C028451	INDUCES_CHiD	Disease//MONDO:0021187
+Chemical//D004041	INDUCES_CHiD	Disease//MONDO:0005385
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//HMDB0000126
+Disease//MONDO:0004985	CHANGE_RICHNESS_DcrMi	Microbe//Coprococcus
+Chemical//D015084	INDUCES_CHiD	Disease//MONDO:0002329
+Chemical//D000900	TREATS_CtD	Disease//MONDO:0011438
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//HMDB0000538
+Disease//MONDO:0005306	CHANGE_RICHNESS_DcrMi	Microbe//Eubacterium
+Disease//Pervasive developmental disorder NOS	CHANGE_RICHNESS_DcrMi	Microbe//Roseburia inulinivorans
+Disease//MONDO:0004639	CHANGE_RICHNESS_DcrMi	Microbe//Klebsiella
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//fa6coa,Iso-C16:0 CoA   Isohexadecanoyl-CoA
+Microbe//Escherichia	ASSOCIATES_MiaM	Metabolite//HMDB0000518
+Chemical//DB00860	TREATS_CtD	Disease//MONDO:0011849
+Disease//MONDO:0004979	CHANGE_RICHNESS_DcrMi	Microbe//Eggerthella lenta
+Disease//MONDO:0005258	CHANGE_RICHNESS_DcrMi	Microbe//Oscillospira
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB0000759
+Chemical//C028451	INDUCES_CHiD	Disease//MONDO:0015514
+Chemical//D008076	INDUCES_CHiD	Disease//MONDO:0012585
+Disease//MONDO:0007256	CHANGE_RICHNESS_DcrMi	Microbe//Alloprevotella
+Chemical//D001564	INDUCES_CHiD	Disease//MONDO:0004631
+Chemical//D013256	TREATS_CtD	Disease//MONDO:0007915
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//adenosine 3,5-bismonophosphate(4-)
+Chemical//D008731	INDUCES_CHiD	Disease//MONDO:0001913
+Chemical//D015632	INDUCES_CHiD	Disease//MONDO:0021095
+Chemical//D028321	INDUCES_CHiD	Disease//MONDO:0005395
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//HMDB0000696
+Disease//Edentulism	CHANGE_RICHNESS_DcrMi	Microbe//Dialister
+Microbe//Escherichia sp. 3_2_53FAA	METABOLIZES_MimC	Chemical//DB00997
+Microbe//Prevotella	METABOLIZES_MimC	Chemical//DB00795
+Chemical//D004726	INDUCES_CHiD	Disease//MONDO:0004496
+Chemical//D012838	TREATS_CtD	Disease//MONDO:0005267
+Disease//MONDO:0005258	CHANGE_RICHNESS_DcrMi	Microbe//Lachnoclostridium
+Disease//MONDO:0005276	CHANGE_RICHNESS_DcrMi	Microbe//Veillonella dispar
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//HMDB0001414
+Disease//MONDO:0011429	CHANGE_RICHNESS_DcrMi	Microbe//Phascolarctobacterium
+Disease//MONDO:0005249	CHANGE_RICHNESS_DcrMi	Microbe//Veillonella dispar
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//HMDB0001473
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//HMDB0000158
+Chemical//D015073	INDUCES_CHiD	Disease//MONDO:0018075
+Microbe//Fusobacteria	ASSOCIATES_MiaM	Metabolite//HMDB0001488
+Disease//MONDO:0005090	CHANGE_RICHNESS_DcrMi	Microbe//Parasutterella
+Chemical//D011084	INDUCES_CHiD	Disease//MONDO:0001187
+Chemical//D000305	TREATS_CtD	Disease//MONDO:0011429
+Chemical//D052638	INDUCES_CHiD	Disease//MONDO:0004496
+Chemical//D005343	TREATS_CtD	Disease//MONDO:0005240
+Disease//MONDO:0005044	CHANGE_RICHNESS_DcrMi	Microbe//Megasphaera
+Disease//MONDO:0004976	CHANGE_RICHNESS_DcrMi	Microbe//Clostridium
+Disease//MONDO:0007915	CHANGE_RICHNESS_DcrMi	Microbe//Clostridium
+Disease//MONDO:0005002	CHANGE_RICHNESS_DcrMi	Microbe//Veillonella dispar
+Chemical//D005938	INDUCES_CHiD	Disease//MONDO:0005267
+Chemical//C013099	INDUCES_CHiD	Disease//MONDO:0006496
+Chemical//D011929	INDUCES_CHiD	Disease//MONDO:0005267
+Disease//Invasive pneumococcal disease	CHANGE_RICHNESS_DcrMi	Microbe//Acinetobacter
+Chemical//D000806	TREATS_CtD	Disease//MONDO:0002771
+Chemical//D000728	INDUCES_CHiD	Disease//MONDO:0007147
+Disease//MONDO:0007699	CHANGE_RICHNESS_DcrMi	Microbe//Lachnoclostridium
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//Oxidized thioredoxin
+Disease//MONDO:0009831	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroidaceae
+Chemical//D001151	INDUCES_CHiD	Disease//MONDO:0005527
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//HMDB0001271
+Disease//MONDO:0013209	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroidetes
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//HMDB0000883
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0001377
+Disease//MONDO:0005044	CHANGE_RICHNESS_DcrMi	Microbe//Eubacterium rectale
+Disease//MONDO:0005258	CHANGE_RICHNESS_DcrMi	Microbe//Burkholderia
+Chemical//DB00620	TREATS_CtD	Disease//MONDO:0005087
+Disease//D000069279	CHANGE_RICHNESS_DcrMi	Microbe//Holdemania
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//4m3hhexACP
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//HMDB0001254
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//Oxidized thioredoxin
+Disease//MONDO:0010030	CHANGE_RICHNESS_DcrMi	Microbe//Neisseria
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//HMDB0001321
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//fa1coa,Iso-C14:0 CoA   Isotetradecanoyl-CoA
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0001112
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//tRNA (Glu)
+Disease//MONDO:0018229	CHANGE_RICHNESS_DcrMi	Microbe//Acinetobacter
+Chemical//D014280	INDUCES_CHiD	Disease//MONDO:0010331
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//12m3hmyrsACP
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0001473
+Chemical//C023470	INDUCES_CHiD	Disease//MONDO:0006547
+Disease//MONDO:0002974	CHANGE_RICHNESS_DcrMi	Microbe//Succinivibrio
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//dAMP(2-)
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//M02377
+Microbe//Ruminococcus	ASSOCIATES_MiaM	Metabolite//HMDB0000237
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//HMDB0000695
+Disease//MONDO:0005011	CHANGE_RICHNESS_DcrMi	Microbe//Collinsella
+Chemical//D003633	INDUCES_CHiD	Disease//MONDO:0005335
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//pa120
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//HMDB0001409
+Disease//MONDO:0005109	CHANGE_RICHNESS_DcrMi	Microbe//Veillonella parvula
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//pa180
+Chemical//D004967	INDUCES_CHiD	Disease//MONDO:0012010
+Chemical//D019304	INDUCES_CHiD	Disease//MONDO:0002406
+Chemical//D000305	TREATS_CtD	Disease//MONDO:0012727
+Disease//MONDO:0005252	CHANGE_RICHNESS_DcrMi	Microbe//Parasutterella
+Chemical//D015127	INDUCES_CHiD	Disease//MONDO:0004993
+Disease//D000085142	CHANGE_RICHNESS_DcrMi	Microbe//Escherichia
+Chemical//D005620	TREATS_CtD	Disease//MONDO:0018075
+Microbe//Staphylococcus aureus	ASSOCIATES_MiaM	Metabolite//HMDB0000042
+Disease//MONDO:0013433	CHANGE_RICHNESS_DcrMi	Microbe//Succinivibrio
+Chemical//D049971	TREATS_CtD	Disease//MONDO:0005044
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//apoprotein [acyl carrier protein]
+Disease//MONDO:0005052	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//glyglu
+Disease//MONDO:0005090	CHANGE_RICHNESS_DcrMi	Microbe//Escherichia
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//cdpdodecg
+Chemical//D008628	INDUCES_CHiD	Disease//MONDO:0005260
+Chemical//D008770	INDUCES_CHiD	Disease//MONDO:0002363
+Chemical//D007306	INDUCES_CHiD	Disease//MONDO:0005030
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//HMDB0003125
+Chemical//D008770	INDUCES_CHiD	Disease//MONDO:0002367
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//pai16
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB0001201
+Chemical//D028321	TREATS_CtD	Disease//MONDO:0100053
+Disease//MONDO:0010200	CHANGE_RICHNESS_DcrMi	Microbe//Megamonas
+Disease//MONDO:0005265	CHANGE_RICHNESS_DcrMi	Microbe//Bifidobacterium bifidum
+Chemical//D009828	TREATS_CtD	Disease//MONDO:0005347
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0001508
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0000254
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//HMDB0000807
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//HMDB0304524
+Microbe//Firmicutes	METABOLIZES_MimC	Chemical//DB00531
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//Produced biomass
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//HMDB0001347
+Disease//MONDO:0013209	CHANGE_RICHNESS_DcrMi	Microbe//Alcaligenaceae
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//HMDB0001254
+Chemical//D014028	INDUCES_CHiD	Disease//MONDO:0016677
+Disease//MONDO:0005002	CHANGE_RICHNESS_DcrMi	Microbe//Leptotrichia
+Disease//MONDO:0001942	CHANGE_RICHNESS_DcrMi	Microbe//Burkholderia
+Chemical//DB14681	TREATS_CtD	Disease//MONDO:0011292
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//HMDB0001109
+Chemical//C036989	INDUCES_CHiD	Disease//MONDO:0002691
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0000168
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//HMDB0000929
+Disease//D025241	CHANGE_RICHNESS_DcrMi	Microbe//Lachnospiraceae
+Disease//MONDO:0012268	CHANGE_RICHNESS_DcrMi	Microbe//Lachnoclostridium
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//ITP(3-)
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//Stearoyl-CoA (n-C18:0CoA)
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//HMDB0000244
+Chemical//C074702	INDUCES_CHiD	Disease//MONDO:0021245
+Disease//MONDO:0005130	CHANGE_RICHNESS_DcrMi	Microbe//Staphylococcus
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//HMDB0000223
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//HMDB0000586
+Disease//MONDO:0018301	CHANGE_RICHNESS_DcrMi	Microbe//Bifidobacterium
+Microbe//Eubacterium	ASSOCIATES_MiaM	Metabolite//HMDB0000039
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//HMDB0000687
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//HMDB0002111
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//HMDB0001191
+Chemical//C482199	INDUCES_CHiD	Disease//MONDO:0007179
+Microbe//Eggerthella lenta	ASSOCIATES_MiaM	Metabolite//Phenolic acid
+Disease//MONDO:0009061	CHANGE_RICHNESS_DcrMi	Microbe//Peptococcus
+Chemical//C029216	INDUCES_CHiD	Disease//MONDO:0005814
+Chemical//D019161	TREATS_CtD	Disease//MONDO:0004456
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//HMDB0001429
+Chemical//D010578	INDUCES_CHiD	Disease//MONDO:0005300
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//L-lysinium(1+)
+Chemical//C025589	INDUCES_CHiD	Disease//MONDO:0004993
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//11m3hddcaACP
+Disease//MONDO:0005264	CHANGE_RICHNESS_DcrMi	Microbe//Porphyromonadaceae
+Disease//MONDO:0007079	CHANGE_RICHNESS_DcrMi	Microbe//Collinsella
+Disease//MONDO:0007079	CHANGE_RICHNESS_DcrMi	Microbe//Citrobacter
+Chemical//D015632	INDUCES_CHiD	Disease//MONDO:0004922
+Chemical//C107773	TREATS_CtD	Disease//MONDO:0021040
+Disease//MONDO:0004375	CHANGE_RICHNESS_DcrMi	Microbe//Roseburia
+Disease//MONDO:0007256	CHANGE_RICHNESS_DcrMi	Microbe//Fusobacterium
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//14m3opalmACP
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//13m3hmyrsACP
+Chemical//D020111	INDUCES_CHiD	Disease//MONDO:0005302
+Disease//MONDO:0005302	CHANGE_RICHNESS_DcrMi	Microbe//Lactobacillus
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//7m3hocACP
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//6m3oocACP
+Disease//MONDO:0003004	CHANGE_RICHNESS_DcrMi	Microbe//Eubacterium ventriosum
+Chemical//D016291	INDUCES_CHiD	Disease//MONDO:0005618
+Disease//MONDO:0000702	CHANGE_RICHNESS_DcrMi	Microbe//Ruminiclostridium
+Disease//MONDO:0005292	CHANGE_RICHNESS_DcrMi	Microbe//Clostridium leptum
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//HMDB0028838
+Disease//MONDO:0005300	CHANGE_RICHNESS_DcrMi	Microbe//Coprobacillus
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0001440
+Disease//MONDO:0005178	CHANGE_RICHNESS_DcrMi	Microbe//Rothia
+Chemical//DB00441	TREATS_CtD	Disease//MONDO:0021100
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0000121
+Microbe//Clostridium perfringens	METABOLIZES_MimC	Chemical//DB00762
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//Palmitoyl-CoA (n-C16:0CoA)
+Chemical//D014302	INDUCES_CHiD	Disease//MONDO:0005401
+Disease//MONDO:0001444	CHANGE_RICHNESS_DcrMi	Microbe//Veillonella
+Disease//MONDO:0004631	CHANGE_RICHNESS_DcrMi	Microbe//Actinomyces
+Disease//MONDO:0043923	CHANGE_RICHNESS_DcrMi	Microbe//Eikenella
+Disease//MONDO:0005090	CHANGE_RICHNESS_DcrMi	Microbe//Lactobacillus salivarius
+Disease//MONDO:0011292	CHANGE_RICHNESS_DcrMi	Microbe//Paraprevotella
+Chemical//C013099	INDUCES_CHiD	Disease//MONDO:0005154
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//HMDB0254435
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//HMDB0000142
+Microbe//Eubacterium hallii DSM 3353	METABOLIZES_MimC	Chemical//DB00795
+Chemical//D058607	TREATS_CtD	Disease//MONDO:0005311
+Chemical//C034587	TREATS_CtD	Disease//MONDO:0018908
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0003459
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//Palmitoyl-CoA (n-C16:0CoA)
+Disease//MONDO:0005364	CHANGE_RICHNESS_DcrMi	Microbe//Rikenellaceae
+Disease//MONDO:0019100	CHANGE_RICHNESS_DcrMi	Microbe//Flavobacterium
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//4m3ohexACP
+Disease//MONDO:0008487	CHANGE_RICHNESS_DcrMi	Microbe//Clostridium cluster IV
+Disease//MONDO:0005090	CHANGE_RICHNESS_DcrMi	Microbe//Clostridium symbiosum
+Disease//MONDO:0004980	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides vulgatus
+Disease//MONDO:0004981	CHANGE_RICHNESS_DcrMi	Microbe//Sutterella
+Microbe//Eggerthella lenta	METABOLIZES_MimC	Chemical//DB12179
+Chemical//C004312	INDUCES_CHiD	Disease//MONDO:0015075
+Disease//MONDO:0100096	CHANGE_RICHNESS_DcrMi	Microbe//Oscillospiraceae
+Chemical//DB00441	TREATS_CtD	Disease//MONDO:0006547
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//HMDB0000239
+Chemical//D001194	INDUCES_CHiD	Disease//MONDO:0008170
+Disease//MONDO:0005300	CHANGE_RICHNESS_DcrMi	Microbe//Bacillus
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//HMDB0028966
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB00595
+Microbe//Phascolarctobacterium	METABOLIZES_MimC	Chemical//DB00331
+Disease//MONDO:0001942	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0001285
+Chemical//D008748	INDUCES_CHiD	Disease//MONDO:0004993
+Chemical//D001151	INDUCES_CHiD	Disease//MONDO:0012585
+Chemical//D002791	INDUCES_CHiD	Disease//MONDO:0005347
+Disease//MONDO:0004979	CHANGE_RICHNESS_DcrMi	Microbe//Klebsiella
+Chemical//D010269	INDUCES_CHiD	Disease//MONDO:0005607
+Disease//MONDO:0013662	CHANGE_RICHNESS_DcrMi	Microbe//Mycoplasma
+Disease//MONDO:0005101	CHANGE_RICHNESS_DcrMi	Microbe//Roseburia
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//cdpdipdecg
+Chemical//DB00997	TREATS_CtD	Disease//MONDO:0008170
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0000295
+Disease//Pervasive developmental disorder NOS	CHANGE_RICHNESS_DcrMi	Microbe//Roseburia intestinalis
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//HMDB0000042
+Chemical//D001194	INDUCES_CHiD	Disease//MONDO:0005607
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0001491
+Disease//MONDO:0004950	CHANGE_RICHNESS_DcrMi	Microbe//Turicella
+Chemical//D010936	TREATS_CtD	Disease//MONDO:0002531
+Chemical//D012964	INDUCES_CHiD	Disease//MONDO:0005252
+Chemical//C017947	INDUCES_CHiD	Disease//MONDO:0005070
+Chemical//D009585	INDUCES_CHiD	Disease//MONDO:0005328
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//proteinsynth
+Microbe//Actinobacteria	ASSOCIATES_MiaM	Metabolite//HMDB0000235
+Chemical//D015632	INDUCES_CHiD	Disease//MONDO:0005527
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//HMDB0000131
+Disease//MONDO:0004975	CHANGE_RICHNESS_DcrMi	Microbe//Dialister
+Disease//MONDO:0005960	CHANGE_RICHNESS_DcrMi	Microbe//Subdoligranulum
+Chemical//C416023	TREATS_CtD	Disease//MONDO:0005070
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//HMDB0000221
+Disease//MONDO:0005180	CHANGE_RICHNESS_DcrMi	Microbe//Alistipes
+Chemical//D004128	INDUCES_CHiD	Disease//MONDO:0021117
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0028847
+Chemical//D011078	INDUCES_CHiD	Disease//MONDO:0002691
+Disease//MONDO:0004981	CHANGE_RICHNESS_DcrMi	Microbe//Oscillibacter
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB0028838
+Chemical//D016578	INDUCES_CHiD	Disease//MONDO:0005098
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//cdpdhdec9eg
+Disease//MONDO:0004967	CHANGE_RICHNESS_DcrMi	Microbe//Peptoniphilus
+Disease//MONDO:0005388	CHANGE_RICHNESS_DcrMi	Microbe//Lactobacillus
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//HMDB0003276
+Chemical//D011692	INDUCES_CHiD	Disease//MONDO:0001106
+Chemical//C416023	INDUCES_CHiD	Disease//MONDO:0006547
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//Oxidized thioredoxin
+Chemical//D015073	INDUCES_CHiD	Disease//MONDO:0005814
+Chemical//C017947	INDUCES_CHiD	Disease//MONDO:0005560
+Disease//MONDO:0010726	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroidaceae
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//HMDB0000295
+Chemical//D001151	INDUCES_CHiD	Disease//MONDO:0005002
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//HMDB0000929
+Chemical//D000928	INDUCES_CHiD	Disease//MONDO:0005468
+Chemical//D001335	INDUCES_CHiD	Disease//MONDO:0005081
+Disease//MONDO:0007191	CHANGE_RICHNESS_DcrMi	Microbe//Bilophila
+Disease//MONDO:0018301	CHANGE_RICHNESS_DcrMi	Microbe//Proteus
+Disease//MONDO:0005276	CHANGE_RICHNESS_DcrMi	Microbe//Porphyromonas
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0000243
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//Octadecanoyl-ACP (n-C18:0ACP)
+Disease//MONDO:0005301	CHANGE_RICHNESS_DcrMi	Microbe//Ruminococcus
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//HMDB0001448
+Disease//MONDO:0004979	CHANGE_RICHNESS_DcrMi	Microbe//Fusobacterium
+Disease//MONDO:0005575	CHANGE_RICHNESS_DcrMi	Microbe//Akkermansia muciniphila
+Disease//MONDO:0100096	CHANGE_RICHNESS_DcrMi	Microbe//Eubacterium ventriosum
+Disease//MONDO:0007699	CHANGE_RICHNESS_DcrMi	Microbe//Ruminococcus torques
+Chemical//D005038	INDUCES_CHiD	Disease//MONDO:0005372
+Disease//MONDO:0023644	CHANGE_RICHNESS_DcrMi	Microbe//Candida albicans
+Disease//MONDO:0007699	CHANGE_RICHNESS_DcrMi	Microbe//Eubacterium hallii
+Chemical//D003524	INDUCES_CHiD	Disease//MONDO:0005290
+Chemical//C027576	INDUCES_CHiD	Disease//MONDO:0005299
+Disease//MONDO:0011292	CHANGE_RICHNESS_DcrMi	Microbe//Shigella
+Disease//MONDO:0005276	CHANGE_RICHNESS_DcrMi	Microbe//Clostridium cluster XVI
+Disease//MONDO:0004979	CHANGE_RICHNESS_DcrMi	Microbe//Lachnospira
+Disease//MONDO:0005076	CHANGE_RICHNESS_DcrMi	Microbe//Porphyromonas
+Chemical//D014280	INDUCES_CHiD	Disease//MONDO:0004790
+Disease//MONDO:0005148	CHANGE_RICHNESS_DcrMi	Microbe//Fusobacterium periodonticum
+Disease//Pervasive developmental disorder NOS	CHANGE_RICHNESS_DcrMi	Microbe//Roseburia faecis
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0001532
+Chemical//D013750	INDUCES_CHiD	Disease//MONDO:0002367
+Chemical//C023845	INDUCES_CHiD	Disease//MONDO:0001187
+Disease//MONDO:0005406	CHANGE_RICHNESS_DcrMi	Microbe//Eubacterium eligens
+Chemical//D010278	INDUCES_CHiD	Disease//MONDO:0005087
+Chemical//C074702	INDUCES_CHiD	Disease//MONDO:0005359
+Chemical//C057862	INDUCES_CHiD	Disease//MONDO:0001076
+Chemical//D010578	INDUCES_CHiD	Disease//MONDO:0020022
+Disease//MONDO:0006001	CHANGE_RICHNESS_DcrMi	Microbe//Staphylococcus
+Disease//MONDO:0002412	CHANGE_RICHNESS_DcrMi	Microbe//Shigella
+Chemical//D019161	TREATS_CtD	Disease//MONDO:0013765
+Disease//MONDO:0013433	CHANGE_RICHNESS_DcrMi	Microbe//Desulfovibrio
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0015531
+Disease//MONDO:0005351	CHANGE_RICHNESS_DcrMi	Microbe//Clostridia
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//HMDB0000034
+Disease//MONDO:0005101	CHANGE_RICHNESS_DcrMi	Microbe//Lachnobacterium
+Chemical//D017673	INDUCES_CHiD	Disease//MONDO:0005385
+Chemical//D013256	TREATS_CtD	Disease//MONDO:0002203
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//HMDB0000295
+Chemical//D000662	INDUCES_CHiD	Disease//MONDO:0005618
+Disease//MONDO:0007254	CHANGE_RICHNESS_DcrMi	Microbe//Blautia coccoides
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//HMDB0001548
+Chemical//D013750	INDUCES_CHiD	Disease//MONDO:0007256
+Disease//MONDO:0024388	CHANGE_RICHNESS_DcrMi	Microbe//Coprococcus
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB0000210
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//cdpdihpdecg
+Chemical//DB00997	TREATS_CtD	Disease//MONDO:0021100
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//1aihpdecg3p
+Disease//MONDO:0011122	CHANGE_RICHNESS_DcrMi	Microbe//Fusobacterium nucleatum
+Chemical//D017382	INDUCES_CHiD	Disease//MONDO:0005098
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//HMDB0000254
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//glygln
+Disease//MONDO:0005027	CHANGE_RICHNESS_DcrMi	Microbe//Proteobacteria
+Chemical//D013481	INDUCES_CHiD	Disease//MONDO:0005264
+Microbe//Bacteroides vulgatus	METABOLIZES_MimC	Chemical//DB00762
+Chemical//C076994	INDUCES_CHiD	Disease//MONDO:0005385
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//Octadecanoyl-ACP (n-C18:0ACP)
+Chemical//DB00773	TREATS_CtD	Disease//MONDO:0001187
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//M02377
+Microbe//Peptoclostridium difficile	METABOLIZES_MimC	Chemical//DB00390
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0001245
+Chemical//C440499	INDUCES_CHiD	Disease//MONDO:0000775
+Disease//MONDO:0011122	CHANGE_RICHNESS_DcrMi	Microbe//Odoribacter
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0001532
+Disease//MONDO:0005301	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus parasanguinis
+Chemical//C029955	INDUCES_CHiD	Disease//MONDO:0019087
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//HMDB0000295
+Chemical//C482199	INDUCES_CHiD	Disease//MONDO:0005240
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0000288
+Chemical//C506643	INDUCES_CHiD	Disease//MONDO:0002049
+Disease//MONDO:0007191	CHANGE_RICHNESS_DcrMi	Microbe//Eggerthella lenta
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//dAMP(2-)
+Chemical//D012997	INDUCES_CHiD	Disease//MONDO:0021124
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//HMDB0254435
+Chemical//D016627	TREATS_CtD	Disease//MONDO:0005468
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//pa161
+Chemical//D004232	TREATS_CtD	Disease//MONDO:0005044
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//HMDB0000687
+Chemical//D020106	INDUCES_CHiD	Disease//MONDO:0005030
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//HMDB0059597
+Disease//MONDO:0009688	CHANGE_RICHNESS_DcrMi	Microbe//Butyricicoccus
+Chemical//D019380	INDUCES_CHiD	Disease//MONDO:0001475
+Disease//MONDO:0005313	CHANGE_RICHNESS_DcrMi	Microbe//Gammaproteobacteria
+Chemical//D058607	TREATS_CtD	Disease//MONDO:0011565
+Disease//MONDO:0004980	CHANGE_RICHNESS_DcrMi	Microbe//Turicella
+Disease//MONDO:0002635	CHANGE_RICHNESS_DcrMi	Microbe//Fusobacterium
+Disease//MONDO:0008903	CHANGE_RICHNESS_DcrMi	Microbe//Sphingomonas
+Microbe//Enterococcus sp. 7L76	METABOLIZES_MimC	Chemical//DB00581
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB0028685
+Chemical//D010575	INDUCES_CHiD	Disease//MONDO:0012628
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//HMDB0000244
+Chemical//D019813	INDUCES_CHiD	Disease//MONDO:0005089
+Disease//MONDO:0005306	CHANGE_RICHNESS_DcrMi	Microbe//Lachnospiraceae
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//L-aspartate(1-)
+Microbe//Escherichia sp. 3_2_53FAA	METABOLIZES_MimC	Chemical//DB00762
+Disease//MONDO:0005313	CHANGE_RICHNESS_DcrMi	Microbe//Enterococcus
+Chemical//C061132	TREATS_CtD	Disease//MONDO:0002050
+Disease//MONDO:0005649	CHANGE_RICHNESS_DcrMi	Microbe//Bergeyella
+Chemical//D012970	INDUCES_CHiD	Disease//MONDO:0005044
+Chemical//D028321	INDUCES_CHiD	Disease//MONDO:0016264
+Disease//MONDO:0005003	CHANGE_RICHNESS_DcrMi	Microbe//Shigella
+Disease//MONDO:0004980	CHANGE_RICHNESS_DcrMi	Microbe//Peptoclostridium difficile
+Disease//MONDO:0001187	CHANGE_RICHNESS_DcrMi	Microbe//Lactobacillus
+Chemical//D008770	INDUCES_CHiD	Disease//MONDO:0005070
+Disease//MONDO:0004979	CHANGE_RICHNESS_DcrMi	Microbe//Gemella
+Microbe//Roseburia	ASSOCIATES_MiaM	Metabolite//HMDB0000039
+Chemical//C416023	INDUCES_CHiD	Disease//MONDO:0002049
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//pa141
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0000159
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0001429
+Chemical//D015946	INDUCES_CHiD	Disease//MONDO:0004993
+Disease//MONDO:0005441	CHANGE_RICHNESS_DcrMi	Microbe//Moraxella
+Microbe//Bacteroides thetaiotaomicron VPI-5482	METABOLIZES_MimC	Chemical//DB00390
+Chemical//D058607	INDUCES_CHiD	Disease//MONDO:0003939
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//HMDB0000657
+Disease//MONDO:0005264	CHANGE_RICHNESS_DcrMi	Microbe//Alistipes
+Chemical//D012838	TREATS_CtD	Disease//MONDO:0006966
+Chemical//D000305	INDUCES_CHiD	Disease//MONDO:0006525
+Disease//MONDO:0021040	CHANGE_RICHNESS_DcrMi	Microbe//Leptotrichia
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//HMDB0028838
+Disease//Pervasive developmental disorder NOS	CHANGE_RICHNESS_DcrMi	Microbe//Faecalibacterium prausnitzii
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//Palmitoyl-ACP (n-C16:0ACP)
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//11m3oddcaACP
+Chemical//D004052	INDUCES_CHiD	Disease//MONDO:0008170
+Disease//MONDO:0002358	CHANGE_RICHNESS_DcrMi	Microbe//Helicobacter
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0000175
+Chemical//D004128	INDUCES_CHiD	Disease//MONDO:0002492
+Chemical//C023470	INDUCES_CHiD	Disease//MONDO:0019542
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//paai15
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//HMDB0001227
+Disease//MONDO:0005301	CHANGE_RICHNESS_DcrMi	Microbe//Eggerthella lenta
+Disease//MONDO:0006733	CHANGE_RICHNESS_DcrMi	Microbe//Megasphaera
+Disease//MONDO:0016264	CHANGE_RICHNESS_DcrMi	Microbe//Parabacteroides
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//mql8
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//HMDB0000619
+Disease//Aerobic vaginitis	CHANGE_RICHNESS_DcrMi	Microbe//Klebsiella pneumoniae
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0015532
+Disease//MONDO:0005180	CHANGE_RICHNESS_DcrMi	Microbe//Bifidobacteriaceae
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//HMDB0000131
+Chemical//D012970	INDUCES_CHiD	Disease//MONDO:0005347
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//pa120
+Chemical//C009265	TREATS_CtD	Disease//MONDO:0006966
+Disease//MONDO:0005101	CHANGE_RICHNESS_DcrMi	Microbe//Roseburia hominis
+Disease//MONDO:0003085	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides plebeius
+Chemical//D016578	INDUCES_CHiD	Disease//MONDO:0005093
+Microbe//Bifidobacterium	ASSOCIATES_MiaM	Metabolite//HMDB0000210
+Disease//MONDO:0005148	CHANGE_RICHNESS_DcrMi	Microbe//Aggregatibacter
+Disease//MONDO:0004639	CHANGE_RICHNESS_DcrMi	Microbe//Gammaproteobacteria
+Disease//MONDO:0007079	CHANGE_RICHNESS_DcrMi	Microbe//Holdemania
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//HMDB0001310
+Microbe//Enterococcus sp. 7L76	METABOLIZES_MimC	Chemical//DB12179
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//HMDB0000244
+Chemical//D007854	INDUCES_CHiD	Disease//MONDO:0005046
+Chemical//D004052	TREATS_CtD	Disease//MONDO:0005359
+Chemical//D005038	INDUCES_CHiD	Disease//MONDO:0001475
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//HMDB0011720
+Chemical//D000438	INDUCES_CHiD	Disease//MONDO:0013792
+Microbe//Enterobacter	ASSOCIATES_MiaM	Metabolite//HMDB0002183
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0028837
+Disease//MONDO:0005301	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus salivarius
+Disease//MONDO:0010030	CHANGE_RICHNESS_DcrMi	Microbe//Actinomyces
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//9m3hdcaACP
+Disease//MONDO:0005180	CHANGE_RICHNESS_DcrMi	Microbe//Proteus
+Disease//MONDO:0005081	CHANGE_RICHNESS_DcrMi	Microbe//Firmicutes
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//Produced biomass
+Microbe//Proteobacteria	ASSOCIATES_MiaM	Metabolite//HMDB0000239
+Disease//MONDO:0005258	CHANGE_RICHNESS_DcrMi	Microbe//Eggerthella lenta
+Chemical//C017947	TREATS_CtD	Disease//MONDO:0005203
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//HMDB0000223
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0304524
+Microbe//Enterococcus sp. 7L76	ASSOCIATES_MiaM	Metabolite//HMDB0000175
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//l2a6o
+Chemical//D016627	INDUCES_CHiD	Disease//MONDO:0005527
+Disease//MONDO:0018301	CHANGE_RICHNESS_DcrMi	Microbe//Propionibacterium
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//fa4coa,Anteiso-C15:0 CoA   Anteisopentadecanoyl-CoA
+Disease//MONDO:0005180	CHANGE_RICHNESS_DcrMi	Microbe//Alistipes shahii
+Chemical//D011134	TREATS_CtD	Disease//MONDO:0005016
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//cdpdodecg
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//HMDB0001179
+Disease//MONDO:0011122	CHANGE_RICHNESS_DcrMi	Microbe//Rikenellaceae
+Chemical//D008078	INDUCES_CHiD	Disease//MONDO:0011817
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//HMDB0001401
+Chemical//D016578	INDUCES_CHiD	Disease//MONDO:0005044
+Disease//MONDO:0005301	CHANGE_RICHNESS_DcrMi	Microbe//Alistipes
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//HMDB0000131
+Chemical//DB00563	TREATS_CtD	Disease//MONDO:0007254
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//HMDB0001491
+Disease//MONDO:0005002	CHANGE_RICHNESS_DcrMi	Microbe//Moraxella
+Chemical//C434926	TREATS_CtD	Disease//MONDO:0005249
+Microbe//Roseburia inulinivorans	ASSOCIATES_MiaM	Metabolite//HMDB0000039
+Disease//MONDO:0005344	CHANGE_RICHNESS_DcrMi	Microbe//Capnocytophaga
+Chemical//C112530	INDUCES_CHiD	Disease//MONDO:0005071
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//HMDB0000464
+Chemical//D014150	INDUCES_CHiD	Disease//MONDO:0004994
+Disease//MONDO:0005109	CHANGE_RICHNESS_DcrMi	Microbe//Helicobacter
+Disease//MONDO:0005249	CHANGE_RICHNESS_DcrMi	Microbe//Prevotella melaninogenica
+Disease//MONDO:0024388	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroidetes
+Microbe//Bacteroides vulgatus ATCC 8482	ASSOCIATES_MiaM	Metabolite//HMDB0000244
+Chemical//D001335	INDUCES_CHiD	Disease//MONDO:0000831
+Chemical//D016291	TREATS_CtD	Disease//MONDO:0005567
+Chemical//D004026	TREATS_CtD	Disease//MONDO:0006496
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//Stearoyl-CoA (n-C18:0CoA)
+Disease//MONDO:0013433	CHANGE_RICHNESS_DcrMi	Microbe//Lachnospira
+Disease//MONDO:0005016	CHANGE_RICHNESS_DcrMi	Microbe//Coriobacteriaceae
+Chemical//D013749	INDUCES_CHiD	Disease//MONDO:0015514
+Disease//MONDO:0010030	CHANGE_RICHNESS_DcrMi	Microbe//Granulicatella
+Disease//MONDO:0003232	CHANGE_RICHNESS_DcrMi	Microbe//Staphylococcus
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//Reduced thioredoxin
+Chemical//D010269	INDUCES_CHiD	Disease//MONDO:0005359
+Chemical//DB14681	TREATS_CtD	Disease//MONDO:0001566
+Disease//MONDO:0023644	CHANGE_RICHNESS_DcrMi	Microbe//Propionibacterium acnes
+Chemical//D005620	INDUCES_CHiD	Disease//MONDO:0011057
+Chemical//D003278	INDUCES_CHiD	Disease//MONDO:0005044
+Microbe//Eggerthella lenta	METABOLIZES_MimC	Chemical//DB00390
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//D-xylulose 5-phosphate(2-)
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//HMDB0000902
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//HMDB0001000
+Disease//MONDO:0005300	CHANGE_RICHNESS_DcrMi	Microbe//Ruminococcus
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//HMDB0000237
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//HMDB0028685
+Chemical//D000894	INDUCES_CHiD	Disease//MONDO:0004995
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//13m3omyrsACP
+Chemical//C057862	INDUCES_CHiD	Disease//MONDO:0004790
+Microbe//Bacteroides uniformis ATCC 8492	METABOLIZES_MimC	Chemical//DB00390
+Microbe//Escherichia sp. 4_1_40B	ASSOCIATES_MiaM	Metabolite//HMDB0000039
+Disease//MONDO:0002775	CHANGE_RICHNESS_DcrMi	Microbe//Oscillospira
+Chemical//C036077	INDUCES_CHiD	Disease//MONDO:0002280
+Microbe//Bacteroides ovatus ATCC 8483	ASSOCIATES_MiaM	Metabolite//paai17
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//HMDB0062762
+Chemical//D012906	INDUCES_CHiD	Disease//MONDO:0003781
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//mql8
+Chemical//D008767	INDUCES_CHiD	Disease//MONDO:0005527
+Chemical//D019380	INDUCES_CHiD	Disease//MONDO:0004994
+Chemical//D015946	INDUCES_CHiD	Disease//MONDO:0021085
+Disease//MONDO:0008903	CHANGE_RICHNESS_DcrMi	Microbe//Clostridium
+Disease//MONDO:0004950	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides uniformis
+Chemical//DB00531	TREATS_CtD	Disease//MONDO:0021100
+Chemical//DB00531	TREATS_CtD	Disease//MONDO:0018908
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//9m3hdcaACP
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//HMDB0000608
+Microbe//Klebsiella pneumoniae	METABOLIZES_MimC	Chemical//DB00581
+Chemical//D009585	INDUCES_CHiD	Disease//MONDO:0005252
+Disease//MONDO:0005351	CHANGE_RICHNESS_DcrMi	Microbe//Coriobacteriaceae
+Chemical//D020106	INDUCES_CHiD	Disease//MONDO:0020022
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//cdpdaihpdecg
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//HMDB0000960
+Chemical//D005620	INDUCES_CHiD	Disease//MONDO:0005298
+Disease//MONDO:0009411	CHANGE_RICHNESS_DcrMi	Microbe//Porphyromonas gingivalis
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//cdpdihpdecg
+Microbe//Bacteroides sp. 1_1_6	ASSOCIATES_MiaM	Metabolite//HMDB0012289
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0001058
+Chemical//D004051	INDUCES_CHiD	Disease//MONDO:0007256
+Microbe//Bacteroides eggerthii DSM 20697	ASSOCIATES_MiaM	Metabolite//HMDB0000195
+Chemical//C440499	INDUCES_CHiD	Disease//MONDO:0006932
+Chemical//C009265	TREATS_CtD	Disease//MONDO:0043510
+Disease//MONDO:0000702	CHANGE_RICHNESS_DcrMi	Microbe//Propionibacterium
+Chemical//D001564	INDUCES_CHiD	Disease//MONDO:0005527
+Chemical//D045930	INDUCES_CHiD	Disease//MONDO:0024477
+Chemical//C010902	INDUCES_CHiD	Disease//MONDO:0003240
+Microbe//Enterobacter	ASSOCIATES_MiaM	Metabolite//HMDB0000619
+Chemical//D000925	TREATS_CtD	Disease//MONDO:0002974
+Microbe//Escherichia coli UTI89 (UPEC)	ASSOCIATES_MiaM	Metabolite//M02377
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//15m3hpalmACP
+Chemical//D001194	INDUCES_CHiD	Disease//MONDO:0005096
+Chemical//D013749	INDUCES_CHiD	Disease//MONDO:0002974
+Chemical//D013853	INDUCES_CHiD	Disease//MONDO:0004922
+Disease//MONDO:0005441	CHANGE_RICHNESS_DcrMi	Microbe//Eikenella
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//12m3omyrsACP
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//14m3hpalmACP
+Chemical//D052638	INDUCES_CHiD	Disease//MONDO:0005002
+Disease//MONDO:0005101	CHANGE_RICHNESS_DcrMi	Microbe//Christensenellaceae
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//udcpp
+Disease//MONDO:0009688	CHANGE_RICHNESS_DcrMi	Microbe//Parvimonas
+Chemical//D010936	INDUCES_CHiD	Disease//MONDO:0005044
+Disease//MONDO:0005148	CHANGE_RICHNESS_DcrMi	Microbe//Parabacteroides
+Disease//MONDO:0021040	CHANGE_RICHNESS_DcrMi	Microbe//Paraprevotella
+Chemical//DB00959	TREATS_CtD	Disease//MONDO:0001657
+Chemical//D008054	INDUCES_CHiD	Disease//MONDO:0004790
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0028689
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//cdpdhdec9eg
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//6m3hocACP
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//HMDB0000464
+Chemical//C029216	INDUCES_CHiD	Disease//MONDO:0002691
+Chemical//D004041	INDUCES_CHiD	Disease//MONDO:0004681
+Disease//MONDO:0005011	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides fragilis
+Chemical//D016264	INDUCES_CHiD	Disease//MONDO:0005335
+Chemical//C026486	INDUCES_CHiD	Disease//MONDO:0002531
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//pa140
+Chemical//D010575	INDUCES_CHiD	Disease//MONDO:0006966
+Disease//MONDO:0009411	CHANGE_RICHNESS_DcrMi	Microbe//Haemophilus parainfluenzae
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//HMDB0000300
+Chemical//D014874	INDUCES_CHiD	Disease//MONDO:0003785
+Chemical//DB00860	TREATS_CtD	Disease//MONDO:0001566
+Disease//MONDO:0043797	CHANGE_RICHNESS_DcrMi	Microbe//Escherichia sp. 3_2_53FAA
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//1aihpdecg3p
+Chemical//D001564	INDUCES_CHiD	Disease//MONDO:0005570
+Disease//MONDO:0002635	CHANGE_RICHNESS_DcrMi	Microbe//Tannerella
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0000547
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//HMDB0028853
+Disease//MONDO:0008383	CHANGE_RICHNESS_DcrMi	Microbe//Acinetobacter
+Microbe//Eubacterium hallii DSM 3353	ASSOCIATES_MiaM	Metabolite//HMDB0000082
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0001370
+Microbe//Bacteroides ovatus ATCC 8483	METABOLIZES_MimC	Chemical//DB00390
+Disease//MONDO:0018229	CHANGE_RICHNESS_DcrMi	Microbe//Collinsella
+Disease//MONDO:0005083	CHANGE_RICHNESS_DcrMi	Microbe//Sphingomonas
+Chemical//D000393	INDUCES_CHiD	Disease//MONDO:0004981
+Disease//Invasive pneumococcal disease	CHANGE_RICHNESS_DcrMi	Microbe//Oribacterium
+Chemical//D002083	TREATS_CtD	Disease//MONDO:0007256
+Chemical//D014280	INDUCES_CHiD	Disease//MONDO:0002177
+Microbe//Bacteroides dorei DSM 17855	ASSOCIATES_MiaM	Metabolite//HMDB0000807
+Disease//MONDO:0005265	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus anginosus
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//HMDB0012289
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//uaagmda
+Chemical//D000970	INDUCES_CHiD	Disease//MONDO:0005240
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//HMDB0028848
+Microbe//Eubacterium rectale ATCC 33656	ASSOCIATES_MiaM	Metabolite//HMDB0001409
+Disease//MONDO:0005002	CHANGE_RICHNESS_DcrMi	Microbe//Actinobacillus
+Disease//MONDO:0005249	CHANGE_RICHNESS_DcrMi	Microbe//Veillonella
+Microbe//Eubacterium biforme DSM 3989	ASSOCIATES_MiaM	Metabolite//HMDB0028837
+Chemical//C001042	INDUCES_CHiD	Disease//MONDO:0005447
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//6m3hocACP
+Disease//MONDO:0005148	CHANGE_RICHNESS_DcrMi	Microbe//Butyricimonas
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//HMDB0000797
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//uama
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0001273
+Disease//MONDO:0005575	CHANGE_RICHNESS_DcrMi	Microbe//Actinobacteria
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//pai14
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//HMDB0000159
+Microbe//Escherichia	METABOLIZES_MimC	Chemical//DB00331
+Disease//MONDO:0004979	CHANGE_RICHNESS_DcrMi	Microbe//Haemophilus
+Chemical//D059808	TREATS_CtD	Disease//MONDO:0021245
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//HMDB0001213
+Disease//MONDO:0005301	CHANGE_RICHNESS_DcrMi	Microbe//Clostridium
+Chemical//D013481	INDUCES_CHiD	Disease//MONDO:0002492
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//HMDB0001469
+Disease//MONDO:0005271	CHANGE_RICHNESS_DcrMi	Microbe//Blautia
+Disease//MONDO:0005148	CHANGE_RICHNESS_DcrMi	Microbe//Streptococcus
+Chemical//C506365	INDUCES_CHiD	Disease//MONDO:0012788
+Disease//MONDO:0005484	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroides
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//pa140
+Microbe//Bacteroides thetaiotaomicron VPI-5482	ASSOCIATES_MiaM	Metabolite//HMDB0000641
+Disease//MONDO:0001942	CHANGE_RICHNESS_DcrMi	Microbe//Enterobacteriaceae
+Disease//MONDO:0005960	CHANGE_RICHNESS_DcrMi	Microbe//Parabacteroides
+Microbe//Escherichia coli O157:H7 str. Sakai	ASSOCIATES_MiaM	Metabolite//7m3hocACP
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//uama
+Microbe//Bacteroides uniformis ATCC 8492	ASSOCIATES_MiaM	Metabolite//HMDB0001533
+Disease//MONDO:0004639	CHANGE_RICHNESS_DcrMi	Microbe//Enterococcus
+Disease//MONDO:0002203	CHANGE_RICHNESS_DcrMi	Microbe//Bacteroidetes
+Chemical//C004312	INDUCES_CHiD	Disease//MONDO:0001657
+Microbe//Escherichia sp. 3_2_53FAA	ASSOCIATES_MiaM	Metabolite//HMDB0000998
+Chemical//D016264	INDUCES_CHiD	Disease//MONDO:0005292
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//HMDB0028836
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//HMDB0028966
+Chemical//D052638	INDUCES_CHiD	Disease//MONDO:0005070
+Chemical//C416023	TREATS_CtD	Disease//MONDO:0008170
+Microbe//Parabacteroides distasonis ATCC 8503	ASSOCIATES_MiaM	Metabolite//HMDB0000586
+Microbe//Bacteroides stercoris ATCC 43183	ASSOCIATES_MiaM	Metabolite//HMDB0000126
+Microbe//Escherichia coli str. K-12 substr. MG1655	ASSOCIATES_MiaM	Metabolite//fa12coa,Anteiso-C17:0 CoA   Anteisoheptadecanoyl-CoA
+Disease//MONDO:0013209	CHANGE_RICHNESS_DcrMi	Microbe//Proteobacteria
+Microbe//Lactobacillus reuteri CF48-3A	ASSOCIATES_MiaM	Metabolite//14m3opalmACP
+Disease//MONDO:0004967	CHANGE_RICHNESS_DcrMi	Microbe//Prevotella
+Chemical//C494243	TREATS_CtD	Disease//MONDO:0010331
+Microbe//Bacteroides fragilis NCTC 9343	ASSOCIATES_MiaM	Metabolite//cdpdtdec7eg
+Chemical//D000305	TREATS_CtD	Disease//MONDO:0005010
+Disease//MONDO:0004979	CHANGE_RICHNESS_DcrMi	Microbe//Veillonella
+Disease//MONDO:0005180	CHANGE_RICHNESS_DcrMi	Microbe//Halomonas
+Chemical//D045930	INDUCES_CHiD	Disease//MONDO:0011057
+Disease//MONDO:0005258	CHANGE_RICHNESS_DcrMi	Microbe//Lachnospiraceae
+Chemical//D045930	INDUCES_CHiD	Disease//MONDO:0005267
+Microbe//Bifidobacterium	METABOLIZES_MimC	Chemical//DB00581

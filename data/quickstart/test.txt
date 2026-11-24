@@ -1,0 +1,30 @@
+Chemical//C036990	INDUCES_CHiD	Disease//MONDO:0007256
+Chemical//C013592	TREATS_CtD	Disease//MONDO:0004790
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//fa1coa,Iso-C14:0 CoA   Isotetradecanoyl-CoA
+Chemical//D004051	TREATS_CtD	Disease//MONDO:0004790
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0003276
+Disease//MONDO:0005258	CHANGE_RICHNESS_DcrMi	Microbe//Lactococcus
+Chemical//D001151	INDUCES_CHiD	Disease//MONDO:0006052
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//L-lysinium(1+)
+Microbe//Bacteroides stercoris ATCC 43183	METABOLIZES_MimC	Chemical//DB00390
+Chemical//D010936	TREATS_CtD	Disease//MONDO:0002280
+Chemical//DB00443	TREATS_CtD	Disease//MONDO:0005101
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//dAMP(2-)
+Disease//MONDO:0005258	CHANGE_RICHNESS_DcrMi	Microbe//Peptostreptococcus
+Chemical//C511295	INDUCES_CHiD	Disease//MONDO:0004790
+Disease//MONDO:0005258	CHANGE_RICHNESS_DcrMi	Microbe//Roseburia
+Microbe//Parabacteroides distasonis ATCC 8503	METABOLIZES_MimC	Chemical//DB00795
+Microbe//Eubacterium biforme DSM 3989	METABOLIZES_MimC	Chemical//DB00795
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//cdpditdecg
+Chemical//DB00795	TREATS_CtD	Disease//MONDO:0011429
+Microbe//Escherichia sp. 3_2_53FAA	METABOLIZES_MimC	Chemical//DB00795
+Chemical//DB00620	TREATS_CtD	Disease//MONDO:0005301
+Microbe//Lactobacillus reuteri CF48-3A	METABOLIZES_MimC	Chemical//DB00795
+Chemical//D001151	INDUCES_CHiD	Disease//MONDO:0005311
+Disease//MONDO:0005258	CHANGE_RICHNESS_DcrMi	Microbe//Bulleidia
+Chemical//C029955	INDUCES_CHiD	Disease//MONDO:0021100
+Chemical//C004312	INDUCES_CHiD	Disease//MONDO:0021100
+Microbe//Bacteroides fragilis NCTC 9343	METABOLIZES_MimC	Chemical//DB00795
+Disease//MONDO:0005258	CHANGE_RICHNESS_DcrMi	Microbe//Phascolarctobacterium
+Disease//MONDO:0013209	CHANGE_RICHNESS_DcrMi	Microbe//Clostridium
+Microbe//Clostridium bolteae ATCC BAA-613	ASSOCIATES_MiaM	Metabolite//HMDB0041827

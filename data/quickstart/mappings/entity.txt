@@ -1,0 +1,1000 @@
+Metabolite//HMDB0001487	0
+Metabolite//HMDB0028837	1
+Metabolite//HMDB0000126	2
+Microbe//Parabacteroides distasonis ATCC 8503	3
+Metabolite//HMDB0000902	4
+Metabolite//HMDB0001423	5
+Metabolite//HMDB0002111	6
+Metabolite//13m3hmyrsACP	7
+Disease//MONDO:0021117	8
+Metabolite//HMDB0000883	9
+Chemical//DB00563	10
+Metabolite//HMDB0001473	11
+Metabolite//HMDB0000095	12
+Metabolite//HMDB0001117	13
+Metabolite//HMDB0000082	14
+Metabolite//HMDB0000250	15
+Metabolite//HMDB0001044	16
+Disease//MONDO:0029000	17
+Metabolite//HMDB0011720	18
+Metabolite//HMDB0001370	19
+Metabolite//HMDB0059597	20
+Metabolite//HMDB0001429	21
+Metabolite//HMDB0001967	22
+Disease//MONDO:0004976	23
+Metabolite//HMDB00595	24
+Metabolite//HMDB0000657	25
+Metabolite//HMDB0001275	26
+Metabolite//HMDB0000286	27
+Microbe//Bacteroides uniformis ATCC 8492	28
+Chemical//DB00860	29
+Microbe//Bacteroides uniformis	30
+Metabolite//HMDB0001469	31
+Metabolite//HMDB0000960	32
+Metabolite//paai17	33
+Microbe//Bacteroides thetaiotaomicron VPI-5482	34
+Metabolite//HMDB0001416	35
+Chemical//DB00959	36
+Metabolite//proteinsynth	37
+Microbe//Bacteroides sp. 1_1_6	38
+Metabolite//HMDB0000939	39
+Disease//MONDO:0100096	40
+Disease//MONDO:0005148	41
+Disease//MONDO:0024644	42
+Chemical//DB00997	43
+Disease//MONDO:0005083	44
+Microbe//Bacteroides fragilis NCTC 9343	45
+Metabolite//triphosphate(5-)	46
+Chemical//D012906	47
+Disease//MONDO:0012788	48
+Metabolite//cdpdihpdecg	49
+Metabolite//uaagmda	50
+Metabolite//fa3coa,Iso-C15:0 CoA   Isopentadecanoyl-CoA	51
+Chemical//DB00993	52
+Metabolite//Palmitoyl-CoA (n-C16:0CoA)	53
+Metabolite//HMDB0001409	54
+Microbe//Bacteroidetes	55
+Microbe//Pseudomonas	56
+Metabolite//HMDB0000538	57
+Metabolite//HMDB0001354	58
+Chemical//D019980	59
+Metabolite//8m3hdcaACP	60
+Metabolite//HMDB0003276	61
+Microbe//Clostridium bolteae ATCC BAA-613	62
+Microbe//Escherichia coli O157:H7 str. Sakai	63
+Chemical//DB00762	64
+Microbe//Bacteroides dorei DSM 17855	65
+Disease//MONDO:0005359	66
+Microbe//Eubacterium biforme DSM 3989	67
+Disease//MONDO:0005071	68
+Chemical//DB00331	69
+Disease//MONDO:0002009	70
+Metabolite//fa11coa, Iso-C17:0 CoA   Isoheptadecanoyl-CoA	71
+Metabolite//ITP(3-)	72
+Chemical//DB00441	73
+Disease//MONDO:0005147	74
+Metabolite//HMDB0000547	75
+Metabolite//PGPm1	76
+Microbe//Eubacterium hallii DSM 3353	77
+Metabolite//HMDB0001586	78
+Chemical//DB01234	79
+Chemical//DB00515	80
+Chemical//D003276	81
+Disease//MONDO:0002492	82
+Metabolite//HMDB0000078	83
+Metabolite//HMDB0001254	84
+Disease//MONDO:0005351	85
+Microbe//Coriobacteriaceae	86
+Disease//MONDO:0005130	87
+Microbe//Escherichia sp. 4_1_40B	88
+Metabolite//HMDB0000089	89
+Microbe//Lactobacillus	90
+Microbe//Escherichia sp. 3_2_53FAA	91
+Metabolite//HMDB0001206	92
+Microbe//Bacteroides vulgatus ATCC 8482	93
+Microbe//Lactobacillus reuteri CF48-3A	94
+Metabolite//HMDB0001270	95
+Metabolite//ugmd	96
+Disease//MONDO:0007256	97
+Chemical//DB01204	98
+Disease//MONDO:0011292	99
+Chemical//DB00091	100
+Microbe//Bacteroides eggerthii DSM 20697	101
+Metabolite//HMDB0304524	102
+Chemical//DB00795	103
+Metabolite//pa160	104
+Metabolite//HMDB0001347	105
+Metabolite//HMDB0000168	106
+Chemical//D008628	107
+Metabolite//HMDB0000300	108
+Microbe//Bacteroides ovatus ATCC 8483	109
+Metabolite//HMDB0002183	110
+Microbe//Lachnospiraceae	111
+Metabolite//uaaGgla	112
+Metabolite//HMDB0000243	113
+Metabolite//glyglu	114
+Metabolite//glygln	115
+Metabolite//pai16	116
+Metabolite//15m3opalmACP	117
+Disease//MONDO:0005010	118
+Disease//MONDO:0011565	119
+Microbe//Eubacterium eligens	120
+Metabolite//HMDB0001448	121
+Microbe//Bulleidia	122
+Disease//MONDO:0005249	123
+Metabolite//PGP	124
+Metabolite//HMDB0000742	125
+Metabolite//HMDB0000042	126
+Metabolite//l2a6o	127
+Metabolite//HMDB0000797	128
+Disease//MONDO:0005306	129
+Metabolite//udcpp	130
+Disease//MONDO:0005468	131
+Disease//MONDO:0007191	132
+Microbe//Megamonas	133
+Metabolite//pai14	134
+Disease//MONDO:0004985	135
+Disease//MONDO:0005267	136
+Metabolite//HMDB0001016	137
+Metabolite//HMDB0000237	138
+Metabolite//HMDB0028853	139
+Metabolite//HMDB0000972	140
+Microbe//Bacteroides stercoris ATCC 43183	141
+Disease//MONDO:0004995	142
+Disease//MONDO:0005180	143
+Metabolite//HMDB0028686	144
+Metabolite//6m3oocACP	145
+Disease//MONDO:0021085	146
+Chemical//DB00531	147
+Metabolite//HMDB0001341	148
+Disease//MONDO:0004981	149
+Metabolite//HMDB0001274	150
+Metabolite//HMDB0000586	151
+Metabolite//1ihpdecg3p	152
+Metabolite//HMDB0006899	153
+Chemical//C010902	154
+Disease//MONDO:0002909	155
+Disease//MONDO:0005101	156
+Metabolite//HMDB0000608	157
+Metabolite//HMDB0001546	158
+Chemical//DB00390	159
+Chemical//D001335	160
+Metabolite//rnatrans	161
+Metabolite//HMDB0003125	162
+Metabolite//cdpdtdec7eg	163
+Metabolite//Octadecanoyl-ACP (n-C18:0ACP)	164
+Metabolite//HMDB0028836	165
+Metabolite//HMDB0001508	166
+Metabolite//HMDB0028683	167
+Metabolite//10m3oddcaACP	168
+Chemical//C434926	169
+Metabolite//HMDB0001533	170
+Disease//MONDO:0005044	171
+Metabolite//11m3hddcaACP	172
+Metabolite//HMDB0000464	173
+Metabolite//HMDB0001112	174
+Metabolite//L-lysinium(1+)	175
+Metabolite//HMDB0001245	176
+Metabolite//Reduced thioredoxin	177
+Microbe//Escherichia coli UTI89 (UPEC)	178
+Metabolite//HMDB0000175	179
+Chemical//DB00620	180
+Disease//MONDO:0005258	181
+Microbe//Streptococcaceae	182
+Metabolite//dAMP(2-)	183
+Metabolite//cdpdodecg	184
+Metabolite//HMDB0015531	185
+Metabolite//1odecg3p	186
+Metabolite//pa181	187
+Metabolite//HMDB0001185	188
+Metabolite//HMDB0000123	189
+Metabolite//fa4coa,Anteiso-C15:0 CoA   Anteisopentadecanoyl-CoA	190
+Chemical//DB00773	191
+Disease//MONDO:0004790	192
+Metabolite//HMDB0001271	193
+Disease//MONDO:0005090	194
+Microbe//Enterococcus sp. 7L76	195
+Microbe//Escherichia coli str. K-12 substr. MG1655	196
+Metabolite//HMDB0000177	197
+Disease//MONDO:0008487	198
+Chemical//C107773	199
+Microbe//Eubacterium rectale ATCC 33656	200
+Metabolite//6m3hocACP	201
+Disease//MONDO:0005109	202
+Metabolite//pa141	203
+Metabolite//cdpdihdecg	204
+Disease//MONDO:0011122	205
+Microbe//Veillonella dispar	206
+Metabolite//HMDB0000210	207
+Metabolite//HMDB0028685	208
+Metabolite//HMDB0000161	209
+Metabolite//HMDB0000687	210
+Metabolite//HMDB0001191	211
+Chemical//DB14681	212
+Metabolite//Produced biomass	213
+Metabolite//D-xylulose 5-phosphate(2-)	214
+Metabolite//fa12coa,Anteiso-C17:0 CoA   Anteisoheptadecanoyl-CoA	215
+Microbe//Prevotella	216
+Metabolite//HMDB0001401	217
+Disease//MONDO:0005275	218
+Metabolite//HMDB0001520	219
+Metabolite//15m3hpalmACP	220
+Metabolite//HMDB0001201	221
+Disease//MONDO:0004970	222
+Metabolite//HMDB0000208	223
+Metabolite//4m3hhexACP	224
+Metabolite//HMDB0000217	225
+Disease//MONDO:0011429	226
+Disease//MONDO:0005096	227
+Metabolite//HMDB0001128	228
+Chemical//DB00635	229
+Metabolite//HMDB0000187	230
+Metabolite//12m3hmyrsACP	231
+Metabolite//HMDB0000142	232
+Metabolite//12m3omyrsACP	233
+Metabolite//HMDB0000159	234
+Microbe//Parabacteroides distasonis	235
+Microbe//Bifidobacterium adolescentis	236
+Metabolite//HMDB0001548	237
+Disease//MONDO:0008383	238
+Disease//MONDO:0005155	239
+Microbe//Streptococcus anginosus	240
+Metabolite//paai15	241
+Metabolite//cdpditdecg	242
+Metabolite//HMDB0000030	243
+Disease//MONDO:0004975	244
+Metabolite//HMDB0000167	245
+Metabolite//4m3ohexACP	246
+Metabolite//HMDB0000131	247
+Metabolite//pa120	248
+Metabolite//HMDB0000121	249
+Disease//MONDO:0009831	250
+Metabolite//HMDB0000254	251
+Microbe//Firmicutes	252
+Metabolite//HMDB0001096	253
+Metabolite//HMDB0003459	254
+Metabolite//Oxidized thioredoxin	255
+Metabolite//HMDB0000285	256
+Metabolite//HMDB0000990	257
+Chemical//C004925	258
+Disease//MONDO:0020745	259
+Chemical//D012964	260
+Metabolite//HMDB0000492	261
+Metabolite//HMDB0001377	262
+Microbe//Veillonella	263
+Disease//MONDO:0005575	264
+Metabolite//HMDB0001109	265
+Chemical//D052638	266
+Metabolite//HMDB0000045	267
+Chemical//D000438	268
+Disease//MONDO:0001106	269
+Disease//MONDO:0005011	270
+Disease//MONDO:0021100	271
+Metabolite//HMDB0000195	272
+Chemical//D000894	273
+Metabolite//HMDB0000235	274
+Chemical//D004390	275
+Metabolite//HMDB0028966	276
+Metabolite//tRNA (Glu)	277
+Metabolite//HMDB0001060	278
+Metabolite//HMDB0001120	279
+Metabolite//L-aspartate(1-)	280
+Metabolite//HMDB0000124	281
+Metabolite//HMDB0000239	282
+Disease//MONDO:0005271	283
+Disease//MONDO:0005300	284
+Disease//MONDO:0005447	285
+Metabolite//HMDB0041827	286
+Chemical//DB00443	287
+Metabolite//HMDB0000929	288
+Metabolite//13m3omyrsACP	289
+Microbe//Clostridium cluster IV	290
+Disease//MONDO:0012268	291
+Disease//MONDO:0005100	292
+Disease//MONDO:0008315	293
+Metabolite//HMDB0001273	294
+Metabolite//HMDB0015532	295
+Metabolite//HMDB0000695	296
+Metabolite//HMDB0000288	297
+Disease//MONDO:0000831	298
+Metabolite//5m3hhexACP	299
+Chemical//C055494	300
+Metabolite//HMDB0001397	301
+Metabolite//uama	302
+Metabolite//HMDB0001333	303
+Metabolite//HMDB0000162	304
+Metabolite//HMDB0001532	305
+Metabolite//HMDB0002104	306
+Metabolite//dnarep	307
+Disease//MONDO:0004922	308
+Disease//MONDO:0013209	309
+Microbe//Proteobacteria	310
+Metabolite//HMDB0000036	311
+Disease//Edentulism	312
+Metabolite//pa161	313
+Disease//MONDO:0005052	314
+Metabolite//HMDB0001491	315
+Metabolite//HMDB0000209	316
+Metabolite//10m3hddcaACP	317
+Metabolite//HMDB0001248	318
+Chemical//C015001	319
+Metabolite//HMDB0003391	320
+Disease//MONDO:0005002	321
+Microbe//Bifidobacterium longum	322
+Disease//MONDO:0005068	323
+Metabolite//cdpdodec11eg	324
+Metabolite//HMDB0254435	325
+Metabolite//HMDB0000574	326
+Metabolite//HMDB0001227	327
+Metabolite//HMDB0001440	328
+Chemical//D008770	329
+Metabolite//uamag	330
+Metabolite//HMDB0028847	331
+Metabolite//HMDB0001043	332
+Chemical//D004365	333
+Disease//MONDO:0002367	334
+Disease//MONDO:0005070	335
+Metabolite//HMDB0000998	336
+Chemical//D009828	337
+Disease//MONDO:0001751	338
+Microbe//Ruminococcus bromii	339
+Disease//MONDO:0005027	340
+Metabolite//Palmitoyl-ACP (n-C16:0ACP)	341
+Metabolite//cdpdaipdecg	342
+Metabolite//HMDB0000759	343
+Metabolite//HMDB0000641	344
+Disease//MONDO:0004456	345
+Metabolite//pai15	346
+Disease//MONDO:0007079	347
+Microbe//Desulfovibrio	348
+Disease//MONDO:0011438	349
+Metabolite//5m3ohexACP	350
+Metabolite//HMDB0028689	351
+Metabolite//HMDB0000295	352
+Microbe//Roseburia intestinalis	353
+Metabolite//HMDB0001179	354
+Disease//MONDO:0005186	355
+Chemical//DB01235	356
+Metabolite//HMDB0012289	357
+Chemical//C076994	358
+Metabolite//Stearoyl-CoA (n-C18:0CoA)	359
+Metabolite//HMDB0001342	360
+Metabolite//HMDB0001414	361
+Metabolite//fa6coa,Iso-C16:0 CoA   Isohexadecanoyl-CoA	362
+Metabolite//HMDB0000692	363
+Metabolite//HMDB0001488	364
+Disease//MONDO:0005388	365
+Metabolite//cdpdhdec9eg	366
+Disease//MONDO:0008171	367
+Microbe//Alistipes	368
+Metabolite//HMDB0001058	369
+Disease//MONDO:0009688	370
+Chemical//D020106	371
+Disease//MONDO:0005231	372
+Metabolite//HMDB0000961	373
+Chemical//D045930	374
+Disease//MONDO:0019087	375
+Disease//MONDO:0005252	376
+Metabolite//HMDB0001301	377
+Microbe//Collinsella	378
+Chemical//D000806	379
+Disease//MONDO:0000775	380
+Metabolite//L-glutamate(1-)	381
+Metabolite//adenosine 3,5-bismonophosphate(4-)	382
+Disease//MONDO:0005335	383
+Chemical//D015946	384
+Chemical//C017947	385
+Disease//MONDO:0001386	386
+Metabolite//acyl carrier protein	387
+Metabolite//ugmda	388
+Metabolite//HMDB0028848	389
+Metabolite//HMDB0000696	390
+Disease//MONDO:0005032	391
+Disease//MONDO:0005260	392
+Metabolite//HMDB0000807	393
+Metabolite//cdpdtdecg	394
+Disease//MONDO:0005240	395
+Metabolite//HMDB0028838	396
+Metabolite//11m3oddcaACP	397
+Metabolite//HMDB0001000	398
+Metabolite//HMDB0000221	399
+Disease//MONDO:0006001	400
+Microbe//Staphylococcus	401
+Disease//MONDO:0005441	402
+Chemical//D008070	403
+Disease//MONDO:0003939	404
+Disease//MONDO:0005527	405
+Metabolite//HMDB0001310	406
+Disease//MONDO:0011057	407
+Metabolite//cdpdhdecg	408
+Metabolite//mql8	409
+Metabolite//HMDB0000158	410
+Chemical//D004051	411
+Microbe//Staphylococcus epidermidis	412
+Metabolite//pa180	413
+Metabolite//HMDB0000172	414
+Chemical//D008078	415
+Metabolite//HMDB0001373	416
+Disease//MONDO:0005178	417
+Disease//MONDO:0005344	418
+Disease//MONDO:0004982	419
+Disease//MONDO:0002280	420
+Disease//MONDO:0021187	421
+Chemical//D009585	422
+Metabolite//cdpdddecg	423
+Disease//MONDO:0004993	424
+Metabolite//HMDB0000619	425
+Metabolite//UDP-N-acetyl-alpha-D-glucosamine(2-)	426
+Chemical//D011078	427
+Metabolite//uagmda	428
+Microbe//Clostridium	429
+Disease//MONDO:0019182	430
+Disease//MONDO:0005347	431
+Metabolite//Myristoyl-ACP (n-C14:0ACP)	432
+Metabolite//Tetradecanoyl-CoA (n-C14:0CoA)	433
+Disease//MONDO:0001673	434
+Microbe//Prevotella copri	435
+Metabolite//HMDB0001321	436
+Metabolite//cdpdipdecg	437
+Chemical//DB00581	438
+Chemical//D002251	439
+Disease//MONDO:0019100	440
+Disease//MONDO:0004972	441
+Disease//MONDO:0005093	442
+Disease//MONDO:0005133	443
+Metabolite//HMDB0028697	444
+Chemical//D001397	445
+Metabolite//HMDB0028691	446
+Microbe//Akkermansia muciniphila	447
+Microbe//Streptococcus	448
+Chemical//C019133	449
+Metabolite//HMDB0000263	450
+Metabolite//HMDB0000244	451
+Disease//MONDO:0024388	452
+Chemical//D019161	453
+Disease//MONDO:0005301	454
+Metabolite//HMDB0003339	455
+Disease//MONDO:0005016	456
+Disease//MONDO:0005154	457
+Microbe//Collinsella aerofaciens	458
+Metabolite//9m3hdcaACP	459
+Chemical//D009532	460
+Metabolite//HMDB0001554	461
+Disease//MONDO:0024477	462
+Disease//MONDO:0015075	463
+Disease//MONDO:0018908	464
+Metabolite//pa140	465
+Disease//MONDO:0004335	466
+Metabolite//7m3hocACP	467
+Chemical//D010936	468
+Metabolite//14m3opalmACP	469
+Disease//MONDO:0043797	470
+Microbe//Capnocytophaga	471
+Disease//MONDO:0007576	472
+Chemical//D015662	473
+Disease//MONDO:0019542	474
+Disease//MONDO:0004950	475
+Disease//MONDO:0021095	476
+Metabolite//M02377	477
+Disease//MONDO:0005385	478
+Chemical//C023036	479
+Chemical//D011372	480
+Disease//MONDO:0012585	481
+Chemical//C025256	482
+Microbe//Streptococcus oralis	483
+Metabolite//14m3hpalmACP	484
+Disease//MONDO:0008170	485
+Metabolite//uaccg	486
+Microbe//Acinetobacter	487
+Disease//MONDO:0004980	488
+Metabolite//HMDB0000721	489
+Metabolite//HMDB0000039	490
+Metabolite//HMDB0000280	491
+Disease//MONDO:0001444	492
+Disease//MONDO:0005560	493
+Disease//MONDO:0005570	494
+Metabolite//9m3odcaACP	495
+Disease//MONDO:0001126	496
+Microbe//Acidaminococcus	497
+Microbe//Bifidobacterium	498
+Disease//MONDO:0004994	499
+Metabolite//apoprotein [acyl carrier protein]	500
+Disease//MONDO:0005484	501
+Microbe//Comamonas	502
+Disease//MONDO:0005302	503
+Metabolite//D-ribulose 5-phosphate(2-)	504
+Metabolite//HMDB0000673	505
+Metabolite//Dodecanoyl-ACP (n-C12:0ACP)	506
+Disease//MONDO:0006052	507
+Disease//MONDO:0005264	508
+Microbe//Porphyromonadaceae	509
+Microbe//Peptococcus	510
+Metabolite//cdpdaihpdecg	511
+Disease//MONDO:0002050	512
+Microbe//Prevotella melaninogenica	513
+Disease//D000069279	514
+Microbe//Fusobacterium	515
+Chemical//D011084	516
+Metabolite//pai17	517
+Microbe//Sphingomonas	518
+Disease//MONDO:0005020	519
+Disease//MONDO:0007915	520
+Microbe//Haemophilus parainfluenzae	521
+Metabolite//HMDB0001257	522
+Disease//MONDO:0002358	523
+Metabolite//HMDB0001213	524
+Microbe//Escherichia	525
+Chemical//D003287	526
+Disease//MONDO:0005298	527
+Disease//MONDO:0006525	528
+Disease//MONDO:0002334	529
+Microbe//Ruminococcus torques	530
+Microbe//Eubacterium	531
+Disease//MONDO:0004979	532
+Metabolite//fa1coa,Iso-C14:0 CoA   Isotetradecanoyl-CoA	533
+Disease//MONDO:0007254	534
+Disease//MONDO:0005086	535
+Metabolite//HMDB0000034	536
+Disease//MONDO:0001657	537
+Metabolite//HMDB0001132	538
+Disease//MONDO:0005043	539
+Disease//MONDO:0005089	540
+Microbe//Bacteroides fragilis	541
+Disease//MONDO:0010030	542
+Chemical//D004967	543
+Microbe//Turicella	544
+Disease//MONDO:0002691	545
+Metabolite//IDP(3-)	546
+Metabolite//HMDB0001372	547
+Disease//MONDO:0005558	548
+Disease//MONDO:0013792	549
+Microbe//Candida albicans	550
+Chemical//D000171	551
+Disease//MONDO:0005395	552
+Chemical//D005411	553
+Microbe//Granulicatella	554
+Metabolite//HMDB0000223	555
+Microbe//Neisseria	556
+Disease//MONDO:0005377	557
+Disease//MONDO:0005076	558
+Disease//MONDO:0005059	559
+Disease//MONDO:0021074	560
+Microbe//Turicibacter	561
+Chemical//D014280	562
+Disease//MONDO:0010331	563
+Chemical//D007854	564
+Disease//MONDO:0003620	565
+Chemical//D013256	566
+Disease//MONDO:0002203	567
+Metabolite//HMDB0000138	568
+Disease//MONDO:0005277	569
+Disease//MONDO:0002771	570
+Disease//MONDO:0015183	571
+Chemical//C511295	572
+Disease//MONDO:0005015	573
+Metabolite//HMDB0062762	574
+Metabolite//1aihpdecg3p	575
+Disease//MONDO:0018902	576
+Disease//MONDO:0005567	577
+Microbe//Coprobacillus	578
+Microbe//Clostridium perfringens	579
+Microbe//Bacteroides vulgatus	580
+Microbe//Clostridium cluster XI	581
+Microbe//Eggerthella lenta	582
+Chemical//D016627	583
+Chemical//D001151	584
+Microbe//Ruminococcus	585
+Microbe//Proteus	586
+Microbe//Clostridium cluster XIVa	587
+Disease//MONDO:0018874	588
+Disease//MONDO:0003004	589
+Disease//MONDO:0001627	590
+Microbe//Actinomyces	591
+Chemical//C070055	592
+Chemical//D014028	593
+Disease//MONDO:0013662	594
+Disease//MONDO:0004967	595
+Disease//MONDO:0012147	596
+Microbe//Klebsiella pneumoniae	597
+Microbe//Rothia mucilaginosa	598
+Disease//MONDO:0005265	599
+Chemical//D008731	600
+Disease//MONDO:0005290	601
+Disease//MONDO:0005081	602
+Microbe//Haemophilus	603
+Microbe//Blautia	604
+Microbe//Staphylococcus aureus	605
+Metabolite//HMDB0001285	606
+Microbe//Dorea	607
+Microbe//Oscillospiraceae	608
+Disease//MONDO:0023644	609
+Chemical//C029216	610
+Microbe//Enterococcus	611
+Microbe//Peptoclostridium difficile	612
+Metabolite//HMDB0000518	613
+Disease//MONDO:0002412	614
+Disease//MONDO:0005087	615
+Chemical//C026486	616
+Disease//MONDO:0013433	617
+Disease//MONDO:0005649	618
+Microbe//Faecalibacterium prausnitzii	619
+Chemical//D005200	620
+Disease//MONDO:0005401	621
+Chemical//D001564	622
+Chemical//D003633	623
+Microbe//Lactococcus	624
+Disease//MONDO:0010200	625
+Chemical//C561695	626
+Disease//MONDO:0002531	627
+Chemical//D058607	628
+Disease//D000085142	629
+Microbe//Anaerostipes	630
+Disease//MONDO:0018301	631
+Disease//MONDO:0002406	632
+Disease//MONDO:0001187	633
+Disease//MONDO:0002329	634
+Metabolite//HMDB0000626	635
+Disease//MONDO:0007699	636
+Disease//MONDO:0005406	637
+Chemical//D001554	638
+Chemical//C057862	639
+Disease//MONDO:0015796	640
+Disease//MONDO:0005276	641
+Microbe//Porphyromonas	642
+Disease//MONDO:0005701	643
+Disease//MONDO:0005311	644
+Disease//MONDO:0001711	645
+Disease//MONDO:0009411	646
+Chemical//D013749	647
+Microbe//Bacteroides	648
+Metabolite//HMDB0254119	649
+Chemical//D010578	650
+Microbe//Veillonella parvula	651
+Disease//MONDO:0008903	652
+Microbe//Streptococcus sanguinis	653
+Disease//MONDO:0001076	654
+Microbe//Faecalibacterium	655
+Disease//D012907	656
+Microbe//Butyricimonas	657
+Disease//MONDO:0001475	658
+Disease//MONDO:0000702	659
+Microbe//Streptococcus mitis	660
+Chemical//D001194	661
+Disease//MONDO:0005328	662
+Chemical//C440499	663
+Disease//MONDO:0005203	664
+Microbe//Bacteroidales	665
+Disease//MONDO:0006932	666
+Chemical//D017382	667
+Chemical//C112530	668
+Microbe//Barnesiellaceae	669
+Disease//MONDO:0002049	670
+Disease//MONDO:0004845	671
+Disease//MONDO:0002974	672
+Chemical//D019256	673
+Disease//MONDO:0005372	674
+Disease//MONDO:0007147	675
+Microbe//Streptococcus salivarius	676
+Chemical//C008261	677
+Chemical//D014302	678
+Microbe//Barnesiella	679
+Microbe//Streptococcus mutans	680
+Disease//MONDO:0009061	681
+Disease//MONDO:0016264	682
+Disease//MONDO:0005618	683
+Chemical//D002083	684
+Disease//MONDO:0003634	685
+Chemical//D000393	686
+Microbe//Enterobacteriaceae	687
+Chemical//D000662	688
+Disease//MONDO:0013765	689
+Chemical//C014024	690
+Chemical//C013099	691
+Disease//MONDO:0006496	692
+Disease//MONDO:0002363	693
+Chemical//C009277	694
+Microbe//Shigella	695
+Chemical//C494243	696
+Chemical//D016578	697
+Microbe//Coprococcus	698
+Chemical//D019304	699
+Microbe//Veillonellaceae	700
+Chemical//D000319	701
+Microbe//Porphyromonas gingivalis	702
+Chemical//C017690	703
+Microbe//Roseburia hominis	704
+Chemical//D048789	705
+Disease//MONDO:0043510	706
+Microbe//Filifactor	707
+Disease//MONDO:0004681	708
+Microbe//Blautia coccoides	709
+Chemical//D010575	710
+Disease//MONDO:0018229	711
+Microbe//Streptococcus parasanguinis	712
+Microbe//Gemella	713
+Disease//MONDO:0002332	714
+Microbe//Anaerococcus	715
+Disease//MONDO:0005453	716
+Microbe//Lachnobacterium	717
+Disease//MONDO:0001913	718
+Disease//MONDO:0007179	719
+Metabolite//Phenolic acid	720
+Chemical//D028321	721
+Disease//MONDO:0006732	722
+Chemical//D004026	723
+Disease//MONDO:0008226	724
+Microbe//Fusobacterium nucleatum	725
+Disease//MONDO:0005292	726
+Disease//MONDO:0011849	727
+Disease//MONDO:0016677	728
+Microbe//Megasphaera	729
+Disease//MONDO:0005030	730
+Microbe//Enterobacter	731
+Chemical//C028451	732
+Chemical//D000900	733
+Disease//MONDO:0021245	734
+Chemical//D015073	735
+Disease//MONDO:0018075	736
+Microbe//Phascolarctobacterium	737
+Chemical//D008054	738
+Disease//MONDO:0002635	739
+Microbe//Tannerella	740
+Chemical//D004052	741
+Microbe//Ruminococcus gnavus	742
+Chemical//D003976	743
+Chemical//D004785	744
+Chemical//D017673	745
+Chemical//D014150	746
+Disease//MONDO:0004496	747
+Chemical//D004041	748
+Chemical//D005038	749
+Chemical//D010416	750
+Disease//MONDO:0800029	751
+Disease//MONDO:0005313	752
+Disease//MONDO:0005364	753
+Microbe//Leuconostocaceae	754
+Chemical//C061132	755
+Chemical//D005343	756
+Chemical//D019813	757
+Chemical//D001688	758
+Chemical//C009265	759
+Chemical//D037742	760
+Chemical//D011929	761
+Disease//MONDO:0005607	762
+Chemical//D008767	763
+Microbe//Akkermansia	764
+Microbe//Halomonas	765
+Microbe//Rikenellaceae	766
+Chemical//C009505	767
+Disease//Pervasive developmental disorder NOS	768
+Chemical//D010278	769
+Chemical//D010406	770
+Chemical//C558899	771
+Chemical//D000728	772
+Microbe//Bacteroides ovatus	773
+Disease//MONDO:0012727	774
+Disease//MONDO:0002177	775
+Chemical//D015632	776
+Microbe//Klebsiella	777
+Microbe//Roseburia	778
+Microbe//Odoribacter	779
+Chemical//D020058	780
+Microbe//Lachnoclostridium	781
+Microbe//Peptostreptococcus	782
+Disease//MONDO:0002251	783
+Disease//MONDO:0005098	784
+Chemical//D012970	785
+Microbe//Alcaligenaceae	786
+Disease//MONDO:0021124	787
+Chemical//C006253	788
+Microbe//Gammaproteobacteria	789
+Disease//MONDO:0001566	790
+Disease//MONDO:0004639	791
+Microbe//Oscillibacter	792
+Chemical//C023888	793
+Disease//MONDO:0100053	794
+Chemical//D005938	795
+Disease//MONDO:0006547	796
+Chemical//D014874	797
+Disease//MONDO:0015514	798
+Chemical//C013592	799
+Disease//MONDO:0012010	800
+Disease//MONDO:0003785	801
+Disease//MONDO:0001942	802
+Disease//MONDO:0005003	803
+Disease//MONDO:0003240	804
+Chemical//C038328	805
+Chemical//D015127	806
+Disease//Aerobic vaginitis	807
+Disease//MONDO:0005316	808
+Disease//MONDO:0005814	809
+Chemical//D009943	810
+Microbe//Actinobacteria	811
+Disease//MONDO:0010726	812
+Chemical//C023470	813
+Chemical//D000305	814
+Chemical//C027576	815
+Disease//D025241	816
+Chemical//D013853	817
+Chemical//C054649	818
+Microbe//Sutterella	819
+Microbe//Bilophila	820
+Chemical//D015084	821
+Microbe//Actinobacillus	822
+Microbe//Parabacteroides	823
+Disease//MONDO:0043923	824
+Disease//MONDO:0005062	825
+Microbe//Mycoplasma	826
+Disease//MONDO:0016064	827
+Disease//MONDO:0005299	828
+Disease//D009980	829
+Microbe//Rothia	830
+Chemical//D005707	831
+Chemical//D002395	832
+Disease//MONDO:0012628	833
+Chemical//D004726	834
+Chemical//C482199	835
+Disease//MONDO:0005960	836
+Chemical//D003278	837
+Disease//MONDO:0003781	838
+Chemical//C001042	839
+Disease//MONDO:0020283	840
+Microbe//Propionibacterium acnes	841
+Chemical//D010269	842
+Disease//MONDO:0001505	843
+Microbe//Ruminiclostridium	844
+Microbe//Bifidobacteriaceae	845
+Chemical//D049971	846
+Microbe//Oribacterium	847
+Microbe//Eggerthella	848
+Disease//MONDO:0006966	849
+Chemical//D004232	850
+Microbe//Leptotrichia	851
+Disease//MONDO:0011817	852
+Chemical//C543008	853
+Chemical//D002791	854
+Disease//MONDO:0012009	855
+Chemical//C012457	856
+Disease//MONDO:0005046	857
+Chemical//D013750	858
+Disease//MONDO:0020022	859
+Microbe//Clostridiaceae	860
+Microbe//Eubacteriales	861
+Chemical//C074702	862
+Disease//MONDO:0021040	863
+Chemical//D009151	864
+Microbe//Lactobacillus salivarius	865
+Microbe//Eikenella	866
+Microbe//Alloprevotella	867
+Microbe//Gemmiger	868
+Microbe//Campylobacter	869
+Microbe//Bifidobacterium bifidum	870
+Chemical//D012838	871
+Chemical//C036989	872
+Chemical//D005278	873
+Chemical//C007262	874
+Chemical//D000929	875
+Chemical//C025589	876
+Disease//MONDO:0006730	877
+Microbe//Moraxella	878
+Chemical//D059808	879
+Chemical//D011134	880
+Chemical//C009536	881
+Chemical//D008748	882
+Chemical//C034456	883
+Disease//MONDO:0003232	884
+Microbe//Eubacterium hallii	885
+Microbe//Parasutterella	886
+Disease//MONDO:0002775	887
+Chemical//DB12179	888
+Chemical//D016291	889
+Microbe//Aggregatibacter	890
+Microbe//Flavobacterium	891
+Chemical//D000927	892
+Metabolite//HMDB0001955	893
+Chemical//C007095	894
+Microbe//Erysipelotrichaceae	895
+Microbe//Dialister	896
+Microbe//Clostridium symbiosum	897
+Microbe//Atopobium	898
+Disease//MONDO:0001085	899
+Microbe//Adlercreutzia	900
+Chemical//D002121	901
+Chemical//C410216	902
+Chemical//C000228	903
+Microbe//Anaerotruncus	904
+Microbe//Succinivibrio	905
+Microbe//Lachnospira	906
+Chemical//C023035	907
+Chemical//D006495	908
+Chemical//D000928	909
+Chemical//D000970	910
+Microbe//Treponema	911
+Microbe//Propionibacterium	912
+Microbe//Paraprevotella	913
+Microbe//Stenotrophomonas	914
+Microbe//Oscillospira	915
+Microbe//Clostridium leptum	916
+Chemical//D000602	917
+Chemical//C534628	918
+Microbe//Christensenellaceae	919
+Disease//MONDO:0003085	920
+Chemical//D000925	921
+Disease//MONDO:0005312	922
+Disease//MONDO:0004375	923
+Chemical//D018943	924
+Chemical//C029955	925
+Symptom//HP:0033675	926
+Microbe//Burkholderia	927
+Chemical//D003524	928
+Microbe//Lachnospiraceae incertae sedis	929
+Microbe//Bacteroidaceae	930
+Chemical//D020111	931
+Chemical//D019380	932
+Microbe//Subdoligranulum	933
+Disease//MONDO:0004631	934
+Microbe//TM7	935
+Microbe//Clostridia	936
+Microbe//Citrobacter	937
+Microbe//Butyricicoccus	938
+Chemical//D001152	939
+Microbe//Dialister invisus	940
+Microbe//Fusicatenibacter	941
+Microbe//Butyrivibrio	942
+Chemical//D016264	943
+Microbe//Eubacterium rectale	944
+Chemical//D001786	945
+Chemical//D012997	946
+Chemical//C025643	947
+Chemical//D007306	948
+Chemical//D008076	949
+Chemical//D011692	950
+Microbe//Romboutsia	951
+Disease//MONDO:0005546	952
+Chemical//D004128	953
+Microbe//Flavonifractor	954
+Microbe//Prevotellaceae	955
+Chemical//D013481	956
+Chemical//D002186	957
+Microbe//Bacillus	958
+Chemical//C036990	959
+Microbe//Pseudobutyrivibrio	960
+Disease//MONDO:0006733	961
+Microbe//Mitsuokella	962
+Microbe//Lactobacillales	963
+Chemical//C506365	964
+Microbe//Flavonifractor plautii	965
+Microbe//Methanobrevibacter	966
+Chemical//C023845	967
+Disease//MONDO:0006624	968
+Chemical//C416023	969
+Chemical//C034587	970
+Microbe//Parvimonas	971
+Chemical//C506643	972
+Microbe//Selenomonas	973
+Chemical//D014752	974
+Microbe//Clostridium cluster XVI	975
+Microbe//Roseburia inulinivorans	976
+Microbe//Fusobacteria	977
+Chemical//D005620	978
+Microbe//Bergeyella	979
+Microbe//Fusobacterium periodonticum	980
+Microbe//Ralstonia	981
+Microbe//Eubacterium ventriosum	982
+Chemical//C004312	983
+Microbe//Helicobacter	984
+Microbe//Porphyromonas endodontalis	985
+Chemical//C041517	986
+Microbe//Peptoniphilus	987
+Microbe//Catenibacterium	988
+Disease//Invasive pneumococcal disease	989
+Chemical//C031763	990
+Microbe//Roseburia faecis	991
+Microbe//Alistipes shahii	992
+Microbe//Mogibacterium	993
+Microbe//Pasteurellaceae	994
+Microbe//Serratia	995
+Chemical//C047777	996
+Microbe//Bacteroides plebeius	997
+Microbe//Holdemania	998
+Chemical//C036077	999

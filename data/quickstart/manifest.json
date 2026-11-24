@@ -1,0 +1,41 @@
+{
+  "construction": "Topology- and relation-stratified selection from the private full graph; supported demo holdouts use graph degree and two-hop support only, never model metrics",
+  "description": "Dense, relation-balanced MiHIKG cascade subset for MAPLE Quickstart",
+  "entity_type_counts": {
+    "Chemical": 220,
+    "Disease": 280,
+    "Metabolite": 279,
+    "Microbe": 220,
+    "Symptom": 1
+  },
+  "full_private_graph_required_at_runtime": false,
+  "holdout_strategy": "supported",
+  "num_edges": 2000,
+  "num_nodes": 1000,
+  "num_relations": 5,
+  "relation_counts": {
+    "ASSOCIATES_MiaM": 696,
+    "CHANGE_RICHNESS_DcrMi": 583,
+    "INDUCES_CHiD": 461,
+    "METABOLIZES_MimC": 78,
+    "TREATS_CtD": 182
+  },
+  "relations": [
+    "ASSOCIATES_MiaM",
+    "INDUCES_CHiD",
+    "TREATS_CtD",
+    "METABOLIZES_MimC",
+    "CHANGE_RICHNESS_DcrMi"
+  ],
+  "seed": 1024,
+  "split_ratio": [
+    0.97,
+    0.015,
+    0.015
+  ],
+  "split_sizes": [
+    1940,
+    30,
+    30
+  ]
+}
