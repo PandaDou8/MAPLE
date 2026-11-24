@@ -78,12 +78,6 @@ python script/quickstart_pipeline.py \
   --gpu 0
 ```
 
-## Data and Availability
-
-The repository includes the self-contained Quickstart graph required for execution-demo training. Full MiHIKG files and large checkpoints are excluded from version control and will be released during peer review. After publication, the model and dataset are planned as an accessible web resource, which is currently under development.
-
-Place private full-scale data under `data/` and checkpoints under `checkpoints/` when reproducing large-scale experiments. Large source caches and `.pth` checkpoints remain excluded by `.gitignore`.
-
 ## Repository Map
 
 | Path | Purpose |
