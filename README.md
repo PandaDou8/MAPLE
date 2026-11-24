@@ -4,7 +4,7 @@
 
 MAPLE has been further developed into a web service for human health and microbiome interaction research, providing researchers with **public access** to MiHIKG.
 
-[https://www.lilab-ecust.cn/MAPLE](https://www.lilab-ecust.cn/MAPLE/methods)
+[[https://www.lilab-ecust.cn/MAPLE](https://www.lilab-ecust.cn/MAPLE/methods)](http://49.52.20.53:18081/MAPLE/methods)
 
 </div>
 
