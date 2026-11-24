@@ -101,7 +101,7 @@ Place private full-scale data under `data/` and checkpoints under `checkpoints/`
 
 ```bibtex
 @article{li2026maple,
-  title={Deciphering microbe–host molecular cascades via memory-augmented reinforcement learning on knowledge graphs},
+  title={Tracing microbial signals to host disease pathways through metabolites},
   author={Li, Shiliang and Dou, Pan and Yang, Xiaobo and Li, Wenweiran and Zhang, Yiqing and others},
   year={2026}
 }
